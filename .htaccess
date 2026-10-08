@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^artigo/([^/]+)/?$ artigo.html?slug=$1 [L,QSA]
+RewriteRule ^categoria/([^/]+)/?$ index.html?categoria=$1 [L,QSA]
+RewriteRule ^tag/([^/]+)/?$ index.html?tag=$1 [L,QSA]
+
+ErrorDocument 404 /404.html
