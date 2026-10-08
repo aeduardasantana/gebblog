@@ -1,5 +1,5 @@
 (function(){
-var articles=window.GEB_TEST_ARTICLES||[];var params=new URLSearchParams(location.search);
+var articles=[];var params=new URLSearchParams(location.search);
 var categoria=params.get("categoria")||"",tag=params.get("tag")||"",q=params.get("q")||"";
 var lista=document.getElementById("lista-artigos"),vazio=document.getElementById("estado-vazio"),busca=document.getElementById("busca"),limpar=document.getElementById("limpar-filtros"),titulo=document.getElementById("titulo-lista"),contexto=document.getElementById("contexto-lista");
 function esc(v){return String(v||"").replace(/[&<>"']/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m];});}
@@ -27,4 +27,5 @@ document.getElementById("btn-buscar").addEventListener("click",function(){q=busc
 busca.addEventListener("keydown",function(e){if(e.key==="Enter")document.getElementById("btn-buscar").click();});
 limpar.addEventListener("click",function(){categoria=tag=q="";busca.value="";history.replaceState(null,"","./");render();});
 render();
+window.GEB_BLOG_API.consultar({acao:"artigos",limite:"50"}).then(function(r){if(!r.sucesso||!Array.isArray(r.dados))throw new Error("API sem lista autorizada");articles=r.dados;render();}).catch(function(e){articles=[];render();vazio.hidden=false;vazio.innerHTML="<h3>Conteúdos temporariamente indisponíveis</h3><p>Não foi possível consultar a API editorial. A implantação pode exigir autenticação Google ou bloquear requisições de outro domínio. Nenhum artigo de teste será exibido.</p>";console.error("Blog GEB: falha na API",e);});
 })();
