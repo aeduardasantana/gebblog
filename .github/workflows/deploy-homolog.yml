@@ -1,0 +1,26 @@
+name: Blog GEB — Homologação
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Garantir arquivo original da marca
+        run: |
+          mkdir -p assets
+          if [ ! -s assets/geb-blog-logo.webp ]; then
+            curl -fL --retry 3 'https://raw.githubusercontent.com/aeduardasantana/grupoeduardabispo/main/blog/assets/geb-blog-logo.webp' -o assets/geb-blog-logo.webp
+          fi
+          test -s assets/geb-blog-logo.webp
+      - name: Publicar em /public_html/homolog
+        uses: locaweb/ftp-deploy@1.0.0
+        with:
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USER }}
+          password: ${{ secrets.PASS }}
+          localDir: "./"
+          remoteDir: "./public_html/homolog/"
+          options: '--exclude-glob .git/** --exclude-glob .github/** --exclude-glob README.md'
