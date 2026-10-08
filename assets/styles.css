@@ -370,3 +370,41 @@ h1,h2,h3{line-height:1.12;margin-top:0}h1{font-size:clamp(2.5rem,6vw,5.4rem);let
 .blog-footer__legal a{color:rgba(255,255,255,.82);text-decoration:underline;text-underline-offset:3px}
 @media(max-width:1020px){.blog-footer__primary{grid-template-columns:repeat(2,minmax(0,1fr))}.blog-footer__primary .blog-footer__group:last-child{grid-column:auto}}
 @media(max-width:560px){.blog-footer__primary{grid-template-columns:1fr}}
+
+/* Rodapé final: identidade editorial + duas colunas de navegação */
+.blog-footer__primary{
+  grid-template-columns:minmax(260px,1.4fr) minmax(160px,.65fr) minmax(185px,.8fr);
+  gap:clamp(24px,4vw,60px);
+}
+.blog-footer__brand{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:max-content;
+  max-width:100%;
+  padding:10px 16px;
+  background:#ffffff;
+  border-radius:3px;
+}
+.blog-footer__brand img{
+  display:block;
+  width:210px;
+  max-width:100%;
+  height:auto;
+  filter:none;
+}
+.blog-footer__legal{
+  margin-top:clamp(32px,4vw,52px);
+  border-top:1px solid rgba(255,255,255,.18);
+}
+.blog-footer__legal a{color:#fff;text-underline-offset:3px}
+@media(max-width:950px){
+  .blog-footer__primary{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .blog-footer__identity{grid-column:1/-1}
+  .blog-footer__primary .blog-footer__group:last-child{grid-column:auto}
+}
+@media(max-width:560px){
+  .blog-footer__primary{grid-template-columns:1fr}
+  .blog-footer__identity{grid-column:auto}
+  .blog-footer__brand img{width:185px}
+}
