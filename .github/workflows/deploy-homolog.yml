@@ -9,6 +9,10 @@ on:
       - 'index.html'
       - 'artigo.html'
       - 'assets/styles.css'
+      - 'assets/api-client.js'
+      - 'assets/app.js'
+      - 'assets/article.js'
+      - 'api.php'
 
 jobs:
   deploy:
