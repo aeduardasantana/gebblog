@@ -26,5 +26,6 @@ jobs:
           git add assets/geb-blog-logo.webp
           if ! git diff --cached --quiet; then
             git commit -m 'Migra logo binário original do Blog GEB'
-            git push
+            git pull --rebase origin main
+            git push origin main
           fi
