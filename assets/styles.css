@@ -359,3 +359,14 @@ h1,h2,h3{line-height:1.12;margin-top:0}h1{font-size:clamp(2.5rem,6vw,5.4rem);let
   .brand--logo img{width:116px}
   .blog-footer__brand img{width:185px}
 }
+
+/* Identidade editorial do rodapé — Blog GEB */
+.blog-footer__primary{grid-template-columns:minmax(245px,1.3fr) minmax(125px,.65fr) minmax(125px,.65fr) minmax(195px,.9fr);gap:clamp(22px,3vw,46px)}
+.blog-footer__brand{margin-bottom:18px}
+.blog-footer__brand-title{display:inline-flex;align-items:baseline;gap:.5rem;font-size:clamp(1.8rem,2.7vw,2.45rem);font-weight:800;letter-spacing:-.05em;color:#fff;line-height:1.1}
+.blog-footer__brand-title span{color:#c89b32;font-size:.69em;font-weight:700;letter-spacing:.01em}
+.blog-footer__identity>p{max-width:360px}
+.blog-footer__contact span{letter-spacing:.1em}
+.blog-footer__legal a{color:rgba(255,255,255,.82);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:1020px){.blog-footer__primary{grid-template-columns:repeat(2,minmax(0,1fr))}.blog-footer__primary .blog-footer__group:last-child{grid-column:auto}}
+@media(max-width:560px){.blog-footer__primary{grid-template-columns:1fr}}
