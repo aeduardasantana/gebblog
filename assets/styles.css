@@ -408,3 +408,23 @@ h1,h2,h3{line-height:1.12;margin-top:0}h1{font-size:clamp(2.5rem,6vw,5.4rem);let
   .blog-footer__identity{grid-column:auto}
   .blog-footer__brand img{width:185px}
 }
+
+
+/* Correção de contraste da identidade visual — 08/10/2026 */
+.blog-footer__brand{
+  background:transparent;
+  padding:0;
+  border-radius:0;
+}
+.blog-footer__brand img{
+  filter:none;
+  width:210px;
+  height:auto;
+  object-fit:contain;
+}
+.site-header .brand--logo img{
+  filter:brightness(0);
+}
+@media(max-width:560px){
+  .blog-footer__brand img{width:185px}
+}
