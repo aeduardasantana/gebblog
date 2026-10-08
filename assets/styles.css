@@ -428,3 +428,8 @@ h1,h2,h3{line-height:1.12;margin-top:0}h1{font-size:clamp(2.5rem,6vw,5.4rem);let
 @media(max-width:560px){
   .blog-footer__brand img{width:185px}
 }
+
+/* Marca do blog: preservar leitura em superfícies claras e escuras */
+.blog-footer__brand{background:#fff!important;padding:12px 16px!important;border-radius:3px!important}
+.blog-footer__brand img{display:block!important;filter:brightness(0)!important;opacity:1!important;visibility:visible!important;width:210px!important;height:auto!important}
+.site-header .brand--logo img{filter:brightness(0)!important}
