@@ -1,7 +1,7 @@
 /* Leitura exclusivamente pela API editorial v2.1; sem dados simulados. */
 (function(){
   "use strict";
-  var BASE="https://script.google.com/macros/s/AKfycbw8RHZZEVQtseHz-mqWKPvtqSYUM3iT9u_fz5v-p5gp6tvb0RjBhZhgfaAb3AlFZoRH/exec";
+  var BASE="./api.php";
   window.GEB_BLOG_API={
     endpoint:BASE,
     async consultar(params){
