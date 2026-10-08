@@ -8,6 +8,7 @@ on:
       - '.github/workflows/deploy-homolog.yml'
       - 'index.html'
       - 'artigo.html'
+      - 'assets/styles.css'
 
 jobs:
   deploy:
