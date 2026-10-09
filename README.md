@@ -1,12 +1,12 @@
 # Blog GEB — Front-end v2
 
-## URL canônica final
-https://grupoeduardabispo.com.br/blog/
-
-## Atalho de acesso
+## URL canônica oficial
 https://blog.grupoeduardabispo.com.br/
 
-O subdomínio é um atalho e deve redirecionar para a URL canônica em `grupoeduardabispo.com.br/blog/`. Ele não deve manter uma segunda versão indexável dos mesmos artigos.
+## URL anterior (não canônica)
+https://grupoeduardabispo.com.br/blog/
+
+O caminho anterior deve redirecionar permanentemente para o subdomínio oficial, sem manter uma segunda versão indexável dos artigos. A criação do redirecionamento depende da configuração da hospedagem.
 
 ## Estado atual
 - Front-end em ambiente de teste.
@@ -24,11 +24,11 @@ O subdomínio é um atalho e deve redirecionar para a URL canônica em `grupoedu
 - `.htaccess`: rotas amigáveis para Locaweb/Apache.
 - `404.html`: estado de página não encontrada.
 
-## Rotas canônicas planejadas
-- `/blog/`
-- `/blog/artigo/{slug}/`
-- `/blog/categoria/{categoria}/`
-- `/blog/tag/{tag}/`
+## Rotas canônicas planejadas (subdomínio oficial)
+- `/`
+- `/artigo/{slug}/`
+- `/categoria/{categoria}/`
+- `/tag/{tag}/`
 
 No ambiente de teste, `artigo.html?slug=...` funciona diretamente.
 
@@ -46,9 +46,9 @@ Componentes previstos pelo renderer:
 - ASSINATURA
 
 ## Próximo passo técnico
-No Bloco 7, após implantação homologada da API, substituir a fonte de fixtures pelo endpoint público e publicar a pasta `blog/` dentro do domínio principal `grupoeduardabispo.com.br`.
+No Bloco 7, após implantação homologada da API, substituir a fonte de fixtures pelo endpoint público e disponibilizar a pasta de produção `/public_html/blog/` pelo endereço `https://blog.grupoeduardabispo.com.br/`. A pasta FTP não determina, por si só, a URL pública: o subdomínio deve apontar para o diretório correto na hospedagem.
 
-Configurar `blog.grupoeduardabispo.com.br` apenas como redirecionamento para `https://grupoeduardabispo.com.br/blog/`.
+A URL anterior `https://grupoeduardabispo.com.br/blog/` deverá redirecionar para o subdomínio oficial.
 
 Não criar implantação pública durante o Bloco 4.
 
