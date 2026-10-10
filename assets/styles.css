@@ -572,3 +572,11 @@ h1,h2,h3,.search-panel label{font-family:Georgia,"Times New Roman",serif;letter-
 .hero-intro h1{font-size:clamp(2.5rem,3.55vw,4.05rem);line-height:1.13;max-width:780px;letter-spacing:-.048em}
 .hero-intro .hero-copy{font-size:clamp(.97rem,1.15vw,1.08rem);line-height:1.75;max-width:670px}
 @media(max-width:600px){.hero-intro h1{font-size:clamp(2.1rem,8.2vw,2.75rem)}}
+
+
+/* Filtro institucional por editoria — substitui tags/atalhos */
+.search-panel label.search-suggestions-title{display:block;font-family:"Segoe UI",Inter,Arial,sans-serif;font-size:.7rem;font-weight:800;line-height:1.3;letter-spacing:.12em;text-transform:uppercase;color:#596e85;margin:1.4rem 0 .7rem}
+.search-panel .category-select{display:block;width:100%;height:49px;padding:0 2.8rem 0 .85rem;border:1px solid #cbd5e0;border-radius:2px;background-color:#fff;color:#1d3856;font-family:"Segoe UI",Inter,Arial,sans-serif;font-size:.9rem;font-weight:600;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%233d5770' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center}
+.search-panel .category-select:focus-visible{outline:2px solid #4776a2;outline-offset:2px}
+.archive-status{font-size:.86rem;color:#526b83;margin:-.8rem 0 1.4rem;padding:.65rem .9rem;border-left:3px solid #a9bed2;background:#edf2f6}
+.archive-status[hidden]{display:none}
