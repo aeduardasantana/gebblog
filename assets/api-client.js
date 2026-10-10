@@ -5,7 +5,7 @@
   window.GEB_BLOG_API={
     endpoint:BASE,
     async consultar(params){
-      var u=new URL(BASE);
+      var u=new URL(BASE,document.baseURI);
       Object.keys(params||{}).forEach(function(k){u.searchParams.set(k,params[k]);});
       var resp=await fetch(u.toString(),{method:"GET",mode:"cors",credentials:"omit",redirect:"follow"});
       if(!resp.ok)throw new Error("API HTTP "+resp.status);
