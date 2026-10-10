@@ -524,3 +524,46 @@ h1,h2,h3,.search-panel label{font-family:Georgia,"Times New Roman",serif;letter-
 @media(max-width:920px){.hero-grid{grid-template-columns:1fr}.search-panel{max-width:700px}.article-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.main-nav{display:flex;overflow-x:auto;flex-wrap:nowrap;max-width:100%;padding:.6rem 0}.header-inner{flex-wrap:wrap;gap:.25rem}.site-header .brand--logo{padding-top:.5rem}.main-nav{flex-basis:100%}.main-nav a{flex-shrink:0}.hero{padding:3.2rem 0}}
 @media(max-width:600px){.container{width:min(calc(100% - 1.5rem),var(--max))}.header-inner{min-height:75px}.hero h1{font-size:clamp(2.5rem,11vw,3.3rem)}.hero-copy{font-size:1rem}.search-panel{padding:1.35rem}.search-row{flex-direction:column}.search-row button{width:100%}.hero-signals{gap:.5rem}.hero-signals span+span:before{padding-right:.5rem}.section{padding:2.5rem 0 4rem}.article-grid{grid-template-columns:1fr;gap:1rem}.article-card{min-height:0}.card-banner{height:94px}.article-header{padding:1.35rem}.article-header h1{font-size:2.2rem}.article-body{font-size:1.06rem}.blog-footer__primary{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.article-card,.hero-link{transition:none}.article-card:hover{transform:none}}
+
+
+/* Ajustes de produção — linguagem corporativa, legibilidade e marca */
+.site-header{background:#fff;box-shadow:none;border-bottom:1px solid #dae0e7}
+.header-inner{min-height:82px}
+.brand--wordmark{flex-shrink:0;display:inline-flex;align-items:baseline;gap:.42rem;text-decoration:none;color:#14283f;white-space:nowrap;border-right:1px solid #d7dee6;padding-right:1.25rem}
+.brand-wordmark-small{font-weight:750;font-size:.82rem;letter-spacing:.22em;color:#a27d39}
+.brand--wordmark strong{font-family:Georgia,"Times New Roman",serif;font-weight:700;letter-spacing:-.055em;font-size:2rem;color:#123a65}
+.brand-descriptor{border:0;padding-left:0;margin-left:.15rem;font-size:.76rem}
+.main-nav a{font-weight:600}
+.hero{background:linear-gradient(113deg,#fff 0%,#f2f5f8 100%);padding:4.6rem 0 3.7rem}
+.hero:after{display:none}
+.hero h1{font-size:clamp(2.75rem,4.2vw,4.6rem);line-height:1.12}
+.hero .eyebrow{letter-spacing:.13em}
+.hero-link{border-radius:2px;box-shadow:none}
+.search-panel{border-radius:3px;box-shadow:0 12px 30px rgba(22,39,61,.05)}
+.search-panel label{font-size:1.5rem}
+.search-row input,.search-row button{border-radius:2px}
+.search-suggestions a,.article-card .tag,.tag,.card-category{border-radius:0!important}
+.search-suggestions a{border:1px solid #d7e0e8;background:#fff;color:#244768;font-weight:650;padding:.42rem .65rem}
+.search-suggestions a:hover{background:#edf2f6}
+.article-card{border-radius:3px;box-shadow:none;min-height:335px}
+.article-card:hover,.article-card:focus-within{transform:none;box-shadow:0 6px 22px rgba(22,38,60,.07);border-color:#bac7d5}
+.card-banner{height:72px;background:var(--category-soft);padding:1rem 1.3rem}
+.card-banner:after,.card-motif{display:none}
+.card-category{background:transparent;border-left:3px solid var(--category-accent);padding:.15rem .45rem;font-size:.65rem}
+.card-content{padding:1.3rem 1.4rem}
+.article-card h3{font-size:1.38rem}
+.article-card .tag,.tag{background:transparent;border:0;border-left:2px solid #ccd5e0;padding:.12rem .48rem;color:#5d6c7d}
+.article-card .card-meta{font-size:.72rem}
+.article-header,.article-references{border-radius:3px}
+.blog-footer{background:#111820;border-top:3px solid #b58a36}
+.blog-footer__shell{padding-top:3.1rem}
+.blog-footer__primary{grid-template-columns:minmax(240px,1.25fr) minmax(135px,.7fr) minmax(170px,.9fr);gap:clamp(24px,4vw,56px)}
+.blog-footer__brand.blog-footer__wordmark{display:flex!important;width:max-content!important;gap:.55rem!important;background:none!important;padding:0!important;margin:0 0 1.45rem!important;box-shadow:none!important;text-decoration:none!important;color:#fff!important;align-items:baseline!important}
+.blog-footer__wordmark span{font-size:.85rem;color:#d6b97c;font-weight:800;letter-spacing:.18em}
+.blog-footer__wordmark strong{font-size:2.4rem;color:#fff;font-family:Georgia,"Times New Roman",serif;letter-spacing:-.05em}
+.blog-footer__group strong{color:#d1a853}
+.blog-footer__identity>p{font-size:.88rem;color:#b5bec9}
+.blog-footer__legal{border-top:1px solid rgba(255,255,255,.14)}
+@media(max-width:1050px){.brand-descriptor{display:none}.main-nav a{font-size:.8rem}.hero{padding:3.4rem 0}}
+@media(max-width:920px){.main-nav{display:flex;max-width:100%;flex-basis:100%;padding:.45rem 0}.header-inner{flex-wrap:wrap}}
+@media(max-width:600px){.hero{padding:2.6rem 0}.hero h1{font-size:2.45rem}.blog-footer__primary{grid-template-columns:1fr}.blog-footer__wordmark strong{font-size:2rem}}
