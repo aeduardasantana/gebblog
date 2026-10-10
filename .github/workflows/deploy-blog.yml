@@ -2,6 +2,16 @@ name: Blog GEB — Produção
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'index.html'
+      - 'artigo.html'
+      - 'assets/**'
+      - 'api.php'
+      - '.htaccess'
+      - '.github/workflows/deploy-blog.yml'
 
 jobs:
   deploy:
