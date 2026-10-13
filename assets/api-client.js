@@ -3,9 +3,9 @@
   "use strict";
   function normalizar(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
   function iso(a){var v=a.dataPublicacaoISO||"",m=String(a.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return /^\d{4}-\d{2}-\d{2}$/.test(v)?v:m?m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0"):"";}
-  function catalogo(){return (Array.isArray(window.GEB_TEST_ARTICLES)?window.GEB_TEST_ARTICLES:[]).filter(function(a){return a&&a.status==="Publicado"&&a.slug&&a.titulo&&a.conteudoHTML;}).slice().sort(function(a,b){return iso(b).localeCompare(iso(a))||a.titulo.localeCompare(b.titulo,"pt-BR");});}
+  function catalogo(){return (Array.isArray(window.GEB_PUBLICADOS)?window.GEB_PUBLICADOS:[]).filter(function(a){return a&&a.status==="Publicado"&&a.slug&&a.titulo&&a.conteudoHTML;}).slice().sort(function(a,b){return iso(b).localeCompare(iso(a))||a.titulo.localeCompare(b.titulo,"pt-BR");});}
   window.GEB_BLOG_API={
-    endpoint:"./assets/test-data.js",
+    endpoint:"./conteudo/publicados/catalogo.js",
     async consultar(p){
       p=p||{};var a=String(p.acao||"artigos"),list=catalogo(),dados;
       if(a==="artigo"){dados=list.find(function(x){return x.slug===p.slug;})||null;if(!dados)return {sucesso:false,dados:null,erro:{codigo:"ARTIGO_NAO_DISPONIVEL"}};}
