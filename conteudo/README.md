@@ -1,28 +1,21 @@
-# Organização editorial — Blog GEB
+# Acervo editorial público — Blog GEB
 
-## Produção
+Fonte de produção: **GitHub**, publicado na **Locaweb** por GitHub Actions.
+Originais e cópias de segurança: **Google Drive**; não executar Apps Script para publicação deste acervo.
 
-- `/index.html` — página inicial do blog.
-- `/artigo.html` — página de leitura dos artigos.
-- `/assets/` — JavaScript, CSS, fontes/imagens e demais recursos do site.
-- `/conteudo/publicados/catalogo.js` — **única origem pública** dos artigos publicados.
-- `/.github/workflows/deploy-blog.yml` — deploy automático do GitHub para a Locaweb.
-- `/api.php` — proxy editorial antigo, mantido temporariamente para eventual reversão; **não é usado** pelo catálogo atual.
+## Organização
+- `conteudo/<editoria>/<slug>.json`: um arquivo por artigo, conteúdo completo.
+- Editorias: `empresarial`, `educacao`, `saude`, `inclusao`, `tecnologia`, `institucional`, `eduarda` e `fe`.
+- `conteudo/indices/*.json`: índices leves usados pelo site para lista, busca e categorias.
+- `conteudo/publicados/catalogo.js`: cópia de contingência dos 11 artigos publicados anteriormente à migração.
+- `assets/api-client.js`: carrega índices e o arquivo individual do artigo, sem API Apps Script.
+- `api.php`: legado inativo na navegação atual; retirar somente após verificar toda a operação.
 
-## Regras editoriais
+## Origem
+31 artigos do arquivo legado histórico (incluindo três presentes no controle) e 64 novos documentos do Controle Editorial Interno: **95 slugs únicos**, publicados por autorização da direção em 13/10/2026.
 
-1. Não enviar rascunhos, textos em revisão, notas internas ou cópias confidenciais para o repositório público ou para a Locaweb.
-2. Manter os originais em Google Docs/Drive como arquivo de produção e cópia de segurança, separados da publicação técnica.
-3. Acrescentar ao catálogo apenas artigos aprovados para publicação, preservando título, slug, categoria, tags, data e conteúdo.
-4. As oito editorias oficiais são: Empresarial, Educação, Saúde, Inclusão, Tecnologia, Institucional, Eduarda e Fé.
-5. Ao modificar arquivos em `conteudo/**`, o GitHub Actions envia as alterações à Locaweb, se os secrets FTP e a rotina de deploy estiverem válidos.
-6. Não alterar slugs publicados sem configurar redirecionamento para os links antigos.
-7. Para muitos artigos, preferir futuramente um arquivo por artigo, organizado por editoria/ano, e gerar o catálogo por uma etapa de build.
+## Atualização
+Para inserir, editar ou excluir conteúdo publicado, alterar o JSON individual e atualizar seu registro no índice da editoria correspondente. O deploy de `conteudo/**` ocorre automaticamente quando GitHub Actions e FTP Locaweb estiverem operacionais.
 
-## Cópia de segurança
-
-O repositório público **não substitui** o Google Drive. Manter os Google Docs originais, versões de revisão e cópias/exportações independentes no Drive. Evitar mover pastas do Drive enquanto integrações antigas ainda estiverem ativas.
-
-## Migração
-
-O catálogo atual contém **11 artigos** confirmados como publicados no Controle Editorial GEB. Outros 56 registros em `Aguardando publicação` não foram exportados para produção.
+## Segurança
+Não versionar dados privados, rascunhos ou documentos de auditoria internos. A autorização de publicação não substitui revisão técnica quando exigível.

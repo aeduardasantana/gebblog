@@ -1,22 +1,65 @@
-/* Blog GEB: catálogo publicado no GitHub e entregue pela Locaweb. Sem dependência de Apps Script. */
+/* Blog GEB — publicacao estatica por editoria; Google Drive e Apps Script nao sao consultados. */
 (function(){
-  "use strict";
-  function normalizar(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
-  function iso(a){var v=a.dataPublicacaoISO||"",m=String(a.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return /^\d{4}-\d{2}-\d{2}$/.test(v)?v:m?m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0"):"";}
-  function catalogo(){return (Array.isArray(window.GEB_PUBLICADOS)?window.GEB_PUBLICADOS:[]).filter(function(a){return a&&a.status==="Publicado"&&a.slug&&a.titulo&&a.conteudoHTML;}).slice().sort(function(a,b){return iso(b).localeCompare(iso(a))||a.titulo.localeCompare(b.titulo,"pt-BR");});}
-  window.GEB_BLOG_API={
-    endpoint:"./conteudo/publicados/catalogo.js",
-    async consultar(p){
-      p=p||{};var a=String(p.acao||"artigos"),list=catalogo(),dados;
-      if(a==="artigo"){dados=list.find(function(x){return x.slug===p.slug;})||null;if(!dados)return {sucesso:false,dados:null,erro:{codigo:"ARTIGO_NAO_DISPONIVEL"}};}
-      else if(a==="relacionados"){var current=list.find(function(x){return x.slug===p.slug;});dados=list.filter(function(x){return x.slug!==p.slug;}).sort(function(x,y){return Number(y.categoria===current?.categoria)-Number(x.categoria===current?.categoria);}).slice(0,Math.max(0,Number(p.limite)||3));}
-      else if(a==="artigos"||a==="destaques"){
-        dados=list.filter(function(x){return !p.categoria||normalizar(x.categoria)===normalizar(p.categoria);});
-        if(p.tag)dados=dados.filter(function(x){return (x.tags||[]).some(function(t){return normalizar(t)===normalizar(p.tag);});});
-        if(p.q)dados=dados.filter(function(x){return normalizar([x.titulo,x.resumo,(x.tags||[]).join(" ")].join(" ")).includes(normalizar(p.q));});
-        if(p.limite)dados=dados.slice(0,Math.max(0,Number(p.limite)||50));
-      }else return {sucesso:false,dados:null,erro:{codigo:"ACAO_INVALIDA"}};
-      return {sucesso:true,dados:dados,meta:{origem:"github-estatico",total:catalogo().length},erro:null};
-    }
-  };
+"use strict";
+const ROOT=new URL("./conteudo/",document.baseURI);
+const SHARDS=["indices/legado.json","indices/lote-01.json","indices/lote-02.json","indices/lote-03.json","indices/lote-04.json"];
+let promise=null;
+function norm(x){return String(x||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
+function date(x){const v=String(x.dataPublicacaoISO||"");if(/^\d{4}-\d\d-\d\d$/.test(v))return v;const m=String(x.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return m?m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0"):"0000-00-00";}
+function sort(a){return a.sort((x,y)=>date(y).localeCompare(date(x))||String(x.titulo||"").localeCompare(String(y.titulo||""),"pt-BR"));}
+function fallback(){return (Array.isArray(window.GEB_PUBLICADOS)?window.GEB_PUBLICADOS:[]).filter(x=>x&&x.status==="Publicado");}
+async function catalog(){
+  if(!promise)promise=Promise.all(SHARDS.map(async p=>{
+    const r=await fetch(new URL(p,ROOT),{cache:"no-cache"});
+    if(!r.ok)throw new Error("Indice "+p+": HTTP "+r.status);
+    const data=await r.json();
+    if(!Array.isArray(data))throw new Error("Indice invalido: "+p);
+    return data;
+  })).then(parts=>{
+    const bySlug=new Map();
+    parts.flat().forEach(a=>{if(a&&a.slug&&a.status==="Publicado"&&a.arquivo)bySlug.set(a.slug,a);});
+    if(bySlug.size!==95)throw new Error("Indice incompleto: "+bySlug.size+" artigos; esperado 95");
+    return sort(Array.from(bySlug.values()));
+  }).catch(e=>{
+    console.warn("Blog GEB: indices em migracao; apresentando catalogo previamente publicado.",e);
+    return sort(fallback());
+  });
+  return promise;
+}
+async function full(meta){
+  if(!meta) return null;
+  if(meta.conteudoHTML)return meta;
+  if(!meta.arquivo)return null;
+  const p=new URL(meta.arquivo,ROOT);
+  if(p.origin!==location.origin||!p.pathname.startsWith(ROOT.pathname))throw new Error("Arquivo de artigo fora do acervo");
+  const r=await fetch(p,{cache:"no-cache"});
+  if(!r.ok)throw new Error("Artigo "+meta.slug+": HTTP "+r.status);
+  const a=await r.json();
+  if(a.slug!==meta.slug||a.status!=="Publicado")throw new Error("Artigo nao corresponde ao indice: "+meta.slug);
+  return a;
+}
+window.GEB_BLOG_API={
+ endpoint:ROOT.href,
+ async consultar(p){
+   p=p||{};
+   const acao=String(p.acao||"artigos"),all=await catalog();
+   let dados;
+   if(acao==="artigo"){
+     const meta=all.find(a=>a.slug===p.slug);
+     if(!meta)return {sucesso:false,dados:null,erro:{codigo:"ARTIGO_NAO_DISPONIVEL"}};
+     dados=await full(meta);
+   }else if(acao==="relacionados"){
+     const cur=all.find(a=>a.slug===p.slug);
+     dados=all.filter(a=>a.slug!==p.slug);
+     if(cur)dados.sort((a,b)=>Number(b.categoria===cur.categoria)-Number(a.categoria===cur.categoria));
+     dados=dados.slice(0,Math.max(0,Number(p.limite)||3));
+   }else if(acao==="artigos"||acao==="destaques"){
+     dados=all.filter(a=>!p.categoria||norm(a.categoria)===norm(p.categoria));
+     if(p.tag)dados=dados.filter(a=>(a.tags||[]).some(t=>norm(t)===norm(p.tag)));
+     if(p.q)dados=dados.filter(a=>norm([a.titulo,a.resumo,(a.tags||[]).join(" ")].join(" ")).includes(norm(p.q)));
+     if(p.limite)dados=dados.slice(0,Math.max(0,Number(p.limite)||50));
+   }else return {sucesso:false,dados:null,erro:{codigo:"ACAO_INVALIDA"}};
+   return {sucesso:true,dados,meta:{origem:"github-arquivos-individuais",total:all.length},erro:null};
+ }
+};
 })();
