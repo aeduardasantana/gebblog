@@ -12,7 +12,7 @@ async function catalog(){
   if(!promise)promise=(async()=>{
     const built=Array.isArray(window.GEB_INDICE_ARTIGOS)?window.GEB_INDICE_ARTIGOS:[];
     const validated=built.filter(a=>a&&a.slug&&a.status==="Publicado"&&a.arquivo);
-    if(validated.length===95&&new Set(validated.map(a=>a.slug)).size===95)return sort(validated);
+    if(validated.length===95&&new Set(validated.map(a=>a.slug)).size===95)return sort(validated.filter(a=>date(a)<=new Date().toLocaleDateString("en-CA",{timeZone:"America/Sao_Paulo"})));
     const settled=await Promise.allSettled(SHARDS.map(async path=>{
       const response=await fetch(new URL(path,ROOT),{cache:"no-store"});
       if(!response.ok)throw new Error(path+" HTTP "+response.status);
@@ -21,7 +21,7 @@ async function catalog(){
     const merged=new Map();
     validated.forEach(a=>merged.set(a.slug,a));
     settled.forEach(result=>{if(result.status==="fulfilled"&&Array.isArray(result.value))result.value.forEach(a=>{if(a&&a.slug&&a.status==="Publicado"&&a.arquivo)merged.set(a.slug,a);});});
-    if(merged.size)return sort([...merged.values()]);
+    if(merged.size)return sort([...merged.values()].filter(a=>date(a)<=new Date().toLocaleDateString("en-CA",{timeZone:"America/Sao_Paulo"})));
     console.warn("Blog GEB: indices indisponiveis; exibindo somente artigos previamente recuperados.");
     return sort(fallback());
   })();

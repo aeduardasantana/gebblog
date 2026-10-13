@@ -594,3 +594,6 @@ h1,h2,h3,.search-panel label{font-family:Georgia,"Times New Roman",serif;letter-
 .article-end__feedback{font-size:.84rem;color:#28756b;margin:.9rem 0 0}
 .article-end__feedback[hidden]{display:none}
 @media(max-width:600px){.article-end__actions{flex-direction:column}.article-end__primary,.article-end__secondary{width:100%}}
+
+/* Ocultar realmente a seção de erro quando o artigo foi encontrado. */
+#erro-artigo[hidden],#artigo[hidden],#relacionados[hidden],#referencias[hidden]{display:none!important}

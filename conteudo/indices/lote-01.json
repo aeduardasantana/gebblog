@@ -14,14 +14,16 @@
       "gerenciamento de riscos",
       "prevenção"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "08/01/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Gestão de riscos psicossociais não termina no diagnóstico",
     "descricaoSEO": "Entenda por que avaliar fatores de risco psicossociais é apenas parte de um processo que exige medidas preventivas e revisão.",
     "documentId": "1OweJgvt9I0vMP6soG9qHLgu6iuvIQA5DzHnuatW18Fs",
-    "arquivo": "./empresarial/gestao-de-riscos-psicossociais-nao-termina-no-diagnostico.json"
+    "arquivo": "./empresarial/gestao-de-riscos-psicossociais-nao-termina-no-diagnostico.json",
+    "dataEditorialPlanejada": "08/01/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 e riscos psicossociais: o que a liderança precisa compreender",
@@ -38,14 +40,16 @@
       "riscos psicossociais",
       "GRO"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "05/02/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 e riscos psicossociais: o que a liderança precisa compreender",
     "descricaoSEO": "Conheça o papel da liderança na identificação, prevenção e acompanhamento dos fatores de riscos psicossociais relacionados ao trabalho.",
     "documentId": "1OFd_8LDzvk3Ys-4kW-vR8X1GODYDSqM3FXKaYETAcxk",
-    "arquivo": "./empresarial/nr-1-e-riscos-psicossociais-o-que-a-lideranca-precisa-compreender.json"
+    "arquivo": "./empresarial/nr-1-e-riscos-psicossociais-o-que-a-lideranca-precisa-compreender.json",
+    "dataEditorialPlanejada": "05/02/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Diagnóstico, prioridades e programa contínuo: como organizar a jornada de gestão",
@@ -62,14 +66,16 @@
       "NR-1",
       "prevenção"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "05/03/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Diagnóstico, prioridades e programa contínuo: como organizar a jornada de gestão",
     "descricaoSEO": "Descubra como conectar diagnóstico, prioridades, plano de ação e acompanhamento em uma jornada consistente de gestão de riscos.",
     "documentId": "1j2Tyb-8U6PSpYhdebVw2NdvMnH5jOv-RzUUmWRtMmdU",
-    "arquivo": "./empresarial/diagnostico-prioridades-e-programa-continuo-como-organizar-a-jornada-de-gestao.json"
+    "arquivo": "./empresarial/diagnostico-prioridades-e-programa-continuo-como-organizar-a-jornada-de-gestao.json",
+    "dataEditorialPlanejada": "05/03/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Como transformar achados de riscos psicossociais em plano de ação",
@@ -86,14 +92,16 @@
       "NR-1",
       "prevenção"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "02/04/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Como transformar achados de riscos psicossociais em plano de ação",
     "descricaoSEO": "Aprenda a descrever achados, investigar causas, definir responsáveis e acompanhar a eficácia das medidas para riscos psicossociais.",
     "documentId": "1KVu3apnx1N3JczYCYt5rUrrgTq5VgZwA_m3E9-l2GJI",
-    "arquivo": "./empresarial/como-transformar-achados-de-riscos-psicossociais-em-plano-de-acao.json"
+    "arquivo": "./empresarial/como-transformar-achados-de-riscos-psicossociais-em-plano-de-acao.json",
+    "dataEditorialPlanejada": "02/04/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Liderança e riscos psicossociais: qual é o papel da gestão",
@@ -110,14 +118,16 @@
       "riscos psicossociais",
       "liderança"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "28/05/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Liderança e riscos psicossociais: qual é o papel da gestão",
     "descricaoSEO": "Liderança e riscos psicossociais: qual é o papel da gestão. Uma leitura prática e aprofundada sobre decisões de gestão e possibilidades de prevenção nas organizações.",
     "documentId": "1ue85Bniszadkd8vssAUKqUIQe9UcdMX3H9pU-V_7G1Q",
-    "arquivo": "./empresarial/lideranca-e-riscos-psicossociais-qual-e-o-papel-da-gestao.json"
+    "arquivo": "./empresarial/lideranca-e-riscos-psicossociais-qual-e-o-papel-da-gestao.json",
+    "dataEditorialPlanejada": "28/05/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 para empresas em Goiás: como estruturar a gestão de riscos psicossociais",
@@ -134,14 +144,16 @@
       "riscos psicossociais",
       "liderança"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "25/06/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 para empresas em Goiás: como estruturar a gestão de riscos psicossociais",
     "descricaoSEO": "NR-1 para empresas em Goiás: como estruturar a gestão de riscos psicossociais. Uma leitura prática e aprofundada sobre decisões de gestão e possibilidades de prevenção nas organizações.",
     "documentId": "1L2FIw5DZIzXRNzPJZo2vr0S-KRUhgNQGar0bWnKfjuY",
-    "arquivo": "./empresarial/nr-1-para-empresas-em-goias-como-estruturar-a-gestao-de-riscos-psicossociais.json"
+    "arquivo": "./empresarial/nr-1-para-empresas-em-goias-como-estruturar-a-gestao-de-riscos-psicossociais.json",
+    "dataEditorialPlanejada": "25/06/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Planejamento 2027: como inserir riscos psicossociais na agenda de gestão",
@@ -158,14 +170,16 @@
       "riscos psicossociais",
       "liderança"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "25/08/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Planejamento 2027: como inserir riscos psicossociais na agenda de gestão",
     "descricaoSEO": "Planejamento 2027: como inserir riscos psicossociais na agenda de gestão. Uma leitura prática e aprofundada sobre decisões de gestão e possibilidades de prevenção nas organizações.",
     "documentId": "1DbNbwwKTvibyXMgdtGtVUnzJujOF8WCYJemAuVtRMX4",
-    "arquivo": "./empresarial/planejamento-2027-como-inserir-riscos-psicossociais-na-agenda-de-gestao.json"
+    "arquivo": "./empresarial/planejamento-2027-como-inserir-riscos-psicossociais-na-agenda-de-gestao.json",
+    "dataEditorialPlanejada": "25/08/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Psicoterapia semanal no GEB Saúde: como funciona o primeiro contato",
@@ -183,14 +197,16 @@
       "psicoterapia online",
       "Libras"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "12/03/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Psicoterapia semanal no GEB Saúde: como funciona o primeiro contato",
     "descricaoSEO": "Uma proposta independente de acompanhamento emocional, com continuidade e condições claras desde o início.",
     "documentId": "1Fb8fgzzvJKInd9IsQNys0pSk9WZ9rqGYe8dH6E9pHvs",
-    "arquivo": "./saude/psicoterapia-semanal-no-geb-saude-como-funciona-o-primeiro-contato.json"
+    "arquivo": "./saude/psicoterapia-semanal-no-geb-saude-como-funciona-o-primeiro-contato.json",
+    "dataEditorialPlanejada": "12/03/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 na Região Norte: capitais, setores econômicos e riscos psicossociais que merecem atenção",
@@ -208,14 +224,16 @@
       "Belém",
       "Amazônia"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "27/01/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 na Região Norte: capitais, setores econômicos e riscos psicossociais que merecem atenção",
     "descricaoSEO": "Entenda como analisar riscos psicossociais relacionados ao trabalho na Região Norte, considerando setores, distâncias, operações e particularidades de cada empresa.",
     "documentId": "15RAHcShyS8h9pi_BsPB4ePcu1TZ6Td6sPjcRGEAeSQ0",
-    "arquivo": "./empresarial/nr-1-na-regiao-norte-capitais-setores-economicos-e-riscos-psicossociais-que-merecem-atencao.json"
+    "arquivo": "./empresarial/nr-1-na-regiao-norte-capitais-setores-economicos-e-riscos-psicossociais-que-merecem-atencao.json",
+    "dataEditorialPlanejada": "27/01/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 no Nordeste: Salvador, Recife, Fortaleza e os riscos psicossociais nas principais economias da região",
@@ -233,14 +251,16 @@
       "Fortaleza",
       "riscos psicossociais"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "24/02/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 no Nordeste: Salvador, Recife, Fortaleza e os riscos psicossociais nas principais economias da região",
     "descricaoSEO": "Explore a gestão de riscos psicossociais na Região Nordeste com atenção a atividades de serviços, indústria, turismo e organização real do trabalho.",
     "documentId": "1Pj4XJJYlOADPvHFtaoUJXbYLSoollr5Qtw7Qgf6PA8E",
-    "arquivo": "./empresarial/nr-1-no-nordeste-salvador-recife-fortaleza-e-os-riscos-psicossociais-nas-principais-economias-da-regiao.json"
+    "arquivo": "./empresarial/nr-1-no-nordeste-salvador-recife-fortaleza-e-os-riscos-psicossociais-nas-principais-economias-da-regiao.json",
+    "dataEditorialPlanejada": "24/02/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 no Centro-Oeste: Brasília, Goiânia, Cuiabá e Campo Grande sob a perspectiva dos riscos psicossociais",
@@ -258,14 +278,16 @@
       "Cuiabá",
       "Campo Grande"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "24/03/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 no Centro-Oeste: Brasília, Goiânia, Cuiabá e Campo Grande sob a perspectiva dos riscos psicossociais",
     "descricaoSEO": "Conheça uma abordagem responsável para gestão de riscos psicossociais no Centro-Oeste, com atenção a Brasília, Goiânia, Cuiabá e Campo Grande.",
     "documentId": "1krmyCdiIofYNHXjV9gQBY1_gQUU6CZaW5K3SR0WHdR4",
-    "arquivo": "./empresarial/nr-1-no-centro-oeste-brasilia-goiania-cuiaba-e-campo-grande-sob-a-perspectiva-dos-riscos-psicossociais.json"
+    "arquivo": "./empresarial/nr-1-no-centro-oeste-brasilia-goiania-cuiaba-e-campo-grande-sob-a-perspectiva-dos-riscos-psicossociais.json",
+    "dataEditorialPlanejada": "24/03/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 no Sudeste: São Paulo, Rio de Janeiro, Belo Horizonte e Vitória — o que observar nos riscos psicossociais",
@@ -284,14 +306,16 @@
       "Espírito Santo",
       "riscos psicossociais"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "21/04/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 no Sudeste: São Paulo, Rio de Janeiro, Belo Horizonte e Vitória — o que observar nos riscos psicossociais",
     "descricaoSEO": "A intensidade econômica da região oferece contextos para investigar, não respostas prontas.",
     "documentId": "189F6ACXMZuMrWlylOMoERnMAkixqjB7dMUMKd93rSOI",
-    "arquivo": "./empresarial/nr-1-no-sudeste-sao-paulo-rio-de-janeiro-belo-horizonte-e-vitoria-o-que-observar-nos-riscos-psicossociais.json"
+    "arquivo": "./empresarial/nr-1-no-sudeste-sao-paulo-rio-de-janeiro-belo-horizonte-e-vitoria-o-que-observar-nos-riscos-psicossociais.json",
+    "dataEditorialPlanejada": "21/04/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 na Região Sul: Curitiba, Florianópolis e Porto Alegre — setores fortes e fatores psicossociais a investigar",
@@ -309,14 +333,16 @@
       "Rio Grande do Sul",
       "riscos psicossociais"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "19/05/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 na Região Sul: Curitiba, Florianópolis e Porto Alegre — setores fortes e fatores psicossociais a investigar",
     "descricaoSEO": "O desafio não é atribuir riscos à região, mas compreender como cada organização estrutura o trabalho.",
     "documentId": "1x49qNL91pOoCR3qn9RFrjPJOkgJOzVNtKJfHiyhiyi4",
-    "arquivo": "./empresarial/nr-1-na-regiao-sul-curitiba-florianopolis-e-porto-alegre-setores-fortes-e-fatores-psicossociais-a-investigar.json"
+    "arquivo": "./empresarial/nr-1-na-regiao-sul-curitiba-florianopolis-e-porto-alegre-setores-fortes-e-fatores-psicossociais-a-investigar.json",
+    "dataEditorialPlanejada": "19/05/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 em serviços e atendimento ao público: demandas emocionais, metas e organização do trabalho",
@@ -334,14 +360,16 @@
       "metas",
       "liderança"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "16/06/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 em serviços e atendimento ao público: demandas emocionais, metas e organização do trabalho",
     "descricaoSEO": "Por trás de cada atendimento existe uma organização de demandas que merece ser compreendida.",
     "documentId": "1_vBO343YvEZecz7Rt6rEmooSLGkUAPZLJFhy4QxD5z8",
-    "arquivo": "./empresarial/nr-1-em-servicos-e-atendimento-ao-publico-demandas-emocionais-metas-e-organizacao-do-trabalho.json"
+    "arquivo": "./empresarial/nr-1-em-servicos-e-atendimento-ao-publico-demandas-emocionais-metas-e-organizacao-do-trabalho.json",
+    "dataEditorialPlanejada": "16/06/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 em indústria, construção e logística: turnos, prazos, coordenação e riscos psicossociais",
@@ -359,14 +387,16 @@
       "turnos",
       "riscos psicossociais"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "14/07/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 em indústria, construção e logística: turnos, prazos, coordenação e riscos psicossociais",
     "descricaoSEO": "Ambientes operacionais distintos pedem critérios técnicos, não uma única lista de riscos.",
     "documentId": "1GxzBfDrmIWjc-0VYPjmHFuP5V92ONO0k8RBRvbcKWis",
-    "arquivo": "./empresarial/nr-1-em-industria-construcao-e-logistica-turnos-prazos-coordenacao-e-riscos-psicossociais.json"
+    "arquivo": "./empresarial/nr-1-em-industria-construcao-e-logistica-turnos-prazos-coordenacao-e-riscos-psicossociais.json",
+    "dataEditorialPlanejada": "14/07/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "NR-1 no Brasil: como adaptar a gestão de riscos psicossociais à região, ao setor e à realidade da empresa",
@@ -383,13 +413,15 @@
       "gestão de riscos",
       "regiões do Brasil"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "29/09/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "NR-1 no Brasil: como adaptar a gestão de riscos psicossociais à região, ao setor e à realidade da empresa",
     "descricaoSEO": "Uma boa gestão conhece o território, compreende a atividade e decide com base no trabalho real.",
     "documentId": "13VcaWNWHcJ4atBxDidxiEAlxwP-l1sDvKGcJoU0u8BM",
-    "arquivo": "./empresarial/nr-1-no-brasil-como-adaptar-a-gestao-de-riscos-psicossociais-a-regiao-ao-setor-e-a-realidade-da-empresa.json"
+    "arquivo": "./empresarial/nr-1-no-brasil-como-adaptar-a-gestao-de-riscos-psicossociais-a-regiao-ao-setor-e-a-realidade-da-empresa.json",
+    "dataEditorialPlanejada": "29/09/2026",
+    "dataCargaTecnica": "13/10/2026"
   }
 ]

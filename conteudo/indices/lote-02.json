@@ -15,14 +15,16 @@
       "continuidade do cuidado",
       "atendimento online"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "07/05/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Continuidade do cuidado no GEB Saúde: o que muda entre telessaúde e psicoterapia semanal",
     "descricaoSEO": "Nem todo atendimento digital é um acompanhamento recorrente; conhecer as diferenças ajuda a escolher com clareza.",
     "documentId": "12-elNF7-Y2NPa5VlKxOyS8kiIdUWjdasoUkGikgCaRs",
-    "arquivo": "./saude/continuidade-do-cuidado-no-geb-saude-o-que-muda-entre-telessaude-e-psicoterapia-semanal.json"
+    "arquivo": "./saude/continuidade-do-cuidado-no-geb-saude-o-que-muda-entre-telessaude-e-psicoterapia-semanal.json",
+    "dataEditorialPlanejada": "07/05/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Privacidade no teleatendimento: o que o paciente deve observar",
@@ -38,14 +40,16 @@
       "GEB",
       "privacidade"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "04/06/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Privacidade no teleatendimento: o que o paciente deve observar",
     "descricaoSEO": "O acesso digital ao cuidado também exige confiança sobre a utilização de informações pessoais.",
     "documentId": "1uipH6kVmyJCNBnYOpZzP8x8KWCo6xKSSLQJjgpdOB9k",
-    "arquivo": "./saude/privacidade-no-teleatendimento-o-que-o-paciente-deve-observar.json"
+    "arquivo": "./saude/privacidade-no-teleatendimento-o-que-o-paciente-deve-observar.json",
+    "dataEditorialPlanejada": "04/06/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Parcerias em saúde digital: o que precisa estar claro antes da oferta ao público",
@@ -63,14 +67,16 @@
       "psicoterapia semanal",
       "GEB"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "16/07/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Parcerias em saúde digital: o que precisa estar claro antes da oferta ao público",
     "descricaoSEO": "A experiência de cuidado exige transparência sobre quem atende, como funciona o acesso e quais limites se aplicam.",
     "documentId": "1R_V6ziVdc39xlqqucGiv_x2QxG3P7uJVcNcJqibmdNo",
-    "arquivo": "./saude/parcerias-em-saude-digital-o-que-precisa-estar-claro-antes-da-oferta-ao-publico.json"
+    "arquivo": "./saude/parcerias-em-saude-digital-o-que-precisa-estar-claro-antes-da-oferta-ao-publico.json",
+    "dataEditorialPlanejada": "16/07/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "O que é o GEB e como seus braços se conectam",
@@ -86,14 +92,16 @@
       "soluções integradas",
       "serviços empresariais"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "06/01/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "O que é o GEB e como seus braços se conectam",
     "descricaoSEO": "Entenda o que é o Grupo Eduarda Bispo, como suas frentes de atuação se relacionam e como identificar a solução adequada para cada demanda.",
     "documentId": "1nH-K-afyTxCsMA8Zu8ULvZtPiLfFA3BNOaaIXLbUqwk",
-    "arquivo": "./institucional/o-que-e-o-geb-e-como-seus-bracos-se-conectam.json"
+    "arquivo": "./institucional/o-que-e-o-geb-e-como-seus-bracos-se-conectam.json",
+    "dataEditorialPlanejada": "06/01/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Como processos, pessoas e tecnologia sustentam o crescimento de uma empresa",
@@ -110,14 +118,16 @@
       "liderança",
       "tecnologia"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "03/02/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Como processos, pessoas e tecnologia sustentam o crescimento de uma empresa",
     "descricaoSEO": "Veja como alinhar processos, pessoas e tecnologia para crescer com previsibilidade, reduzir retrabalho e melhorar as decisões da empresa.",
     "documentId": "1C1vYSKy1AdCOUOvQnUOADkxfgCI5ru9BMoa1vuL2dAc",
-    "arquivo": "./institucional/como-processos-pessoas-e-tecnologia-sustentam-o-crescimento-de-uma-empresa.json"
+    "arquivo": "./institucional/como-processos-pessoas-e-tecnologia-sustentam-o-crescimento-de-uma-empresa.json",
+    "dataEditorialPlanejada": "03/02/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Planejamento 2027: como transformar prioridades em rotina de gestão",
@@ -134,14 +144,16 @@
       "indicadores",
       "gestão estratégica"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "18/08/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Planejamento 2027: como transformar prioridades em rotina de gestão",
     "descricaoSEO": "Organize o planejamento empresarial de 2027 com prioridades claras, ciclos trimestrais, responsáveis, indicadores e revisão semanal.",
     "documentId": "1GlnaOn9bfbs_RY-ABbiEU26lXEc3cSiv8n58Wo3uM6c",
-    "arquivo": "./institucional/planejamento-2027-como-transformar-prioridades-em-rotina-de-gestao.json"
+    "arquivo": "./institucional/planejamento-2027-como-transformar-prioridades-em-rotina-de-gestao.json",
+    "dataEditorialPlanejada": "18/08/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Como escolher um curso técnico de acordo com seu objetivo profissional",
@@ -158,14 +170,16 @@
       "educação",
       "carreira"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "13/01/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Como escolher um curso técnico de acordo com seu objetivo profissional",
     "descricaoSEO": "Como escolher um curso técnico de acordo com seu objetivo profissional. Entenda como tomar decisões informadas sobre a formação e seu percurso educacional.",
     "documentId": "1YyI3eiv2vdy-2k4cGM8F-0cbCNbz11p-n6jSketz9Lg",
-    "arquivo": "./educacao/como-escolher-um-curso-tecnico-de-acordo-com-seu-objetivo-profissional.json"
+    "arquivo": "./educacao/como-escolher-um-curso-tecnico-de-acordo-com-seu-objetivo-profissional.json",
+    "dataEditorialPlanejada": "13/01/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "EJA: quando retomar os estudos pode abrir novas possibilidades",
@@ -182,14 +196,16 @@
       "educação",
       "carreira"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "10/03/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "EJA: quando retomar os estudos pode abrir novas possibilidades",
     "descricaoSEO": "EJA: quando retomar os estudos pode abrir novas possibilidades. Entenda como tomar decisões informadas sobre a formação e seu percurso educacional.",
     "documentId": "1KGE2X2VCaQX4Fn28pqep9WtXAqWs2v3Xe0R4Qb38dP0",
-    "arquivo": "./educacao/eja-quando-retomar-os-estudos-pode-abrir-novas-possibilidades.json"
+    "arquivo": "./educacao/eja-quando-retomar-os-estudos-pode-abrir-novas-possibilidades.json",
+    "dataEditorialPlanejada": "10/03/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Planejamento de estudos 2027: como escolher a formação certa antes da matrícula",
@@ -207,14 +223,16 @@
       "formação",
       "carreira"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "01/09/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Planejamento de estudos 2027: como escolher a formação certa antes da matrícula",
     "descricaoSEO": "Planeje seus estudos em 2027 com critérios para escolher cursos, avaliar instituições e conciliar formação, trabalho e rotina.",
     "documentId": "1Z1oCZ29gbG9aQXMVmjrWLdX3D2jGlGAu3WR2ceA79JI",
-    "arquivo": "./educacao/planejamento-de-estudos-2027-como-escolher-a-formacao-certa-antes-da-matricula.json"
+    "arquivo": "./educacao/planejamento-de-estudos-2027-como-escolher-a-formacao-certa-antes-da-matricula.json",
+    "dataEditorialPlanejada": "01/09/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Quando contratar um intérprete de Libras",
@@ -231,14 +249,16 @@
       "reuniões acessíveis",
       "eventos"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "20/01/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Quando contratar um intérprete de Libras",
     "descricaoSEO": "Entenda quando contratar interpretação de Libras para eventos, reuniões, treinamentos e atendimento, e como planejar o serviço.",
     "documentId": "1wTRL4qcsBuAMmXpw2M5ss0Qk9c8bCz0vBLjLP3GI5r8",
-    "arquivo": "./inclusao/quando-contratar-um-interprete-de-libras.json"
+    "arquivo": "./inclusao/quando-contratar-um-interprete-de-libras.json",
+    "dataEditorialPlanejada": "20/01/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Como tornar um evento mais acessível para pessoas surdas",
@@ -255,14 +275,16 @@
       "inclusão",
       "acessibilidade comunicacional"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "17/02/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Como tornar um evento mais acessível para pessoas surdas",
     "descricaoSEO": "Conheça cuidados para planejar eventos com Libras, legendas, visibilidade, comunicação prévia e participação efetiva.",
     "documentId": "1AJbSn0-_tgtgmeFlKDpyHDBNobMyt8mCJy_01XfQN-o",
-    "arquivo": "./inclusao/como-tornar-um-evento-mais-acessivel-para-pessoas-surdas.json"
+    "arquivo": "./inclusao/como-tornar-um-evento-mais-acessivel-para-pessoas-surdas.json",
+    "dataEditorialPlanejada": "17/02/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Libras no atendimento ao cliente: por onde uma empresa pode começar",
@@ -279,14 +301,16 @@
       "inclusão",
       "acessibilidade"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "17/03/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Libras no atendimento ao cliente: por onde uma empresa pode começar",
     "descricaoSEO": "Veja como iniciar melhorias de acessibilidade em atendimento ao cliente com Libras, recursos de comunicação e planejamento.",
     "documentId": "1fVkmUhNo7WvN1BDm-slvqLgger5KnGQMx5aa9e_lBJw",
-    "arquivo": "./inclusao/libras-no-atendimento-ao-cliente-por-onde-uma-empresa-pode-comecar.json"
+    "arquivo": "./inclusao/libras-no-atendimento-ao-cliente-por-onde-uma-empresa-pode-comecar.json",
+    "dataEditorialPlanejada": "17/03/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Tenho uma ideia para um sistema: por onde começar",
@@ -303,14 +327,16 @@
       "desenvolvimento de software",
       "planejamento de sistemas"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "22/01/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Tenho uma ideia para um sistema: por onde começar",
     "descricaoSEO": "Descubra como transformar uma ideia de sistema em um problema bem definido, identificar usuários e testar a solução antes de desenvolver.",
     "documentId": "1mPs_AvtDWG97JhRempoJwzbqCN1aPk7d2aQurTSEa6w",
-    "arquivo": "./tecnologia/tenho-uma-ideia-para-um-sistema-por-onde-comecar.json"
+    "arquivo": "./tecnologia/tenho-uma-ideia-para-um-sistema-por-onde-comecar.json",
+    "dataEditorialPlanejada": "22/01/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Antes de automatizar, mapeie o processo: por que essa ordem importa",
@@ -327,14 +353,16 @@
       "produtividade",
       "integração de sistemas"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "19/02/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Antes de automatizar, mapeie o processo: por que essa ordem importa",
     "descricaoSEO": "Entenda por que mapear processos antes de automatizar ajuda a reduzir erros, retrabalho e investimentos digitais mal direcionados.",
     "documentId": "1cV0Vf_Hluy4k0ZXpgBRWDys91bOBZpYA10h7RlMmABM",
-    "arquivo": "./tecnologia/antes-de-automatizar-mapeie-o-processo-por-que-essa-ordem-importa.json"
+    "arquivo": "./tecnologia/antes-de-automatizar-mapeie-o-processo-por-que-essa-ordem-importa.json",
+    "dataEditorialPlanejada": "19/02/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Site, sistema ou automação: como saber do que seu negócio realmente precisa",
@@ -351,14 +379,16 @@
       "automação",
       "tecnologia empresarial"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "19/03/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Site, sistema ou automação: como saber do que seu negócio realmente precisa",
     "descricaoSEO": "Compare site, sistema e automação para identificar o tipo de solução digital adequado ao problema, ao orçamento e à operação.",
     "documentId": "1IbiZ_FY5LpO__O3fP66XrLC3j-sV12Wy2x5U83554iA",
-    "arquivo": "./tecnologia/site-sistema-ou-automacao-como-saber-do-que-seu-negocio-realmente-precisa.json"
+    "arquivo": "./tecnologia/site-sistema-ou-automacao-como-saber-do-que-seu-negocio-realmente-precisa.json",
+    "dataEditorialPlanejada": "19/03/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Prioridades digitais 2027: o que automatizar primeiro na sua empresa",
@@ -375,13 +405,15 @@
       "eficiência operacional",
       "transformação digital"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "22/09/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Prioridades digitais 2027: o que automatizar primeiro na sua empresa",
     "descricaoSEO": "Saiba como priorizar automações empresariais para 2027 com critérios de impacto, frequência, riscos e capacidade de implementação.",
     "documentId": "1xXWvN6C6yTp0ik9GQOYKMJ0I6Fgq6iKY_31OqsS0qNw",
-    "arquivo": "./tecnologia/prioridades-digitais-2027-o-que-automatizar-primeiro-na-sua-empresa.json"
+    "arquivo": "./tecnologia/prioridades-digitais-2027-o-que-automatizar-primeiro-na-sua-empresa.json",
+    "dataEditorialPlanejada": "22/09/2026",
+    "dataCargaTecnica": "13/10/2026"
   }
 ]

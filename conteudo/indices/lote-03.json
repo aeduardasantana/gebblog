@@ -14,14 +14,16 @@
       "padronização",
       "eficiência operacional"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "31/03/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Gestão por processos: como transformar rotina em sistema",
     "descricaoSEO": "O crescimento fica mais sustentável quando o trabalho deixa de depender de instruções improvisadas.",
     "documentId": "1Ai90Z3OTM_9ECEhAlpCUpz24UTnRPoFlZrXjxE82N7o",
-    "arquivo": "./empresarial/gestao-por-processos-como-transformar-rotina-em-sistema.json"
+    "arquivo": "./empresarial/gestao-por-processos-como-transformar-rotina-em-sistema.json",
+    "dataEditorialPlanejada": "31/03/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Como documentar decisões sem transformar a empresa em burocracia",
@@ -38,14 +40,16 @@
       "gestão empresarial",
       "processos"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "26/05/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Como documentar decisões sem transformar a empresa em burocracia",
     "descricaoSEO": "Registrar o essencial protege a memória da empresa sem sufocar sua capacidade de agir.",
     "documentId": "1h1Ny0kEsL9FPrLVbAYNEu6oSkWyHBMLPsh9Ud-PK6Cw",
-    "arquivo": "./empresarial/como-documentar-decisoes-sem-transformar-a-empresa-em-burocracia.json"
+    "arquivo": "./empresarial/como-documentar-decisoes-sem-transformar-a-empresa-em-burocracia.json",
+    "dataEditorialPlanejada": "26/05/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Indicadores que ajudam a liderança a decidir melhor",
@@ -62,14 +66,16 @@
       "liderança",
       "tomada de decisão"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "23/06/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Indicadores que ajudam a liderança a decidir melhor",
     "descricaoSEO": "Números úteis não são os mais impressionantes, mas os que ajudam a compreender o que precisa mudar.",
     "documentId": "1QziZB65BCtoX7H-u-g1vYraK_pjMgPXixMKjU4Vwk5k",
-    "arquivo": "./empresarial/indicadores-que-ajudam-a-lideranca-a-decidir-melhor.json"
+    "arquivo": "./empresarial/indicadores-que-ajudam-a-lideranca-a-decidir-melhor.json",
+    "dataEditorialPlanejada": "23/06/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Pós-graduação ou MBA: qual caminho faz mais sentido para sua carreira",
@@ -87,14 +93,16 @@
       "carreira",
       "educação superior"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "02/06/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Pós-graduação ou MBA: qual caminho faz mais sentido para sua carreira",
     "descricaoSEO": "A diferença mais importante não está na sigla, mas no conhecimento que você deseja desenvolver e aplicar.",
     "documentId": "1K24DaR3wQEQytV6LgkrYZnLk99sgqsQRXlDoX0Oeupg",
-    "arquivo": "./educacao/pos-graduacao-ou-mba-qual-caminho-faz-mais-sentido-para-sua-carreira.json"
+    "arquivo": "./educacao/pos-graduacao-ou-mba-qual-caminho-faz-mais-sentido-para-sua-carreira.json",
+    "dataEditorialPlanejada": "02/06/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "O que enviar ao intérprete de Libras antes de um evento ou reunião",
@@ -110,14 +118,16 @@
       "GEB",
       "operação"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "12/05/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "O que enviar ao intérprete de Libras antes de um evento ou reunião",
     "descricaoSEO": "A qualidade da interpretação começa com informações compartilhadas antes do encontro.",
     "documentId": "17ef1xT8t5M-9eBMPCkS_dlefS0uPjDsQkP5-ubErzhw",
-    "arquivo": "./inclusao/o-que-enviar-ao-interprete-de-libras-antes-de-um-evento-ou-reuniao.json"
+    "arquivo": "./inclusao/o-que-enviar-ao-interprete-de-libras-antes-de-um-evento-ou-reuniao.json",
+    "dataEditorialPlanejada": "12/05/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Como incluir uma pessoa surda em reuniões e treinamentos corporativos",
@@ -132,14 +142,16 @@
       "como incluir uma pessoa surda em reuniões e treinamentos corporativos",
       "GEB"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "07/07/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Como incluir uma pessoa surda em reuniões e treinamentos corporativos",
     "descricaoSEO": "Participação profissional depende de informação acessível e oportunidades reais de interação.",
     "documentId": "1tMOEFV3jUcB9bJNC4E4dsxjINWxFE_yPRt8KGOXLATo",
-    "arquivo": "./inclusao/como-incluir-uma-pessoa-surda-em-reunioes-e-treinamentos-corporativos.json"
+    "arquivo": "./inclusao/como-incluir-uma-pessoa-surda-em-reunioes-e-treinamentos-corporativos.json",
+    "dataEditorialPlanejada": "07/07/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Eventos de fim de ano: checklist de acessibilidade comunicacional",
@@ -154,14 +166,16 @@
       "eventos de fim de ano: checklist de acessibilidade comunicacional",
       "GEB"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "15/09/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Eventos de fim de ano: checklist de acessibilidade comunicacional",
     "descricaoSEO": "O encontro que celebra resultados também precisa permitir que todas as pessoas participem.",
     "documentId": "1B0rOh1sdnU-wUYZ0fyn8jNr1wKib7bXHdWHg4vz-3s0",
-    "arquivo": "./inclusao/eventos-de-fim-de-ano-checklist-de-acessibilidade-comunicacional.json"
+    "arquivo": "./inclusao/eventos-de-fim-de-ano-checklist-de-acessibilidade-comunicacional.json",
+    "dataEditorialPlanejada": "15/09/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Como escrever requisitos para um sistema sem ser programador",
@@ -177,14 +191,16 @@
       "tecnologia",
       "GEB"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "09/07/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Como escrever requisitos para um sistema sem ser programador",
     "descricaoSEO": "Explicar o problema, os usuários e as decisões esperadas é mais útil do que tentar adivinhar a tecnologia.",
     "documentId": "1i2_XpfbfSpFgzuLbrqQNzEU9QtY7vefSBjwej8-auvc",
-    "arquivo": "./tecnologia/como-escrever-requisitos-para-um-sistema-sem-ser-programador.json"
+    "arquivo": "./tecnologia/como-escrever-requisitos-para-um-sistema-sem-ser-programador.json",
+    "dataEditorialPlanejada": "09/07/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "O que muda quando uma empresa deixa de depender exclusivamente do fundador",
@@ -201,14 +217,16 @@
       "governança",
       "empreendedorismo"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "03/03/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "O que muda quando uma empresa deixa de depender exclusivamente do fundador",
     "descricaoSEO": "Saiba como reduzir a dependência do fundador por meio de decisões delegadas, processos documentados e acompanhamento de resultados.",
     "documentId": "17AGBXWq7xoq3fhGfSYjbhPWt4hDtyDQVrSKmw7DG1-A",
-    "arquivo": "./institucional/o-que-muda-quando-uma-empresa-deixa-de-depender-exclusivamente-do-fundador.json"
+    "arquivo": "./institucional/o-que-muda-quando-uma-empresa-deixa-de-depender-exclusivamente-do-fundador.json",
+    "dataEditorialPlanejada": "03/03/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Palestra corporativa: quando ajuda e quando não substitui um programa contínuo",
@@ -225,14 +243,16 @@
       "riscos psicossociais",
       "liderança"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "30/04/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Palestra corporativa: quando ajuda e quando não substitui um programa contínuo",
     "descricaoSEO": "Palestra corporativa: quando ajuda e quando não substitui um programa contínuo. Uma leitura prática e aprofundada sobre decisões de gestão e possibilidades de prevenção nas organizações.",
     "documentId": "1HMBLX_RcwfE6-cKZbveb-Hti7XwBoXSMQBkU1p17WBc",
-    "arquivo": "./empresarial/palestra-corporativa-quando-ajuda-e-quando-nao-substitui-um-programa-continuo.json"
+    "arquivo": "./empresarial/palestra-corporativa-quando-ajuda-e-quando-nao-substitui-um-programa-continuo.json",
+    "dataEditorialPlanejada": "30/04/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Técnico regular e técnico por competência: entenda as diferenças",
@@ -249,14 +269,16 @@
       "educação",
       "carreira"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "10/02/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Técnico regular e técnico por competência: entenda as diferenças",
     "descricaoSEO": "Técnico regular e técnico por competência: entenda as diferenças. Entenda como tomar decisões informadas sobre a formação e seu percurso educacional.",
     "documentId": "1_Ri7dWi-62v5OLFqVTMVfNFp6x-qsW7A2IytINIimGM",
-    "arquivo": "./educacao/tecnico-regular-e-tecnico-por-competencia-entenda-as-diferencas.json"
+    "arquivo": "./educacao/tecnico-regular-e-tecnico-por-competencia-entenda-as-diferencas.json",
+    "dataEditorialPlanejada": "10/02/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "EJA + Técnico: como combinar conclusão escolar e formação profissional",
@@ -273,14 +295,16 @@
       "educação",
       "carreira"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "07/04/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "EJA + Técnico: como combinar conclusão escolar e formação profissional",
     "descricaoSEO": "EJA + Técnico: como combinar conclusão escolar e formação profissional. Entenda como tomar decisões informadas sobre a formação e seu percurso educacional.",
     "documentId": "1X3RgopWBGnFGFwGQgaA8cPmmCDGWAQyejaWcYOpFLzA",
-    "arquivo": "./educacao/eja-tecnico-como-combinar-conclusao-escolar-e-formacao-profissional.json"
+    "arquivo": "./educacao/eja-tecnico-como-combinar-conclusao-escolar-e-formacao-profissional.json",
+    "dataEditorialPlanejada": "07/04/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Telessaúde GEB Saúde: como funciona o acesso às especialidades online",
@@ -299,14 +323,16 @@
       "veterinária online",
       "consultas online"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "15/01/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Telessaúde GEB Saúde: como funciona o acesso às especialidades online",
     "descricaoSEO": "Cuidado para você, sua família e seu pet, com modalidades e horários que merecem ser conhecidos antes da contratação.",
     "documentId": "1we2NjhdXVkBSJ_NQkLh-L8e_MjZtrnWGm2fHwL7W4Ac",
-    "arquivo": "./saude/telessaude-geb-saude-como-funciona-o-acesso-as-especialidades-online.json"
+    "arquivo": "./saude/telessaude-geb-saude-como-funciona-o-acesso-as-especialidades-online.json",
+    "dataEditorialPlanejada": "15/01/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Como se preparar para usar a telessaúde do GEB Saúde",
@@ -324,14 +350,16 @@
       "atendimento por aplicativo",
       "preparação para consulta"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "12/02/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Como se preparar para usar a telessaúde do GEB Saúde",
     "descricaoSEO": "Conhecer o aplicativo, a especialidade e as regras de atendimento ajuda a aproveitar melhor a experiência digital.",
     "documentId": "1oSHtT4WhOCpCYwMaMV4TX2yanI1jrkjt83WGncTmkwk",
-    "arquivo": "./saude/como-se-preparar-para-usar-a-telessaude-do-geb-saude.json"
+    "arquivo": "./saude/como-se-preparar-para-usar-a-telessaude-do-geb-saude.json",
+    "dataEditorialPlanejada": "12/02/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Acessibilidade no GEB Saúde: cuidado digital e comunicação em Libras",
@@ -350,14 +378,16 @@
       "telessaúde",
       "psicoterapia"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "09/04/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Acessibilidade no GEB Saúde: cuidado digital e comunicação em Libras",
     "descricaoSEO": "O acesso à saúde exige informação compreensível, respeito à autonomia e atenção às condições reais de cada serviço.",
     "documentId": "1Qtb_XxyKU1YRerr-W5RvgTIyfEp9USDDGFOUtStdufo",
-    "arquivo": "./saude/acessibilidade-no-geb-saude-cuidado-digital-e-comunicacao-em-libras.json"
+    "arquivo": "./saude/acessibilidade-no-geb-saude-cuidado-digital-e-comunicacao-em-libras.json",
+    "dataEditorialPlanejada": "09/04/2026",
+    "dataCargaTecnica": "13/10/2026"
   },
   {
     "titulo": "Acessibilidade comunicacional no trabalho: o que vai além de contratar intérprete",
@@ -374,13 +404,15 @@
       "inclusão profissional",
       "comunicação corporativa"
     ],
-    "dataPublicacao": "10/10/2026",
+    "dataPublicacao": "14/04/2026",
     "autorPublico": "GEB",
     "imagemCapa": "TEXTO ALTERNATIVO DA IMAGEM:",
     "status": "Publicado",
     "tituloSEO": "Acessibilidade comunicacional no trabalho: o que vai além de contratar intérprete",
     "descricaoSEO": "Saiba como ir além da contratação de intérprete de Libras e construir comunicação acessível em reuniões, treinamentos e rotinas de trabalho.",
     "documentId": "1MG2bvkJIdgy36wRrOP1pbogBhIik05YJ4-dXbGqWrSI",
-    "arquivo": "./inclusao/acessibilidade-comunicacional-no-trabalho-o-que-vai-alem-de-contratar-interprete.json"
+    "arquivo": "./inclusao/acessibilidade-comunicacional-no-trabalho-o-que-vai-alem-de-contratar-interprete.json",
+    "dataEditorialPlanejada": "14/04/2026",
+    "dataCargaTecnica": "13/10/2026"
   }
 ]
