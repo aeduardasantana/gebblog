@@ -47,6 +47,17 @@ function renderArticle(a){if(!a){error.hidden=false;document.title="Artigo não 
   if(/^(\(?E-?book\)?|workshop Ser Coach IBC)$/i.test(t)) el.classList.add("legacy-context");
 });
 enhance(body);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){var refSec=document.getElementById("referencias"),refList=document.getElementById("lista-referencias");refSec.hidden=false;refList.innerHTML=refs.map(function(r){var m=String(r).match(/https?:\/\/\S+/);if(m){var raw=m[0].replace(/[).,;]+$/,"");var before=esc(String(r).replace(m[0],"").trim());return '<p class="reference-item">'+before+' <a href="'+esc(raw)+'" target="_blank" rel="noopener noreferrer">Acessar fonte ↗</a></p>';}return '<p class="reference-item">'+esc(r)+'</p>';}).join("");}
+var more=document.getElementById("mais-editoria");
+if(more){more.href="./?categoria="+encodeURIComponent(editoria);more.firstChild.textContent="Mais em "+editoria+" ";}
+var share=document.getElementById("compartilhar-artigo");
+if(share&&!share.dataset.wired){share.dataset.wired="1";share.addEventListener("click",async function(){
+  var link=location.href,msg=document.getElementById("feedback-compartilhamento");
+  try{
+    if(navigator.share){await navigator.share({title:a.titulo,url:link});if(msg){msg.hidden=false;msg.textContent="Compartilhamento iniciado.";}return;}
+    if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(link);if(msg){msg.hidden=false;msg.textContent="Link copiado para compartilhar.";}return;}
+    window.prompt("Copie o link do artigo:",link);
+  }catch(err){if(err&&err.name==="AbortError")return;if(msg){msg.hidden=false;msg.textContent="Copie o endereço desta página para compartilhar.";} }
+});}
 var c=canonical(a);document.title=(a.tituloSEO||a.titulo)+" — Blog GEB";document.querySelector('meta[name="description"]').setAttribute("content",a.descricaoSEO||a.resumo||"");document.getElementById("canonical-link").setAttribute("href",c);document.getElementById("og-title").setAttribute("content",a.titulo);document.getElementById("og-description").setAttribute("content",a.descricaoSEO||a.resumo||"");document.getElementById("og-url").setAttribute("content",c);var ld=document.createElement("script");ld.type="application/ld+json";ld.textContent=JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":a.titulo,"description":summary(a),"datePublished":a.dataPublicacao.split("/").reverse().join("-"),"author":{"@type":"Organization","name":a.autorPublico},"publisher":{"@type":"Organization","name":"GEB — Grupo Eduarda Bispo"},"mainEntityOfPage":c});document.head.appendChild(ld);related();
 }
 window.GEB_BLOG_API.consultar({acao:"artigo",slug:slug}).then(function(r){if(!r.sucesso||!r.dados){error.hidden=false;return;}articles=[r.dados];renderArticle(r.dados);window.GEB_BLOG_API.consultar({acao:"relacionados",slug:slug,limite:"3"}).then(function(rel){if(rel.sucesso&&Array.isArray(rel.dados)){articles=[r.dados].concat(rel.dados);related();}}).catch(function(){});}).catch(function(e){error.hidden=false;console.error("Blog GEB: artigo indisponível",e);});
