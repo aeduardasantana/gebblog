@@ -1,4 +1,5 @@
 (function(){
+window.addEventListener("message",function(e){var frame=document.querySelector("#conteudo-artigo .inline-experience iframe");if(frame&&e.source===frame.contentWindow&&e.data&&Number.isFinite(e.data.gebFrameHeight)){frame.style.height=Math.max(220,Math.min(1800,e.data.gebFrameHeight))+"px";}});
 var articles=[];var params=new URLSearchParams(location.search);var slug=params.get("slug")||location.pathname.split("/").filter(Boolean).pop();var a=null;var article=document.getElementById("artigo"),error=document.getElementById("erro-artigo");
 function esc(v){return String(v||"").replace(/[&<>"']/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m];});}
 function cats(x){var c=Array.isArray(x.categorias)?x.categorias:(x.categoria?[x.categoria]:[]);return c.filter(Boolean);}
