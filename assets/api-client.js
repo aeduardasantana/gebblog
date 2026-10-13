@@ -2,7 +2,7 @@
 (function(){
 "use strict";
 const ROOT=new URL("./conteudo/",document.baseURI);
-const SHARDS=["indices/legado.json","indices/lote-01.json","indices/lote-02.json","indices/lote-03.json","indices/lote-04.json"];
+const SHARDS=["indices/legado.json","indices/lote-01.json","indices/lote-02.json","indices/lote-03.json","indices/lote-04.json","indices/lote-05.json"];
 let promise=null;
 function norm(x){return String(x||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
 function date(x){const v=String(x.dataPublicacaoISO||"");if(/^\d{4}-\d\d-\d\d$/.test(v))return v;const m=String(x.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return m?m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0"):"0000-00-00";}
@@ -12,7 +12,7 @@ async function catalog(){
   if(!promise)promise=(async()=>{
     const built=Array.isArray(window.GEB_INDICE_ARTIGOS)?window.GEB_INDICE_ARTIGOS:[];
     const validated=built.filter(a=>a&&a.slug&&a.status==="Publicado"&&a.arquivo);
-    if(validated.length===95&&new Set(validated.map(a=>a.slug)).size===95)return sort(validated.filter(a=>date(a)<=new Date().toLocaleDateString("en-CA",{timeZone:"America/Sao_Paulo"})));
+    /* Consolidação incremental: inclui novos lotes publicados sem depender do índice legado de 95 artigos. */
     const settled=await Promise.allSettled(SHARDS.map(async path=>{
       const response=await fetch(new URL(path,ROOT),{cache:"no-store"});
       if(!response.ok)throw new Error(path+" HTTP "+response.status);
