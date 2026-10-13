@@ -9,21 +9,22 @@ function date(x){const v=String(x.dataPublicacaoISO||"");if(/^\d{4}-\d\d-\d\d$/.
 function sort(a){return a.sort((x,y)=>date(y).localeCompare(date(x))||String(x.titulo||"").localeCompare(String(y.titulo||""),"pt-BR"));}
 function fallback(){return (Array.isArray(window.GEB_PUBLICADOS)?window.GEB_PUBLICADOS:[]).filter(x=>x&&x.status==="Publicado");}
 async function catalog(){
-  if(!promise)promise=Promise.all(SHARDS.map(async p=>{
-    const r=await fetch(new URL(p,ROOT),{cache:"no-cache"});
-    if(!r.ok)throw new Error("Indice "+p+": HTTP "+r.status);
-    const data=await r.json();
-    if(!Array.isArray(data))throw new Error("Indice invalido: "+p);
-    return data;
-  })).then(parts=>{
-    const bySlug=new Map();
-    parts.flat().forEach(a=>{if(a&&a.slug&&a.status==="Publicado"&&a.arquivo)bySlug.set(a.slug,a);});
-    if(bySlug.size!==95)throw new Error("Indice incompleto: "+bySlug.size+" artigos; esperado 95");
-    return sort(Array.from(bySlug.values()));
-  }).catch(e=>{
-    console.warn("Blog GEB: indices em migracao; apresentando catalogo previamente publicado.",e);
+  if(!promise)promise=(async()=>{
+    const built=Array.isArray(window.GEB_INDICE_ARTIGOS)?window.GEB_INDICE_ARTIGOS:[];
+    const validated=built.filter(a=>a&&a.slug&&a.status==="Publicado"&&a.arquivo);
+    if(validated.length===95&&new Set(validated.map(a=>a.slug)).size===95)return sort(validated);
+    const settled=await Promise.allSettled(SHARDS.map(async path=>{
+      const response=await fetch(new URL(path,ROOT),{cache:"no-store"});
+      if(!response.ok)throw new Error(path+" HTTP "+response.status);
+      return response.json();
+    }));
+    const merged=new Map();
+    validated.forEach(a=>merged.set(a.slug,a));
+    settled.forEach(result=>{if(result.status==="fulfilled"&&Array.isArray(result.value))result.value.forEach(a=>{if(a&&a.slug&&a.status==="Publicado"&&a.arquivo)merged.set(a.slug,a);});});
+    if(merged.size)return sort([...merged.values()]);
+    console.warn("Blog GEB: indices indisponiveis; exibindo somente artigos previamente recuperados.");
     return sort(fallback());
-  });
+  })();
   return promise;
 }
 async function full(meta){
