@@ -15,7 +15,7 @@ function theme(a){var c=cats(a);var categories=["Empresarial","Educação","Saú
 function isoDate(a){var d=String(a.dataPublicacaoISO||"");if(/^\d{4}-\d{2}-\d{2}$/.test(d))return d;var b=String(a.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return b?b[3]+"-"+b[2].padStart(2,"0")+"-"+b[1].padStart(2,"0"):"0000-00-00";}
 function orderByPublication(data){return data.slice().sort(function(a,b){var da=isoDate(a),db=isoDate(b);return db.localeCompare(da)||String(a.titulo||"").localeCompare(String(b.titulo||""),"pt-BR");});}
 function mergePublished(data){var map=new Map();articles.concat(data).forEach(function(a){if(a&&a.slug)map.set(a.slug,a);});articles=orderByPublication(Array.from(map.values()));render();}
-function url(a){return "./artigo.html?slug="+encodeURIComponent(a.slug);}
+function url(a){return "./artigo/"+encodeURIComponent(a.slug)+"/";}
 function cleanText(v){return String(v||"").replace(/\s+/g," ").trim();}
 function isJunkSummary(v){
   var s=cleanText(v);
