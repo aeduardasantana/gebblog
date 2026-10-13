@@ -35,3 +35,4 @@ jobs:
           localDir: "./"
           remoteDir: "./public_html/blog/"
           options: '--exclude-glob .git/** --exclude-glob .github/** --exclude-glob README.md'
+# Deploy solicitado para publicar catálogo Saúde com datas editoriais preservadas — 2026-10-13
