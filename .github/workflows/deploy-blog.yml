@@ -9,6 +9,7 @@ on:
       - 'index.html'
       - 'artigo.html'
       - 'assets/**'
+      - 'conteudo/**'
       - 'api.php'
       - '.htaccess'
       - '.github/workflows/deploy-blog.yml'
