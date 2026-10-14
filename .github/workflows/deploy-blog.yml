@@ -4,6 +4,24 @@ on:
   workflow_dispatch:
   push:
     branches:
+      - main
+    paths:
+      - 'index.html'
+      - 'artigo.html'
+      - 'assets/**'
+      - 'conteudo/**'
+      - 'api.php'
+      - '.htaccess'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - '404.html'
+      - 'mapa-do-site/**'
+      - '.github/workflows/deploy-blog.yml'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    steps:
       - name: Pre-deploy SEO audit
         env:
           SITE_DIR: "."
@@ -38,24 +56,6 @@ on:
           if errors: sys.exit(1)
           print("Pre-deploy SEO checks passed")
           PY
-      - main
-    paths:
-      - 'index.html'
-      - 'artigo.html'
-      - 'assets/**'
-      - 'conteudo/**'
-      - 'api.php'
-      - '.htaccess'
-      - 'robots.txt'
-      - 'sitemap.xml'
-      - '404.html'
-      - 'mapa-do-site/**'
-      - '.github/workflows/deploy-blog.yml'
-
-jobs:
-  deploy:
-    runs-on: ubuntu-24.04
-    steps:
       - uses: actions/checkout@v4
       - name: Garantir arquivo original da marca
         run: |
