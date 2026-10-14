@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://blog.grupoeduardabispo.com.br/sitemap.xml
