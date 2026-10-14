@@ -10,6 +10,53 @@ function isJunkSummary(v){var s=cleanText(v);return !s||/^\[?https?:\/\//i.test(
 function fallbackSummary(x){var w=document.createElement("div");w.innerHTML=x.conteudoHTML||"";var ps=[].slice.call(w.querySelectorAll("p")).map(function(p){return cleanText(p.textContent);}).filter(function(t){return t.length>55&&!/^Nota de enquadramento:/i.test(t)&&!/^\[?https?:\/\//i.test(t)&&!/blogger\.googleusercontent/i.test(t);});var s=ps[0]||cleanText(x.titulo);return s.length>230?s.slice(0,227).replace(/\s+\S*$/,"")+"…":s;}
 function summary(x){return isJunkSummary(x.resumo)?fallbackSummary(x):cleanText(x.resumo);}
 function articleUrl(x){return "./artigo/"+encodeURIComponent(x.slug)+"/";}function canonical(x){return "https://blog.grupoeduardabispo.com.br/artigo/"+x.slug+"/";}
+
+function normalizeEditorialComponents(root){
+  var known={DESTAQUE:"destaque",REFLEXAO:"reflexao",AVISO:"aviso",FONTE:"fonte",CTA:"cta",OFERTA:"oferta",CARDS:"cards",ASSINATURA:"assinatura"};
+  var nodes=[].slice.call(root.children),active=null;
+  nodes.forEach(function(node){
+    if(node.tagName!=="P"){if(active)active.appendChild(node);return;}
+    var raw=node.textContent||"",open=raw.match(/^\s*\[(DESTAQUE|REFLEXAO|AVISO|FONTE|CTA|OFERTA|CARDS|ASSINATURA)\]\s*/i);
+    var close=raw.match(/\s*\[\/(DESTAQUE|REFLEXAO|AVISO|FONTE|CTA|OFERTA|CARDS|ASSINATURA)\]\s*$/i);
+    if(open&&known[open[1].toUpperCase()]){
+      if(active){active=null;}
+      active=document.createElement("section");active.dataset.gebComponent=known[open[1].toUpperCase()];
+      root.insertBefore(active,node);
+    }
+    if(open||close){
+      var clean=raw;
+      if(open)clean=clean.slice(open[0].length);
+      if(close)clean=clean.slice(0,clean.length-close[0].length);
+      if(clean.trim()){node.textContent=clean; if(active)active.appendChild(node);}
+      else node.remove();
+      if(close)active=null;
+    }else if(active)active.appendChild(node);
+  });
+}
+function linkEditorialServices(root){
+  var sites={
+    "GEB Empresarial":"https://gebempresarial.grupoeduardabispo.com.br/",
+    "GEB Educação":"https://gebeducacao.grupoeduardabispo.com.br/",
+    "GEB Saúde":"https://gebsaude.grupoeduardabispo.com.br/",
+    "GEB Inclusão":"https://gebinclusao.grupoeduardabispo.com.br/",
+    "GEB Tecnologia":"https://gebtecnologia.grupoeduardabispo.com.br/",
+    "EJA Mais Brasil":"https://ejamaisbrasil.com.br/consultor/geb",
+    "Bolsa Mais Brasil":"https://bolsamaisbrasil.com.br/geb/bolsas/",
+    "Grupo Eduarda Bispo":"https://grupoeduardabispo.com.br/"
+  };
+  var used={};var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),nodes=[],node;
+  while(node=walker.nextNode())nodes.push(node);
+  nodes.forEach(function(n){
+    if(n.parentElement.closest("a,script,style"))return;
+    var text=n.nodeValue,keys=Object.keys(sites).filter(function(k){return !used[k]&&text.indexOf(k)>=0;});
+    if(!keys.length)return;
+    keys.sort(function(a,b){return text.indexOf(a)-text.indexOf(b);});
+    var key=keys[0],at=text.indexOf(key);if(at<0)return;
+    var a=document.createElement("a");a.href=sites[key];a.textContent=key;
+    a.className="editorial-service-link";var after=n.splitText(at);after.nodeValue=after.nodeValue.slice(key.length);n.parentNode.insertBefore(a,after);used[key]=true;
+  });
+}
+
 function enhance(root){root.querySelectorAll("[data-geb-component]").forEach(function(sec){var type=sec.dataset.gebComponent;sec.classList.add("geb-component");sec.dataset.type=type;if(type==="cards"){sec.classList.add("cards-component");var nodes=[].slice.call(sec.children),current=null;sec.innerHTML="";nodes.forEach(function(n){if(/^H[2-4]$/.test(n.tagName)){current=document.createElement("div");current.className="mini-card";current.appendChild(n);sec.appendChild(current);}else{if(!current){current=document.createElement("div");current.className="mini-card";sec.appendChild(current);}current.appendChild(n);}});}if(type==="oferta")sec.classList.add("offer-component");if(type==="cta")sec.classList.add("cta-component");if(type==="cta"||type==="oferta"){var label="",url="";[].slice.call(sec.querySelectorAll("p")).forEach(function(p){var t=p.textContent.trim();if(t.indexOf("BOTÃO:")===0){label=t.replace(/^BOTÃO:\s*/,"");p.remove();}if(t.indexOf("LINK:")===0){url=t.replace(/^LINK:\s*/,"");p.remove();}});if(label&&url){var link=document.createElement("a");link.className="component-button";link.href=url;link.textContent=label;link.target="_blank";link.rel="noopener noreferrer";sec.appendChild(link);}}});}
 function enhanceLinks(root){
   [].slice.call(root.querySelectorAll("p")).forEach(function(p){
@@ -47,7 +94,7 @@ function renderArticle(a){if(!a){article.hidden=true;error.hidden=false;document
   if(/^Nota de enquadramento:/i.test(t)) el.classList.add("editorial-note");
   if(/^(\(?E-?book\)?|workshop Ser Coach IBC)$/i.test(t)) el.classList.add("legacy-context");
 });
-enhance(body);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){var refSec=document.getElementById("referencias"),refList=document.getElementById("lista-referencias");refSec.hidden=false;refList.innerHTML=refs.map(function(r){var m=String(r).match(/https?:\/\/\S+/);if(m){var raw=m[0].replace(/[).,;]+$/,"");var before=esc(String(r).replace(m[0],"").trim());return '<p class="reference-item">'+before+' <a href="'+esc(raw)+'" target="_blank" rel="noopener noreferrer">Acessar fonte ↗</a></p>';}return '<p class="reference-item">'+esc(r)+'</p>';}).join("");}
+normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){var refSec=document.getElementById("referencias"),refList=document.getElementById("lista-referencias");refSec.hidden=false;refList.innerHTML=refs.map(function(r){var m=String(r).match(/https?:\/\/\S+/);if(m){var raw=m[0].replace(/[).,;]+$/,"");var before=esc(String(r).replace(m[0],"").trim());return '<p class="reference-item">'+before+' <a href="'+esc(raw)+'" target="_blank" rel="noopener noreferrer">Acessar fonte ↗</a></p>';}return '<p class="reference-item">'+esc(r)+'</p>';}).join("");}
 var more=document.getElementById("mais-editoria");
 if(more){more.href="./?categoria="+encodeURIComponent(editoria);more.firstChild.textContent="Mais em "+editoria+" ";}
 var share=document.getElementById("compartilhar-artigo");
