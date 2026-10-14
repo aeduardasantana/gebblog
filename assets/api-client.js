@@ -21,7 +21,7 @@ async function catalog(){
     const merged=new Map();
     validated.forEach(a=>merged.set(a.slug,a));
     settled.forEach(result=>{if(result.status==="fulfilled"&&Array.isArray(result.value))result.value.forEach(a=>{if(a&&a.slug&&a.status==="Publicado"&&a.arquivo)merged.set(a.slug,a);});});
-    if(merged.size)return sort([...merged.values()].filter(a=>date(a)<=new Date().toLocaleDateString("en-CA",{timeZone:"America/Sao_Paulo"})));
+    if(merged.size)return sort([...merged.values()]);
     console.warn("Blog GEB: indices indisponiveis; exibindo somente artigos previamente recuperados.");
     return sort(fallback());
   })();
