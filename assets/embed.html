@@ -62,7 +62,7 @@
       let target="*";
       try{
         const u=new URL(ref);
-        if(/^https:\/\/(?:www\.)?gebsaude\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
+        if(/^https:\/\/(?:www\.)?geb(?:saude|empresarial)\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
       }catch(_){}
       if(window.parent!==window)window.parent.postMessage({type:"geb-blog-embed-height",height},target);
     }
