@@ -50,6 +50,12 @@
     .theme-educacao .art{background:linear-gradient(90deg,#171717,#bf913f)}
     .theme-educacao .label{background:#f7f5f0;color:#7a5418;border:1px solid #e8deca}
     .theme-educacao h2 a:focus-visible{outline-color:#bf913f}
+    body.theme-institucional{--navy:#101010;--blue:#b68a2d;--line:#ded7cb;--ink:#101010;--muted:#68635d;font-family:Inter,Arial,sans-serif}
+    .theme-institucional .card{border-radius:8px;box-shadow:0 8px 23px rgba(16,16,16,.07)}
+    .theme-institucional .card:hover,.theme-institucional .card:focus-within{border-color:#b68a2d}
+    .theme-institucional .art{background:linear-gradient(90deg,#101010,#b68a2d)}
+    .theme-institucional .label{background:#f5f2ec;color:#785516}
+    .theme-institucional h2 a:focus-visible{outline-color:#b68a2d}
   </style>
 </head>
 <body>
@@ -63,6 +69,7 @@
     const host=document.getElementById("articles");
     const params=new URLSearchParams(location.search);
     const requested=String(params.get("categoria")||"Saúde");
+    if(requested.toLowerCase()==="institucional")document.body.classList.add("theme-institucional");
     if(requested.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()==="educacao")document.body.classList.add("theme-educacao");
     if(requested.toLowerCase()==="tecnologia")document.body.classList.add("theme-tecnologia");
     if(requested.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()==="empresarial")document.body.classList.add("theme-empresarial");
@@ -92,7 +99,7 @@
       let target="*";
       try{
         const u=new URL(ref);
-        if(/^https:\/\/(?:www\.)?geb(?:saude|empresarial|inclusao|tecnologia|educacao)\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
+        if(/^https:\/\/(?:www\.)?geb(?:saude|empresarial|inclusao|tecnologia|educacao|grupoeduardabispo)\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
       }catch(_){}
       if(window.parent!==window)window.parent.postMessage({type:"geb-blog-embed-height",height},target);
     }
