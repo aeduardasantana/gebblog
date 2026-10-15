@@ -44,6 +44,12 @@
     .theme-tecnologia .art{background:linear-gradient(90deg,#102739,#748b9c)}
     .theme-tecnologia .label{background:#e8eaed;color:#102739}
     .theme-tecnologia h2 a:focus-visible{outline-color:#102739}
+    body.theme-educacao{--navy:#0a0a0a;--blue:#9d7228;--line:#d9d4ca;--ink:#171717;--muted:#6f6c65;font-family:Inter,Arial,sans-serif}
+    .theme-educacao .card{border-radius:4px;box-shadow:0 8px 20px rgba(10,10,10,.06)}
+    .theme-educacao .card:hover,.theme-educacao .card:focus-within{border-color:#bf913f;box-shadow:0 10px 25px rgba(10,10,10,.11)}
+    .theme-educacao .art{background:linear-gradient(90deg,#171717,#bf913f)}
+    .theme-educacao .label{background:#f7f5f0;color:#7a5418;border:1px solid #e8deca}
+    .theme-educacao h2 a:focus-visible{outline-color:#bf913f}
   </style>
 </head>
 <body>
@@ -57,6 +63,7 @@
     const host=document.getElementById("articles");
     const params=new URLSearchParams(location.search);
     const requested=String(params.get("categoria")||"Saúde");
+    if(requested.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()==="educacao")document.body.classList.add("theme-educacao");
     if(requested.toLowerCase()==="tecnologia")document.body.classList.add("theme-tecnologia");
     if(requested.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()==="empresarial")document.body.classList.add("theme-empresarial");
     if(requested.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()==="inclusao")document.body.classList.add("theme-inclusao");
@@ -85,7 +92,7 @@
       let target="*";
       try{
         const u=new URL(ref);
-        if(/^https:\/\/(?:www\.)?geb(?:saude|empresarial|inclusao|tecnologia)\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
+        if(/^https:\/\/(?:www\.)?geb(?:saude|empresarial|inclusao|tecnologia|educacao)\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
       }catch(_){}
       if(window.parent!==window)window.parent.postMessage({type:"geb-blog-embed-height",height},target);
     }
