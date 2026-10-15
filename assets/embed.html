@@ -51,14 +51,20 @@
       const x=Object.fromEntries(p.map(i=>[i.type,i.value]));
       return x.year+"-"+x.month+"-"+x.day;
     }
+    let lastHeight=0;
     function resize(){
+      // Medir o conteúdo, nunca a altura total do documento: esta última
+      // pode herdar a altura anterior do iframe e causar crescimento infinito.
+      const height=Math.ceil(host.getBoundingClientRect().height)+16;
+      if(height===lastHeight||height<100)return;
+      lastHeight=height;
       const ref=document.referrer;
       let target="*";
       try{
         const u=new URL(ref);
         if(/^https:\/\/(?:www\.)?gebsaude\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
       }catch(_){}
-      if(window.parent!==window)window.parent.postMessage({type:"geb-blog-embed-height",height:Math.ceil(document.documentElement.scrollHeight)+4},target);
+      if(window.parent!==window)window.parent.postMessage({type:"geb-blog-embed-height",height},target);
     }
     function state(message){
       host.replaceChildren();
@@ -76,7 +82,7 @@
       const date=document.createElement("time");date.className="meta";date.dateTime=iso(a);date.textContent=a.dataPublicacao||iso(a).split("-").reverse().join("/");
       inner.append(badge,heading,summary,date);article.append(art,inner);return article;
     }
-    if("ResizeObserver" in window)new ResizeObserver(resize).observe(document.body);
+    if("ResizeObserver" in window)new ResizeObserver(resize).observe(host);
     window.addEventListener("load",resize);
     window.addEventListener("resize",resize);
     if(!window.GEB_BLOG_API){state("Os artigos estão temporariamente indisponíveis.");return;}
