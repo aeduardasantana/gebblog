@@ -31,6 +31,13 @@
     .theme-empresarial .art{background:linear-gradient(90deg,#14211b,#b18420)}
     .theme-empresarial .label{background:#f7f5ef;color:#745d18}
     .theme-empresarial h2 a:focus-visible{outline-color:#b18420}
+    /* Tema GEB Inclusão: azul institucional e papel bege. */
+    body.theme-inclusao{--navy:#0b1f3a;--blue:#003087;--line:#d9dce2;--ink:#141414;--muted:#656a72}
+    .theme-inclusao .card{border-radius:12px;box-shadow:0 9px 24px rgba(11,31,58,.075)}
+    .theme-inclusao .card:hover,.theme-inclusao .card:focus-within{border-color:#003087;box-shadow:0 10px 26px rgba(11,31,58,.14)}
+    .theme-inclusao .art{background:linear-gradient(90deg,#0b1f3a,#003087)}
+    .theme-inclusao .label{background:#edf2ff;color:#003087}
+    .theme-inclusao h2 a:focus-visible{outline-color:#003087}
   </style>
 </head>
 <body>
@@ -45,6 +52,7 @@
     const params=new URLSearchParams(location.search);
     const requested=String(params.get("categoria")||"Saúde");
     if(requested.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()==="empresarial")document.body.classList.add("theme-empresarial");
+    if(requested.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()==="inclusao")document.body.classList.add("theme-inclusao");
     const limit=Math.min(6,Math.max(1,Number.parseInt(params.get("limite"),10)||3));
     const normalize=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
     const categoryURL="https://blog.grupoeduardabispo.com.br/?categoria="+encodeURIComponent(requested);
@@ -70,7 +78,7 @@
       let target="*";
       try{
         const u=new URL(ref);
-        if(/^https:\/\/(?:www\.)?geb(?:saude|empresarial)\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
+        if(/^https:\/\/(?:www\.)?geb(?:saude|empresarial|inclusao)\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
       }catch(_){}
       if(window.parent!==window)window.parent.postMessage({type:"geb-blog-embed-height",height},target);
     }
