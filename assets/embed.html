@@ -24,6 +24,13 @@
     .state a{color:var(--blue);font-weight:750}
     @media(max-width:760px){.grid{grid-template-columns:1fr;gap:14px}.inner{padding:20px}.summary{-webkit-line-clamp:2}}
     @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important}}
+    /* Paleta exclusiva do embed Empresarial; Saúde permanece inalterada. */
+    body.theme-empresarial{--navy:#14211b;--blue:#b18420;--line:#d9ddd8;--ink:#14211b;--muted:#66716a}
+    .theme-empresarial .card{border-radius:12px;box-shadow:0 8px 24px rgba(20,33,27,.075)}
+    .theme-empresarial .card:hover,.theme-empresarial .card:focus-within{border-color:#b18420;box-shadow:0 10px 26px rgba(20,33,27,.13)}
+    .theme-empresarial .art{background:linear-gradient(90deg,#14211b,#b18420)}
+    .theme-empresarial .label{background:#f7f5ef;color:#745d18}
+    .theme-empresarial h2 a:focus-visible{outline-color:#b18420}
   </style>
 </head>
 <body>
@@ -37,6 +44,7 @@
     const host=document.getElementById("articles");
     const params=new URLSearchParams(location.search);
     const requested=String(params.get("categoria")||"Saúde");
+    if(requested.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()==="empresarial")document.body.classList.add("theme-empresarial");
     const limit=Math.min(6,Math.max(1,Number.parseInt(params.get("limite"),10)||3));
     const normalize=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
     const categoryURL="https://blog.grupoeduardabispo.com.br/?categoria="+encodeURIComponent(requested);
