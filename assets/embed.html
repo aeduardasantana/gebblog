@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#f2f8fb">
+  <title>Artigos recentes por categoria | Blog GEB</title>
+  <style>
+    :root{color-scheme:light;--navy:#123b63;--blue:#176b9c;--line:#dbe7ee;--ink:#243541;--muted:#5d6e79}
+    *{box-sizing:border-box}html,body{margin:0;padding:0}body{font:16px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:transparent}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:4px 1px 9px}
+    .card{display:flex;flex-direction:column;min-width:0;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px rgba(18,59,99,.065)}
+    .card:focus-within,.card:hover{border-color:#8abbd4;box-shadow:0 10px 26px rgba(18,59,99,.13)}
+    .art{height:7px;background:linear-gradient(100deg,#176b9c,#35a08e)}
+    .inner{padding:22px 22px 19px;display:flex;flex-direction:column;flex:1}
+    .label{display:inline-flex;align-self:flex-start;padding:5px 10px;font-weight:800;font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;background:#eaf4f9;color:var(--navy);border-radius:99px}
+    h2{font-size:clamp(1.04rem,2vw,1.24rem);line-height:1.35;margin:14px 0 10px;color:var(--navy);letter-spacing:-.015em}
+    h2 a{color:inherit;text-decoration:none}h2 a:hover{text-decoration:underline}h2 a:focus-visible{outline:3px solid #1681b8;outline-offset:4px}
+    .summary{font-size:.9rem;color:var(--muted);margin:0 0 20px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    .meta{margin-top:auto;font-size:.78rem;color:#5d6e79;font-weight:650}
+    .state{padding:16px 20px;color:var(--muted);font-size:.96rem;border:1px solid var(--line);border-radius:10px;background:white}
+    .state a{color:var(--blue);font-weight:750}
+    @media(max-width:760px){.grid{grid-template-columns:1fr;gap:14px}.inner{padding:20px}.summary{-webkit-line-clamp:2}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <main id="articles" aria-label="Artigos do Blog GEB"><p class="state" role="status">Carregando os artigos mais recentes…</p></main>
+  <script src="../conteudo/publicados/catalogo.js"></script>
+  <script src="../conteudo/indices/catalogo.js"></script>
+  <script src="./api-client.js"></script>
+  <script>
+  (function(){
+    "use strict";
+    const host=document.getElementById("articles");
+    const params=new URLSearchParams(location.search);
+    const requested=String(params.get("categoria")||"Saúde");
+    const limit=Math.min(6,Math.max(1,Number.parseInt(params.get("limite"),10)||3));
+    const normalize=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+    const categoryURL="https://blog.grupoeduardabispo.com.br/?categoria="+encodeURIComponent(requested);
+    function iso(a){
+      const v=String(a.dataPublicacaoISO||"");
+      if(/^\d{4}-\d{2}-\d{2}$/.test(v))return v;
+      const m=String(a.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+      return m?m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0"):"0000-00-00";
+    }
+    function todaySaoPaulo(){
+      const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/Sao_Paulo",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());
+      const x=Object.fromEntries(p.map(i=>[i.type,i.value]));
+      return x.year+"-"+x.month+"-"+x.day;
+    }
+    function resize(){
+      const ref=document.referrer;
+      let target="*";
+      try{
+        const u=new URL(ref);
+        if(/^https:\/\/(?:www\.)?gebsaude\.grupoeduardabispo\.com\.br$/.test(u.origin))target=u.origin;
+      }catch(_){}
+      if(window.parent!==window)window.parent.postMessage({type:"geb-blog-embed-height",height:Math.ceil(document.documentElement.scrollHeight)+4},target);
+    }
+    function state(message){
+      host.replaceChildren();
+      const p=document.createElement("p");p.className="state";p.setAttribute("role","status");p.append(document.createTextNode(message+" "));
+      const a=document.createElement("a");a.href=categoryURL;a.target="_top";a.textContent="Ver artigos no Blog GEB";p.append(a);host.append(p);resize();
+    }
+    function card(a){
+      const article=document.createElement("article");article.className="card";
+      const art=document.createElement("div");art.className="art";art.setAttribute("aria-hidden","true");
+      const inner=document.createElement("div");inner.className="inner";
+      const badge=document.createElement("span");badge.className="label";badge.textContent=requested;
+      const heading=document.createElement("h2");
+      const link=document.createElement("a");link.href="https://blog.grupoeduardabispo.com.br/artigo/"+encodeURIComponent(a.slug)+"/";link.target="_top";link.textContent=a.titulo;heading.append(link);
+      const summary=document.createElement("p");summary.className="summary";summary.textContent=String(a.resumo||a.subtitulo||"Leia o artigo completo no Blog GEB.").replace(/\s+/g," ").slice(0,220);
+      const date=document.createElement("time");date.className="meta";date.dateTime=iso(a);date.textContent=a.dataPublicacao||iso(a).split("-").reverse().join("/");
+      inner.append(badge,heading,summary,date);article.append(art,inner);return article;
+    }
+    if("ResizeObserver" in window)new ResizeObserver(resize).observe(document.body);
+    window.addEventListener("load",resize);
+    window.addEventListener("resize",resize);
+    if(!window.GEB_BLOG_API){state("Os artigos estão temporariamente indisponíveis.");return;}
+    window.GEB_BLOG_API.consultar({acao:"artigos"}).then(function(response){
+      if(!response.sucesso||!Array.isArray(response.dados))throw new Error("Catálogo indisponível");
+      const today=todaySaoPaulo();
+      const items=response.dados.filter(a=>{
+        if(!a||a.status!=="Publicado"||!a.slug||!a.titulo)return false;
+        const categories=Array.isArray(a.categorias)&&a.categorias.length?a.categorias:[a.categoria];
+        const d=iso(a);
+        return categories.some(c=>normalize(c)===normalize(requested)) && d!=="0000-00-00" && d<=today;
+      }).sort((a,b)=>iso(b).localeCompare(iso(a))||String(a.titulo).localeCompare(String(b.titulo),"pt-BR")).slice(0,limit);
+      if(!items.length){state("Ainda não há artigos publicados nesta categoria.");return;}
+      const grid=document.createElement("div");grid.className="grid";items.forEach(a=>grid.append(card(a)));
+      host.replaceChildren(grid);resize();
+      document.fonts&&document.fonts.ready&&document.fonts.ready.then(resize);
+    }).catch(function(e){console.error("Blog GEB: falha na incorporação",e);state("Não foi possível carregar os artigos agora.");});
+  })();
+  </script>
+</body>
+</html>
