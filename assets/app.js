@@ -1,17 +1,17 @@
 (function(){
 var articles=[];var params=new URLSearchParams(location.search);
-var categoria=params.get("categoria")||"",tag=params.get("tag")||"",q=params.get("q")||"";
+var categoria=(params.get("categoria")==="Eduarda"?"Desenvolvimento":params.get("categoria"))||"",tag=params.get("tag")||"",q=params.get("q")||"";
 var lista=document.getElementById("lista-artigos"),vazio=document.getElementById("estado-vazio"),busca=document.getElementById("busca"),limpar=document.getElementById("limpar-filtros"),titulo=document.getElementById("titulo-lista"),contexto=document.getElementById("contexto-lista");
 var seletor=document.getElementById("filtro-categoria"),estadoAcervo=document.getElementById("situacao-acervo");
-var editorias=["Empresarial","Educação","Saúde","Inclusão","Tecnologia","Institucional","Eduarda","Fé"];
+var editorias=["Empresarial","Educação","Saúde","Inclusão","Tecnologia","Institucional","Desenvolvimento","Fé","Artigos de terceiros"];
 function setEstado(t){if(!estadoAcervo)return;estadoAcervo.textContent=t||"";estadoAcervo.hidden=!t;}
 function updateURL(){var u=new URLSearchParams();if(categoria)u.set("categoria",categoria);if(tag)u.set("tag",tag);if(q)u.set("q",q);history.replaceState(null,"","./"+(u.toString()?"?"+u.toString():""));}
 
 function esc(v){return String(v||"").replace(/[&<>"']/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m];});}
 function norm(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
-function cats(a){var c=Array.isArray(a.categorias)?a.categorias:(a.categoria?[a.categoria]:[]);return c.filter(Boolean);}
+function cats(a){var c=Array.isArray(a.categorias)?a.categorias:(a.categoria?[a.categoria]:[]);return c.filter(Boolean).map(function(x){return norm(x)===norm("Eduarda")?"Desenvolvimento":x;});}
 function catsLabel(a){return cats(a).join(" · ");}
-function theme(a){var c=cats(a);var categories=["Empresarial","Educação","Saúde","Inclusão","Tecnologia","Institucional","Eduarda","Fé"];return categories.find(function(x){return c.some(function(y){return norm(y)===norm(x);});})||"Institucional";}
+function theme(a){var c=cats(a);var categories=["Empresarial","Educação","Saúde","Inclusão","Tecnologia","Institucional","Desenvolvimento","Fé","Artigos de terceiros"];return categories.find(function(x){return c.some(function(y){return norm(y)===norm(x);});})||"Institucional";}
 function isoDate(a){var d=String(a.dataPublicacaoISO||"");if(/^\d{4}-\d{2}-\d{2}$/.test(d))return d;var b=String(a.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return b?b[3]+"-"+b[2].padStart(2,"0")+"-"+b[1].padStart(2,"0"):"0000-00-00";}
 function orderByPublication(data){return data.slice().sort(function(a,b){var da=isoDate(a),db=isoDate(b);return db.localeCompare(da)||String(a.titulo||"").localeCompare(String(b.titulo||""),"pt-BR");});}
 function mergePublished(data){var map=new Map();articles.concat(data).forEach(function(a){if(a&&a.slug)map.set(a.slug,a);});articles=orderByPublication(Array.from(map.values()));render();}
