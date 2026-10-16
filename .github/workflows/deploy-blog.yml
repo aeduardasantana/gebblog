@@ -10,6 +10,7 @@ on:
       - 'artigo.html'
       - 'assets/**'
       - 'conteudo/**'
+      - 'shopping/**'
       - 'api.php'
       - '.htaccess'
       - 'robots.txt'
