@@ -4,6 +4,7 @@ var categoria=(params.get("categoria")==="Eduarda"?"Desenvolvimento":params.get(
 var lista=document.getElementById("lista-artigos"),vazio=document.getElementById("estado-vazio"),busca=document.getElementById("busca"),limpar=document.getElementById("limpar-filtros"),titulo=document.getElementById("titulo-lista"),contexto=document.getElementById("contexto-lista");
 var seletor=document.getElementById("filtro-categoria"),estadoAcervo=document.getElementById("situacao-acervo");
 var editorias=["Empresarial","Educação","Saúde","Inclusão","Tecnologia","Institucional","Desenvolvimento","Fé","Artigos de terceiros"];
+var faixaShopping=document.getElementById("geb-discovery");if(faixaShopping)faixaShopping.hidden=(String(categoria).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()!=="artigos de terceiros");
 function setEstado(t){if(!estadoAcervo)return;estadoAcervo.textContent=t||"";estadoAcervo.hidden=!t;}
 function updateURL(){var u=new URLSearchParams();if(categoria)u.set("categoria",categoria);if(tag)u.set("tag",tag);if(q)u.set("q",q);history.replaceState(null,"","./"+(u.toString()?"?"+u.toString():""));}
 
