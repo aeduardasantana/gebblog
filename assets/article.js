@@ -57,6 +57,50 @@ function linkEditorialServices(root){
   });
 }
 
+var REGIONAL_NR1_PAGES=[["Acre","Rio Branco","acre"],["Alagoas","Maceió","alagoas"],["Amapá","Macapá","amapa"],["Amazonas","Manaus","amazonas"],["Bahia","Salvador","bahia"],["Ceará","Fortaleza","ceara"],["Distrito Federal","Brasília","distrito-federal"],["Espírito Santo","Vitória","espirito-santo"],["Goiás","Goiânia","goias"],["Maranhão","São Luís","maranhao"],["Mato Grosso","Cuiabá","mato-grosso"],["Mato Grosso do Sul","Campo Grande","mato-grosso-do-sul"],["Minas Gerais","Belo Horizonte","minas-gerais"],["Pará","Belém","para"],["Paraíba","João Pessoa","paraiba"],["Paraná","Curitiba","parana"],["Pernambuco","Recife","pernambuco"],["Piauí","Teresina","piaui"],["Rio de Janeiro","Rio de Janeiro","rio-de-janeiro"],["Rio Grande do Norte","Natal","rio-grande-do-norte"],["Rio Grande do Sul","Porto Alegre","rio-grande-do-sul"],["Rondônia","Porto Velho","rondonia"],["Roraima","Boa Vista","roraima"],["Santa Catarina","Florianópolis","santa-catarina"],["São Paulo","São Paulo","sao-paulo"],["Sergipe","Aracaju","sergipe"],["Tocantins","Palmas","tocantins"]];
+
+function linkRegionalNR1(root,articleSlug){
+  if(!/^nr-1-na-regiao-(norte|nordeste|centro-oeste|sudeste|sul)(?:-|$)/i.test(String(articleSlug||"")))return;
+  var regions={
+    norte:["acre","amapa","amazonas","para","rondonia","roraima","tocantins"],
+    nordeste:["alagoas","bahia","ceara","maranhao","paraiba","pernambuco","piaui","rio-grande-do-norte","sergipe"],
+    "centro-oeste":["distrito-federal","goias","mato-grosso","mato-grosso-do-sul"],
+    sudeste:["espirito-santo","minas-gerais","rio-de-janeiro","sao-paulo"],
+    sul:["parana","rio-grande-do-sul","santa-catarina"]
+  };
+  var region=String(articleSlug).match(/^nr-1-na-regiao-(centro-oeste|nordeste|sudeste|norte|sul)(?:-|$)/i)[1].toLowerCase();
+  var keys=[],seen={};
+  REGIONAL_NR1_PAGES.forEach(function(r){
+    if(regions[region].indexOf(r[2])<0)return;
+    [r[0],r[1]].forEach(function(label){
+      if(!seen[label]){keys.push({label:label,slug:r[2]});seen[label]=true;}
+    });
+  });
+  keys.sort(function(a,b){return b.label.length-a.label.length;});
+  var escaped=keys.map(function(k){return k.label.replace(/[.*+?^$()|[\]{}\\]/g,"\\function enhance(root){");});
+  var pattern=new RegExp("(^|[^\\p{L}])("+escaped.join("|")+")(?![\\p{L}])","giu");
+  var lookup={};keys.forEach(function(k){lookup[k.label.toLocaleLowerCase("pt-BR")]=k.slug;});
+  var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),nodes=[],node;
+  while(node=walker.nextNode())if(node.parentElement&&!node.parentElement.closest("a,script,style,button,textarea"))nodes.push(node);
+  nodes.forEach(function(n){
+    var value=n.nodeValue||"";pattern.lastIndex=0;
+    if(!pattern.test(value))return;
+    pattern.lastIndex=0;
+    var frag=document.createDocumentFragment(),at=0,m;
+    while((m=pattern.exec(value))){
+      var start=m.index+m[1].length;
+      if(start>at)frag.appendChild(document.createTextNode(value.slice(at,start)));
+      var a=document.createElement("a");
+      a.href="https://gebempresarial.grupoeduardabispo.com.br/nr-1/"+lookup[m[2].toLocaleLowerCase("pt-BR")]+"/";
+      a.className="editorial-service-link regional-nr1-link";
+      a.textContent=m[2];a.title="NR-1 em "+m[2]+" | GEB Empresarial";
+      frag.appendChild(a);at=start+m[2].length;
+    }
+    if(at<value.length)frag.appendChild(document.createTextNode(value.slice(at)));
+    n.parentNode.replaceChild(frag,n);
+  });
+}
+
 function enhance(root){root.querySelectorAll("[data-geb-component]").forEach(function(sec){var type=sec.dataset.gebComponent;sec.classList.add("geb-component");sec.dataset.type=type;if(type==="cards"){sec.classList.add("cards-component");var nodes=[].slice.call(sec.children),current=null;sec.innerHTML="";nodes.forEach(function(n){if(/^H[2-4]$/.test(n.tagName)){current=document.createElement("div");current.className="mini-card";current.appendChild(n);sec.appendChild(current);}else{if(!current){current=document.createElement("div");current.className="mini-card";sec.appendChild(current);}current.appendChild(n);}});}if(type==="oferta")sec.classList.add("offer-component");if(type==="cta")sec.classList.add("cta-component");if(type==="cta"||type==="oferta"){var label="",url="";[].slice.call(sec.querySelectorAll("p")).forEach(function(p){var t=p.textContent.trim();if(t.indexOf("BOTÃO:")===0){label=t.replace(/^BOTÃO:\s*/,"");p.remove();}if(t.indexOf("LINK:")===0){url=t.replace(/^LINK:\s*/,"");p.remove();}});if(label&&url){var link=document.createElement("a");link.className="component-button";link.href=url;link.textContent=label;link.target="_blank";link.rel="noopener noreferrer";sec.appendChild(link);}}});}
 function enhanceLinks(root){
   [].slice.call(root.querySelectorAll("p")).forEach(function(p){
@@ -94,7 +138,7 @@ function renderArticle(a){if(!a){article.hidden=true;error.hidden=false;document
   if(/^Nota de enquadramento:/i.test(t)) el.classList.add("editorial-note");
   if(/^(\(?E-?book\)?|workshop Ser Coach IBC)$/i.test(t)) el.classList.add("legacy-context");
 });
-normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){var refSec=document.getElementById("referencias"),refList=document.getElementById("lista-referencias");refSec.hidden=false;refList.innerHTML=refs.map(function(r){var m=String(r).match(/https?:\/\/\S+/);if(m){var raw=m[0].replace(/[).,;]+$/,"");var before=esc(String(r).replace(m[0],"").trim());return '<p class="reference-item">'+before+' <a href="'+esc(raw)+'" target="_blank" rel="noopener noreferrer">Acessar fonte ↗</a></p>';}return '<p class="reference-item">'+esc(r)+'</p>';}).join("");}
+normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){var refSec=document.getElementById("referencias"),refList=document.getElementById("lista-referencias");refSec.hidden=false;refList.innerHTML=refs.map(function(r){var m=String(r).match(/https?:\/\/\S+/);if(m){var raw=m[0].replace(/[).,;]+$/,"");var before=esc(String(r).replace(m[0],"").trim());return '<p class="reference-item">'+before+' <a href="'+esc(raw)+'" target="_blank" rel="noopener noreferrer">Acessar fonte ↗</a></p>';}return '<p class="reference-item">'+esc(r)+'</p>';}).join("");}
 var more=document.getElementById("mais-editoria");
 if(more){more.href="./?categoria="+encodeURIComponent(editoria);more.firstChild.textContent="Mais em "+editoria+" ";}
 var share=document.getElementById("compartilhar-artigo");
