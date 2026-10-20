@@ -1,0 +1,184 @@
+[
+  {
+    "titulo": "Liderança situacional: adaptar o apoio sem rotular pessoas",
+    "subtitulo": "O apoio necessário muda conforme a tarefa, o contexto e a experiência.",
+    "slug": "lideranca-situacional-adaptar-apoio-sem-rotular",
+    "resumo": "Entenda a liderança situacional e seus limites: como orientar, apoiar e delegar sem reduzir profissionais a rótulos.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "liderança situacional",
+      "gestão de pessoas",
+      "carreira"
+    ],
+    "autorPublico": "Eduarda Bispo",
+    "dataPublicacao": "19/10/2026",
+    "dataPublicacaoISO": "2026-10-19",
+    "dataEditorialPlanejada": "16/10/2026",
+    "dataCargaTecnica": "19/10/2026",
+    "status": "Publicado",
+    "tituloSEO": "Liderança situacional: adaptar o apoio sem rotular pessoas",
+    "descricaoSEO": "Entenda a liderança situacional e seus limites: como orientar, apoiar e delegar sem reduzir profissionais a rótulos.",
+    "generoEditorial": "Análise",
+    "documentId": "11kNmZ08eNKQCjfQHmYxj1uAX42Beecz9fFjSJyQDs0A",
+    "arquivo": "./desenvolvimento/lideranca-situacional-adaptar-apoio-sem-rotular.json"
+  },
+  {
+    "titulo": "5 Porquês: investigar a causa de um problema sem procurar culpados",
+    "subtitulo": "Uma técnica simples de análise pode gerar boas perguntas — desde que a equipe confirme hipóteses e considere o processo inteiro.",
+    "slug": "cinco-porques-causa-raiz-sem-culpados",
+    "resumo": "Aprenda a aplicar os 5 Porquês, diferenciar sintomas de causas e evitar conclusões apressadas na melhoria de processos.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "5 Porquês",
+      "qualidade",
+      "análise de causa raiz"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "19/10/2026",
+    "dataPublicacaoISO": "2026-10-19",
+    "dataEditorialPlanejada": "16/10/2026",
+    "dataCargaTecnica": "19/10/2026",
+    "status": "Publicado",
+    "tituloSEO": "5 Porquês: investigar a causa de um problema sem procurar culpados",
+    "descricaoSEO": "Como investigar causas de problemas com os 5 Porquês, reconhecer limites e definir ações mensuráveis.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1w0wpD2wZMYVGOTyAJZI_8jnFJYPONOOJXwRaX3_Epwc",
+    "arquivo": "./empresarial/cinco-porques-causa-raiz-sem-culpados.json"
+  },
+  {
+    "titulo": "ENEM 2026: como distribuir o tempo entre questões e redação",
+    "subtitulo": "A gestão do relógio precisa ser treinada antes da prova, sem confundir sugestão de estudo com regra oficial do Inep.",
+    "slug": "enem-2026-distribuir-tempo-questoes-redacao",
+    "resumo": "Veja como simular o tempo do ENEM 2026, reservar minutos para o cartão-resposta e organizar a redação sem perder o foco.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "ENEM 2026",
+      "tempo de prova",
+      "redação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "19/10/2026",
+    "dataPublicacaoISO": "2026-10-19",
+    "dataEditorialPlanejada": "16/10/2026",
+    "dataCargaTecnica": "19/10/2026",
+    "status": "Publicado",
+    "tituloSEO": "ENEM 2026: como distribuir o tempo entre questões e redação",
+    "descricaoSEO": "Veja como simular o tempo do ENEM 2026, reservar minutos para o cartão-resposta e organizar a redação sem perder o foco.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1AfAHlfhUpyViAjFCBetptsuo_qlt5X_a_7KiF6k0x9w",
+    "arquivo": "./educacao/enem-2026-distribuir-tempo-questoes-redacao.json"
+  },
+  {
+    "titulo": "Pausas curtas e cansaço mental: o que a pesquisa permite afirmar",
+    "subtitulo": "Interromper uma tarefa pode ajudar na recuperação, mas não resolve sozinho uma rotina de sobrecarga.",
+    "slug": "pausas-curtas-cansaco-mental-evidencias",
+    "resumo": "Veja o que estudos sobre micropausas mostram sobre fadiga e vigor, sem promessas de cura ou produtividade garantida.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "cansaço mental",
+      "pausas",
+      "bem-estar"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "19/10/2026",
+    "dataPublicacaoISO": "2026-10-19",
+    "dataEditorialPlanejada": "16/10/2026",
+    "dataCargaTecnica": "19/10/2026",
+    "status": "Publicado",
+    "tituloSEO": "Pausas curtas e cansaço mental: o que a pesquisa permite afirmar",
+    "descricaoSEO": "Veja o que estudos sobre micropausas mostram sobre fadiga e vigor, sem promessas de cura ou produtividade garantida.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "10KPMgHssXrJdKcxOSVMY4g4xjjt54uLD3EfCEcZhiLs",
+    "arquivo": "./saude/pausas-curtas-cansaco-mental-evidencias.json"
+  },
+  {
+    "titulo": "Privilégio mínimo: por que nem toda equipe precisa acessar tudo",
+    "subtitulo": "Organizar permissões digitais reduz exposição de dados e facilita a gestão quando pessoas mudam de função.",
+    "slug": "principio-menor-privilegio-acessos-equipes",
+    "resumo": "Entenda o princípio do menor privilégio, como revisar permissões e por que acessos excessivos aumentam riscos digitais.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "segurança digital",
+      "permissões",
+      "acesso"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "19/10/2026",
+    "dataPublicacaoISO": "2026-10-19",
+    "dataEditorialPlanejada": "16/10/2026",
+    "dataCargaTecnica": "19/10/2026",
+    "status": "Publicado",
+    "tituloSEO": "Privilégio mínimo: por que nem toda equipe precisa acessar tudo",
+    "descricaoSEO": "Entenda o princípio do menor privilégio, como revisar permissões e por que acessos excessivos aumentam riscos digitais.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1YPiQFcO0LHevn86z-Z3dIwJSqGVxbrVBZ807GmYmnD8",
+    "arquivo": "./tecnologia/principio-menor-privilegio-acessos-equipes.json"
+  },
+  {
+    "titulo": "Atendimento em Libras: como acolher sem depender de acompanhante",
+    "subtitulo": "Comunicação acessível começa quando o serviço reconhece a pessoa surda como interlocutora principal.",
+    "slug": "atendimento-libras-autonomia-sem-acompanhante",
+    "resumo": "Saiba como planejar atendimento acessível em Libras, evitar barreiras comunicacionais e respeitar a autonomia da pessoa surda.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "atendimento acessível",
+      "autonomia"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "19/10/2026",
+    "dataPublicacaoISO": "2026-10-19",
+    "dataEditorialPlanejada": "16/10/2026",
+    "dataCargaTecnica": "19/10/2026",
+    "status": "Publicado",
+    "tituloSEO": "Atendimento em Libras: autonomia e acolhimento da pessoa surda",
+    "descricaoSEO": "Veja como oferecer atendimento em Libras sem depender de familiares e respeitando a comunicação da pessoa surda.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1iTt9iOiAVTR1hzxrq8CkGeeNMo5XEQD8TduKMH65qsw",
+    "arquivo": "./inclusao/atendimento-libras-autonomia-sem-acompanhante.json"
+  },
+  {
+    "titulo": "Reclamações como aprendizado: o que fazer depois de responder ao cliente",
+    "subtitulo": "Resolver um caso é importante; aprender com padrões recorrentes pode melhorar a experiência de todos.",
+    "slug": "reclamacoes-clientes-aprendizado-melhoria-servicos",
+    "resumo": "Entenda como registrar, analisar e usar reclamações de clientes para aprimorar serviços, sem transformar cada relato em conflito.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "experiência do cliente",
+      "qualidade",
+      "melhoria contínua"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "19/10/2026",
+    "dataPublicacaoISO": "2026-10-19",
+    "dataEditorialPlanejada": "16/10/2026",
+    "dataCargaTecnica": "19/10/2026",
+    "status": "Publicado",
+    "tituloSEO": "Reclamações de clientes: como transformar feedback em melhoria",
+    "descricaoSEO": "Como organizar reclamações, identificar causas recorrentes e melhorar serviços com foco no cliente e respeito aos dados.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1fPs-J2dKkBPKxLIgbpkVyWmP6lkJp8H5blBmAKd9x9k",
+    "arquivo": "./institucional/reclamacoes-clientes-aprendizado-melhoria-servicos.json"
+  }
+]
