@@ -98,14 +98,13 @@ normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);enh
 var more=document.getElementById("mais-editoria");
 if(more){more.href="./?categoria="+encodeURIComponent(editoria);more.firstChild.textContent="Mais em "+editoria+" ";}
 var share=document.getElementById("compartilhar-artigo");
-if(share&&!share.dataset.wired){share.dataset.wired="1";share.addEventListener("click",async function(){
+if(share&&!share.dataset.wired){share.dataset.wired="1";share.setAttribute("aria-label","Compartilhar artigo pelo WhatsApp");share.addEventListener("click",function(){
   var link=canonical(a),msg=document.getElementById("feedback-compartilhamento");
   var texto=[cleanText(a.titulo),summary(a),link].filter(Boolean).join("\n\n");
-  try{
-    if(navigator.share){await navigator.share({text:texto});if(msg){msg.hidden=false;msg.textContent="Compartilhamento iniciado.";}return;}
-    if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(texto);if(msg){msg.hidden=false;msg.textContent="Título, resumo e link copiados para compartilhar.";}return;}
-    window.prompt("Copie o texto do artigo para compartilhar:",texto);
-  }catch(err){if(err&&err.name==="AbortError")return;if(msg){msg.hidden=false;msg.textContent="Copie o endereço desta página para compartilhar.";} }
+  var whatsapp="https://api.whatsapp.com/send?text="+encodeURIComponent(texto);
+  var popup=window.open(whatsapp,"_blank","noopener,noreferrer");
+  if(!popup)window.location.href=whatsapp;
+  if(msg){msg.hidden=false;msg.textContent="Abrindo o WhatsApp com título, resumo e link do artigo.";}
 });}
 var c=canonical(a);document.title=(a.tituloSEO||a.titulo)+" — Blog GEB";document.querySelector('meta[name="description"]').setAttribute("content",a.descricaoSEO||a.resumo||"");document.getElementById("canonical-link").setAttribute("href",c);document.getElementById("og-title").setAttribute("content",a.titulo);document.getElementById("og-description").setAttribute("content",a.descricaoSEO||a.resumo||"");document.getElementById("og-url").setAttribute("content",c);var ld=document.createElement("script");ld.type="application/ld+json";ld.textContent=JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":a.titulo,"description":summary(a),"datePublished":a.dataPublicacao.split("/").reverse().join("-"),"author":{"@type":"Organization","name":a.autorPublico},"publisher":{"@type":"Organization","name":"GEB — Grupo Eduarda Bispo"},"mainEntityOfPage":c});document.head.appendChild(ld);related();
 }
