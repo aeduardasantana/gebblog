@@ -109,6 +109,7 @@
     });
   }
   document.querySelectorAll("[data-geb-tts]").forEach(init);
-  document.addEventListener("visibilitychange", function () { if (document.hidden && active) stop(); });
+  // A mudança de aba não deve interromper a leitura voluntariamente.
+  // Alguns navegadores podem suspender speechSynthesis em segundo plano.
   window.addEventListener("pagehide", stop);
 })();
