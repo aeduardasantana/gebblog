@@ -1,0 +1,26 @@
+{
+  "titulo": "IA na gestão da saúde: dados confiáveis vêm antes de qualquer algoritmo",
+  "subtitulo": "A transformação digital em saúde exige qualidade dos registros, segurança e integração entre equipes.",
+  "slug": "ia-na-gestao-da-saude-dados-confiaveis-vem-antes-de-qualquer-algoritmo",
+  "resumo": "A transformação digital em saúde exige qualidade dos registros, segurança e integração entre equipes.",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "dataPublicacao": "18/10/2026",
+  "dataPublicacaoISO": "2026-10-18",
+  "status": "Publicado",
+  "generoEditorial": "Análise jornalística",
+  "tituloSEO": "IA na gestão da saúde: dados confiáveis vêm antes de qualquer algoritmo",
+  "descricaoSEO": "A transformação digital em saúde exige qualidade dos registros, segurança e integração entre equipes.",
+  "canonicalUrl": "https://blog.grupoeduardabispo.com.br/artigo/ia-na-gestao-da-saude-dados-confiaveis-vem-antes-de-qualquer-algoritmo/",
+  "conteudoHTML": "<h2>O fato e seu contexto</h2><p>Entrevista publicada em 16 de outubro por Saúde Business, a partir do Universo TOTVS 2026, destacou as aplicações de inteligência artificial na gestão de instituições de saúde e a importância dos dados. A discussão permanece pertinente à agenda de 18 de outubro.</p><p>O assunto oferece uma oportunidade de análise, mas a data editorial não transforma uma tendência ou uma notícia anterior em acontecimento ocorrido naquele dia. Por isso, o foco deste artigo é o problema específico que esse episódio ajuda a compreender.</p><h2>Governança de dados de saúde precede modelos inteligentes</h2><p>Dados clínicos e operacionais têm propósitos distintos e não podem ser combinados indiscriminadamente. Antes de qualquer ferramenta, é preciso definir finalidade, base legal, minimização, controle de acesso, rastreabilidade e responsabilidade por incidentes.</p><p>Ferramentas podem apoiar faturamento, processos administrativos e análise de informações, mas não corrigem cadastro inconsistente nem substituem avaliação clínica responsável. Sistemas fragmentados ampliam retrabalho e riscos.</p><h2>Da informação à decisão</h2><p>Comece por um inventário de dados e um caso de uso limitado. Depois avalie origem, qualidade, atualização, permissões e supervisão humana. Modelos destinados a influenciar decisões clínicas exigem cuidados e validações adicionais.</p><p>Mapear origem dos dados; definir acesso por perfil; registrar consentimento e bases legais aplicáveis; validar qualidade das informações; testar em rotinas não críticas; estabelecer revisão humana e métricas de segurança.</p><h2>O que não se pode concluir</h2><p>Resultados anunciados por fornecedores são relatos de aplicações e não evidência automática de eficácia em qualquer serviço. Sistemas clínicos requerem validação e requisitos específicos.</p><p>A leitura crítica exige distinguir o que a fonte efetivamente informou da interpretação editorial apresentada neste artigo. Dados e decisões aplicáveis ao caso concreto devem ser confirmados nas fontes primárias e nas instituições responsáveis.</p><h2>Para concluir</h2><p>Informação confiável começa com uma pergunta bem definida. Quando o problema é identificado, torna-se possível escolher ações proporcionais, verificar resultados e corrigir a estratégia sem confundir divulgação com transformação real.</p><p>O Grupo Eduarda Bispo integra soluções empresariais, educação, saúde, inclusão e tecnologia. Conheça nossos conteúdos e serviços em https://grupoeduardabispo.com.br/.</p><section data-geb-component=\"cta\"><p>Conheça as soluções do Grupo Eduarda Bispo</p><p><a href=\"https://grupoeduardabispo.com.br/\">Acesse o site institucional GEB</a></p></section><section data-geb-component=\"fonte\"><p><a href=\"https://www.saudebusiness.com/sem-categoria/ia-na-saude-totvs-aplicacoes-desafios/\" rel=\"noopener noreferrer\">https://www.saudebusiness.com/sem-categoria/ia-na-saude-totvs-aplicacoes-desafios/</a></p></section>",
+  "referenciasPublicas": [
+    "https://www.saudebusiness.com/sem-categoria/ia-na-saude-totvs-aplicacoes-desafios/"
+  ],
+  "origem": "regularizacao-editorial-2026-10-20",
+  "dataEditorialPlanejada": "18/10/2026",
+  "dataCargaTecnica": "20/10/2026"
+}
