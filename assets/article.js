@@ -77,7 +77,7 @@ function linkRegionalNR1(root,articleSlug){
     });
   });
   keys.sort(function(a,b){return b.label.length-a.label.length;});
-  var escaped=keys.map(function(k){return k.label.replace(/[.*+?^$()|[\]{}\\]/g,"\\function enhance(root){");});
+  var escaped=keys.map(function(k){return k.label.replace(/[.*+?^$()|[\]{}\\]/g,"\\$&");});
   var pattern=new RegExp("(^|[^\\p{L}])("+escaped.join("|")+")(?![\\p{L}])","giu");
   var lookup={};keys.forEach(function(k){lookup[k.label.toLocaleLowerCase("pt-BR")]=k.slug;});
   var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT),nodes=[],node;
