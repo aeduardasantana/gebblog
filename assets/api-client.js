@@ -55,7 +55,7 @@ window.GEB_BLOG_API={
      if(cur)dados.sort((a,b)=>Number(b.categoria===cur.categoria)-Number(a.categoria===cur.categoria));
      dados=dados.slice(0,Math.max(0,Number(p.limite)||3));
    }else if(acao==="artigos"||acao==="destaques"){
-     dados=all.filter(a=>!p.categoria||norm(a.categoria)===norm(p.categoria));
+     dados=all.filter(a=>!p.categoria||[a.categoria,...(Array.isArray(a.categorias)?a.categorias:[])].some(c=>{const label=norm(c)==="eduarda"?"desenvolvimento":norm(c);return label===(norm(p.categoria)==="eduarda"?"desenvolvimento":norm(p.categoria));}));
      if(p.tag)dados=dados.filter(a=>(a.tags||[]).some(t=>norm(t)===norm(p.tag)));
      if(p.q)dados=dados.filter(a=>norm([a.titulo,a.resumo,(a.tags||[]).join(" ")].join(" ")).includes(norm(p.q)));
      if(p.limite)dados=dados.slice(0,Math.max(0,Number(p.limite)||50));
