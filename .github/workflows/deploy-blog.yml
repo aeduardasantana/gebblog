@@ -74,4 +74,51 @@ jobs:
           localDir: "./"
           remoteDir: "./public_html/blog/"
           options: '--exclude-glob .git/** --exclude-glob .github/** --exclude-glob README.md'
+      - name: Verificar URLs publicas apos deploy
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, sys, time, urllib.request
+          base = "https://blog.grupoeduardabispo.com.br"
+          shards = sorted(pathlib.Path("conteudo/indices").glob("lote-*.json"))
+          if not shards:
+              raise SystemExit("Nenhum indice de artigos encontrado")
+          latest = shards[-1]
+          expected = json.loads(latest.read_text(encoding="utf-8"))
+          if not expected:
+              raise SystemExit("Indice mais recente vazio")
+          def fetch(path):
+              req = urllib.request.Request(base + path, headers={"User-Agent":"GEB-Deploy-Audit/1.0", "Cache-Control":"no-cache"})
+              with urllib.request.urlopen(req, timeout=20) as r:
+                  body=r.read()
+                  if r.status != 200 or not body:
+                      raise ValueError(path + " indisponivel ou vazio")
+                  return body, r.headers.get("Content-Type", "")
+          error = None
+          for attempt in range(1, 5):
+              try:
+                  remote = json.loads(fetch("/conteudo/indices/" + latest.name)[0].decode("utf-8"))
+                  found = {a.get("slug"):a for a in remote}
+                  for item in expected:
+                      slug=item["slug"]
+                      if slug not in found:
+                          raise ValueError("Artigo ausente do indice publico: " + slug)
+                      path="/conteudo/" + item["arquivo"].lstrip("./")
+                      article=json.loads(fetch(path)[0].decode("utf-8"))
+                      if article.get("slug") != slug or article.get("status") != "Publicado" or not article.get("conteudoHTML"):
+                          raise ValueError("JSON do artigo incompleto: " + slug)
+                      page,ctype=fetch("/artigo/" + slug + "/")
+                      if "html" not in ctype.lower() or b"<html" not in page.lower():
+                          raise ValueError("Pagina publica nao e HTML valido: " + slug)
+                  print("Smoke test OK: " + str(len(expected)) + " artigos do " + latest.name + " + URLs publicas.")
+                  error=None
+                  break
+              except Exception as ex:
+                  error=str(ex)
+                  print("Tentativa " + str(attempt) + "/4: " + error)
+                  if attempt < 4:
+                      time.sleep(15)
+          if error:
+              print("::error::Deploy FTP executado, mas URL publica nao foi comprovada: " + error)
+              sys.exit(1)
+          PY
 # Deploy solicitado para publicar catálogo Saúde com datas editoriais preservadas — 2026-10-13
