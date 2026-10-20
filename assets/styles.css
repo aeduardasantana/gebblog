@@ -603,3 +603,18 @@ h1,h2,h3,.search-panel label{font-family:Georgia,"Times New Roman",serif;letter-
 
 /* CTA editorial — antes das referências, dentro do conteúdo do artigo */
 .geb-article-cta{margin:34px 0 24px;padding:23px clamp(18px,4vw,30px);border:1px solid #c9dce6;border-radius:15px;background:#f1f7fa}.geb-article-cta p{margin:0 0 14px}.geb-article-cta p:last-child{margin-bottom:0}.geb-article-cta a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 20px;border-radius:9px;background:#073a69;color:#fff!important;font-weight:650;text-decoration:none}.geb-article-cta a:hover{background:#12588d}.geb-article-cta a:focus-visible{outline:3px solid #3a90c4;outline-offset:3px}
+
+/* Leitor de áudio acessível - Blog GEB */
+.geb-tts{margin:1.3rem 0 1.5rem;padding:1.1rem 1.25rem;background:var(--surface,#fff);border:1px solid var(--line,#ddd);border-left:4px solid #263d3c;border-radius:12px;font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.5}
+.geb-tts.container{margin:1.1rem auto 1.4rem}
+.geb-tts__heading{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem 1rem;margin-bottom:.75rem}
+.geb-tts__heading strong{font-size:1.05rem}
+.geb-tts__heading span{font-size:.85rem;color:var(--muted,#555)}
+.geb-tts__controls{display:flex;flex-wrap:wrap;align-items:center;gap:.55rem}
+.geb-tts__controls button{min-height:44px;padding:.55rem .95rem;background:#213a39;color:#fff;border:1px solid #213a39;border-radius:7px;font-weight:650;cursor:pointer}
+.geb-tts__controls button:disabled{opacity:.45;cursor:not-allowed}
+.geb-tts__controls button:focus-visible,.geb-tts__controls select:focus-visible{outline:3px solid #b35d00;outline-offset:3px}
+.geb-tts__controls label{display:flex;align-items:center;gap:.5rem;font-size:.9rem;font-weight:650}
+.geb-tts__controls select{min-height:44px;padding:.4rem .5rem;border:1px solid #777;background:#fff;color:#171717;border-radius:6px}
+.geb-tts__status{font-size:.85rem;color:#464646;margin:.65rem 0 0}
+@media(max-width:600px){.geb-tts{padding:1rem}.geb-tts__controls{gap:.45rem}.geb-tts__controls button{flex:1 1 auto}}
