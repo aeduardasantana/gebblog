@@ -138,7 +138,18 @@ function renderArticle(a){if(!a){article.hidden=true;error.hidden=false;document
   if(/^Nota de enquadramento:/i.test(t)) el.classList.add("editorial-note");
   if(/^(\(?E-?book\)?|workshop Ser Coach IBC)$/i.test(t)) el.classList.add("legacy-context");
 });
-normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){var refSec=document.getElementById("referencias"),refList=document.getElementById("lista-referencias");refSec.hidden=false;refList.innerHTML=refs.map(function(r){var m=String(r).match(/https?:\/\/\S+/);if(m){var raw=m[0].replace(/[).,;]+$/,"");var before=esc(String(r).replace(m[0],"").trim());return '<p class="reference-item">'+before+' <a href="'+esc(raw)+'" target="_blank" rel="noopener noreferrer">Acessar fonte ↗</a></p>';}return '<p class="reference-item">'+esc(r)+'</p>';}).join("");}
+normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){
+  // Evita duas secoes de fontes quando a conversao preservou referencias no HTML
+  // e o artigo tambem possui referenciasPublicas estruturadas.
+  [].slice.call(body.querySelectorAll("h2,h3,h4")).forEach(function(h){
+    var name=cleanText(h.textContent).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/\s*[:.]\s*$/,"");
+    if(!/^(fontes e referencias|referencias bibliograficas|referencias|fontes consultadas)$/.test(name))return;
+    var next=h.nextElementSibling;
+    if(!next || !/^(UL|OL)$/.test(next.tagName))return;
+    // O bloco completo do fim do artigo e gerado na area propria abaixo.
+    next.remove();h.remove();
+  });
+  var refSec=document.getElementById("referencias"),refList=document.getElementById("lista-referencias");refSec.hidden=false;refList.innerHTML=refs.map(function(r){var m=String(r).match(/https?:\/\/\S+/);if(m){var raw=m[0].replace(/[).,;]+$/,"");var before=esc(String(r).replace(m[0],"").trim());return '<p class="reference-item">'+before+' <a href="'+esc(raw)+'" target="_blank" rel="noopener noreferrer">Acessar fonte ↗</a></p>';}return '<p class="reference-item">'+esc(r)+'</p>';}).join("");}
 var more=document.getElementById("mais-editoria");
 if(more){more.href="./?categoria="+encodeURIComponent(editoria);more.firstChild.textContent="Mais em "+editoria+" ";}
 var share=document.getElementById("compartilhar-artigo");
