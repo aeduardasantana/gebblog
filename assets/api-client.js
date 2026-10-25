@@ -2,7 +2,7 @@
 (function(){
 "use strict";
 const ROOT=new URL("./conteudo/",document.baseURI);
-const SHARDS=["indices/legado.json","indices/lote-01.json","indices/lote-02.json","indices/lote-03.json","indices/lote-04.json","indices/lote-05.json","indices/lote-06.json","indices/lote-07.json"];
+const SHARDS=["indices/legado.json","indices/lote-01.json","indices/lote-02.json","indices/lote-03.json","indices/lote-04.json","indices/lote-05.json","indices/lote-06.json","indices/lote-07.json","indices/lote-08.json"];
 let promise=null;
 function norm(x){return String(x||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
 function date(x){const v=String(x.dataPublicacaoISO||"");if(/^\d{4}-\d\d-\d\d$/.test(v))return v;const m=String(x.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return m?m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0"):"0000-00-00";}
