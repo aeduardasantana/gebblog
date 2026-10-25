@@ -1,0 +1,30 @@
+{
+  "titulo": "SIPOC: como enxergar um processo antes de tentar melhorá-lo",
+  "subtitulo": "A ferramenta organiza fornecedores, entradas, etapas, saídas e clientes para revelar limites e dependências.",
+  "slug": "sipoc-mapear-processo-antes-melhoria",
+  "resumo": "Aprenda a montar um SIPOC, definir fronteiras do processo e usá-lo antes do PDCA e de outras ferramentas de melhoria.",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [
+    "SIPOC",
+    "gestão por processos",
+    "PDCA",
+    "melhoria contínua"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "23/10/2026",
+  "dataPublicacaoISO": "2026-10-23",
+  "dataEditorialPlanejada": "2026-10-23",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "SIPOC: como enxergar um processo antes de tentar melhorá-lo",
+  "descricaoSEO": "Aprenda a montar um SIPOC, definir fronteiras do processo e usá-lo antes do PDCA e de outras ferramentas de melhoria.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "10JYnnTCil4-7PSUT9dQV5J9CnnrVH-_e86nJwKQEazM",
+  "conteudoHTML": "<p>Quando uma entrega atrasa, a reação mais comum é procurar o setor responsável. Mas muitos atrasos surgem na passagem entre áreas: informações incompletas, aprovações pouco claras ou expectativas diferentes sobre o resultado. Antes de escolher uma solução, é útil entender o processo como um conjunto de relações.</p><h2>O que significa SIPOC</h2><p>SIPOC é uma sigla em inglês para fornecedores, entradas, processo, saídas e clientes. Segundo a American Society for Quality, a ferramenta ajuda equipes de melhoria a reunir os elementos essenciais de um processo antes de detalhar cada atividade. Ela oferece uma visão panorâmica, não um fluxograma minucioso.</p><p>O fornecedor pode ser uma pessoa, sistema ou área. A entrada é o recurso ou informação necessária. O processo reúne as atividades principais. A saída é o que foi entregue; o cliente é quem utiliza ou recebe o resultado, dentro ou fora da organização.</p><h2>Um exemplo simples de aplicação</h2><p>Imagine o cadastro de um novo cliente. O comercial fornece dados e documentos; o cadastro recebe essas entradas, confere campos, registra informações e devolve uma ficha validada. O financeiro e o atendimento são clientes internos desse resultado. Se os dados chegam incompletos, a demora pode começar antes da etapa de cadastro.</p><p>Escrever esses cinco elementos lado a lado torna visíveis perguntas que antes ficavam dispersas: quem fornece o quê, qual padrão de qualidade se espera e onde começa e termina a responsabilidade do processo? Não se trata de apontar culpados, mas de estabelecer critérios compartilhados.</p><h2>Como montar o quadro em equipe</h2><p>Primeiro, dê nome ao processo e delimite o evento que o inicia e o resultado que o encerra. Em seguida, descreva de cinco a sete grandes atividades, sem transformar a conversa em um inventário de microtarefas. Identifique saídas e seus destinatários; depois volte às entradas e a quem as fornece.</p><p>A ASQ apresenta também a variante SIPOC+CM, que acrescenta restrições e medidas. Essa extensão ajuda a registrar limitações operacionais e indicadores que deverão ser acompanhados. Valide o quadro com pessoas que executam e recebem o trabalho: um desenho feito apenas pela chefia pode omitir etapas reais.</p><h2>Onde o SIPOC termina e a melhoria começa</h2><p>O SIPOC não demonstra a causa de um atraso nem prova que uma mudança funcionará. Ele ajuda a escolher o problema certo e a organizar o campo de investigação. Depois, podem entrar um fluxograma detalhado, análise de causas, testes controlados e o ciclo PDCA.</p><p>Uma boa melhoria não começa necessariamente com software novo ou treinamento extra. Às vezes começa quando duas áreas finalmente concordam sobre a informação mínima necessária para entregar o trabalho.</p><h2>Fontes e referências</h2><ul><li>AMERICAN SOCIETY FOR QUALITY. SIPOC+CM Diagram. Milwaukee: ASQ, [s.d.]. Disponível em: https://asq.org/quality-resources/sipoc. Acesso em: 23 out. 2026.</li></ul>",
+  "referenciasPublicas": [
+    "AMERICAN SOCIETY FOR QUALITY. SIPOC+CM Diagram. Milwaukee: ASQ, [s.d.]. Disponível em: https://asq.org/quality-resources/sipoc. Acesso em: 23 out. 2026."
+  ]
+}
