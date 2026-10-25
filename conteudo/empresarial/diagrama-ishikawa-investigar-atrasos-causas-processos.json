@@ -1,0 +1,30 @@
+{
+  "titulo": "Diagrama de Ishikawa: investigar atrasos sem transformar causas em culpados",
+  "subtitulo": "Um método visual para formular hipóteses, buscar evidências e corrigir processos",
+  "slug": "diagrama-ishikawa-investigar-atrasos-causas-processos",
+  "resumo": "Aprenda a usar o diagrama de causa e efeito para investigar atrasos, validar hipóteses e construir ações de melhoria sem culpabilização.",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [
+    "Ishikawa",
+    "gestão de processos",
+    "qualidade",
+    "melhoria contínua"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "22/10/2026",
+  "dataPublicacaoISO": "2026-10-22",
+  "dataEditorialPlanejada": "2026-10-22",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "Diagrama de Ishikawa: como investigar causas de atrasos",
+  "descricaoSEO": "Veja como montar um diagrama de Ishikawa, testar causas com dados e transformar a análise de atrasos em melhorias de processo.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1AWYT16BIZKF9P0CGFIPC5OfIW90jRJw7owHABAxERQk",
+  "conteudoHTML": "<p>Quando uma entrega atrasa, a reação mais rápida costuma ser perguntar quem errou. A pergunta é compreensível, mas raramente explica o processo inteiro. Um atraso pode nascer de informações incompletas, filas invisíveis, sistemas instáveis ou critérios de prioridade conflitantes. O diagrama de causa e efeito, conhecido como espinha de peixe ou Ishikawa, ajuda a organizar hipóteses antes de decidir o que corrigir.</p><h2>O que o diagrama organiza</h2><p>A American Society for Quality inclui o diagrama de causa e efeito entre as sete ferramentas básicas da qualidade. O método parte de um efeito claramente definido — por exemplo, 'entregas concluídas depois do prazo acordado' — e agrupa possíveis causas em ramos. As categorias tradicionais podem incluir método, pessoas, máquinas, materiais, medição e ambiente, mas não precisam ser copiadas mecanicamente. Em serviços, comunicação, tecnologia, capacidade e regras de aprovação talvez descrevam melhor a operação.</p><p>A principal vantagem não é descobrir uma causa automaticamente. É tornar visíveis explicações concorrentes que, de outra forma, ficariam restritas à opinião de quem fala mais alto.</p><h2>Como construir uma análise útil</h2><p>Primeiro, descreva o problema com medida e período: 'oito solicitações ultrapassaram o prazo em setembro' é mais investigável que 'a equipe está lenta'. Depois, reúna quem conhece o fluxo, desenhe os ramos e registre hipóteses específicas. A equipe deve buscar evidências de cada hipótese antes de decidir uma ação.</p><h2>Da hipótese à verificação</h2><p>Compare solicitações com e sem responsável definido, observe tempos e converse com envolvidos. Se a hipótese não se sustentar, volte ao diagrama.</p><p>Os 5 Porquês podem aprofundar uma hipótese. Um plano 5W2H pode organizar ação, responsável, prazo, justificativa, método e recursos. Nenhuma ferramenta substitui evidências.</p><h2>Melhoria exige acompanhar o efeito</h2><p>A ação de melhoria precisa ser acompanhada por um indicador. Compare os resultados antes e depois do teste e revise a hipótese quando a mudança não produzir o efeito esperado. Em uma operação de atendimento, por exemplo, pode-se testar uma triagem mais clara durante um período delimitado. Antes do teste, registre a quantidade de solicitações atrasadas e o tempo médio de espera. Depois, compare os resultados e procure efeitos indesejados, como aumento do retrabalho em outra etapa.</p><p>A ferramenta ajuda a organizar perguntas; o compromisso gerencial está em conferir respostas, ouvir quem realiza o trabalho e documentar as decisões tomadas. O diagrama não deve virar um formulário preenchido apenas para aparentar controle.</p><h2>Fontes e referências</h2><ul><li>AMERICAN SOCIETY FOR QUALITY (ASQ). Seven basic quality tools. Milwaukee: ASQ, s.d. Disponível em: https://asq.org/quality-resources/seven-basic-quality-tools. Acesso em: 22 out. 2026.</li></ul>",
+  "referenciasPublicas": [
+    "AMERICAN SOCIETY FOR QUALITY (ASQ). Seven basic quality tools. Milwaukee: ASQ, s.d. Disponível em: https://asq.org/quality-resources/seven-basic-quality-tools. Acesso em: 22 out. 2026."
+  ]
+}
