@@ -1,0 +1,184 @@
+[
+  {
+    "titulo": "Segurança psicológica: por que equipes precisam poder apontar erros",
+    "subtitulo": "O espaço para perguntar e relatar falhas não elimina responsabilidade: melhora as condições para aprender.",
+    "slug": "seguranca-psicologica-aprender-com-erros-equipes",
+    "resumo": "Entenda segurança psicológica como condição para aprendizagem coletiva, sem confundi-la com permissividade ou ausência de metas.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "desenvolvimento",
+      "orientação prática",
+      "2026"
+    ],
+    "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+    "dataPublicacao": "24/10/2026",
+    "dataPublicacaoISO": "2026-10-24",
+    "dataEditorialPlanejada": "2026-10-24",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Segurança psicológica: por que equipes precisam poder apontar erros",
+    "descricaoSEO": "Entenda segurança psicológica como condição para aprendizagem coletiva, sem confundi-la com permissividade ou ausência de metas.",
+    "generoEditorial": "Análise",
+    "documentId": "1L9ttgZAz2pxa3lWIdO4If5A0SUwo3Ax7OHmeH66j2cw",
+    "arquivo": "./desenvolvimento/seguranca-psicologica-aprender-com-erros-equipes.json"
+  },
+  {
+    "titulo": "Fluxograma de processos: como localizar retrabalho antes de propor soluções",
+    "subtitulo": "Desenhar o caminho real de uma demanda ajuda a separar atrasos, decisões e pontos de controle.",
+    "slug": "fluxograma-processos-localizar-retrabalho",
+    "resumo": "Aprenda a construir um fluxograma simples, identificar devoluções e transformar o mapa em melhoria verificável.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "empresarial",
+      "orientação prática",
+      "2026"
+    ],
+    "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+    "dataPublicacao": "24/10/2026",
+    "dataPublicacaoISO": "2026-10-24",
+    "dataEditorialPlanejada": "2026-10-24",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Fluxograma de processos: como localizar retrabalho antes de propor soluções",
+    "descricaoSEO": "Aprenda a construir um fluxograma simples, identificar devoluções e transformar o mapa em melhoria verificável.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1mgr8Y-KjSLYpzmyQtR5BUYg38AuFeLShMuS5bKrL85w",
+    "arquivo": "./empresarial/fluxograma-processos-localizar-retrabalho.json"
+  },
+  {
+    "titulo": "Certificado de pós-graduação: o que conferir antes de escolher uma especialização",
+    "subtitulo": "A escolha exige conferir a instituição, a modalidade e a documentação prometida, não apenas o nome do curso.",
+    "slug": "certificado-pos-graduacao-verificar-instituicao-curso",
+    "resumo": "Saiba quais verificações fazer no Cadastro e-MEC antes de contratar uma especialização ou MBA lato sensu.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "educação",
+      "orientação prática",
+      "2026"
+    ],
+    "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+    "dataPublicacao": "24/10/2026",
+    "dataPublicacaoISO": "2026-10-24",
+    "dataEditorialPlanejada": "2026-10-24",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Certificado de pós-graduação: o que conferir antes de escolher uma especialização",
+    "descricaoSEO": "Saiba quais verificações fazer no Cadastro e-MEC antes de contratar uma especialização ou MBA lato sensu.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1qmiKHivaeeZDhbjncATY0lxSepMiD1CNv-nW8jRNs_Q",
+    "arquivo": "./educacao/certificado-pos-graduacao-verificar-instituicao-curso.json"
+  },
+  {
+    "titulo": "Fones de ouvido e saúde auditiva: volume e tempo de exposição importam",
+    "subtitulo": "O risco não depende apenas de ouvir música alta: duração, intensidade e repetição fazem diferença.",
+    "slug": "fones-ouvido-saude-auditiva-volume-tempo",
+    "resumo": "Conheça recomendações da OMS sobre escuta segura, uso de fones e sinais que merecem avaliação profissional.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "saúde",
+      "orientação prática",
+      "2026"
+    ],
+    "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+    "dataPublicacao": "24/10/2026",
+    "dataPublicacaoISO": "2026-10-24",
+    "dataEditorialPlanejada": "2026-10-24",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Fones de ouvido e saúde auditiva: volume e tempo de exposição importam",
+    "descricaoSEO": "Conheça recomendações da OMS sobre escuta segura, uso de fones e sinais que merecem avaliação profissional.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1VUJJUoiUdoMMA9jenQ_2Qc8AqP1u76LO50aGBtPdEoc",
+    "arquivo": "./saude/fones-ouvido-saude-auditiva-volume-tempo.json"
+  },
+  {
+    "titulo": "Apps Script sem tarefas duplicadas: como usar LockService em formulários",
+    "subtitulo": "Duas execuções simultâneas podem processar a mesma solicitação; travas e identificadores ajudam a controlar o risco.",
+    "slug": "apps-script-lockservice-evitar-tarefas-duplicadas",
+    "resumo": "Veja como evitar concorrência no Apps Script com LockService, chave única, logs e tratamento de falhas.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "tecnologia",
+      "orientação prática",
+      "2026"
+    ],
+    "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+    "dataPublicacao": "24/10/2026",
+    "dataPublicacaoISO": "2026-10-24",
+    "dataEditorialPlanejada": "2026-10-24",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Apps Script sem tarefas duplicadas: como usar LockService em formulários",
+    "descricaoSEO": "Veja como evitar concorrência no Apps Script com LockService, chave única, logs e tratamento de falhas.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "12wCUgUoFTq0iYNSkmPGe03unrCJhTlX8pct0WEzfM7I",
+    "arquivo": "./tecnologia/apps-script-lockservice-evitar-tarefas-duplicadas.json"
+  },
+  {
+    "titulo": "ENEM 2026: como conferir o atendimento especializado antes do dia da prova",
+    "subtitulo": "A consulta individual na Página do Participante é essencial para saber quais recursos foram efetivamente deferidos.",
+    "slug": "enem-2026-conferir-atendimento-especializado-prova",
+    "resumo": "Saiba como verificar atendimento especializado no ENEM 2026, documentação e orientações oficiais para os dias de prova.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "inclusão",
+      "orientação prática",
+      "2026"
+    ],
+    "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+    "dataPublicacao": "24/10/2026",
+    "dataPublicacaoISO": "2026-10-24",
+    "dataEditorialPlanejada": "2026-10-24",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "ENEM 2026: como conferir o atendimento especializado antes do dia da prova",
+    "descricaoSEO": "Saiba como verificar atendimento especializado no ENEM 2026, documentação e orientações oficiais para os dias de prova.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1tFCZFOnBdMKYzjDFXMFlAJERT22Mt6eTA5NH7ztC4aA",
+    "arquivo": "./inclusao/enem-2026-conferir-atendimento-especializado-prova.json"
+  },
+  {
+    "titulo": "Transparência e LGPD: como publicar informações sem expor pessoas",
+    "subtitulo": "A publicidade de decisões e resultados deve conviver com a proteção de informações pessoais.",
+    "slug": "transparencia-lgpd-publicar-informacoes-proteger-pessoas",
+    "resumo": "Entenda por que dados públicos, transparência e proteção de dados pessoais precisam de critérios antes da divulgação.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "institucional",
+      "orientação prática",
+      "2026"
+    ],
+    "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+    "dataPublicacao": "24/10/2026",
+    "dataPublicacaoISO": "2026-10-24",
+    "dataEditorialPlanejada": "2026-10-24",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Transparência e LGPD: como publicar informações sem expor pessoas",
+    "descricaoSEO": "Entenda por que dados públicos, transparência e proteção de dados pessoais precisam de critérios antes da divulgação.",
+    "generoEditorial": "Análise",
+    "documentId": "1uIQsGee4Oc2MxIcz2FCtqmiVjGrzu7QDH-ikmDw8sLA",
+    "arquivo": "./institucional/transparencia-lgpd-publicar-informacoes-proteger-pessoas.json"
+  }
+]
