@@ -1,0 +1,31 @@
+{
+  "titulo": "Fluxograma de processos: como localizar retrabalho antes de propor soluções",
+  "subtitulo": "Desenhar o caminho real de uma demanda ajuda a separar atrasos, decisões e pontos de controle.",
+  "slug": "fluxograma-processos-localizar-retrabalho",
+  "resumo": "Aprenda a construir um fluxograma simples, identificar devoluções e transformar o mapa em melhoria verificável.",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [
+    "empresarial",
+    "orientação prática",
+    "2026"
+  ],
+  "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+  "dataPublicacao": "24/10/2026",
+  "dataPublicacaoISO": "2026-10-24",
+  "dataEditorialPlanejada": "2026-10-24",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "Fluxograma de processos: como localizar retrabalho antes de propor soluções",
+  "descricaoSEO": "Aprenda a construir um fluxograma simples, identificar devoluções e transformar o mapa em melhoria verificável.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1mgr8Y-KjSLYpzmyQtR5BUYg38AuFeLShMuS5bKrL85w",
+  "conteudoHTML": "<h2>O processo real raramente cabe em uma descrição de cargo</h2><p>Um pedido chega pelo WhatsApp, alguém transfere a informação para uma planilha, outra pessoa confere os dados e o atendimento devolve a solicitação por falta de um campo. A sequência pode ser comum e, ao mesmo tempo, pouco visível para quem toma decisões.</p><p>O fluxograma representa etapas, decisões, entradas e saídas de um processo. A American Society for Quality o apresenta como ferramenta para compreender como o trabalho acontece e encontrar oportunidades de melhoria. Ele descreve o percurso, não a personalidade de quem executa.</p><h2>Comece pelos limites e pelas decisões</h2><p>Defina uma situação específica, como o recebimento e a conclusão de um pedido. Marque onde começa, qual resultado encerra o fluxo e quais áreas participam. Em seguida, escute as pessoas que realizam cada etapa e desenhe a ordem efetivamente praticada, inclusive retornos e exceções.</p><p>Use retângulos para atividades, losangos para decisões e setas para o caminho. Não é necessário adquirir um sistema: papel, quadro ou ferramenta de desenho bastam para a primeira versão. A clareza é mais importante do que a sofisticação visual.</p><h2>Onde procurar atrasos e retrabalho</h2><p>Observe aprovações repetidas, informações solicitadas duas vezes, etapas que dependem de uma única pessoa e decisões sem critério registrado. Pergunte também o que acontece quando o fluxo normal falha. Uma exceção frequente talvez já seja parte do processo e mereça tratamento explícito.</p><p>Um mapa útil inclui o tempo de espera e os pontos em que o trabalho retorna. A equipe pode medir, por exemplo, quantos pedidos precisam ser corrigidos antes da conclusão. Esses dados ajudam a priorizar, mas não demonstram, isoladamente, a causa de cada problema.</p><h2>Do desenho à melhoria testável</h2><p>Escolha um ponto crítico e defina uma intervenção proporcional: formulário com campos obrigatórios, responsável pela triagem ou regra clara de aprovação. Registre a situação inicial, teste a mudança e compare o indicador após um período definido. Se o resultado não melhorar, revise a hipótese.</p><p>Ferramentas como PDCA podem organizar o ciclo de teste e aprendizagem, mas o fluxograma continua sendo uma representação. Ele não substitui avaliação técnica, obrigações legais nem escuta das equipes. Seu valor aparece quando a organização usa o desenho para tomar decisões e acompanhar seus efeitos.</p><h2>Fontes e referências</h2><ul><li>AMERICAN SOCIETY FOR QUALITY. Flowchart. Milwaukee: ASQ, [s. d.]. Disponível em: &lt;https://asq.org/quality-resources/flowchart&gt;. Acesso em: 24 out. 2026.</li><li>AMERICAN SOCIETY FOR QUALITY. Process analysis tools. Milwaukee: ASQ, [s. d.]. Disponível em: &lt;https://asq.org/quality-resources/process-analysis-tools&gt;. Acesso em: 24 out. 2026.</li><li>---</li></ul>",
+  "referenciasPublicas": [
+    "AMERICAN SOCIETY FOR QUALITY. Flowchart. Milwaukee: ASQ, [s. d.]. Disponível em: <https://asq.org/quality-resources/flowchart>. Acesso em: 24 out. 2026.",
+    "AMERICAN SOCIETY FOR QUALITY. Process analysis tools. Milwaukee: ASQ, [s. d.]. Disponível em: <https://asq.org/quality-resources/process-analysis-tools>. Acesso em: 24 out. 2026.",
+    "---"
+  ]
+}
