@@ -1,0 +1,379 @@
+[
+  {
+    "titulo": "Delegar com critérios: autonomia não é abandono",
+    "subtitulo": "Delegação exige autoridade, critérios de resultado e acompanhamento proporcional, sem microgestão nem abandono.",
+    "slug": "delegar-com-criterios-autonomia-nao-e-abandono",
+    "resumo": "Delegação exige autoridade, critérios de resultado e acompanhamento proporcional, sem microgestão nem abandono.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "desenvolvimento",
+      "gestão",
+      "orientação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "20/10/2026",
+    "dataPublicacaoISO": "2026-10-20",
+    "dataEditorialPlanejada": "2026-10-20",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Delegar com critérios: autonomia não é abandono",
+    "descricaoSEO": "Delegação exige autoridade, critérios de resultado e acompanhamento proporcional, sem microgestão nem abandono.",
+    "generoEditorial": "Análise",
+    "documentId": "1PYQFMQRwxhBdB6_xOndMYxptryvYoOwLeZznZCLz-BA",
+    "arquivo": "./desenvolvimento/delegar-com-criterios-autonomia-nao-e-abandono.json"
+  },
+  {
+    "titulo": "Matriz GUT e NR-1: por que a pontuação não substitui a análise de riscos",
+    "subtitulo": "Matriz GUT ajuda a ordenar problemas, mas não substitui avaliação técnica e medidas de prevenção da NR-1.",
+    "slug": "matriz-gut-nr1-priorizacao-nao-substitui-analise-riscos",
+    "resumo": "Matriz GUT ajuda a ordenar problemas, mas não substitui avaliação técnica e medidas de prevenção da NR-1.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "empresarial",
+      "gestão",
+      "orientação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "20/10/2026",
+    "dataPublicacaoISO": "2026-10-20",
+    "dataEditorialPlanejada": "2026-10-20",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Matriz GUT e NR-1: por que a pontuação não substitui a análise de riscos",
+    "descricaoSEO": "Matriz GUT ajuda a ordenar problemas, mas não substitui avaliação técnica e medidas de prevenção da NR-1.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "147xfa1vOHvQvpEfk0XBFChfxdiZ1S5o2-k0E2nB6DQw",
+    "arquivo": "./empresarial/matriz-gut-nr1-priorizacao-nao-substitui-analise-riscos.json"
+  },
+  {
+    "titulo": "ENEM 2026: o que conferir antes de sair para os dois dias de prova",
+    "subtitulo": "Confira horários, documentos, trajeto, cartão e atendimento especializado para 8 e 15 de novembro.",
+    "slug": "enem-2026-checklist-cartao-confirmacao-logistica",
+    "resumo": "Confira horários, documentos, trajeto, cartão e atendimento especializado para 8 e 15 de novembro.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "educação",
+      "gestão",
+      "orientação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "20/10/2026",
+    "dataPublicacaoISO": "2026-10-20",
+    "dataEditorialPlanejada": "2026-10-20",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "ENEM 2026: o que conferir antes de sair para os dois dias de prova",
+    "descricaoSEO": "Confira horários, documentos, trajeto, cartão e atendimento especializado para 8 e 15 de novembro.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1G_YWFM2VPbtefGF60ihyhjiv-xc0eJxbfHkVFzF9hcg",
+    "arquivo": "./educacao/enem-2026-checklist-cartao-confirmacao-logistica.json"
+  },
+  {
+    "titulo": "Atividade física e saúde mental: benefícios possíveis sem promessas de cura",
+    "subtitulo": "Movimento pode favorecer bem-estar e vínculos, mas não substitui avaliação e tratamento quando indicados.",
+    "slug": "atividade-fisica-saude-mental-beneficios-sem-promessa-cura",
+    "resumo": "Movimento pode favorecer bem-estar e vínculos, mas não substitui avaliação e tratamento quando indicados.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "saúde",
+      "gestão",
+      "orientação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "20/10/2026",
+    "dataPublicacaoISO": "2026-10-20",
+    "dataEditorialPlanejada": "2026-10-20",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Atividade física e saúde mental: benefícios possíveis sem promessas de cura",
+    "descricaoSEO": "Movimento pode favorecer bem-estar e vínculos, mas não substitui avaliação e tratamento quando indicados.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1rZ0GCoH1mq-zK1vmvO20Ccx4Vp5F6vMjt5R4UPThcGs",
+    "arquivo": "./saude/atividade-fisica-saude-mental-beneficios-sem-promessa-cura.json"
+  },
+  {
+    "titulo": "Como monitorar falhas em rotinas de Apps Script",
+    "subtitulo": "Gatilhos, histórico de execuções e verificação independente para automações confiáveis.",
+    "slug": "monitorar-falhas-rotinas-apps-script",
+    "resumo": "Entenda como configurar gatilhos, registrar resultados, verificar falhas e evitar reprocessamentos em automações com Apps Script.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "Apps Script",
+      "automação",
+      "monitoramento"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "20/10/2026",
+    "dataPublicacaoISO": "2026-10-20",
+    "dataEditorialPlanejada": "2026-10-20",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Como monitorar falhas em rotinas de Apps Script",
+    "descricaoSEO": "Como acompanhar execuções de Apps Script com gatilhos, logs e verificações para evitar falhas silenciosas.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1iRZxzOC7x65FVF3l5vGNeCInwFw-27B2VB70WQwtbe8",
+    "arquivo": "./tecnologia/monitorar-falhas-rotinas-apps-script.json"
+  },
+  {
+    "titulo": "Videoprova em Libras no ENEM 2026: como conhecer o recurso antes da aplicação",
+    "subtitulo": "Conheça a plataforma Enem Libras, explore a navegação e diferencie videoprova de intérprete presencial.",
+    "slug": "videoprova-libras-enem-2026-plataforma-treino",
+    "resumo": "Conheça a plataforma Enem Libras, explore a navegação e diferencie videoprova de intérprete presencial.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "inclusão",
+      "gestão",
+      "orientação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "20/10/2026",
+    "dataPublicacaoISO": "2026-10-20",
+    "dataEditorialPlanejada": "2026-10-20",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Videoprova em Libras no ENEM 2026: como conhecer o recurso antes da aplicação",
+    "descricaoSEO": "Conheça a plataforma Enem Libras, explore a navegação e diferencie videoprova de intérprete presencial.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1513Cij6dEne1wYDwuYhAe_bD3Qgz7N6Jy-97YimX5Xs",
+    "arquivo": "./inclusao/videoprova-libras-enem-2026-plataforma-treino.json"
+  },
+  {
+    "titulo": "Dados abertos: publicar números não basta sem contexto e atualização",
+    "subtitulo": "A consulta da CGU sobre dados abertos mostra a importância de metadados, periodicidade e proteção de informações pessoais.",
+    "slug": "dados-abertos-contexto-atualizacao-qualidade-informacao",
+    "resumo": "A consulta da CGU sobre dados abertos mostra a importância de metadados, periodicidade e proteção de informações pessoais.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "institucional",
+      "gestão",
+      "orientação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "20/10/2026",
+    "dataPublicacaoISO": "2026-10-20",
+    "dataEditorialPlanejada": "2026-10-20",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Dados abertos: publicar números não basta sem contexto e atualização",
+    "descricaoSEO": "A consulta da CGU sobre dados abertos mostra a importância de metadados, periodicidade e proteção de informações pessoais.",
+    "generoEditorial": "Análise",
+    "documentId": "1vhJulcci2TL1Go0qwqOh2_mM154peSdF8wPA48d6kmY",
+    "arquivo": "./institucional/dados-abertos-contexto-atualizacao-qualidade-informacao.json"
+  },
+  {
+    "titulo": "Job crafting: como redesenhar tarefas sem transferir riscos ao trabalhador",
+    "subtitulo": "Mudanças pequenas podem melhorar a rotina, mas exigem acordo, limites e avaliação.",
+    "slug": "job-crafting-redesenhar-tarefas-limites-gestao",
+    "resumo": "Entenda o conceito de job crafting e como avaliar mudanças nas tarefas sem individualizar problemas organizacionais.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "job crafting",
+      "psicologia organizacional",
+      "gestão do trabalho",
+      "carreira"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "21/10/2026",
+    "dataPublicacaoISO": "2026-10-21",
+    "dataEditorialPlanejada": "2026-10-21",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Job crafting: redesenhar tarefas com responsabilidade",
+    "descricaoSEO": "Saiba o que é job crafting, como testar mudanças no trabalho e por que a autonomia não substitui deveres da gestão.",
+    "generoEditorial": "Análise",
+    "documentId": "1HokSj_CH8u3TGnpY_CrSnWDKW13_Gv3Z-TyiCW7GGew",
+    "arquivo": "./desenvolvimento/job-crafting-redesenhar-tarefas-limites-gestao.json"
+  },
+  {
+    "titulo": "Plano de ação da NR-1: como definir responsáveis, prazos e evidências",
+    "subtitulo": "A identificação dos riscos precisa resultar em medidas acompanháveis, não apenas em uma planilha preenchida.",
+    "slug": "nr1-plano-acao-responsaveis-prazos-evidencias",
+    "resumo": "Como organizar um plano de ação relacionado à NR-1, documentar medidas preventivas e acompanhar resultados sem substituir o PGR.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "NR-1",
+      "PGR",
+      "plano de ação",
+      "gestão de riscos",
+      "riscos psicossociais"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "21/10/2026",
+    "dataPublicacaoISO": "2026-10-21",
+    "dataEditorialPlanejada": "2026-10-21",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "NR-1: plano de ação com prazos, responsáveis e evidências",
+    "descricaoSEO": "Aprenda a estruturar e acompanhar medidas de prevenção na NR-1, com responsabilidades, prazos e evidências verificáveis.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1Se61pS6MqmaPXsYYKWPurMeIRRr3zHnffA-amJsUE6c",
+    "arquivo": "./empresarial/nr1-plano-acao-responsaveis-prazos-evidencias.json"
+  },
+  {
+    "titulo": "Técnico por competência: como conferir a formação e a validade do diploma",
+    "subtitulo": "Experiência profissional pode ser reconhecida em processos formais, mas a oferta exige verificação.",
+    "slug": "tecnico-por-competencia-conferir-formacao-diploma",
+    "resumo": "Entenda o reconhecimento de saberes profissionais e o que consultar no MEC e no Sistec antes de escolher uma formação técnica.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "curso técnico",
+      "técnico por competência",
+      "certificação profissional",
+      "Sistec",
+      "EAD"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "21/10/2026",
+    "dataPublicacaoISO": "2026-10-21",
+    "dataEditorialPlanejada": "2026-10-21",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Técnico por competência: requisitos e validade do diploma",
+    "descricaoSEO": "Saiba o que conferir em cursos técnicos por competência: avaliação de saberes, instituição, Sistec, diploma e modalidade.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "19K2nId7ekqkAIDJQVpYTk3tZ2feXFiVTC642ugG83SM",
+    "arquivo": "./educacao/tecnico-por-competencia-conferir-formacao-diploma.json"
+  },
+  {
+    "titulo": "Trabalho em turnos e fadiga: o que trabalhadores e empresas podem fazer",
+    "subtitulo": "Horários irregulares afetam o descanso; prevenir riscos exige organização do trabalho e medidas compartilhadas.",
+    "slug": "trabalho-turnos-fadiga-prevencao-organizacao",
+    "resumo": "Entenda a relação entre trabalho em turnos, sono e fadiga e conheça medidas de prevenção baseadas em orientações do NIOSH.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "sono",
+      "trabalho em turnos",
+      "fadiga",
+      "saúde ocupacional",
+      "prevenção"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "21/10/2026",
+    "dataPublicacaoISO": "2026-10-21",
+    "dataEditorialPlanejada": "2026-10-21",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Trabalho em turnos e fadiga: prevenção e cuidados",
+    "descricaoSEO": "Veja como horários noturnos e jornadas extensas se relacionam à fadiga e quais medidas trabalhadores e empresas podem considerar.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "11fzJOU3FosVV05bL76xl0JAoMNRiMHJ0rgMsAinAj0E",
+    "arquivo": "./saude/trabalho-turnos-fadiga-prevencao-organizacao.json"
+  },
+  {
+    "titulo": "Como criar uma fila de tarefas no Google Sheets com Apps Script",
+    "subtitulo": "Organize registros pendentes, processamento, erros e tentativas sem depender de conferências manuais.",
+    "slug": "criar-fila-tarefas-google-sheets-apps-script",
+    "resumo": "Passo a passo conceitual para usar Google Sheets e Apps Script em uma fila com status, gatilhos, bloqueio de concorrência e auditoria.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "automação",
+      "Google Sheets",
+      "Apps Script",
+      "fila de tarefas",
+      "logs"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "21/10/2026",
+    "dataPublicacaoISO": "2026-10-21",
+    "dataEditorialPlanejada": "2026-10-21",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Fila de tarefas no Sheets: automação com Apps Script",
+    "descricaoSEO": "Estruture uma fila de tarefas no Google Sheets com Apps Script, controle de status, gatilhos, erros e segurança.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1g-fDs2mHiQyYocUdS-TKJ0JtfUk70pDROh6hZYzjHFw",
+    "arquivo": "./tecnologia/criar-fila-tarefas-google-sheets-apps-script.json"
+  },
+  {
+    "titulo": "Editais de concursos em Libras: como conferir versões acessíveis e retificações",
+    "subtitulo": "Uma versão em Libras ajuda a compreender regras, mas a leitura precisa acompanhar atualizações oficiais.",
+    "slug": "editais-concursos-libras-versoes-retificacoes",
+    "resumo": "Saiba localizar versões de editais em Libras, conferir retificações e verificar as regras de atendimento especializado.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "concurso público",
+      "edital",
+      "acessibilidade",
+      "retificação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "21/10/2026",
+    "dataPublicacaoISO": "2026-10-21",
+    "dataEditorialPlanejada": "2026-10-21",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Editais em Libras: como conferir versões e mudanças",
+    "descricaoSEO": "Entenda como consultar editais acessíveis em Libras, verificar retificações e conferir regras de atendimento.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "18jjT6pngq7bDnX7Og-1T9AaqoXvUwcYqr6GBESfkj_g",
+    "arquivo": "./inclusao/editais-concursos-libras-versoes-retificacoes.json"
+  },
+  {
+    "titulo": "Carta de Serviços ao Usuário: como consultar prazos e compromissos públicos",
+    "subtitulo": "Entender o serviço antes de solicitá-lo ajuda a identificar requisitos, canais e padrões de atendimento.",
+    "slug": "carta-servicos-usuario-prazos-compromissos-publicos",
+    "resumo": "Saiba o que é a Carta de Serviços ao Usuário e como utilizá-la para consultar requisitos, etapas e compromissos de órgãos públicos.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "governança",
+      "serviço público",
+      "carta de serviços",
+      "transparência",
+      "direitos do usuário"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "21/10/2026",
+    "dataPublicacaoISO": "2026-10-21",
+    "dataEditorialPlanejada": "2026-10-21",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Carta de Serviços: como consultar prazos e requisitos",
+    "descricaoSEO": "Entenda a Carta de Serviços ao Usuário, seus compromissos de atendimento e como consultar informações oficiais.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1CIXQCn0jUoQKqjRafYL-56Ub4Jw-2J_mTGcCAax7Wxw",
+    "arquivo": "./institucional/carta-servicos-usuario-prazos-compromissos-publicos.json"
+  }
+]
