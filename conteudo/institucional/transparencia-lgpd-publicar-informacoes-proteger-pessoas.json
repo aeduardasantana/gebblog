@@ -1,0 +1,31 @@
+{
+  "titulo": "Transparência e LGPD: como publicar informações sem expor pessoas",
+  "subtitulo": "A publicidade de decisões e resultados deve conviver com a proteção de informações pessoais.",
+  "slug": "transparencia-lgpd-publicar-informacoes-proteger-pessoas",
+  "resumo": "Entenda por que dados públicos, transparência e proteção de dados pessoais precisam de critérios antes da divulgação.",
+  "categoria": "Institucional",
+  "categorias": [
+    "Institucional"
+  ],
+  "tags": [
+    "institucional",
+    "orientação prática",
+    "2026"
+  ],
+  "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+  "dataPublicacao": "24/10/2026",
+  "dataPublicacaoISO": "2026-10-24",
+  "dataEditorialPlanejada": "2026-10-24",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "Transparência e LGPD: como publicar informações sem expor pessoas",
+  "descricaoSEO": "Entenda por que dados públicos, transparência e proteção de dados pessoais precisam de critérios antes da divulgação.",
+  "generoEditorial": "Análise",
+  "documentId": "1uIQsGee4Oc2MxIcz2FCtqmiVjGrzu7QDH-ikmDw8sLA",
+  "conteudoHTML": "<h2>Informação pública não significa exposição irrestrita</h2><p>Divulgar indicadores, critérios de decisão e resultados pode fortalecer a confiança. Mas uma planilha com nomes, contatos, documentos ou situações de saúde de pessoas identificáveis exige avaliação diferente da publicação de dados agregados. Transparência e privacidade não são objetivos incompatíveis.</p><p>A Autoridade Nacional de Proteção de Dados define dado pessoal como informação relacionada a pessoa natural identificada ou identificável. A definição é ampla: não se limita a CPF ou endereço. Um conjunto de informações aparentemente neutras pode permitir identificar alguém quando combinado com outras fontes.</p><h2>A finalidade orienta a escolha do que divulgar</h2><p>Antes de abrir uma base, a organização deve perguntar qual pergunta pública pretende responder e quais campos são necessários para isso. Um relatório sobre atendimento pode apresentar quantidade, período, critérios e metodologia sem expor histórias individuais. Quando a identificação for indispensável, a base legal e os limites de divulgação precisam ser examinados.</p><p>O guia da ANPD sobre tratamento de dados pelo poder público discute a relação entre proteção de dados e acesso à informação. Ele não elimina obrigações de transparência, mas orienta a analisar finalidade, necessidade e as hipóteses legais pertinentes.</p><h2>Anonimizar exige mais do que apagar nomes</h2><p>Retirar uma coluna de nomes nem sempre impede reidentificação. Combinações de idade, localidade, cargo e evento raro podem tornar uma pessoa reconhecível. Uma análise prudente considera o contexto, o tamanho dos grupos e a possibilidade de cruzamento com outras bases.</p><p>Também é necessário definir atualização e correção: quem responde pela base, quando foi produzida e como erros serão comunicados. Transparência sem explicação metodológica pode induzir interpretações equivocadas mesmo quando os números estão corretos.</p><h2>Uma governança simples para publicar com responsabilidade</h2><p>Adote um fluxo de quatro perguntas: qual a finalidade pública, quais campos são indispensáveis, quais riscos de identificação existem e quem valida a versão final. Documente as decisões e ofereça canal para correção de informações. O processo deve ser proporcional à sensibilidade do material.</p><p>Essa lógica é útil para órgãos públicos e, como boa prática de governança, também para organizações privadas que divulgam relatórios e indicadores. O enquadramento jurídico varia conforme a entidade e a operação. Por isso, o texto é informativo e não substitui análise jurídica do caso concreto.</p><h2>Fontes e referências</h2><ul><li>BRASIL. Autoridade Nacional de Proteção de Dados. Perguntas frequentes. Brasília, DF: ANPD, [s. d.]. Disponível em: &lt;https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes&gt;. Acesso em: 24 out. 2026.</li><li>BRASIL. Autoridade Nacional de Proteção de Dados. Guia orientativo: tratamento de dados pessoais pelo poder público. Brasília, DF: ANPD, 2022. Disponível em: &lt;https://www.gov.br/saude/pt-br/acesso-a-informacao/lgpd/publicacoes/guia-orientativo-tratamento-de-dados-pessoais-pelo-poder-publico&gt;. Acesso em: 24 out. 2026.</li><li>---</li></ul>",
+  "referenciasPublicas": [
+    "BRASIL. Autoridade Nacional de Proteção de Dados. Perguntas frequentes. Brasília, DF: ANPD, [s. d.]. Disponível em: <https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes>. Acesso em: 24 out. 2026.",
+    "BRASIL. Autoridade Nacional de Proteção de Dados. Guia orientativo: tratamento de dados pessoais pelo poder público. Brasília, DF: ANPD, 2022. Disponível em: <https://www.gov.br/saude/pt-br/acesso-a-informacao/lgpd/publicacoes/guia-orientativo-tratamento-de-dados-pessoais-pelo-poder-publico>. Acesso em: 24 out. 2026.",
+    "---"
+  ]
+}
