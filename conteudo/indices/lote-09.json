@@ -1,0 +1,384 @@
+[
+  {
+    "titulo": "Carreira não é linha reta: o que a teoria de Donald Super ajuda a compreender",
+    "subtitulo": "Uma leitura sobre papéis de vida, transições profissionais e escolhas sustentáveis",
+    "slug": "carreira-donald-super-transicoes-papeis-vida",
+    "resumo": "Entenda a abordagem de Donald Super sobre desenvolvimento de carreira e veja perguntas práticas para avaliar mudanças profissionais sem promessas fáceis.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "carreira",
+      "Donald Super",
+      "transição profissional",
+      "desenvolvimento humano"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "22/10/2026",
+    "dataPublicacaoISO": "2026-10-22",
+    "dataEditorialPlanejada": "2026-10-22",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Carreira e Donald Super: papéis de vida e transições",
+    "descricaoSEO": "A carreira não segue sempre uma linha reta. Conheça a teoria de Donald Super e reflita sobre escolhas, estudo e transição profissional.",
+    "generoEditorial": "Análise",
+    "documentId": "1xWvX9_XTwf-5-_K1wmTRUZZxyS1Evy0SuF3uiCzT3fo",
+    "arquivo": "./desenvolvimento/carreira-donald-super-transicoes-papeis-vida.json"
+  },
+  {
+    "titulo": "Diagrama de Ishikawa: investigar atrasos sem transformar causas em culpados",
+    "subtitulo": "Um método visual para formular hipóteses, buscar evidências e corrigir processos",
+    "slug": "diagrama-ishikawa-investigar-atrasos-causas-processos",
+    "resumo": "Aprenda a usar o diagrama de causa e efeito para investigar atrasos, validar hipóteses e construir ações de melhoria sem culpabilização.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "Ishikawa",
+      "gestão de processos",
+      "qualidade",
+      "melhoria contínua"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "22/10/2026",
+    "dataPublicacaoISO": "2026-10-22",
+    "dataEditorialPlanejada": "2026-10-22",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Diagrama de Ishikawa: como investigar causas de atrasos",
+    "descricaoSEO": "Veja como montar um diagrama de Ishikawa, testar causas com dados e transformar a análise de atrasos em melhorias de processo.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1AWYT16BIZKF9P0CGFIPC5OfIW90jRJw7owHABAxERQk",
+    "arquivo": "./empresarial/diagrama-ishikawa-investigar-atrasos-causas-processos.json"
+  },
+  {
+    "titulo": "Tecnólogo é graduação? Como comparar cursos superiores e formatos EAD",
+    "subtitulo": "Diferenças entre formações, reconhecimento e modalidades de oferta",
+    "slug": "tecnologo-e-graduacao-comparar-ead-bacharelado-licenciatura",
+    "resumo": "Cursos superiores de tecnologia são graduações. Saiba comparar tecnólogo, bacharelado e licenciatura e conferir a modalidade EAD antes da matrícula.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "tecnólogo",
+      "graduação",
+      "EAD",
+      "MEC",
+      "bolsas de estudos"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "22/10/2026",
+    "dataPublicacaoISO": "2026-10-22",
+    "dataEditorialPlanejada": "2026-10-22",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Tecnólogo é graduação? Entenda o EAD e as diferenças",
+    "descricaoSEO": "Tecnólogo é curso superior? Compare bacharelado, licenciatura e tecnologia, conheça regras do EAD e veja o que verificar antes de escolher.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1SQgV1nIbxf0rkQegL7zAkcoNVUsH-Z2XCBoxGaag7n8",
+    "arquivo": "./educacao/tecnologo-e-graduacao-comparar-ead-bacharelado-licenciatura.json"
+  },
+  {
+    "titulo": "Sono regular: por que rotina e duração merecem atenção",
+    "subtitulo": "Hábitos de sono e limites das recomendações gerais de saúde",
+    "slug": "sono-regular-rotina-duracao-saude-mental",
+    "resumo": "Regularidade de horários e duração do sono são fatores relevantes para a saúde. Veja orientações gerais e quando procurar avaliação profissional.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "sono",
+      "rotina",
+      "saúde mental",
+      "prevenção",
+      "bem-estar"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "22/10/2026",
+    "dataPublicacaoISO": "2026-10-22",
+    "dataEditorialPlanejada": "2026-10-22",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Sono regular: rotina, duração e cuidados possíveis",
+    "descricaoSEO": "Entenda por que duração e regularidade do sono merecem atenção, quais hábitos podem ajudar e quando buscar orientação profissional.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1TC58NxC95CEpd7CC2pdhZXeT5ocFimVsbBvH0d0pO_k",
+    "arquivo": "./saude/sono-regular-rotina-duracao-saude-mental.json"
+  },
+  {
+    "titulo": "Como criar uma trilha de auditoria de alterações no Google Sheets",
+    "subtitulo": "Registre o que mudou, quando e em qual etapa, com limites de privacidade",
+    "slug": "trilha-auditoria-alteracoes-google-sheets-apps-script",
+    "resumo": "Aprenda a planejar uma trilha de auditoria em Google Sheets com Apps Script, gatilhos, logs e controle de acesso.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "Google Sheets",
+      "Apps Script",
+      "auditoria",
+      "automação",
+      "segurança"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "22/10/2026",
+    "dataPublicacaoISO": "2026-10-22",
+    "dataEditorialPlanejada": "2026-10-22",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Trilha de auditoria no Google Sheets: como fazer",
+    "descricaoSEO": "Entenda como registrar mudanças em planilhas com Apps Script, escolher gatilhos e evitar logs que exponham dados pessoais.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "13urtVXdTSI5kyTFp_IsRs-43I2r40PRYM9mjj0gt4eQ",
+    "arquivo": "./tecnologia/trilha-auditoria-alteracoes-google-sheets-apps-script.json"
+  },
+  {
+    "titulo": "Vestibular e Libras: como solicitar recursos de acessibilidade no edital",
+    "subtitulo": "Um guia para conferir direitos, prazos e procedimentos em cada seleção",
+    "slug": "vestibular-libras-solicitar-recursos-acessibilidade-edital",
+    "resumo": "Saiba como localizar regras de acessibilidade no vestibular, solicitar recursos em Libras e acompanhar respostas e retificações do edital.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "vestibular",
+      "acessibilidade",
+      "edital",
+      "pessoa surda"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "22/10/2026",
+    "dataPublicacaoISO": "2026-10-22",
+    "dataEditorialPlanejada": "2026-10-22",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Vestibular e Libras: como pedir acessibilidade",
+    "descricaoSEO": "Veja como verificar recursos em Libras, documentação e prazos no edital de vestibular e acompanhar o pedido de atendimento.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1j-aE-cXF7sqWdEDdRYdARpstZk2nis-aCoMCSYrwF30",
+    "arquivo": "./inclusao/vestibular-libras-solicitar-recursos-acessibilidade-edital.json"
+  },
+  {
+    "titulo": "Transparência ativa e passiva: o que organizações podem aprender com a LAI",
+    "subtitulo": "Uma distinção útil entre publicar informações e responder a solicitações",
+    "slug": "transparencia-ativa-passiva-lai-organizacoes",
+    "resumo": "Entenda transparência ativa e passiva na Lei de Acesso à Informação e veja lições de comunicação para organizações sem confundir obrigações legais.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "transparência",
+      "LAI",
+      "governança",
+      "comunicação pública"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "22/10/2026",
+    "dataPublicacaoISO": "2026-10-22",
+    "dataEditorialPlanejada": "2026-10-22",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Transparência ativa e passiva: o que é e como funciona",
+    "descricaoSEO": "Saiba a diferença entre transparência ativa e passiva na LAI e quais práticas de informação clara podem inspirar organizações.",
+    "generoEditorial": "Análise",
+    "documentId": "1LCZjE81BHERIcTmwQJU7qBN2r7ueVc9_dEZjdRCza-0",
+    "arquivo": "./institucional/transparencia-ativa-passiva-lai-organizacoes.json"
+  },
+  {
+    "titulo": "Metas claras ajudam, mas não substituem condições reais de trabalho",
+    "subtitulo": "A teoria de Locke e Latham explica por que objetivos precisam de feedback, recursos e compromisso.",
+    "slug": "metas-claras-condicoes-trabalho-teoria-locke-latham",
+    "resumo": "Conheça a teoria de definição de metas e os cuidados para não transformar indicadores em cobrança sem suporte.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "metas",
+      "motivação",
+      "carreira",
+      "gestão de pessoas"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "23/10/2026",
+    "dataPublicacaoISO": "2026-10-23",
+    "dataEditorialPlanejada": "2026-10-23",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Metas claras ajudam, mas não substituem condições reais de trabalho",
+    "descricaoSEO": "Conheça a teoria de definição de metas e os cuidados para não transformar indicadores em cobrança sem suporte.",
+    "generoEditorial": "Análise",
+    "documentId": "1pflyqxwrGhe1rkrBnuP_B94dF_Pgpj-HwN-UgFvl2ZA",
+    "arquivo": "./desenvolvimento/metas-claras-condicoes-trabalho-teoria-locke-latham.json"
+  },
+  {
+    "titulo": "SIPOC: como enxergar um processo antes de tentar melhorá-lo",
+    "subtitulo": "A ferramenta organiza fornecedores, entradas, etapas, saídas e clientes para revelar limites e dependências.",
+    "slug": "sipoc-mapear-processo-antes-melhoria",
+    "resumo": "Aprenda a montar um SIPOC, definir fronteiras do processo e usá-lo antes do PDCA e de outras ferramentas de melhoria.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "SIPOC",
+      "gestão por processos",
+      "PDCA",
+      "melhoria contínua"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "23/10/2026",
+    "dataPublicacaoISO": "2026-10-23",
+    "dataEditorialPlanejada": "2026-10-23",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "SIPOC: como enxergar um processo antes de tentar melhorá-lo",
+    "descricaoSEO": "Aprenda a montar um SIPOC, definir fronteiras do processo e usá-lo antes do PDCA e de outras ferramentas de melhoria.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "10JYnnTCil4-7PSUT9dQV5J9CnnrVH-_e86nJwKQEazM",
+    "arquivo": "./empresarial/sipoc-mapear-processo-antes-melhoria.json"
+  },
+  {
+    "titulo": "Segunda licenciatura ou formação pedagógica: qual caminho verificar em 2026?",
+    "subtitulo": "A formação anterior do candidato muda a modalidade possível; normas, estágio e oferta exigem conferência.",
+    "slug": "segunda-licenciatura-formacao-pedagogica-regras-2026",
+    "resumo": "Entenda a diferença entre segunda licenciatura e formação pedagógica e o que conferir antes de uma matrícula.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "segunda licenciatura",
+      "formação pedagógica",
+      "transição de carreira",
+      "educação superior"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "23/10/2026",
+    "dataPublicacaoISO": "2026-10-23",
+    "dataEditorialPlanejada": "2026-10-23",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Segunda licenciatura ou formação pedagógica: qual caminho verificar em 2026?",
+    "descricaoSEO": "Entenda a diferença entre segunda licenciatura e formação pedagógica e o que conferir antes de uma matrícula.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1ZfFBgb3P3GFO_0edHvPtkCcG3nddQGgu7ZnZ6_V4_Wk",
+    "arquivo": "./educacao/segunda-licenciatura-formacao-pedagogica-regras-2026.json"
+  },
+  {
+    "titulo": "Solidão e isolamento social: por que não significam a mesma coisa",
+    "subtitulo": "Relatório da OMS distingue experiência subjetiva de vínculos e quantidade objetiva de contatos.",
+    "slug": "solidao-isolamento-social-diferencas-saude",
+    "resumo": "Entenda as diferenças entre solidão e isolamento social, seus possíveis impactos e caminhos de apoio sem promessas clínicas.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "solidão",
+      "isolamento social",
+      "saúde mental",
+      "vínculos"
+    ],
+    "autorPublico": "GEB\nDATA DE PUBLICAÇÃO: \nDATA DE ATUALIZAÇÃO: \nIMAGEM DE CAPA: \nTEXTO ALTERNATIVO DA IMAGEM:",
+    "dataPublicacao": "23/10/2026",
+    "dataPublicacaoISO": "2026-10-23",
+    "dataEditorialPlanejada": "2026-10-23",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Solidão e isolamento social: por que não significam a mesma coisa",
+    "descricaoSEO": "Entenda as diferenças entre solidão e isolamento social, seus possíveis impactos e caminhos de apoio sem promessas clínicas.\nCANONICAL URL:",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "186BnW769PorBQybT14h5siWJJRER5icNp9Fw3GN0-KI",
+    "arquivo": "./saude/solidao-isolamento-social-diferencas-saude.json"
+  },
+  {
+    "titulo": "Apps Script: como separar configurações do código com PropertiesService",
+    "subtitulo": "O serviço de propriedades ajuda a organizar IDs, URLs e parâmetros sem espalhá-los por funções.",
+    "slug": "apps-script-properties-service-configuracoes",
+    "resumo": "Aprenda a usar propriedades de script e de usuário, testar valores ausentes e revisar permissões em automações.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "Apps Script",
+      "PropertiesService",
+      "configuração",
+      "segurança"
+    ],
+    "autorPublico": "GEB\nDATA DE PUBLICAÇÃO: \nDATA DE ATUALIZAÇÃO: \nIMAGEM DE CAPA: \nTEXTO ALTERNATIVO DA IMAGEM:",
+    "dataPublicacao": "23/10/2026",
+    "dataPublicacaoISO": "2026-10-23",
+    "dataEditorialPlanejada": "2026-10-23",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Apps Script: como separar configurações do código com PropertiesService",
+    "descricaoSEO": "Aprenda a usar propriedades de script e de usuário, testar valores ausentes e revisar permissões em automações.\nCANONICAL URL:",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1q6yyqp9TfRqchtAXzVYdvoy3uDBuLvaIMVfUp_MOIKo",
+    "arquivo": "./tecnologia/apps-script-properties-service-configuracoes.json"
+  },
+  {
+    "titulo": "Legendas e Libras em vídeos: por que oferecer um recurso não dispensa o outro",
+    "subtitulo": "Acessibilidade audiovisual exige considerar públicos, formatos e qualidade da informação.",
+    "slug": "legendas-libras-videos-acessibilidade-complementar",
+    "resumo": "Entenda as funções de legendas, transcrição e Libras em vídeos institucionais e como testar sua qualidade.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "legendas",
+      "vídeo acessível",
+      "acessibilidade digital"
+    ],
+    "autorPublico": "GEB\nDATA DE PUBLICAÇÃO: \nDATA DE ATUALIZAÇÃO: \nIMAGEM DE CAPA: \nTEXTO ALTERNATIVO DA IMAGEM:",
+    "dataPublicacao": "23/10/2026",
+    "dataPublicacaoISO": "2026-10-23",
+    "dataEditorialPlanejada": "2026-10-23",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Legendas e Libras em vídeos: por que oferecer um recurso não dispensa o outro",
+    "descricaoSEO": "Entenda as funções de legendas, transcrição e Libras em vídeos institucionais e como testar sua qualidade.\nCANONICAL URL:",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1ZDWrxRGPr1phLMkoOiiAP34mFSdYMtg_xVH4BmrdkUg",
+    "arquivo": "./inclusao/legendas-libras-videos-acessibilidade-complementar.json"
+  },
+  {
+    "titulo": "Correções públicas: por que atualizar um artigo exige transparência",
+    "subtitulo": "Governança de conteúdo não termina no botão publicar; erros materiais precisam de registro verificável.",
+    "slug": "correcoes-publicas-artigos-transparencia-editorial",
+    "resumo": "Saiba como organizar uma política de correções editoriais com data real, histórico e distinção entre ajustes simples e materiais.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "governança editorial",
+      "correções",
+      "transparência",
+      "informação pública"
+    ],
+    "autorPublico": "GEB\nDATA DE PUBLICAÇÃO: \nDATA DE ATUALIZAÇÃO: \nIMAGEM DE CAPA: \nTEXTO ALTERNATIVO DA IMAGEM:",
+    "dataPublicacao": "23/10/2026",
+    "dataPublicacaoISO": "2026-10-23",
+    "dataEditorialPlanejada": "2026-10-23",
+    "dataCargaTecnica": "2026-10-24",
+    "status": "Publicado",
+    "tituloSEO": "Correções públicas: por que atualizar um artigo exige transparência",
+    "descricaoSEO": "Saiba como organizar uma política de correções editoriais com data real, histórico e distinção entre ajustes simples e materiais.\nCANONICAL URL:",
+    "generoEditorial": "Análise",
+    "documentId": "18A1ibV2CIXh6yKtK7UCETMgLdbz0-VupGmM1TbrK9y4",
+    "arquivo": "./institucional/correcoes-publicas-artigos-transparencia-editorial.json"
+  }
+]
