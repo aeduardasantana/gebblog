@@ -1,0 +1,31 @@
+{
+  "titulo": "Como monitorar falhas em rotinas de Apps Script",
+  "subtitulo": "Gatilhos, histórico de execuções e verificação independente para automações confiáveis.",
+  "slug": "monitorar-falhas-rotinas-apps-script",
+  "resumo": "Entenda como configurar gatilhos, registrar resultados, verificar falhas e evitar reprocessamentos em automações com Apps Script.",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [
+    "Apps Script",
+    "automação",
+    "monitoramento"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "20/10/2026",
+  "dataPublicacaoISO": "2026-10-20",
+  "dataEditorialPlanejada": "2026-10-20",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "Como monitorar falhas em rotinas de Apps Script",
+  "descricaoSEO": "Como acompanhar execuções de Apps Script com gatilhos, logs e verificações para evitar falhas silenciosas.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1iRZxzOC7x65FVF3l5vGNeCInwFw-27B2VB70WQwtbe8",
+  "conteudoHTML": "<p>Automatizar uma planilha pode economizar tempo, mas um processo só é confiável quando permite verificar o resultado. O Google Apps Script oferece gatilhos por horário e por evento, porém a existência de um gatilho não comprova que a rotina terminou.</p><h2>Planeje os estados da execução</h2><p>Desenhe o fluxo: entrada, validação, processamento, confirmação e registro. Para cada tentativa, anote um identificador técnico, horário, etapa e estado. Diferencie recebimento de conclusão e registre erros de modo que possam ser investigados sem copiar informações pessoais dos formulários.</p><h2>Configure gatilhos e acompanhe execuções</h2><p>Os gatilhos instaláveis podem responder ao envio de formulários ou a horários programados. Segundo o Google, operam com as permissões da conta criadora e estão sujeitos a limites. Consulte a seção Execuções do projeto para identificar erros e use notificações de falha como apoio, não como única forma de fiscalização. Uma verificação independente pode comparar a última execução bem-sucedida com o intervalo esperado. Caso a rotina não tenha sido concluída, o estado correto é pendente, não concluído sem mudanças.</p><h2>Evite colisões e repetição de trabalho</h2><p>Identifique cada evento por chave única e confira se já foi processado antes de executar novamente. O LockService permite proteger seções críticas de acesso simultâneo. Isso reduz colisões, mas não dispensa validação dos dados nem conferência do efeito da tentativa anterior. Defina limites para novas tentativas e diferencie indisponibilidade temporária de erro permanente. Repetir uma operação sem verificar o estado pode gerar registros duplicados.</p><h2>Faça alertas curtos e preserve privacidade</h2><p>Um aviso operacional deve identificar rotina, horário, etapa e referência interna da execução. Evite inserir respostas completas, dados sensíveis e credenciais em logs ou mensagens. A LGPD exige cuidados com tratamento e compartilhamento de dados pessoais. Antes da publicação, teste funcionamento normal, falha de entrada, indisponibilidade temporária e duplicidade. O critério de sucesso é a entrega verificável, não apenas o código salvo.</p><h2>Fontes e referências</h2><ul><li>GOOGLE. Installable Triggers. Google for Developers, [s. d.]. Disponível em: &lt;<a href=\"https://developers.google.com/apps-script/guides/triggers/installable&gt;.\" target=\"_blank\" rel=\"noopener noreferrer\">https://developers.google.com/apps-script/guides/triggers/installable&gt;.</a> Acesso em: 20 out. 2026.</li><li>GOOGLE. Lock Service. Google for Developers, [s. d.]. Disponível em: &lt;<a href=\"https://developers.google.com/apps-script/reference/lock&gt;.\" target=\"_blank\" rel=\"noopener noreferrer\">https://developers.google.com/apps-script/reference/lock&gt;.</a> Acesso em: 20 out. 2026.</li><li>BRASIL. Ministério da Ciência, Tecnologia e Inovação. LGPD: privacidade e proteção de dados pessoais. Brasília, DF, 2026. Disponível em: &lt;<a href=\"https://www.gov.br/mcti/pt-br/acesso-a-informacao/lei-geral-de-protecao-de-dados-pessoais-lgpd&gt;.\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.gov.br/mcti/pt-br/acesso-a-informacao/lei-geral-de-protecao-de-dados-pessoais-lgpd&gt;.</a> Acesso em: 20 out. 2026.</li></ul>",
+  "referenciasPublicas": [
+    "GOOGLE. Installable Triggers. Google for Developers, [s. d.]. Disponível em: <https://developers.google.com/apps-script/guides/triggers/installable>. Acesso em: 20 out. 2026.",
+    "GOOGLE. Lock Service. Google for Developers, [s. d.]. Disponível em: <https://developers.google.com/apps-script/reference/lock>. Acesso em: 20 out. 2026.",
+    "BRASIL. Ministério da Ciência, Tecnologia e Inovação. LGPD: privacidade e proteção de dados pessoais. Brasília, DF, 2026. Disponível em: <https://www.gov.br/mcti/pt-br/acesso-a-informacao/lei-geral-de-protecao-de-dados-pessoais-lgpd>. Acesso em: 20 out. 2026."
+  ]
+}
