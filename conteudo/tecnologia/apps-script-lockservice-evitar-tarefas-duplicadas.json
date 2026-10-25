@@ -1,0 +1,31 @@
+{
+  "titulo": "Apps Script sem tarefas duplicadas: como usar LockService em formulários",
+  "subtitulo": "Duas execuções simultâneas podem processar a mesma solicitação; travas e identificadores ajudam a controlar o risco.",
+  "slug": "apps-script-lockservice-evitar-tarefas-duplicadas",
+  "resumo": "Veja como evitar concorrência no Apps Script com LockService, chave única, logs e tratamento de falhas.",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [
+    "tecnologia",
+    "orientação prática",
+    "2026"
+  ],
+  "autorPublico": "GEB\nDATA EDITORIAL: 24/10/2026",
+  "dataPublicacao": "24/10/2026",
+  "dataPublicacaoISO": "2026-10-24",
+  "dataEditorialPlanejada": "2026-10-24",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "Apps Script sem tarefas duplicadas: como usar LockService em formulários",
+  "descricaoSEO": "Veja como evitar concorrência no Apps Script com LockService, chave única, logs e tratamento de falhas.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "12wCUgUoFTq0iYNSkmPGe03unrCJhTlX8pct0WEzfM7I",
+  "conteudoHTML": "<h2>Por que uma automação pode executar duas vezes</h2><p>Um formulário recebe uma resposta, o Apps Script abre uma planilha e gera uma tarefa. Parece simples, mas gatilhos, reenvios e execuções simultâneas podem tentar alterar a mesma linha. O resultado pode ser um número duplicado, duas mensagens ou um registro sobrescrito.</p><p>A documentação do Google descreve o LockService como mecanismo para impedir acesso concorrente a trechos críticos de código. Ele resolve uma parte do problema: serializar operações compartilhadas. Não substitui a verificação de que um evento já foi processado.</p><h2>Defina uma chave estável antes de escrever</h2><p>Cada solicitação precisa de identificador que não dependa apenas da posição da linha. Pode ser um ID de resposta ou uma chave gerada e persistida na primeira etapa. Antes de criar a tarefa, o script consulta se essa chave já consta como concluída. Se constar, encerra a execução sem duplicar o trabalho.</p><p>A verificação e a gravação devem ocorrer dentro de uma região protegida por trava quando vários processos podem executar ao mesmo tempo. Caso contrário, duas execuções podem consultar 'não existe' quase simultaneamente e ambas criarem o registro.</p><h2>Uma sequência segura para o script</h2><p>No início da função, obtenha LockService.getScriptLock() e tente adquirir a trava com tryLock(10000). Se não conseguir, registre a ocorrência e retente de forma controlada. Com a trava obtida, consulte a chave, valide os dados, grave a tarefa e confirme a persistência. Libere a trava em um bloco finally.</p><p>Para planilhas, a documentação recomenda SpreadsheetApp.flush() antes de liberar a trava quando há alterações pendentes. Evite manter a região crítica aberta durante chamadas externas lentas. Registre horário, ID do evento, resultado e erro técnico, mas nunca senhas, tokens ou dados pessoais desnecessários.</p><h2>Teste falhas antes de ativar o gatilho</h2><p>Crie testes com duas submissões quase simultâneas, uma resposta repetida e uma falha de escrita. Verifique se o script produz apenas uma tarefa por chave e se há um caminho de recuperação para registros incompletos. Um status 'processando' sem expiração ou revisão pode prender uma solicitação indefinidamente.</p><p>Gatilhos instaláveis executam com as permissões da conta que os criou e têm restrições próprias. Por isso, documente o proprietário do projeto, revise acessos e monitore limites de execução. A automação confiável não é a que nunca falha; é a que permite identificar e corrigir a falha sem repetir efeitos indevidos.</p><h2>Fontes e referências</h2><ul><li>GOOGLE. Lock Service: Apps Script. Mountain View: Google Developers, [s. d.]. Disponível em: &lt;https://developers.google.com/apps-script/reference/lock&gt;. Acesso em: 24 out. 2026.</li><li>GOOGLE. Installable triggers: Apps Script. Mountain View: Google Developers, [s. d.]. Disponível em: &lt;https://developers.google.com/apps-script/guides/triggers/installable&gt;. Acesso em: 24 out. 2026.</li><li>---</li></ul>",
+  "referenciasPublicas": [
+    "GOOGLE. Lock Service: Apps Script. Mountain View: Google Developers, [s. d.]. Disponível em: <https://developers.google.com/apps-script/reference/lock>. Acesso em: 24 out. 2026.",
+    "GOOGLE. Installable triggers: Apps Script. Mountain View: Google Developers, [s. d.]. Disponível em: <https://developers.google.com/apps-script/guides/triggers/installable>. Acesso em: 24 out. 2026.",
+    "---"
+  ]
+}
