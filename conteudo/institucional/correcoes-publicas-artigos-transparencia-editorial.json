@@ -1,0 +1,32 @@
+{
+  "titulo": "Correções públicas: por que atualizar um artigo exige transparência",
+  "subtitulo": "Governança de conteúdo não termina no botão publicar; erros materiais precisam de registro verificável.",
+  "slug": "correcoes-publicas-artigos-transparencia-editorial",
+  "resumo": "Saiba como organizar uma política de correções editoriais com data real, histórico e distinção entre ajustes simples e materiais.",
+  "categoria": "Institucional",
+  "categorias": [
+    "Institucional"
+  ],
+  "tags": [
+    "governança editorial",
+    "correções",
+    "transparência",
+    "informação pública"
+  ],
+  "autorPublico": "GEB\nDATA DE PUBLICAÇÃO: \nDATA DE ATUALIZAÇÃO: \nIMAGEM DE CAPA: \nTEXTO ALTERNATIVO DA IMAGEM:",
+  "dataPublicacao": "23/10/2026",
+  "dataPublicacaoISO": "2026-10-23",
+  "dataEditorialPlanejada": "2026-10-23",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "Correções públicas: por que atualizar um artigo exige transparência",
+  "descricaoSEO": "Saiba como organizar uma política de correções editoriais com data real, histórico e distinção entre ajustes simples e materiais.\nCANONICAL URL:",
+  "generoEditorial": "Análise",
+  "documentId": "18A1ibV2CIXh6yKtK7UCETMgLdbz0-VupGmM1TbrK9y4",
+  "conteudoHTML": "<p>Uma informação publicada pode precisar de correção porque um número estava errado, uma norma mudou ou um link passou a apontar para outro conteúdo. O desafio institucional não é prometer ausência absoluta de erros, mas criar um processo para identificá-los, corrigi-los e comunicar alterações relevantes ao leitor.</p><h2>O que é uma correção material</h2><p>Corrigir um erro de digitação que não altera o sentido é diferente de substituir uma data, um prazo, uma interpretação normativa ou uma estatística. A segunda situação pode afetar decisões tomadas com base no artigo. Por isso, exige mais do que editar silenciosamente uma frase.</p><p>Uma política editorial pode classificar alterações por impacto: ajustes de forma, atualização de informação que envelheceu e correção de erro factual. A classificação orienta quando incluir nota pública e quando manter apenas registro interno de versão.</p><h2>Como registrar a mudança</h2><p>O registro mínimo inclui conteúdo alterado, motivo, fonte consultada, data e responsável pela decisão editorial. Em correções materiais, uma nota visível ao leitor pode explicar objetivamente o que mudou, sem reproduzir dados pessoais ou bastidores internos desnecessários.</p><p>A data de publicação original deve permanecer distinta da data de atualização. Alterar retroativamente a primeira pode criar uma impressão falsa sobre quando determinada informação estava disponível. Em sites com dados estruturados, os campos de publicação e modificação precisam refletir a realidade.</p><h2>O papel das fontes e dos links</h2><p>Quando uma norma ou edital muda, o texto deve remeter ao documento oficial vigente e informar o alcance da atualização. Um link quebrado exige correção, mas também conferência de que o novo destino sustenta a mesma afirmação. Trocar uma URL por outra apenas porque ela abre pode criar erro novo.</p><p>O Google Search Central orienta a produzir conteúdo útil e confiável, com informações claras sobre autoria e contexto. Isso não equivale a uma obrigação de seguir um modelo único de nota de correção, mas reforça a importância de não confundir aparência de atualização com qualidade factual.</p><h2>Transparência como rotina, não como crise</h2><p>Uma equipe pode estabelecer revisões periódicas para conteúdos sujeitos a mudanças, como normas, editais e procedimentos públicos. Também precisa oferecer um canal para que leitores apontem erros. A resposta institucional deve priorizar verificação e correção, não defesa automática do texto anterior.</p><p>O histórico editorial bem cuidado preserva a confiança porque mostra que informação pública é uma responsabilidade contínua. Publicar é uma etapa; manter a informação correta é parte do serviço.</p><h2>Fontes e referências</h2><ul><li>GOOGLE. Creating helpful, reliable, people-first content. Google Search Central, [s.d.]. Disponível em: https://developers.google.com/search/docs/fundamentals/creating-helpful-content. Acesso em: 23 out. 2026.</li><li>GOOGLE. Article structured data. Google Search Central, [s.d.]. Disponível em: https://developers.google.com/search/docs/appearance/structured-data/article. Acesso em: 23 out. 2026.</li><li>---</li></ul>",
+  "referenciasPublicas": [
+    "GOOGLE. Creating helpful, reliable, people-first content. Google Search Central, [s.d.]. Disponível em: https://developers.google.com/search/docs/fundamentals/creating-helpful-content. Acesso em: 23 out. 2026.",
+    "GOOGLE. Article structured data. Google Search Central, [s.d.]. Disponível em: https://developers.google.com/search/docs/appearance/structured-data/article. Acesso em: 23 out. 2026.",
+    "---"
+  ]
+}
