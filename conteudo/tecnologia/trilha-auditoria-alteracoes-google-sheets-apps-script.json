@@ -1,0 +1,32 @@
+{
+  "titulo": "Como criar uma trilha de auditoria de alterações no Google Sheets",
+  "subtitulo": "Registre o que mudou, quando e em qual etapa, com limites de privacidade",
+  "slug": "trilha-auditoria-alteracoes-google-sheets-apps-script",
+  "resumo": "Aprenda a planejar uma trilha de auditoria em Google Sheets com Apps Script, gatilhos, logs e controle de acesso.",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [
+    "Google Sheets",
+    "Apps Script",
+    "auditoria",
+    "automação",
+    "segurança"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "22/10/2026",
+  "dataPublicacaoISO": "2026-10-22",
+  "dataEditorialPlanejada": "2026-10-22",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "Trilha de auditoria no Google Sheets: como fazer",
+  "descricaoSEO": "Entenda como registrar mudanças em planilhas com Apps Script, escolher gatilhos e evitar logs que exponham dados pessoais.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "13urtVXdTSI5kyTFp_IsRs-43I2r40PRYM9mjj0gt4eQ",
+  "conteudoHTML": "<p>Uma planilha compartilhada pode registrar solicitações, prazos e aprovações. Quando uma informação muda, porém, surge uma pergunta: como descobrir o que aconteceu sem depender da memória de quem editou? Uma trilha de auditoria ajuda a reconstruir eventos relevantes, mas precisa ser planejada para não se tornar outra fonte de erro ou exposição de dados.</p><h2>Defina primeiro o que precisa ser rastreado</h2><p>Crie uma aba separada chamada LOG com campos como data e hora, tipo de evento, identificador do registro, coluna alterada, resultado do processamento e origem conhecida. Não registre senhas, documentos pessoais completos ou conteúdo sensível apenas por facilidade. O identificador de uma linha é mais útil do que copiar todo o cadastro para o histórico.</p><p>Defina também por quanto tempo os registros serão mantidos, quem poderá consultá-los e como serão corrigidos. O objetivo é explicar mudanças importantes, não vigiar indiscriminadamente as pessoas que utilizam a planilha.</p><h2>Escolha o gatilho de acordo com o evento</h2><p>O Google Apps Script oferece gatilhos simples e instaláveis. Um onEdit simples pode reagir a edições feitas diretamente por usuários, mas possui restrições de autorização e tempo. Gatilhos instaláveis oferecem mais possibilidades e executam com a conta de quem os criou. Esse detalhe exige atenção a permissões e responsabilidade operacional.</p><p>Não presuma que toda alteração será capturada. A documentação do Google esclarece que edições feitas por scripts ou chamadas de API não disparam automaticamente gatilhos de edição. Para operações automatizadas, o próprio código que altera os dados precisa registrar o evento. Assim, o sistema combina auditoria de ações humanas com auditoria de processos.</p><h2>Implemente registros úteis e teste falhas</h2><p>Em um projeto vinculado à planilha, uma função acionada por edição pode obter a aba, a célula e o momento do evento e gravar um resumo na aba LOG. Quando disponível, o valor anterior pode ajudar na comparação, mas não deve ser tratado como informação garantida em todas as situações. A identidade do editor também pode não estar acessível; registre 'não identificada' em vez de inventar autoria.</p><p>Teste alterações simultâneas, edições de intervalos, células protegidas, perda de permissão e execução duplicada. Para operações críticas, avalie bloqueio de concorrência, tratamento de exceções e registros de erro. Um log que falha silenciosamente não é prova de rastreabilidade.</p><h2>Segurança e manutenção fazem parte da automação</h2><p>Restrinja o acesso à aba de auditoria e ao projeto Apps Script, use o princípio do menor privilégio e revise periodicamente gatilhos ativos. Separe eventos de negócio, falhas técnicas e resultados confirmados. A existência de uma linha no LOG comprova apenas que o sistema registrou um evento; não demonstra, sozinha, que uma entrega foi concluída.</p><p>Um roteiro seguro de implantação começa em uma cópia de testes, com poucos campos e casos simulados. Só depois de conferir permissões, retenção, tratamento de falhas e legibilidade do histórico a solução deve ser aplicada à operação real. Automatizar é importante; saber explicar o que a automação fez é indispensável.</p><h2>Fontes e referências</h2><ul><li>GOOGLE. Installable triggers. Google for Developers, s.d. Disponível em: https://developers.google.com/apps-script/guides/triggers/installable. Acesso em: 22 out. 2026.</li><li>GOOGLE. Simple triggers. Google for Developers, s.d. Disponível em: https://developers.google.com/apps-script/guides/triggers/. Acesso em: 22 out. 2026.</li></ul>",
+  "referenciasPublicas": [
+    "GOOGLE. Installable triggers. Google for Developers, s.d. Disponível em: https://developers.google.com/apps-script/guides/triggers/installable. Acesso em: 22 out. 2026.",
+    "GOOGLE. Simple triggers. Google for Developers, s.d. Disponível em: https://developers.google.com/apps-script/guides/triggers/. Acesso em: 22 out. 2026."
+  ]
+}
