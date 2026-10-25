@@ -1,0 +1,31 @@
+{
+  "titulo": "Dados abertos: publicar números não basta sem contexto e atualização",
+  "subtitulo": "A consulta da CGU sobre dados abertos mostra a importância de metadados, periodicidade e proteção de informações pessoais.",
+  "slug": "dados-abertos-contexto-atualizacao-qualidade-informacao",
+  "resumo": "A consulta da CGU sobre dados abertos mostra a importância de metadados, periodicidade e proteção de informações pessoais.",
+  "categoria": "Institucional",
+  "categorias": [
+    "Institucional"
+  ],
+  "tags": [
+    "institucional",
+    "gestão",
+    "orientação"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "20/10/2026",
+  "dataPublicacaoISO": "2026-10-20",
+  "dataEditorialPlanejada": "2026-10-20",
+  "dataCargaTecnica": "2026-10-24",
+  "status": "Publicado",
+  "tituloSEO": "Dados abertos: publicar números não basta sem contexto e atualização",
+  "descricaoSEO": "A consulta da CGU sobre dados abertos mostra a importância de metadados, periodicidade e proteção de informações pessoais.",
+  "generoEditorial": "Análise",
+  "documentId": "1vhJulcci2TL1Go0qwqOh2_mM154peSdF8wPA48d6kmY",
+  "conteudoHTML": "<p>A consulta da CGU sobre dados abertos mostra a importância de metadados, periodicidade e proteção de informações pessoais. Este texto apresenta orientações práticas com base em fontes identificadas, distinguindo informação verificada de recomendações de aplicação.</p><h2>Escolher o que abrir também é governança</h2><p>A CGU abriu consulta pública até 24 de outubro de 2026 para identificar demandas da sociedade e apoiar o Plano de Dados Abertos 2026–2028. A iniciativa evidencia que a utilidade pública depende da pertinência dos conjuntos disponibilizados, não apenas de sua quantidade.</p><p>Bases podem apoiar pesquisas, serviços digitais e controle social, desde que seus limites sejam compreendidos.</p><h2>Sem metadados, números podem enganar</h2><p>Uma base precisa informar fonte, período de referência, significado das colunas, metodologia e frequência de atualização. A CGU disponibiliza dicionários de dados e periodicidade para conjuntos de integridade pública, um exemplo de contextualização.</p><p>Sem essas informações, tabelas semelhantes podem representar universos diferentes e induzir comparações indevidas.</p><h2>Transparência não autoriza expor pessoas</h2><p>A LGPD regula o tratamento de dados pessoais, inclusive divulgação e armazenamento. Disponibilizar dados públicos não significa publicar cadastros individualizados ou informações sensíveis indiscriminadamente.</p><p>Mesmo dados agregados podem exigir avaliação de risco quando grupos pequenos permitirem identificação indireta. Finalidade, necessidade e base legal precisam ser consideradas.</p><h2>Aplicação em organizações</h2><p>Empresas e organizações sociais podem aprender com essa lógica: indicar fonte oficial, responsável, atualização, definição de cada indicador e procedimento de correção. Painel sem atualização recente deve exibir essa limitação.</p><p>Uma boa prestação de contas separa dado bruto, cálculo e interpretação. Transparência significa oferecer informação verificável e contextualizada, não simplesmente mostrar muitos números.</p><h2>Fontes e referências</h2><ul><li>CONTROLADORIA-GERAL DA UNIÃO. CGU abre consulta pública sobre abertura de bases de dados. Brasília, DF, 1 out. 2026. Disponível em: &lt;<a href=\"https://www.gov.br/cgu/pt-br/assuntos/noticias/2026/defeso-eleitoral/plano-de-dados-abertos/&gt;.\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.gov.br/cgu/pt-br/assuntos/noticias/2026/defeso-eleitoral/plano-de-dados-abertos/&gt;.</a> Acesso em: 20 out. 2026.</li><li>CONTROLADORIA-GERAL DA UNIÃO. Dados Abertos — Integridade Pública. Brasília, DF, [s. d.]. Disponível em: &lt;<a href=\"https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/integridade-publica/dados-abertos&gt;.\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/integridade-publica/dados-abertos&gt;.</a> Acesso em: 20 out. 2026.</li><li>BRASIL. Ministério da Ciência, Tecnologia e Inovação. LGPD: privacidade e proteção de dados pessoais. Brasília, DF, atualizado em 13 mar. 2026. Disponível em: &lt;<a href=\"https://www.gov.br/mcti/pt-br/acesso-a-informacao/lei-geral-de-protecao-de-dados-pessoais-lgpd&gt;.\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.gov.br/mcti/pt-br/acesso-a-informacao/lei-geral-de-protecao-de-dados-pessoais-lgpd&gt;.</a> Acesso em: 20 out. 2026.</li></ul>",
+  "referenciasPublicas": [
+    "CONTROLADORIA-GERAL DA UNIÃO. CGU abre consulta pública sobre abertura de bases de dados. Brasília, DF, 1 out. 2026. Disponível em: <https://www.gov.br/cgu/pt-br/assuntos/noticias/2026/defeso-eleitoral/plano-de-dados-abertos/>. Acesso em: 20 out. 2026.",
+    "CONTROLADORIA-GERAL DA UNIÃO. Dados Abertos — Integridade Pública. Brasília, DF, [s. d.]. Disponível em: <https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/integridade-publica/dados-abertos>. Acesso em: 20 out. 2026.",
+    "BRASIL. Ministério da Ciência, Tecnologia e Inovação. LGPD: privacidade e proteção de dados pessoais. Brasília, DF, atualizado em 13 mar. 2026. Disponível em: <https://www.gov.br/mcti/pt-br/acesso-a-informacao/lei-geral-de-protecao-de-dados-pessoais-lgpd>. Acesso em: 20 out. 2026."
+  ]
+}
