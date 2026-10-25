@@ -321,10 +321,10 @@
     "arquivo": "./tecnologia/criar-fila-tarefas-google-sheets-apps-script.json"
   },
   {
-    "titulo": "Editais de concursos em Libras: como conferir versões acessíveis e retificações",
-    "subtitulo": "Uma versão em Libras ajuda a compreender regras, mas a leitura precisa acompanhar atualizações oficiais.",
+    "titulo": "Concursos e Libras: como conferir acessibilidade no edital e solicitar intérprete",
+    "subtitulo": "Editais traduzidos em Libras existem em algumas seleções, mas a solicitação de intérprete e outros recursos depende das regras de cada concurso.",
     "slug": "editais-concursos-libras-versoes-retificacoes",
-    "resumo": "Saiba localizar versões de editais em Libras, conferir retificações e verificar as regras de atendimento especializado.",
+    "resumo": "Saiba diferenciar editais traduzidos em Libras, intérprete durante a prova e ferramentas digitais, além de acompanhar pedidos e retificações.",
     "categoria": "Inclusão",
     "categorias": [
       "Inclusão"
@@ -332,9 +332,10 @@
     "tags": [
       "Libras",
       "concurso público",
+      "atendimento especializado",
+      "intérprete de Libras",
       "edital",
-      "acessibilidade",
-      "retificação"
+      "acessibilidade"
     ],
     "autorPublico": "GEB",
     "dataPublicacao": "21/10/2026",
@@ -342,8 +343,8 @@
     "dataEditorialPlanejada": "2026-10-21",
     "dataCargaTecnica": "2026-10-24",
     "status": "Publicado",
-    "tituloSEO": "Editais em Libras: como conferir versões e mudanças",
-    "descricaoSEO": "Entenda como consultar editais acessíveis em Libras, verificar retificações e conferir regras de atendimento.",
+    "tituloSEO": "Concursos e Libras: edital, intérprete e atendimento acessível",
+    "descricaoSEO": "Como conferir acessibilidade em concursos, solicitar intérprete de Libras na prova e acompanhar retificações e recursos.",
     "generoEditorial": "Explicativo/guia",
     "documentId": "18jjT6pngq7bDnX7Og-1T9AaqoXvUwcYqr6GBESfkj_g",
     "arquivo": "./inclusao/editais-concursos-libras-versoes-retificacoes.json"
