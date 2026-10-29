@@ -84,6 +84,8 @@ jobs:
           ET.ElementTree(urlset).write("sitemap.xml",encoding="utf-8",xml_declaration=True)
           print("Manifesto e sitemap gerados:",len(articles),"artigos")
           PY
+      - name: Gerar HTML de artigos
+        run: python3 scripts/gerar-paginas-estaticas.py
       - name: Garantir arquivo original da marca
         run: |
           mkdir -p assets
