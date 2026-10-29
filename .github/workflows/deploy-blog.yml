@@ -19,6 +19,10 @@ on:
       - 'mapa-do-site/**'
       - '.github/workflows/deploy-blog.yml'
 
+concurrency:
+  group: blog-geb-producao
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-24.04
@@ -57,6 +61,28 @@ jobs:
           for error in errors: print("::error::"+error)
           if errors: sys.exit(1)
           print("Pre-deploy SEO checks passed")
+          PY
+      - name: Reconstruir manifesto e sitemap completos
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, xml.etree.ElementTree as ET
+          root=pathlib.Path("conteudo/indices")
+          records={}
+          for path in sorted(root.glob("lote-*.json"))+[root/"legado.json"]:
+              if not path.is_file(): continue
+              for item in json.loads(path.read_text(encoding="utf-8")):
+                  if item.get("status")=="Publicado" and item.get("slug") and item.get("arquivo"):
+                      records[item["slug"]]=item
+          if not records: raise SystemExit("Acervo vazio; deploy bloqueado")
+          articles=sorted(records.values(),key=lambda x:x.get("dataPublicacaoISO",""),reverse=True)
+          (root/"manifesto-completo.json").write_text(json.dumps(articles,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+          ET.register_namespace("","http://www.sitemaps.org/schemas/sitemap/0.9")
+          ns="{http://www.sitemaps.org/schemas/sitemap/0.9}"
+          urlset=ET.Element(ns+"urlset")
+          for path in ["/","/mapa-do-site/"]+["/artigo/"+a["slug"]+"/" for a in articles]:
+              ET.SubElement(ET.SubElement(urlset,ns+"url"),ns+"loc").text="https://blog.grupoeduardabispo.com.br"+path
+          ET.ElementTree(urlset).write("sitemap.xml",encoding="utf-8",xml_declaration=True)
+          print("Manifesto e sitemap gerados:",len(articles),"artigos")
           PY
       - name: Garantir arquivo original da marca
         run: |
