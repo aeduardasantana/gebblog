@@ -1,5 +1,7 @@
 RewriteEngine On
 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^artigo/([^/]+)/?$ artigo.html?slug=$1 [L,QSA]
 RewriteRule ^categoria/([^/]+)/?$ index.html?categoria=$1 [L,QSA]
 RewriteRule ^tag/([^/]+)/?$ index.html?tag=$1 [L,QSA]
