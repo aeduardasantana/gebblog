@@ -1,0 +1,28 @@
+{
+  "titulo": "Dados abertos confiáveis: como verificar origem, período e atualização",
+  "subtitulo": "Uma planilha pública pode ser útil, mas sem contexto seus números podem produzir conclusões equivocadas.",
+  "slug": "dados-abertos-origem-periodo-atualizacao-confiabilidade",
+  "resumo": "Aprenda a verificar órgão responsável, período de referência, atualização e limites antes de usar dados públicos.",
+  "categoria": "Institucional",
+  "categorias": [
+    "Institucional"
+  ],
+  "tags": [
+    "dados abertos",
+    "governança",
+    "transparência",
+    "qualidade da informação"
+  ],
+  "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+  "dataPublicacao": "28/10/2026",
+  "dataPublicacaoISO": "2026-10-28",
+  "status": "Publicado",
+  "tituloSEO": "Dados abertos: como verificar se uma base é confiável",
+  "descricaoSEO": "Veja o que conferir em metadados, datas, origem e metodologia antes de citar ou comparar números públicos.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1xA_RYDipAeUxnr5tQ88PotH9D66dc97zut7F1JhUK0A",
+  "conteudoHTML": "<p>Uma tabela pública informa a quantidade de atendimentos de determinado serviço. O número parece objetivo, mas não responde sozinho a perguntas fundamentais: refere-se a qual período, a quais unidades e a quais critérios de contagem? Transparência depende tanto da disponibilidade dos dados quanto da possibilidade de compreendê-los.</p>\n<h2>Metadados explicam o que está sendo contado</h2>\n<p>O Catálogo Nacional de Dados do governo federal organiza conjuntos de informações por metadados, como conteúdo, origem, formato e formas de acesso. Essas descrições permitem que pesquisadores, jornalistas, gestores e cidadãos entendam o alcance de uma base antes de utilizá-la.</p>\n<p>Sem esse contexto, dois números aparentemente semelhantes podem representar fenômenos diferentes. Um conjunto pode registrar solicitações abertas; outro, atendimentos concluídos. Compará-los como se fossem equivalentes produz uma conclusão frágil.</p>\n<h2>A data da atualização não é a data do fenômeno</h2>\n<p>Um arquivo atualizado em outubro pode conter dados referentes apenas ao primeiro semestre. Por isso, verifique separadamente quando o material foi publicado, quando foi atualizado e a qual intervalo os registros se referem.</p>\n<p>O Plano de Dados Abertos do governo federal destaca a importância de registrar periodicidade, escopo temporal, abrangência geográfica e responsáveis pelas informações. Esses campos ajudam a interpretar se a base serve à pergunta que se pretende responder.</p>\n<h2>Qualidade exige conhecer limites</h2>\n<p>Antes de divulgar uma estatística, procure notas metodológicas, critérios de inclusão, unidades de medida, alterações de classificação e informações sobre dados ausentes. Verifique também se há versão mais recente ou correção posterior.</p>\n<p>Um município que passou a registrar atendimentos de outra maneira pode apresentar crescimento aparente sem que a demanda real tenha aumentado na mesma proporção. Identificar mudanças de metodologia é tão importante quanto calcular percentuais.</p>\n<h2>Como citar dados públicos com responsabilidade</h2>\n<p>Registre o órgão responsável, o nome do conjunto, o endereço de consulta, a data de acesso, o período analisado e as limitações relevantes. Ao comparar bases, explique por que elas são compatíveis. Se não houver elementos suficientes, descreva a incerteza em vez de apresentar um número como conclusão definitiva.</p>\n<p>Governança da informação não é apenas abrir arquivos. É criar condições para que a sociedade consiga verificar, interpretar e reutilizar os dados com responsabilidade.</p>",
+  "referenciasPublicas": [
+    "BRASIL. MINISTÉRIO DA GESTÃO E DA INOVAÇÃO EM SERVIÇOS PÚBLICOS. Catálogo Nacional de Dados. [S. l.]: [s. n.], [s. d.]. Disponível em: https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/catalogo-nacional-de-dados. Acesso em: 28 out. 2026."
+  ]
+}
