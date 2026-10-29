@@ -1,0 +1,28 @@
+{
+  "titulo": "5 porquês: como investigar falhas sem transformar a análise em caça ao culpado",
+  "subtitulo": "A técnica aprofunda causas possíveis, desde que cada resposta seja verificada.",
+  "slug": "cinco-porques-investigar-falhas-sem-culpados",
+  "resumo": "Quando um prazo falha, é comum ouvir que alguém esqueceu ou não prestou atenção. Essa explicação pode encerrar cedo demais uma investigação. Os cinco",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [
+    "5 porquês",
+    "gestão",
+    "melhoria contínua"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "29/10/2026",
+  "dataPublicacaoISO": "2026-10-29",
+  "status": "Publicado",
+  "tituloSEO": "5 porquês: como investigar causas de falhas",
+  "descricaoSEO": "Use os cinco porquês para investigar retrabalho sem culpar pessoas e sem confundir hipóteses com evidências.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1SFKfesFgDO0JP6Jj4twC8x__J3NRJAR6y3BXQM-yrRU",
+  "conteudoHTML": "<p>Quando um prazo falha, é comum ouvir que alguém esqueceu ou não prestou atenção. Essa explicação pode encerrar cedo demais uma investigação. Os cinco porquês são uma técnica de análise que ajuda a passar do sintoma às condições do processo.</p>\n<h2>Perguntar por quê não é procurar um culpado</h2>\n<p>A American Society for Quality apresenta os cinco porquês como um processo de perguntas sucessivas. O número cinco é indicativo: a análise pode exigir mais ou menos etapas. A pergunta deve se referir ao processo, ao fato observado e às condições que permitiram sua ocorrência.</p>\n<p>Imagine um pedido atrasado. A conferência foi feita tarde porque os dados chegaram incompletos; os dados chegaram incompletos porque o formulário não sinalizava campos essenciais. O exemplo é ilustrativo, não um diagnóstico de uma empresa.</p>\n<h2>A resposta precisa de evidência</h2>\n<p>Uma sequência plausível de respostas ainda pode estar errada. Registros de atendimento, amostras, horários e entrevistas ajudam a confirmar ou rejeitar hipóteses. Se a equipe não verificou o formulário, a ausência de campos obrigatórios continua sendo uma hipótese.</p>\n<p>A OSHA ressalta que incidentes podem apresentar mais de uma causa fundamental. Falta de pessoal, orientações contraditórias e sistemas inadequados podem interagir. Os cinco porquês não substituem investigações técnicas exigidas por normas.</p>\n<h2>Uma reunião que produz aprendizado</h2>\n<p>Defina o problema com precisão: o que aconteceu, quando e com qual impacto. Ouça quem executa o trabalho e registre fatos separadamente de opiniões. Pergunte quais barreiras poderiam ter detectado ou evitado a falha, em vez de apenas identificar quem estava presente.</p>\n<p>Se surgirem causas paralelas, use outras ferramentas, como diagrama de causa e efeito. O objetivo não é completar uma quantidade fixa de perguntas, mas construir uma explicação testável.</p>\n<h2>Da causa provável ao plano de ação</h2>\n<p>Para cada medida, indique responsável, prazo, recurso e indicador. Uma alteração no formulário, por exemplo, deve ser testada para verificar se reduz dados incompletos sem dificultar o preenchimento.</p>\n<p>O ciclo só se completa quando a equipe observa o efeito da solução. Corrigir o sintoma sem avaliar a causa pode produzir o mesmo problema novamente.</p>",
+  "referenciasPublicas": [
+    "AMERICAN SOCIETY FOR QUALITY. Five Whys and Five Hows. Milwaukee: ASQ, s.d. Disponível em: https://asq.org/quality-resources/five-whys. Acesso em: 29 out. 2026.",
+    "OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION. Hazard identification and assessment. Washington, DC: OSHA, s.d. Disponível em: https://www.osha.gov/safety-management/hazard-Identification. Acesso em: 29 out. 2026."
+  ]
+}
