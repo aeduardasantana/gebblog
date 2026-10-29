@@ -1,0 +1,30 @@
+{
+  "titulo": "Inscrição acessível em provas: informação clara também é parte do atendimento",
+  "subtitulo": "A acessibilidade começa no edital e na inscrição, antes da aplicação da prova.",
+  "slug": "inscricao-acessivel-provas-informacao-clara-libras",
+  "resumo": "Uma seleção pode oferecer recursos no dia da prova e ainda apresentar barreiras na inscrição. Entender os prazos, as exigências documentais e o result",
+  "categoria": "Inclusão",
+  "categorias": [
+    "Inclusão"
+  ],
+  "tags": [
+    "Libras",
+    "concursos",
+    "Enem",
+    "acessibilidade"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "29/10/2026",
+  "dataPublicacaoISO": "2026-10-29",
+  "status": "Publicado",
+  "tituloSEO": "Inscrição acessível: Libras e atendimento em provas",
+  "descricaoSEO": "Saiba diferenciar edital em Libras, intérprete, videoprova e tradução automática e conferir regras de inscrição.",
+  "generoEditorial": "Análise",
+  "documentId": "1-MlONtGRWm7mGXRbvCT3HC3-Z0Oc6OCf8_KLHa3kcGg",
+  "conteudoHTML": "<p>Uma seleção pode oferecer recursos no dia da prova e ainda apresentar barreiras na inscrição. Entender os prazos, as exigências documentais e o resultado de um pedido é parte importante da acessibilidade para candidatos surdos.</p>\n<h2>A barreira começa no formulário</h2>\n<p>Campos sem explicação, instruções vagas e mensagens de erro pouco claras dificultam o atendimento especializado. O W3C recomenda identificar campos obrigatórios e explicar formatos e procedimentos de preenchimento.</p>\n<p>Para candidatos surdos, a banca deve comunicar de forma compreensível quais recursos estão disponíveis, como solicitá-los e como recorrer de uma decisão.</p>\n<h2>Recursos diferentes não são intercambiáveis</h2>\n<p>Edital traduzido para Libras é uma iniciativa adotada em seleções específicas, não uma oferta universal. Intérprete humano presencial depende das regras e da solicitação cabível; no Enem, o Inep limita sua atuação às orientações gerais e a dúvidas específicas, sem tradução integral das questões.</p>\n<p>Videoprova em Libras apresenta a prova traduzida em vídeo quando prevista. VLibras é tradução automática em ambiente digital e não substitui intérprete humano nem comprova que a prova será traduzida.</p>\n<h2>A confirmação oficial importa</h2>\n<p>O Inep disponibilizou a consulta ao resultado de recursos de atendimento especializado do Enem 2026 pela Página do Participante. O protocolo inicial não equivale a deferimento definitivo.</p>\n<p>Condições do Enem, inclusive recursos e tempo adicional, não devem ser generalizadas para concursos, vestibulares ou outras bancas. É necessário conferir edital e retificações de cada seleção.</p>\n<h2>Como candidatos e organizadores podem agir</h2>\n<p>O candidato deve preservar edital, protocolo, comprovantes e resposta oficial. Dúvidas precisam ser encaminhadas à banca dentro do prazo. Não se deve presumir procedimentos não previstos.</p>\n<p>Organizadores podem testar formulários com pessoas usuárias de Libras e tecnologias assistivas. A acessibilidade começa quando a informação permite exercer efetivamente as opções disponíveis.</p>",
+  "referenciasPublicas": [
+    "BRASIL. INSTITUTO NACIONAL DE ESTUDOS E PESQUISAS EDUCACIONAIS ANÍSIO TEIXEIRA. Haverá a disponibilização de recursos de acessibilidade? Brasília: Inep, 2026. Disponível em: https://www.gov.br/inep/pt-br/acesso-a-informacao/perguntas-frequentes/exame-nacional-do-ensino-medio-enem/antes-do-exame-justificativa-de-ausencia-inscricoes-e-acompanhamento/havera-a-disponibilizacao-de-recursos. Acesso em: 29 out. 2026.",
+    "WORLD WIDE WEB CONSORTIUM. Form instructions. WAI Forms Tutorial. Cambridge: W3C, s.d. Disponível em: https://www.w3.org/WAI/tutorials/forms/instructions/. Acesso em: 29 out. 2026.",
+    "BRASIL. INEP. Enem 2026: resultado dos recursos de atendimento especializado está disponível. Brasília: Inep, 13 jul. 2026. Disponível em: https://www.gov.br/inep/pt-br/centrais-de-conteudo/noticias/enem/enem-2026-resultado-dos-recursos-de-atendimento-especializado-esta-disponivel. Acesso em: 29 out. 2026."
+  ]
+}
