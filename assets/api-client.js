@@ -10,21 +10,16 @@ function sort(a){return a.sort((x,y)=>date(y).localeCompare(date(x))||String(x.t
 function fallback(){return (Array.isArray(window.GEB_PUBLICADOS)?window.GEB_PUBLICADOS:[]).filter(x=>x&&x.status==="Publicado");}
 async function catalog(){
   if(!promise)promise=(async()=>{
-    const built=Array.isArray(window.GEB_INDICE_ARTIGOS)?window.GEB_INDICE_ARTIGOS:[];
-    const validated=built.filter(a=>a&&a.slug&&a.status==="Publicado"&&a.arquivo);
-    /* Consolidação incremental: inclui novos lotes publicados sem depender do índice legado de 95 artigos. */
-    const settled=await Promise.allSettled(SHARDS.map(async path=>{
-      const response=await fetch(new URL(path,ROOT),{cache:"no-store"});
-      if(!response.ok)throw new Error(path+" HTTP "+response.status);
-      return response.json();
-    }));
-    const merged=new Map();
-    validated.forEach(a=>merged.set(a.slug,a));
-    settled.forEach(result=>{if(result.status==="fulfilled"&&Array.isArray(result.value))result.value.forEach(a=>{if(a&&a.slug&&a.status==="Publicado"&&a.arquivo)merged.set(a.slug,a);});});
-    if(merged.size)return sort([...merged.values()]);
-    console.warn("Blog GEB: indices indisponiveis; exibindo somente artigos previamente recuperados.");
-    return sort(fallback());
-  })();
+    /* Fonte única e atômica: jamais exibir contagem parcial por falha de um lote. */
+    const response=await fetch(new URL("indices/manifesto-completo.json",ROOT),{cache:"no-store"});
+    if(!response.ok)throw new Error("Catálogo integral indisponível (HTTP "+response.status+")");
+    const articles=await response.json();
+    if(!Array.isArray(articles)||!articles.length)throw new Error("Catálogo integral vazio ou inválido");
+    const valid=articles.filter(a=>a&&a.slug&&a.arquivo&&a.status==="Publicado");
+    if(valid.length!==articles.length||new Set(valid.map(a=>a.slug)).size!==valid.length)
+      throw new Error("Catálogo integral inconsistente; não exibir acervo parcial");
+    return sort(valid);
+  })().catch(error=>{promise=null;throw error;});
   return promise;
 }
 async function full(meta){
