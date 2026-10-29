@@ -1,0 +1,28 @@
+{
+  "titulo": "Matriz RACI: quem executa, quem decide e quem precisa ser consultado",
+  "subtitulo": "Uma distribuição clara de papéis reduz dúvidas em processos que atravessam setores.",
+  "slug": "matriz-raci-responsabilidades-processos-equipes",
+  "resumo": "Conheça a matriz RACI, as quatro responsabilidades e como aplicá-la sem criar burocracia desnecessária.",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [
+    "RACI",
+    "gestão de processos",
+    "responsabilidades",
+    "equipes"
+  ],
+  "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+  "dataPublicacao": "28/10/2026",
+  "dataPublicacaoISO": "2026-10-28",
+  "status": "Publicado",
+  "tituloSEO": "Matriz RACI: como distribuir responsabilidades em processos",
+  "descricaoSEO": "Entenda o que significam R, A, C e I na matriz RACI e veja como reduzir retrabalho e decisões sem responsável.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1ZHknFDh8uAZpjyOzAJd2LxT8G2AqgiWh2qDGmlH1-zk",
+  "conteudoHTML": "<p>Um pedido passa do comercial para o financeiro e depois para a operação. Todos participam, mas ninguém sabe quem deve tomar a decisão final quando surge uma divergência. O problema pode não ser falta de esforço: pode ser uma distribuição imprecisa de responsabilidades.</p>\n<h2>Quatro letras para quatro funções</h2>\n<p>A matriz RACI é uma ferramenta de gestão que associa atividades a papéis. R vem de responsible: quem executa a tarefa. A vem de accountable: quem responde pelo resultado e pela decisão. C significa consulted: quem deve ser ouvido antes de determinadas decisões. I corresponde a informed: quem precisa receber informação sobre o andamento ou a conclusão.</p>\n<p>A American Society for Quality apresenta a RACI como recurso para tornar claras as relações entre participantes de processos e projetos. Uma mesma pessoa pode assumir mais de um papel, conforme o contexto; o importante é evitar atribuições contraditórias.</p>\n<h2>Um exemplo entre setores</h2>\n<p>Considere a implantação de uma nova rotina de cadastro. A equipe de atendimento executa os testes com clientes; a gerência responsável aprova a mudança; a área de privacidade é consultada sobre os dados solicitados; e a equipe comercial é informada da data de entrada em vigor. Essa divisão pode ser registrada em uma tabela simples.</p>\n<p>Se duas áreas acreditam ter a palavra final, a matriz revela um conflito que precisa ser resolvido. Se ninguém responde pela decisão, também expõe uma lacuna. O desenho deve refletir a autoridade real, e não apenas o organograma idealizado.</p>\n<h2>Quando a ferramenta ajuda — e quando atrapalha</h2>\n<p>A RACI é especialmente útil em entregas recorrentes com muitas passagens de responsabilidade, implantação de mudanças e projetos intersetoriais. Antes de preencher uma tabela extensa, escolha poucas atividades críticas: aprovar, executar, revisar, comunicar e acompanhar.</p>\n<p>A ferramenta perde valor quando vira um documento enorme que ninguém consulta, ou quando atribui responsabilidade sem conceder recursos e autoridade correspondentes. A matriz não substitui conversas sobre capacidade, prazos e riscos.</p>\n<h2>Como começar sem burocratizar</h2>\n<p>Escolha um processo que acumula atrasos. Liste as principais decisões e entregas; identifique quem de fato executa, decide, deve ser consultado e precisa ser informado; valide a distribuição com as pessoas envolvidas; e revise após algumas semanas de uso.</p>\n<p>O resultado esperado não é uma tabela bonita. É reduzir perguntas repetidas, evitar aprovações duplicadas e permitir que cada área saiba quando agir. Uma boa matriz de responsabilidades precisa caber na rotina que pretende organizar.</p>",
+  "referenciasPublicas": [
+    "AMERICAN SOCIETY FOR QUALITY (ASQ). RACI Chart Template. [S. l.]: [s. n.], [s. d.]. Disponível em: https://asq.org/quality-resources/benchmarking/raci-chart-template?id=e5b157ca5385415197cb5a1012045b46. Acesso em: 28 out. 2026."
+  ]
+}
