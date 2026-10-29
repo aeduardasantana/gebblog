@@ -1,0 +1,29 @@
+{
+  "titulo": "Empenhado, liquidado e pago: como ler despesas públicas sem confundir etapas",
+  "subtitulo": "Os números do orçamento representam momentos diferentes; comparar valores sem contexto pode levar a interpretações erradas.",
+  "slug": "despesas-publicas-empenhado-liquidado-pago",
+  "resumo": "Entenda as diferenças entre empenho, liquidação e pagamento e como consultar despesas públicas com filtros e contexto.",
+  "categoria": "Institucional",
+  "categorias": [
+    "Institucional"
+  ],
+  "tags": [
+    "despesas públicas",
+    "orçamento",
+    "transparência",
+    "governança"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "27/10/2026",
+  "dataPublicacaoISO": "2026-10-27",
+  "status": "Publicado",
+  "tituloSEO": "Despesa pública: diferença entre empenhado e pago",
+  "descricaoSEO": "Aprenda a interpretar as fases da despesa pública e a consultar dados de execução orçamentária no Portal da Transparência.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "13sDL-b9gg9BZtOFpIxitahamqQ7qbqjHk1P-OA3aJPo",
+  "conteudoHTML": "<p>Uma manchete informa que determinado órgão empenhou recursos. Outra diz que apenas parte do valor foi paga. Sem distinguir as fases da despesa, o leitor pode concluir que houve desperdício, atraso ou economia, quando os números, sozinhos, não sustentam nenhuma dessas interpretações.</p>\n<p>O Portal da Transparência permite consultar dados da execução orçamentária e financeira federal. A Controladoria-Geral da União apresenta filtros para documentos de empenho, liquidação e pagamento, que representam etapas diferentes.</p>\n<h2>Empenhar não é transferir dinheiro</h2>\n<p>De forma simplificada, o empenho registra uma obrigação orçamentária dentro das regras aplicáveis. Ele não equivale automaticamente a entrega do serviço nem ao pagamento ao fornecedor.</p>\n<p>Por isso, um valor empenhado não deve ser apresentado como dinheiro já desembolsado. É preciso identificar o período, o órgão, a ação e a natureza da despesa.</p>\n<h2>Liquidação e pagamento respondem a outras perguntas</h2>\n<p>A liquidação está associada à verificação do direito do credor, conforme documentos e condições pertinentes. O pagamento corresponde à saída financeira para quitar a obrigação.</p>\n<p>Ao comparar essas fases, observe que diferenças podem decorrer do estágio de execução, de prazos e de situações administrativas diversas. Não se pode atribuir causa específica sem examinar documentos e contexto.</p>\n<h2>Como fazer uma consulta responsável</h2>\n<p>No Portal da Transparência, selecione o órgão, o período e a fase da despesa. A CGU oferece tanto consultas consolidadas quanto documentos diários, com filtros próprios.</p>\n<p>Registre a data da consulta e os critérios utilizados. Valores de anos ou classificações diferentes não devem ser comparados como se fossem uma série homogênea.</p>\n<h2>O que os números não contam sozinhos</h2>\n<p>Dados financeiros ajudam a formular perguntas sobre planejamento e execução, mas não comprovam, por si, a qualidade de um serviço ou a efetividade de uma política pública.</p>\n<p>Para avaliar resultados, é necessário relacionar recursos, entregas, metas e evidências de execução. Transparência útil não consiste apenas em disponibilizar tabelas: exige contexto suficiente para que a sociedade compreenda o que está sendo medido.</p>",
+  "referenciasPublicas": [
+    "BRASIL. Controladoria-Geral da União (CGU). Receitas e Despesas. Brasília, DF: CGU, atualizado em 18 jun. 2025. Disponível em: https://www.gov.br/cgu/pt-br/acesso-a-informacao/despesas. Acesso em: 27 out. 2026.",
+    "BRASIL. Controladoria-Geral da União (CGU). Despesas Públicas: Portal da Transparência. Brasília, DF: CGU, [s. d.]. Disponível em: https://portaldatransparencia.gov.br/despesas/. Acesso em: 27 out. 2026."
+  ]
+}
