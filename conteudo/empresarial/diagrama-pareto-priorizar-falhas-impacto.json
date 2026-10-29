@@ -1,0 +1,28 @@
+{
+  "titulo": "Diagrama de Pareto: como priorizar falhas sem ignorar problemas menos frequentes",
+  "subtitulo": "Contar ocorrências é um começo; distinguir frequência, custo e gravidade é o que transforma o gráfico em ferramenta de gestão.",
+  "slug": "diagrama-pareto-priorizar-falhas-impacto",
+  "resumo": "Aprenda a interpretar o Diagrama de Pareto, comparar frequência e impacto e evitar conclusões precipitadas sobre prioridades.",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [
+    "Diagrama de Pareto",
+    "gestão da qualidade",
+    "processos",
+    "prioridades"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "27/10/2026",
+  "dataPublicacaoISO": "2026-10-27",
+  "status": "Publicado",
+  "tituloSEO": "Diagrama de Pareto: como priorizar problemas na gestão",
+  "descricaoSEO": "Entenda como usar frequência, custo e gravidade no Diagrama de Pareto e por que a regra 80/20 não é uma lei.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1CXblIE21ZjmEPlkEM3Z61wcrGwTqYzSKxipHovy20mU",
+  "conteudoHTML": "<p>Uma empresa recebe reclamações por atrasos, erros de cadastro, cobranças indevidas e dificuldades de comunicação. Cada setor considera seu problema o mais urgente. Sem um critério compartilhado, a reunião termina com uma lista de tarefas e pouca clareza sobre por onde começar.</p>\n<p>O Diagrama de Pareto organiza ocorrências em barras, geralmente da maior para a menor frequência ou custo. Segundo a American Society for Quality (ASQ), a ferramenta integra o conjunto clássico de instrumentos de gestão da qualidade e ajuda a identificar categorias mais significativas.</p>\n<h2>Comece pela pergunta certa</h2>\n<p>Antes de montar o gráfico, escolha o que será medido. Número de reclamações, horas perdidas, custo financeiro e impacto no cliente não são a mesma coisa. Um problema pouco frequente pode produzir consequências graves.</p>\n<p>Defina também o período e as categorias. Se uma falha aparece com nomes diferentes em cada planilha, a comparação será enganosa. Uma classificação consistente é tão importante quanto a visualização.</p>\n<h2>Como interpretar as barras</h2>\n<p>Imagine cem registros: quarenta tratam de atrasos, trinta de informações incompletas, vinte de cobrança e dez de outros assuntos. Ordenar essas categorias mostra onde se concentram os registros, mas não prova por que os atrasos ocorreram.</p>\n<p>O percentual acumulado pode ajudar a visualizar a concentração. A conhecida expressão 80/20 é uma heurística, não uma proporção obrigatória: os dados podem mostrar qualquer distribuição.</p>\n<h2>Frequência não substitui análise de risco</h2>\n<p>Uma falha rara que comprometa segurança, privacidade ou obrigações legais pode exigir resposta imediata, mesmo aparecendo no fim do gráfico. Para riscos ocupacionais, o método de avaliação apropriado e os requisitos normativos não devem ser substituídos por contagem de ocorrências.</p>\n<p>A gestão pode manter dois olhares complementares: concentração de problemas repetitivos e gravidade de eventos que exigem tratamento específico.</p>\n<h2>Depois do gráfico, investigue e acompanhe</h2>\n<p>O Pareto indica onde aprofundar a análise; não identifica automaticamente a causa raiz. Para entender um atraso, pode ser necessário mapear o processo, ouvir os envolvidos e examinar evidências.</p>\n<p>Escolha uma ação proporcional, defina responsáveis e acompanhe novos registros. Se o problema mudou de lugar ou surgiram efeitos indesejados, revise a intervenção. O valor da ferramenta está em apoiar decisões verificáveis, não em produzir um gráfico bonito.</p>",
+  "referenciasPublicas": [
+    "AMERICAN SOCIETY FOR QUALITY (ASQ). What is a Pareto Chart?. ASQ, [s. d.]. Disponível em: https://asq.org/quality-resources/pareto. Acesso em: 27 out. 2026."
+  ]
+}
