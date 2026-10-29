@@ -39,29 +39,10 @@ if(seletor)seletor.addEventListener("change",function(v){categoria=seletor.value
 limpar.addEventListener("click",function(){categoria=tag=q="";busca.value="";if(seletor)seletor.value="";updateURL();render();});
 busca.value=q;
 render();
-/* A API do Apps Script limita cada consulta a 50 itens.
-   Quando uma consulta atinge o limite, reunimos as editorias,
-   eliminamos slugs duplicados e ordenamos todos por data. */
-async function completarAcervo(){
-  var falhas=0;
-  setEstado("Consultando demais editorias para completar o acervo publicado…");
-  for(var i=0;i<editorias.length;i+=2){
-    var lote=editorias.slice(i,i+2);
-    var res=await Promise.allSettled(lote.map(function(cat){
-      return window.GEB_BLOG_API.consultar({acao:"artigos",categoria:cat,limite:"50"});
-    }));
-    res.forEach(function(item){
-      if(item.status==="fulfilled"&&item.value.sucesso&&Array.isArray(item.value.dados)){
-        mergePublished(item.value.dados);
-      }else{falhas++;}
-    });
-  }
-  setEstado(falhas?"Algumas editorias não puderam ser consultadas; a lista pode estar incompleta. Atualize para tentar novamente.":"");
-}
 window.GEB_BLOG_API.consultar({acao:"artigos"}).then(function(r){
   if(!r.sucesso||!Array.isArray(r.dados))throw new Error("API sem lista autorizada");
   articles=orderByPublication(r.dados);render();
-  if(r.dados.length===50)completarAcervo().catch(function(e){setEstado("Não foi possível completar a consulta do acervo. Atualize a página para tentar novamente.");console.error("Blog GEB: acervo parcial",e);});
+  setEstado("");
 }).catch(function(e){
   articles=[];render();vazio.hidden=false;
   vazio.innerHTML="<h3>Conteúdos temporariamente indisponíveis</h3><p>O catálogo editorial não pôde ser consultado neste momento. Tente novamente em instantes.</p>";
