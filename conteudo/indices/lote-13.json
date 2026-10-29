@@ -1,0 +1,149 @@
+[
+  {
+    "titulo": "Decidir sem informação perfeita: o que a racionalidade limitada ensina a líderes",
+    "slug": "racionalidade-limitada-decisoes-lideranca-informacao",
+    "resumo": "Entenda a racionalidade limitada de Herbert Simon e como líderes podem decidir com critérios claros, informação suficiente e revisão.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "racionalidade limitada",
+      "Herbert Simon",
+      "liderança",
+      "decisões"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "27/10/2026",
+    "dataPublicacaoISO": "2026-10-27",
+    "status": "Publicado",
+    "generoEditorial": "Análise",
+    "arquivo": "desenvolvimento/racionalidade-limitada-decisoes-lideranca-informacao.json"
+  },
+  {
+    "titulo": "Diagrama de Pareto: como priorizar falhas sem ignorar problemas menos frequentes",
+    "slug": "diagrama-pareto-priorizar-falhas-impacto",
+    "resumo": "Aprenda a interpretar o Diagrama de Pareto, comparar frequência e impacto e evitar conclusões precipitadas sobre prioridades.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "Diagrama de Pareto",
+      "gestão da qualidade",
+      "processos",
+      "prioridades"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "27/10/2026",
+    "dataPublicacaoISO": "2026-10-27",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "empresarial/diagrama-pareto-priorizar-falhas-impacto.json"
+  },
+  {
+    "titulo": "Curso profissionalizante de curta duração: o que verificar antes de se matricular",
+    "slug": "curso-profissionalizante-curta-duracao-escolher",
+    "resumo": "Saiba comparar cursos profissionalizantes e FIC por objetivos, conteúdo, certificado, requisitos e custo total antes da matrícula.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "curso profissionalizante",
+      "qualificação",
+      "FIC",
+      "certificado"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "27/10/2026",
+    "dataPublicacaoISO": "2026-10-27",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "educacao/curso-profissionalizante-curta-duracao-escolher.json"
+  },
+  {
+    "titulo": "Saúde bucal no cotidiano: por que prevenção vai além da escovação",
+    "slug": "saude-bucal-escovacao-fio-dental-prevencao",
+    "resumo": "Entenda orientações públicas sobre escovação, fio dental, alimentação e acompanhamento odontológico sem promessas de tratamento.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "saúde bucal",
+      "escovação",
+      "fio dental",
+      "prevenção"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "27/10/2026",
+    "dataPublicacaoISO": "2026-10-27",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "saude/saude-bucal-escovacao-fio-dental-prevencao.json"
+  },
+  {
+    "titulo": "Arquivos compartilhados na empresa: como ganhar agilidade sem perder o controle",
+    "slug": "arquivos-compartilhados-equipe-acesso-seguranca",
+    "resumo": "Veja como avaliar uma solução de arquivos compartilhados por facilidade de uso, acesso, privacidade, suporte e custo-benefício.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "arquivos compartilhados",
+      "colaboração",
+      "segurança",
+      "usabilidade"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "27/10/2026",
+    "dataPublicacaoISO": "2026-10-27",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "tecnologia/arquivos-compartilhados-equipe-acesso-seguranca.json"
+  },
+  {
+    "titulo": "Prova acessível em Libras: por que um recurso não resolve todas as barreiras",
+    "slug": "prova-acessivel-libras-recursos-barreiras",
+    "resumo": "Entenda por que recursos de Libras não são equivalentes e como conferir edital, atendimento especializado e materiais acessíveis.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "prova acessível",
+      "Enem",
+      "atendimento especializado"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "27/10/2026",
+    "dataPublicacaoISO": "2026-10-27",
+    "status": "Publicado",
+    "generoEditorial": "Análise",
+    "arquivo": "inclusao/prova-acessivel-libras-recursos-barreiras.json"
+  },
+  {
+    "titulo": "Empenhado, liquidado e pago: como ler despesas públicas sem confundir etapas",
+    "slug": "despesas-publicas-empenhado-liquidado-pago",
+    "resumo": "Entenda as diferenças entre empenho, liquidação e pagamento e como consultar despesas públicas com filtros e contexto.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "despesas públicas",
+      "orçamento",
+      "transparência",
+      "governança"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "27/10/2026",
+    "dataPublicacaoISO": "2026-10-27",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "institucional/despesas-publicas-empenhado-liquidado-pago.json"
+  }
+]
