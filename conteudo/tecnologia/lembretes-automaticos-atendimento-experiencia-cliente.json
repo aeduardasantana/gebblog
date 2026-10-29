@@ -1,0 +1,29 @@
+{
+  "titulo": "Lembretes automáticos: quando facilitam o atendimento e quando incomodam o cliente",
+  "subtitulo": "Avisos podem reduzir esquecimentos, mas precisam respeitar tempo, acessibilidade e privacidade.",
+  "slug": "lembretes-automaticos-atendimento-experiencia-cliente",
+  "resumo": "Um lembrete de consulta pode poupar uma ligação e evitar esquecimento. Mas avisos excessivos, confusos ou indiscretos também podem prejudicar a experi",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [
+    "lembretes",
+    "experiência do cliente",
+    "automação",
+    "privacidade"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "29/10/2026",
+  "dataPublicacaoISO": "2026-10-29",
+  "status": "Publicado",
+  "tituloSEO": "Lembretes automáticos: experiência e privacidade",
+  "descricaoSEO": "Como avaliar lembretes automáticos úteis e seguros para clientes, sem excesso de mensagens ou complexidade.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1FiH4tCwG4hQzZkmqwAc6ugH2RXdsSWDIGs6wRejce8o",
+  "conteudoHTML": "<p>Um lembrete de consulta pode poupar uma ligação e evitar esquecimento. Mas avisos excessivos, confusos ou indiscretos também podem prejudicar a experiência. A tecnologia deve ser avaliada pelo resultado percebido por quem recebe o serviço.</p>\n<h2>A mensagem deve resolver uma dúvida</h2>\n<p>O cliente geralmente precisa saber horário, local e próximo passo. Uma comunicação curta, com opção simples de confirmação ou remarcação, pode ser mais útil do que uma sequência de notificações. Antes de contratar uma ferramenta, identifique quais dúvidas se repetem.</p>\n<p>Se o problema é encontrar o endereço, enviar vários avisos genéricos não resolve. O conteúdo deve ser relevante e oportuno.</p>\n<h2>Menos atrito para quem usa</h2>\n<p>Teste a experiência com clientes de diferentes perfis. A mensagem é compreensível? O remetente é identificável? Existe alternativa para quem não consegue usar determinado canal? Avisos exclusivamente em imagem ou áudio podem criar barreiras.</p>\n<p>O W3C recomenda instruções claras em interações digitais. O princípio vale também para confirmações e formulários vinculados aos lembretes.</p>\n<h2>Privacidade é parte do serviço</h2>\n<p>Nem todo detalhe de um compromisso deve aparecer na tela bloqueada do celular. A ANPD recomenda medidas de segurança para proteção de dados pessoais, inclusive em organizações de pequeno porte.</p>\n<p>Pergunte ao fornecedor quem acessa contatos, como são protegidos e como se administram atualizações e solicitações dos titulares. Conveniência não elimina responsabilidade.</p>\n<h2>Como escolher com custo-benefício</h2>\n<p>Simule o fluxo completo: agendamento, aviso, confirmação, alteração e atendimento humano quando necessário. Avalie suporte, custos recorrentes, acessibilidade e quantidade de dúvidas resolvidas.</p>\n<p>Automação útil diminui esforço para cliente e equipe. Se apenas cria mais etapas, é sinal de que a experiência precisa ser revista.</p>",
+  "referenciasPublicas": [
+    "AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS. Guia orientativo sobre segurança da informação para agentes de tratamento de pequeno porte. Brasília: ANPD, 2024. Disponível em: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-sobre-seguranca-da-informacao-para-agentes-de-tratamento-de-pequeno-porte. Acesso em: 29 out. 2026.",
+    "WORLD WIDE WEB CONSORTIUM. Form instructions. WAI Forms Tutorial. Cambridge: W3C, s.d. Disponível em: https://www.w3.org/WAI/tutorials/forms/instructions/. Acesso em: 29 out. 2026."
+  ]
+}
