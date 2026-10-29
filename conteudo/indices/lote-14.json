@@ -1,0 +1,152 @@
+[
+  {
+    "titulo": "Autonomia no trabalho não é abandono: o que diz a teoria da autodeterminação",
+    "slug": "autonomia-trabalho-teoria-autodeterminacao-apoio",
+    "resumo": "Entenda a diferença entre autonomia e abandono na gestão de equipes, com base na teoria da autodeterminação.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "autonomia",
+      "motivação",
+      "liderança",
+      "psicologia organizacional"
+    ],
+    "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+    "dataPublicacao": "28/10/2026",
+    "dataPublicacaoISO": "2026-10-28",
+    "status": "Publicado",
+    "generoEditorial": "Análise",
+    "arquivo": "desenvolvimento/autonomia-trabalho-teoria-autodeterminacao-apoio.json"
+  },
+  {
+    "titulo": "Matriz RACI: quem executa, quem decide e quem precisa ser consultado",
+    "slug": "matriz-raci-responsabilidades-processos-equipes",
+    "resumo": "Conheça a matriz RACI, as quatro responsabilidades e como aplicá-la sem criar burocracia desnecessária.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "RACI",
+      "gestão de processos",
+      "responsabilidades",
+      "equipes"
+    ],
+    "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+    "dataPublicacao": "28/10/2026",
+    "dataPublicacaoISO": "2026-10-28",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "empresarial/matriz-raci-responsabilidades-processos-equipes.json"
+  },
+  {
+    "titulo": "Curso técnico regular: como conferir catálogo, instituição e diploma",
+    "slug": "curso-tecnico-verificar-catalogo-instituicao-diploma",
+    "resumo": "Veja como consultar o Catálogo Nacional de Cursos Técnicos, pedir comprovações da instituição e entender o papel do SISTEC.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "curso técnico",
+      "CNCT",
+      "SISTEC",
+      "diploma",
+      "educação profissional"
+    ],
+    "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+    "dataPublicacao": "28/10/2026",
+    "dataPublicacaoISO": "2026-10-28",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "educacao/curso-tecnico-verificar-catalogo-instituicao-diploma.json"
+  },
+  {
+    "titulo": "Vacinação na vida adulta: por que revisar a caderneta é importante",
+    "slug": "vacinacao-adulto-revisar-caderneta-calendario-sus",
+    "resumo": "Entenda por que adultos devem revisar o histórico vacinal e procurar orientação no SUS para atualizar a proteção.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "vacinação adulto",
+      "SUS",
+      "caderneta",
+      "prevenção",
+      "imunização"
+    ],
+    "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+    "dataPublicacao": "28/10/2026",
+    "dataPublicacaoISO": "2026-10-28",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "saude/vacinacao-adulto-revisar-caderneta-calendario-sus.json"
+  },
+  {
+    "titulo": "Atendimento digital com histórico: como escolher sem complicar a vida do cliente",
+    "slug": "atendimento-digital-historico-cliente-escolher-solucao",
+    "resumo": "Saiba como avaliar ferramentas de atendimento com histórico, privacidade, acessibilidade e custo-benefício sem precisar programar.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "atendimento digital",
+      "experiência do cliente",
+      "produtividade",
+      "privacidade"
+    ],
+    "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+    "dataPublicacao": "28/10/2026",
+    "dataPublicacaoISO": "2026-10-28",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "tecnologia/atendimento-digital-historico-cliente-escolher-solucao.json"
+  },
+  {
+    "titulo": "Atendimento em Libras em provas: por que guardar o protocolo do pedido",
+    "slug": "libras-provas-protocolo-pedido-atendimento-especializado",
+    "resumo": "Entenda como documentar pedidos de recursos em Libras em exames e concursos, respeitando as regras específicas de cada edital.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "atendimento especializado",
+      "concursos",
+      "Enem",
+      "acessibilidade"
+    ],
+    "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+    "dataPublicacao": "28/10/2026",
+    "dataPublicacaoISO": "2026-10-28",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "inclusao/libras-provas-protocolo-pedido-atendimento-especializado.json"
+  },
+  {
+    "titulo": "Dados abertos confiáveis: como verificar origem, período e atualização",
+    "slug": "dados-abertos-origem-periodo-atualizacao-confiabilidade",
+    "resumo": "Aprenda a verificar órgão responsável, período de referência, atualização e limites antes de usar dados públicos.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "dados abertos",
+      "governança",
+      "transparência",
+      "qualidade da informação"
+    ],
+    "autorPublico": "Redação GEB (texto elaborado com assistência de IA; validação editorial independente pendente)",
+    "dataPublicacao": "28/10/2026",
+    "dataPublicacaoISO": "2026-10-28",
+    "status": "Publicado",
+    "generoEditorial": "Explicativo/guia",
+    "arquivo": "institucional/dados-abertos-origem-periodo-atualizacao-confiabilidade.json"
+  }
+]
