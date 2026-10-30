@@ -75,7 +75,7 @@ jobs:
                       records[item["slug"]]=item
           if not records: raise SystemExit("Acervo vazio; deploy bloqueado")
           articles=sorted(records.values(),key=lambda x:x.get("dataPublicacaoISO",""),reverse=True)
-          (root/"manifesto-completo.json").write_text(json.dumps(articles,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+          (root/"manifesto-completo.json").write_text(json.dumps(articles,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           ET.register_namespace("","http://www.sitemaps.org/schemas/sitemap/0.9")
           ns="{http://www.sitemaps.org/schemas/sitemap/0.9}"
           urlset=ET.Element(ns+"urlset")

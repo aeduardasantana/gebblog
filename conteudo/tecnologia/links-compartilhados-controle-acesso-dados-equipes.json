@@ -1,0 +1,29 @@
+{
+  "titulo": "Quem ainda tem acesso? O risco invisível dos links compartilhados",
+  "subtitulo": "Ferramentas colaborativas só ajudam a empresa quando o acesso acompanha a necessidade real de cada pessoa.",
+  "slug": "links-compartilhados-controle-acesso-dados-equipes",
+  "resumo": "Como pequenas equipes podem revisar permissões de arquivos e links compartilhados sem tornar a colaboração mais difícil.",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [
+    "segurança da informação",
+    "links compartilhados",
+    "permissões",
+    "LGPD"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "30/10/2026",
+  "dataPublicacaoISO": "2026-10-30",
+  "status": "Publicado",
+  "tituloSEO": "Quem ainda tem acesso? O risco invisível dos links compartilhados",
+  "descricaoSEO": "Como pequenas equipes podem revisar permissões de arquivos e links compartilhados sem tornar a colaboração mais difícil.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1diHTcCzg4DhMy5wqw8QLWGoGESOibjqa3QU3RHubVGo",
+  "conteudoHTML": "<p>Compartilhar um documento por link é rápido. O problema começa quando ninguém sabe mais quem recebeu o endereço, quais permissões foram concedidas ou se pessoas que saíram da equipe continuam com acesso. O arquivo permanece organizado na pasta, mas sua circulação deixou de ser controlada.</p>\n<p>Em pequenas empresas, a solução não precisa começar por um sistema complexo. Começa por uma pergunta simples: cada pessoa ainda precisa acessar essas informações para realizar sua atividade?</p>\n<h2>Acesso não é tudo ou nada</h2>\n<p>Ferramentas de armazenamento costumam oferecer níveis diferentes de permissão, como visualizar, comentar ou editar. Escolher a permissão mais ampla por conveniência pode gerar alterações acidentais e exposição desnecessária de dados.</p>\n<p>O glossário da Autoridade Nacional de Proteção de Dados define controle de acesso como medida destinada a permitir que informações sejam acessadas apenas por pessoas autorizadas. A ANPD também disponibiliza um guia de segurança da informação para agentes de tratamento de pequeno porte, com medidas administrativas e técnicas compatíveis com a realidade dessas organizações.</p>\n<h2>Quando um link deixa de ser temporário</h2>\n<p>Pense em um orçamento enviado a um prestador de serviço para uma atividade específica. Se o documento permanece editável meses depois, o acesso ultrapassa a necessidade original. O mesmo ocorre com planilhas que incluem informações de clientes, empregados ou parceiros.</p>\n<p>Uma prática útil é definir quem pode compartilhar, quando usar acesso restrito, quem revisa permissões e como revogar acessos após o encerramento de uma atividade. Quando a ferramenta oferecer prazo de expiração, ele pode ajudar, mas não substitui a revisão de pessoas autorizadas.</p>\n<h2>Três decisões simples para equipes</h2>\n<p>Primeiro, diferencie documentos públicos de documentos internos e de arquivos que contêm dados pessoais. Segundo, conceda a menor permissão suficiente para a tarefa. Terceiro, estabeleça uma rotina de revisão, especialmente quando alguém muda de função, encerra contrato ou deixa a organização.</p>\n<p>Essas decisões precisam ser compreendidas pelos usuários. Uma política que só a equipe técnica entende tende a ser ignorada na pressa do cotidiano.</p>\n<h2>Segurança também é experiência de uso</h2>\n<p>Restringir tudo indiscriminadamente pode paralisar o trabalho. O desafio é permitir colaboração legítima sem transformar qualquer link em porta aberta permanente. Para isso, as equipes devem saber solicitar acesso, localizar a versão correta e identificar quem responde pelo documento.</p>\n<p>A automação pode apoiar alertas e revisões, mas o critério de autorização continua sendo uma decisão organizacional. Tecnologia bem aplicada reduz atrito sem abandonar responsabilidade.</p>\n<p>Antes de contratar mais uma plataforma, vale examinar as permissões das ferramentas já utilizadas. Às vezes, a melhoria mais relevante não é comprar um recurso novo, e sim utilizar corretamente aquele que a empresa já possui.</p>",
+  "referenciasPublicas": [
+    "AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS. Guia orientativo sobre segurança da informação para agentes de tratamento de pequeno porte. 2024. Disponível em: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-sobre-seguranca-da-informacao-para-agentes-de-tratamento-de-pequeno-porte. Acesso em: 30 out. 2026.",
+    "AUTORIDADE NACIONAL DE PROTEÇÃO DE DADOS. Glossário ANPD: controle de acesso. s.d.. Disponível em: https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/glossario-anpd. Acesso em: 30 out. 2026."
+  ]
+}

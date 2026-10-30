@@ -1,0 +1,178 @@
+[
+  {
+    "titulo": "Feedback útil começa com fatos e termina com um acordo",
+    "subtitulo": "Conversas de desempenho funcionam melhor quando orientam o próximo passo, em vez de apenas julgar o passado.",
+    "slug": "feedback-util-fatos-acordo-desenvolvimento",
+    "resumo": "Entenda como tornar o feedback uma conversa específica, respeitosa e acompanhada de condições reais de melhoria.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "feedback",
+      "desenvolvimento humano",
+      "liderança",
+      "aprendizagem"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "30/10/2026",
+    "dataPublicacaoISO": "2026-10-30",
+    "status": "Publicado",
+    "tituloSEO": "Feedback útil começa com fatos e termina com um acordo",
+    "descricaoSEO": "Entenda como tornar o feedback uma conversa específica, respeitosa e acompanhada de condições reais de melhoria.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1WasC-6ETbMPnfu1A1EuhH9rkJQXRpRAkh9OK07IAb7w",
+    "arquivo": "desenvolvimento/feedback-util-fatos-acordo-desenvolvimento.json"
+  },
+  {
+    "titulo": "Passagem de tarefas entre setores: onde a informação se perde",
+    "subtitulo": "Um processo pode funcionar bem dentro de cada equipe e falhar justamente na transição entre elas.",
+    "slug": "passagem-tarefas-setores-informacao-responsabilidades",
+    "resumo": "Veja como identificar falhas na passagem de tarefas entre áreas e definir informações mínimas, responsáveis e critérios de conclusão.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "processos",
+      "comunicação entre setores",
+      "gestão operacional",
+      "responsabilidades"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "30/10/2026",
+    "dataPublicacaoISO": "2026-10-30",
+    "status": "Publicado",
+    "tituloSEO": "Passagem de tarefas entre setores: onde a informação se perde",
+    "descricaoSEO": "Veja como identificar falhas na passagem de tarefas entre áreas e definir informações mínimas, responsáveis e critérios de conclusão.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1MFUf8iGOscSBr31ZYxLNyb3wL63HYqBGJfnMQNob9tQ",
+    "arquivo": "empresarial/passagem-tarefas-setores-informacao-responsabilidades.json"
+  },
+  {
+    "titulo": "Segunda licenciatura ou formação pedagógica: qual caminho corresponde à sua graduação?",
+    "subtitulo": "Quem já tem diploma superior precisa verificar a formação de origem antes de escolher um percurso para a docência.",
+    "slug": "segunda-licenciatura-formacao-pedagogica-diferencas-graduados",
+    "resumo": "Entenda a diferença entre segunda licenciatura e formação pedagógica para graduados não licenciados e o que conferir antes da matrícula.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "segunda licenciatura",
+      "formação pedagógica",
+      "professores",
+      "graduação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "30/10/2026",
+    "dataPublicacaoISO": "2026-10-30",
+    "status": "Publicado",
+    "tituloSEO": "Segunda licenciatura ou formação pedagógica: qual caminho corresponde à sua graduação?",
+    "descricaoSEO": "Entenda a diferença entre segunda licenciatura e formação pedagógica para graduados não licenciados e o que conferir antes da matrícula.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1aC0DpJv3N_iZcInIn5ZAHMmD1L7f6zWlN3mT6RZZsns",
+    "arquivo": "educacao/segunda-licenciatura-formacao-pedagogica-diferencas-graduados.json"
+  },
+  {
+    "titulo": "Cansaço persistente: quando a rotina não explica tudo",
+    "subtitulo": "Nem toda fadiga é consequência de uma semana intensa, e o sintoma não permite diagnóstico por conta própria.",
+    "slug": "cansaco-persistente-quando-procurar-avaliacao-saude",
+    "resumo": "Saiba por que cansaço prolongado merece atenção, quais informações observar e quando procurar avaliação de saúde.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "cansaço persistente",
+      "fadiga",
+      "sono",
+      "cuidados de saúde"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "30/10/2026",
+    "dataPublicacaoISO": "2026-10-30",
+    "status": "Publicado",
+    "tituloSEO": "Cansaço persistente: quando a rotina não explica tudo",
+    "descricaoSEO": "Saiba por que cansaço prolongado merece atenção, quais informações observar e quando procurar avaliação de saúde.",
+    "generoEditorial": "Informativo/editorial",
+    "documentId": "13lgDfChIbmP53s5agocn_HQG7hMHsgZwKPz2D3OFs2Y",
+    "arquivo": "saude/cansaco-persistente-quando-procurar-avaliacao-saude.json"
+  },
+  {
+    "titulo": "Quem ainda tem acesso? O risco invisível dos links compartilhados",
+    "subtitulo": "Ferramentas colaborativas só ajudam a empresa quando o acesso acompanha a necessidade real de cada pessoa.",
+    "slug": "links-compartilhados-controle-acesso-dados-equipes",
+    "resumo": "Como pequenas equipes podem revisar permissões de arquivos e links compartilhados sem tornar a colaboração mais difícil.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "segurança da informação",
+      "links compartilhados",
+      "permissões",
+      "LGPD"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "30/10/2026",
+    "dataPublicacaoISO": "2026-10-30",
+    "status": "Publicado",
+    "tituloSEO": "Quem ainda tem acesso? O risco invisível dos links compartilhados",
+    "descricaoSEO": "Como pequenas equipes podem revisar permissões de arquivos e links compartilhados sem tornar a colaboração mais difícil.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1diHTcCzg4DhMy5wqw8QLWGoGESOibjqa3QU3RHubVGo",
+    "arquivo": "tecnologia/links-compartilhados-controle-acesso-dados-equipes.json"
+  },
+  {
+    "titulo": "Intérprete de Libras e videoprova: recursos diferentes, necessidades diferentes",
+    "subtitulo": "Acessibilidade em exames exige compreender o que cada recurso oferece e o que o edital efetivamente prevê.",
+    "slug": "interprete-libras-videoprova-diferencas-acessibilidade-exames",
+    "resumo": "Entenda a diferença entre videoprova em Libras e tradutor-intérprete, e por que a solicitação de atendimento deve seguir o edital.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "videoprova",
+      "intérprete",
+      "atendimento especializado"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "30/10/2026",
+    "dataPublicacaoISO": "2026-10-30",
+    "status": "Publicado",
+    "tituloSEO": "Intérprete de Libras e videoprova: recursos diferentes, necessidades diferentes",
+    "descricaoSEO": "Entenda a diferença entre videoprova em Libras e tradutor-intérprete, e por que a solicitação de atendimento deve seguir o edital.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1yHemlx0MGEUizX4oAtxapp6oiMSNExLAHeDEbp6nciE",
+    "arquivo": "inclusao/interprete-libras-videoprova-diferencas-acessibilidade-exames.json"
+  },
+  {
+    "titulo": "Projeto entregue não é o mesmo que resultado alcançado",
+    "subtitulo": "Contar atividades realizadas é importante, mas não basta para compreender o efeito de uma iniciativa.",
+    "slug": "projetos-entregas-resultados-indicadores-impacto",
+    "resumo": "Saiba diferenciar atividade, entrega e resultado na avaliação de projetos e na comunicação institucional responsável.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "indicadores",
+      "resultados",
+      "projetos",
+      "governança",
+      "transparência"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "30/10/2026",
+    "dataPublicacaoISO": "2026-10-30",
+    "status": "Publicado",
+    "tituloSEO": "Projeto entregue não é o mesmo que resultado alcançado",
+    "descricaoSEO": "Saiba diferenciar atividade, entrega e resultado na avaliação de projetos e na comunicação institucional responsável.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1_O_l1UMBO0ADd8jBP6zgRCQ7tNjWX3JkgYSxwgEc4XY",
+    "arquivo": "institucional/projetos-entregas-resultados-indicadores-impacto.json"
+  }
+]
