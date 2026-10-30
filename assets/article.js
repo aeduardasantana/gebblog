@@ -153,14 +153,23 @@ normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);lin
 var more=document.getElementById("mais-editoria");
 if(more){more.href="./?categoria="+encodeURIComponent(editoria);more.firstChild.textContent="Mais em "+editoria+" ";}
 var share=document.getElementById("compartilhar-artigo");
-if(share&&!share.dataset.wired){share.dataset.wired="1";share.setAttribute("aria-label","Compartilhar artigo pelo WhatsApp");share.addEventListener("click",function(){
-  var link=canonical(a),msg=document.getElementById("feedback-compartilhamento");
-  var texto=[cleanText(a.titulo),summary(a),link].filter(Boolean).join("\n\n");
-  var whatsapp="https://api.whatsapp.com/send?text="+encodeURIComponent(texto);
-  var popup=window.open(whatsapp,"_blank","noopener,noreferrer");
-  if(!popup)window.location.href=whatsapp;
-  if(msg){msg.hidden=false;msg.textContent="Abrindo o WhatsApp com título, resumo e link do artigo.";}
-});}
+if(share&&!share.dataset.wired){
+  share.dataset.wired="1";
+  share.setAttribute("aria-label","Copiar título, resumo e link do artigo");
+  share.textContent="Copiar para compartilhar";
+  share.addEventListener("click",async function(){
+    var link=canonical(a),msg=document.getElementById("feedback-compartilhamento");
+    var texto=[cleanText(a.titulo||a.tituloSEO),summary(a),link].filter(Boolean).join("\n\n");
+    var copied=false;
+    try{
+      if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(texto);copied=true;}
+      else{
+        var field=document.createElement("textarea");field.value=texto;field.setAttribute("readonly","");field.style.position="fixed";field.style.opacity="0";document.body.appendChild(field);field.select();copied=document.execCommand("copy");field.remove();
+      }
+    }catch(error){copied=false;}
+    if(msg){msg.hidden=false;msg.setAttribute("role","status");msg.textContent=copied?"Título, resumo e link copiados. Cole onde preferir.":"Não foi possível copiar automaticamente. Selecione e copie o texto abaixo: "+texto;}
+  });
+}
 var c=canonical(a);document.title=(a.tituloSEO||a.titulo)+" — Blog GEB";document.querySelector('meta[name="description"]').setAttribute("content",a.descricaoSEO||a.resumo||"");document.getElementById("canonical-link").setAttribute("href",c);document.getElementById("og-title").setAttribute("content",a.titulo);document.getElementById("og-description").setAttribute("content",a.descricaoSEO||a.resumo||"");document.getElementById("og-url").setAttribute("content",c);var ld=document.createElement("script");ld.type="application/ld+json";ld.textContent=JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":a.titulo,"description":summary(a),"datePublished":a.dataPublicacao.split("/").reverse().join("-"),"author":{"@type":"Organization","name":a.autorPublico},"publisher":{"@type":"Organization","name":"GEB — Grupo Eduarda Bispo"},"mainEntityOfPage":c});document.head.appendChild(ld);related();
 }
 window.GEB_BLOG_API.consultar({acao:"artigo",slug:slug}).then(function(r){if(!r.sucesso||!r.dados){error.hidden=false;return;}articles=[r.dados];renderArticle(r.dados);if(error){error.hidden=true;error.style.display="none";error.remove();}window.GEB_BLOG_API.consultar({acao:"relacionados",slug:slug,limite:"3"}).then(function(rel){if(rel.sucesso&&Array.isArray(rel.dados)){articles=[r.dados].concat(rel.dados);related();}}).catch(function(){});}).catch(function(e){if(article&&article.hidden){error.hidden=false;error.style.display="block";}console.error("Blog GEB: artigo indisponível",e);});
