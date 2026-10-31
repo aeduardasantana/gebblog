@@ -1,0 +1,30 @@
+{
+  "titulo": "Corrigir uma informação pública também é prestar contas",
+  "subtitulo": "Erratas, datas de atualização e histórico de mudanças ajudam a preservar a confiança em conteúdos institucionais.",
+  "slug": "corrigir-informacao-publica-errata-historico-atualizacao",
+  "resumo": "Veja como estruturar correções e atualizações de informações institucionais com clareza, registro de mudanças e responsabilidade.",
+  "categoria": "Institucional",
+  "categorias": [
+    "Institucional"
+  ],
+  "tags": [
+    "transparência",
+    "governança da informação",
+    "errata",
+    "comunicação institucional"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "31/10/2026",
+  "dataPublicacaoISO": "2026-10-31",
+  "status": "Publicado",
+  "tituloSEO": "Corrigir uma informação pública também é prestar contas",
+  "descricaoSEO": "Veja como estruturar correções e atualizações de informações institucionais com clareza, registro de mudanças e responsabilidade.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1fDkq9BZXPW8LQUGjg0zaNFI-bAOtUxuXo9PfszFKQhA",
+  "conteudoHTML": "<p>Uma organização publica um comunicado com um prazo incorreto. Horas depois, identifica o erro e substitui silenciosamente o texto. Quem acessa a página atualizada encontra a informação correta; quem tomou uma decisão com base na versão anterior talvez nunca saiba que houve mudança. Corrigir o dado é necessário, mas comunicar a correção também faz parte da responsabilidade institucional.</p>\n<p>Informações públicas podem mudar por novas normas, revisões técnicas, atualização de serviços ou simples erro material. O desafio é distinguir uma atualização rotineira de uma correção que altera o sentido do que foi comunicado.</p>\n<h2>Nem toda mudança exige o mesmo tratamento</h2>\n<p>Corrigir um erro de digitação sem efeito sobre a interpretação é diferente de modificar um prazo de inscrição, um requisito de participação ou um valor anunciado. Quanto maior o potencial de afetar decisões do público, maior a necessidade de tornar a alteração visível e de avaliar medidas de comunicação aos interessados.</p>\n<p>Uma política institucional pode definir categorias de alteração: ajuste editorial sem mudança de sentido; atualização de informação que ficou desatualizada; e correção de erro factual ou operacional. Essa distinção ajuda a equipe a decidir quando usar uma nota de errata, registrar uma nova data ou emitir um comunicado adicional.</p>\n<h2>Uma errata útil responde a perguntas concretas</h2>\n<p>O leitor precisa saber qual informação estava incorreta, qual é a informação válida, desde quando ela se aplica e se alguma providência deve ser tomada. A redação deve ser objetiva, sem transformar a correção em justificativa defensiva.</p>\n<p>Em serviços com inscrição, atendimento ou prazos, pode ser necessário manter o histórico do aviso e orientar diretamente as pessoas potencialmente afetadas. Isso depende da natureza da informação e das obrigações aplicáveis. Apagar todo vestígio da versão anterior pode dificultar a compreensão do ocorrido.</p>\n<h2>Governança da informação é rotina, não reação</h2>\n<p>O Guia rápido de governança de dados do Ministério da Saúde destaca precisão, qualidade, segurança, privacidade, transparência e responsabilidade como princípios relevantes. Na prática, isso significa definir quem mantém cada informação, qual fonte é considerada oficial e quando a revisão deve ocorrer.</p>\n<p>A Controladoria-Geral da União disponibiliza bases de transparência com campos de data de atualização e avaliação, ilustrando a utilidade de informar ao público o período e a origem dos registros. Organizações privadas podem aproveitar esse princípio de clareza sem confundir suas obrigações com as exigências específicas da administração pública.</p>\n<p>Uma rotina simples inclui responsável pelo conteúdo, data de última revisão, fonte de referência, histórico de mudanças relevantes e canal para comunicar inconsistências. Isso reduz o risco de versões contraditórias circularem entre site, redes sociais e atendimento.</p>\n<p>Confiabilidade não significa nunca errar. Significa ter condições de identificar, corrigir e explicar alterações relevantes. Uma instituição que trata correções com transparência demonstra que sua comunicação está conectada à realidade e pode ser verificada.</p>",
+  "referenciasPublicas": [
+    "BRASIL. Ministério da Saúde. Guia rápido de governança de dados. Brasília: Ministério da Saúde, 2025. Disponível em: https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2025/guia-rapido-de-governanca-de-dados.pdf. Acesso em: 31 out. 2026.",
+    "BRASIL. Controladoria-Geral da União. Sistema de Transparência Ativa: dados abertos. Brasília: CGU. Disponível em: https://www.gov.br/cgu/pt-br/acesso-a-informacao/dados-abertos/arquivos/sistema-de-transparencia-ativa-sta. Acesso em: 31 out. 2026.",
+    "BRASIL. Controladoria-Geral da União. Transparência e prestação de contas. Brasília: CGU. Disponível em: https://www.gov.br/cgu/pt-br/acesso-a-informacao/transparencia-e-prestacao-de-contas/transparencia-e-prestacao-de-contas. Acesso em: 31 out. 2026."
+  ]
+}

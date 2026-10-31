@@ -1,0 +1,180 @@
+[
+  {
+    "titulo": "Escuta ativa no trabalho: entender antes de responder",
+    "subtitulo": "Ouvir com atenção não significa concordar com tudo, mas permite decidir com informações melhores.",
+    "slug": "escuta-ativa-trabalho-confirmar-entendimento-sem-concordar",
+    "resumo": "Entenda como usar perguntas, sínteses e acordos de comunicação para reduzir ruídos sem transformar escuta em concordância automática.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "escuta ativa",
+      "comunicação",
+      "desenvolvimento humano",
+      "relações de trabalho"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "31/10/2026",
+    "dataPublicacaoISO": "2026-10-31",
+    "status": "Publicado",
+    "tituloSEO": "Escuta ativa no trabalho: entender antes de responder",
+    "descricaoSEO": "Entenda como usar perguntas, sínteses e acordos de comunicação para reduzir ruídos sem transformar escuta em concordância automática.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1ugfBbqc285a8LcVuH47kpe8Ccilkr5VD2hB5iwrpRhU",
+    "arquivo": "desenvolvimento/escuta-ativa-trabalho-confirmar-entendimento-sem-concordar.json"
+  },
+  {
+    "titulo": "Quando um problema deve chegar à liderança? Critérios para decidir sem paralisar a operação",
+    "subtitulo": "Escalonamento não é transferir responsabilidade: é levar a decisão ao nível adequado no momento certo.",
+    "slug": "quando-escalonar-problema-criterios-lideranca-operacao",
+    "resumo": "Saiba como definir critérios de escalonamento de problemas por impacto, urgência, autonomia e evidências, evitando decisões paradas.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "gestão de processos",
+      "escalonamento",
+      "tomada de decisão",
+      "governança"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "31/10/2026",
+    "dataPublicacaoISO": "2026-10-31",
+    "status": "Publicado",
+    "tituloSEO": "Quando um problema deve chegar à liderança? Critérios para decidir sem paralisar a operação",
+    "descricaoSEO": "Saiba como definir critérios de escalonamento de problemas por impacto, urgência, autonomia e evidências, evitando decisões paradas.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1WSfAM4ilQyE-KCTDsMgG2FywP_FiJG2hqC8B_AK5zSs",
+    "arquivo": "empresarial/quando-escalonar-problema-criterios-lideranca-operacao.json"
+  },
+  {
+    "titulo": "MBA EAD: o que conferir antes de escolher uma pós-graduação",
+    "subtitulo": "Nome do curso, instituição, certificado e metodologia importam mais do que uma promessa genérica de carreira.",
+    "slug": "mba-ead-como-escolher-pos-graduacao-instituicao-certificado",
+    "resumo": "Veja o que verificar em um MBA EAD: natureza lato sensu, instituição ofertante, carga horária, certificado, atividades e adequação à carreira.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "MBA",
+      "pós-graduação",
+      "educação a distância",
+      "especialização",
+      "carreira"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "31/10/2026",
+    "dataPublicacaoISO": "2026-10-31",
+    "status": "Publicado",
+    "tituloSEO": "MBA EAD: o que conferir antes de escolher uma pós-graduação",
+    "descricaoSEO": "Veja o que verificar em um MBA EAD: natureza lato sensu, instituição ofertante, carga horária, certificado, atividades e adequação à carreira.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1fuRwgTrq4S0LPdd7_cnRfveD5mHbmO8S9dZcUl9hD4k",
+    "arquivo": "educacao/mba-ead-como-escolher-pos-graduacao-instituicao-certificado.json"
+  },
+  {
+    "titulo": "Autocuidado ajuda, mas não substitui acompanhamento em saúde",
+    "subtitulo": "Hábitos saudáveis são importantes; transformá-los em obrigação individual pode esconder necessidades reais de cuidado.",
+    "slug": "autocuidado-limites-quando-buscar-acompanhamento-saude",
+    "resumo": "Entenda a diferença entre práticas de autocuidado, prevenção e acompanhamento profissional, e quando procurar apoio na rede de saúde.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "autocuidado",
+      "saúde mental",
+      "prevenção",
+      "acesso à saúde",
+      "bem-estar"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "31/10/2026",
+    "dataPublicacaoISO": "2026-10-31",
+    "status": "Publicado",
+    "tituloSEO": "Autocuidado ajuda, mas não substitui acompanhamento em saúde",
+    "descricaoSEO": "Entenda a diferença entre práticas de autocuidado, prevenção e acompanhamento profissional, e quando procurar apoio na rede de saúde.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1X09MQBaF4_M8QfqTAZHD-purvyf_jFT2yzeddQE_G54",
+    "arquivo": "saude/autocuidado-limites-quando-buscar-acompanhamento-saude.json"
+  },
+  {
+    "titulo": "Cobrança automática sem constrangimento: o que uma empresa precisa configurar",
+    "subtitulo": "Automatizar lembretes exige dados corretos, limites de contato e uma forma simples de resolver divergências.",
+    "slug": "cobranca-automatica-lembretes-sem-constrangimento-cliente",
+    "resumo": "Veja critérios práticos para automatizar lembretes de pagamento com controle de status, privacidade e atendimento humano.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "automação de processos",
+      "cobrança",
+      "atendimento ao cliente",
+      "proteção de dados"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "31/10/2026",
+    "dataPublicacaoISO": "2026-10-31",
+    "status": "Publicado",
+    "tituloSEO": "Cobrança automática sem constrangimento: o que uma empresa precisa configurar",
+    "descricaoSEO": "Veja critérios práticos para automatizar lembretes de pagamento com controle de status, privacidade e atendimento humano.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1TVmO8O8g9TQvfJiNfZxzpxqHOd77doXJQ39eDm7xTWQ",
+    "arquivo": "tecnologia/cobranca-automatica-lembretes-sem-constrangimento-cliente.json"
+  },
+  {
+    "titulo": "Entrevista de emprego com candidato surdo: acessibilidade começa no convite",
+    "subtitulo": "Recrutamento inclusivo exige comunicação adequada em cada etapa, sem presumir que todas as pessoas surdas utilizam os mesmos recursos.",
+    "slug": "entrevista-emprego-candidato-surdo-acessibilidade-recrutamento",
+    "resumo": "Entenda como organizar convite, entrevista e devolutiva acessíveis para candidatos surdos, respeitando diferentes formas de comunicação.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "recrutamento inclusivo",
+      "acessibilidade",
+      "pessoas surdas",
+      "seleção"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "31/10/2026",
+    "dataPublicacaoISO": "2026-10-31",
+    "status": "Publicado",
+    "tituloSEO": "Entrevista de emprego com candidato surdo: acessibilidade começa no convite",
+    "descricaoSEO": "Entenda como organizar convite, entrevista e devolutiva acessíveis para candidatos surdos, respeitando diferentes formas de comunicação.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1qzfraU73r9N8qBEtXzwkZBpCG5BvYCebkJKXU1Kq2aY",
+    "arquivo": "inclusao/entrevista-emprego-candidato-surdo-acessibilidade-recrutamento.json"
+  },
+  {
+    "titulo": "Corrigir uma informação pública também é prestar contas",
+    "subtitulo": "Erratas, datas de atualização e histórico de mudanças ajudam a preservar a confiança em conteúdos institucionais.",
+    "slug": "corrigir-informacao-publica-errata-historico-atualizacao",
+    "resumo": "Veja como estruturar correções e atualizações de informações institucionais com clareza, registro de mudanças e responsabilidade.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "transparência",
+      "governança da informação",
+      "errata",
+      "comunicação institucional"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "31/10/2026",
+    "dataPublicacaoISO": "2026-10-31",
+    "status": "Publicado",
+    "tituloSEO": "Corrigir uma informação pública também é prestar contas",
+    "descricaoSEO": "Veja como estruturar correções e atualizações de informações institucionais com clareza, registro de mudanças e responsabilidade.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1fDkq9BZXPW8LQUGjg0zaNFI-bAOtUxuXo9PfszFKQhA",
+    "arquivo": "institucional/corrigir-informacao-publica-errata-historico-atualizacao.json"
+  }
+]
