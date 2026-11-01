@@ -1,5 +1,177 @@
 [
   {
+    "titulo": "Aprender observando colegas: quando o exemplo ensina e quando perpetua erros",
+    "subtitulo": "A aprendizagem no trabalho acontece também pelo exemplo, mas observar não significa copiar tudo.",
+    "slug": "aprendizagem-observacional-colegas-exemplos-erros-trabalho",
+    "resumo": "Entenda como aprendemos observando colegas, por que bons exemplos ajudam e como evitar que hábitos ruins sejam reproduzidos na equipe.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "aprendizagem observacional",
+      "desenvolvimento humano",
+      "cultura de equipe"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "01/11/2026",
+    "dataPublicacaoISO": "2026-11-01",
+    "status": "Publicado",
+    "tituloSEO": "Aprendizagem observacional no trabalho: exemplos e riscos",
+    "descricaoSEO": "Entenda como aprendemos observando colegas, por que bons exemplos ajudam e como evitar que hábitos ruins sejam reproduzidos na equipe.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1z7hslcP6xXWlIsmUsM_07ALUqqUuCelo_oTcgjU0Bvw",
+    "arquivo": "desenvolvimento/aprendizagem-observacional-colegas-exemplos-erros-trabalho.json"
+  },
+  {
+    "titulo": "Procedimento operacional padrão: como documentar o trabalho sem engessar a equipe",
+    "subtitulo": "Um POP útil orienta decisões recorrentes e prevê exceções, em vez de transformar o trabalho em uma sequência cega.",
+    "slug": "procedimento-operacional-padrao-pop-sem-engessar-equipe",
+    "resumo": "Saiba quando um POP ajuda, o que documentar e como manter procedimentos claros, atualizados e úteis para quem executa o trabalho.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "procedimento operacional padrão",
+      "POP",
+      "gestão por processos"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "01/11/2026",
+    "dataPublicacaoISO": "2026-11-01",
+    "status": "Publicado",
+    "tituloSEO": "Procedimento operacional padrão (POP): como criar sem burocracia",
+    "descricaoSEO": "Saiba quando um POP ajuda, o que documentar e como manter procedimentos claros, atualizados e úteis para quem executa o trabalho.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "14CiGbON-NB-j5K4BWRgmjfs9Az0OgRzA4oyBZsTynww",
+    "arquivo": "empresarial/procedimento-operacional-padrao-pop-sem-engessar-equipe.json"
+  },
+  {
+    "titulo": "Mestrado e doutorado: como consultar o reconhecimento na Plataforma Sucupira",
+    "subtitulo": "Antes de comparar mensalidades ou modalidades, confirme o programa, o curso e sua situação oficial.",
+    "slug": "mestrado-doutorado-consultar-reconhecimento-plataforma-sucupira",
+    "resumo": "Aprenda a consultar programas de mestrado e doutorado na Plataforma Sucupira e a distinguir recomendação da CAPES e reconhecimento pelo MEC.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "mestrado",
+      "doutorado",
+      "CAPES",
+      "Plataforma Sucupira"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "01/11/2026",
+    "dataPublicacaoISO": "2026-11-01",
+    "status": "Publicado",
+    "tituloSEO": "Mestrado e doutorado: como consultar reconhecimento na CAPES",
+    "descricaoSEO": "Aprenda a consultar programas de mestrado e doutorado na Plataforma Sucupira e a distinguir recomendação da CAPES e reconhecimento pelo MEC.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1IuNpCbWAoAomxpEsAOryggUrQAYK0RebG-XjUAxuXk4",
+    "arquivo": "educacao/mestrado-doutorado-consultar-reconhecimento-plataforma-sucupira.json"
+  },
+  {
+    "titulo": "Dor lombar: por que movimento orientado pode ajudar mais que repouso prolongado",
+    "subtitulo": "O cuidado com a coluna depende da causa e dos sinais de alerta; ficar imóvel por muito tempo nem sempre favorece a recuperação.",
+    "slug": "dor-lombar-movimento-orientado-repouso-prolongado",
+    "resumo": "Entenda por que manter atividades toleráveis pode ajudar na dor lombar, quando buscar avaliação e quais sinais exigem atendimento urgente.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "dor lombar",
+      "coluna",
+      "movimento",
+      "reabilitação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "01/11/2026",
+    "dataPublicacaoISO": "2026-11-01",
+    "status": "Publicado",
+    "tituloSEO": "Dor lombar: movimento, repouso e sinais de alerta",
+    "descricaoSEO": "Entenda por que manter atividades toleráveis pode ajudar na dor lombar, quando buscar avaliação e quais sinais exigem atendimento urgente.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1SFqLlFTx_YCBF9LqavkZRdV9tm2CgAwBmvbOoJOzLdk",
+    "arquivo": "saude/dor-lombar-movimento-orientado-repouso-prolongado.json"
+  },
+  {
+    "titulo": "Integração entre sistemas: quando automatizar a transferência de dados vale a pena",
+    "subtitulo": "Antes de conectar ferramentas, identifique o que precisa circular, quem responde pelos dados e o que acontece quando a integração falha.",
+    "slug": "integracao-sistemas-automatizar-transferencia-dados-empresa",
+    "resumo": "Veja quando integrar sistemas compensa, quais perguntas fazer ao fornecedor e como evitar retrabalho, dados duplicados e falhas de segurança.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "integração de sistemas",
+      "automação de processos",
+      "dados",
+      "produtividade"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "01/11/2026",
+    "dataPublicacaoISO": "2026-11-01",
+    "status": "Publicado",
+    "tituloSEO": "Integração entre sistemas: quando automatizar dados",
+    "descricaoSEO": "Veja quando integrar sistemas compensa, quais perguntas fazer ao fornecedor e como evitar retrabalho, dados duplicados e falhas de segurança.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1DuBCCPVTsKcVDKhgNH6EQtozohmru55ENHwCwTgwidw",
+    "arquivo": "tecnologia/integracao-sistemas-automatizar-transferencia-dados-empresa.json"
+  },
+  {
+    "titulo": "Legendas automáticas em vídeos: por que revisar o texto antes de publicar",
+    "subtitulo": "A ferramenta pode acelerar o trabalho, mas a acessibilidade depende do que o público realmente consegue compreender.",
+    "slug": "legendas-automaticas-videos-revisao-acessibilidade",
+    "resumo": "Entenda os limites das legendas automáticas e como revisar falas, nomes, sons relevantes e sincronização em vídeos acessíveis.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "legendas automáticas",
+      "acessibilidade audiovisual",
+      "pessoas surdas"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "01/11/2026",
+    "dataPublicacaoISO": "2026-11-01",
+    "status": "Publicado",
+    "tituloSEO": "Legendas automáticas: por que revisar antes de publicar",
+    "descricaoSEO": "Entenda os limites das legendas automáticas e como revisar falas, nomes, sons relevantes e sincronização em vídeos acessíveis.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1FCVQI79pCMSf0RFATYrIb1gNqdSmrfAXfcnqBCqLmfE",
+    "arquivo": "inclusao/legendas-automaticas-videos-revisao-acessibilidade.json"
+  },
+  {
+    "titulo": "Parceria anunciada, formalizada e entregue: três etapas que não devem ser confundidas",
+    "subtitulo": "Comunicar uma intenção de colaboração exige cuidado para não apresentar expectativa como resultado comprovado.",
+    "slug": "parceria-anunciada-formalizada-entregue-comunicacao-transparente",
+    "resumo": "Entenda a diferença entre anunciar uma parceria, formalizar compromissos e comprovar entregas sem criar expectativas indevidas.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "parcerias institucionais",
+      "transparência",
+      "comunicação",
+      "governança"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "01/11/2026",
+    "dataPublicacaoISO": "2026-11-01",
+    "status": "Publicado",
+    "tituloSEO": "Parcerias institucionais: anúncio, acordo e entrega",
+    "descricaoSEO": "Entenda a diferença entre anunciar uma parceria, formalizar compromissos e comprovar entregas sem criar expectativas indevidas.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1wxjVqkMW9XAYkgkNyusMHtRk8EKK_D2O_CPZjTksG_8",
+    "arquivo": "institucional/parceria-anunciada-formalizada-entregue-comunicacao-transparente.json"
+  },
+  {
     "titulo": "Autocuidado ajuda, mas não substitui acompanhamento em saúde",
     "subtitulo": "Hábitos saudáveis são importantes; transformá-los em obrigação individual pode esconder necessidades reais de cuidado.",
     "slug": "autocuidado-limites-quando-buscar-acompanhamento-saude",

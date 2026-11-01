@@ -1,0 +1,29 @@
+{
+  "titulo": "Legendas automáticas em vídeos: por que revisar o texto antes de publicar",
+  "subtitulo": "A ferramenta pode acelerar o trabalho, mas a acessibilidade depende do que o público realmente consegue compreender.",
+  "slug": "legendas-automaticas-videos-revisao-acessibilidade",
+  "resumo": "Entenda os limites das legendas automáticas e como revisar falas, nomes, sons relevantes e sincronização em vídeos acessíveis.",
+  "categoria": "Inclusão",
+  "categorias": [
+    "Inclusão"
+  ],
+  "tags": [
+    "legendas automáticas",
+    "acessibilidade audiovisual",
+    "pessoas surdas"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "01/11/2026",
+  "dataPublicacaoISO": "2026-11-01",
+  "status": "Publicado",
+  "tituloSEO": "Legendas automáticas: por que revisar antes de publicar",
+  "descricaoSEO": "Entenda os limites das legendas automáticas e como revisar falas, nomes, sons relevantes e sincronização em vídeos acessíveis.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1FCVQI79pCMSf0RFATYrIb1gNqdSmrfAXfcnqBCqLmfE",
+  "conteudoHTML": "<h2>A legenda existe, mas será que está correta?</h2>\n<p>Uma empresa publica um vídeo de treinamento e ativa a legenda gerada automaticamente pela plataforma. O recurso aparece na tela, mas troca o nome de um equipamento, omite uma negação importante e junta a fala de duas pessoas. Para quem depende da legenda, o problema não é apenas estético: a mensagem pode ficar incompleta ou mudar de sentido.</p>\n<p>As orientações de acessibilidade do W3C explicam que legendas automáticas, sem confirmação de precisão, não são suficientes para atender adequadamente às necessidades do público. A tecnologia é útil como ponto de partida, mas não elimina a responsabilidade de conferir o resultado.</p>\n<h2>O que uma revisão precisa observar</h2>\n<p>O primeiro cuidado é comparar a legenda com o áudio completo, não apenas corrigir palavras isoladas. Nomes próprios, termos técnicos, números, siglas, orientações de segurança e expressões negativas merecem atenção especial. Uma única palavra omitida pode inverter uma instrução.</p>\n<p>Também é importante observar a sincronização. Se o texto aparece muito antes ou depois da fala, a pessoa pode perder a relação entre o que é dito e o que acontece no vídeo. Em conversas com mais de um participante, a identificação de quem está falando pode ser necessária para compreender o diálogo.</p>\n<p>Legendas acessíveis não se limitam às palavras pronunciadas. Sons que transmitem informação relevante, como um alarme, uma batida ou uma reação da plateia, podem precisar ser indicados. O W3C orienta a incluir o conteúdo sonoro necessário à compreensão, e não simplesmente transcrever a voz.</p>\n<h2>Legenda, transcrição e Libras atendem necessidades distintas</h2>\n<p>A legenda acompanha o vídeo no tempo e apresenta informações do áudio em texto. Uma transcrição separada permite consultar o conteúdo sem assistir ao vídeo e pode atender outros modos de acesso. Já uma tradução ou interpretação em Libras envolve uma língua de sinais, com estrutura própria, e não é substituída automaticamente por texto escrito.</p>\n<p>As pessoas surdas não formam um público homogêneo. Há diferentes repertórios linguísticos e preferências de acesso. Por isso, oferecer um recurso não significa que todas as barreiras de comunicação foram eliminadas.</p>\n<p>O W3C recomenda planejar recursos audiovisuais considerando necessidades diversas. Para vídeos educacionais ou institucionais, a escolha pode incluir legendas revisadas, transcrição, janela de Libras quando pertinente e informações visuais claras. A decisão depende do conteúdo e do público, sem confundir esses recursos.</p>\n<h2>Como organizar uma publicação mais acessível</h2>\n<p>Uma rotina possível começa com a geração de legendas como rascunho. Em seguida, alguém confere o áudio, ajusta os termos, verifica a pontuação e sincroniza os trechos. Depois, testa o vídeo com a legenda ativada, inclusive em uma tela pequena, e confirma se o recurso funciona na plataforma utilizada.</p>\n<p>Em conteúdos técnicos ou de alto impacto, a revisão por pessoa qualificada no assunto reduz o risco de que uma palavra incorreta comprometa a orientação. A participação de usuários com diferentes necessidades de acesso também pode revelar problemas que passam despercebidos pela equipe produtora.</p>\n<blockquote class=\"editorial-destaque\">\n<p>Acessibilidade não é a presença de um botão de legenda; é a possibilidade real de compreender a informação.</p>\n</blockquote>\n<p>O melhor uso da automação é economizar esforço na primeira etapa e direcionar atenção humana à precisão. Publicar rapidamente não precisa significar publicar de forma incompreensível.</p>\n<aside class=\"editorial-cta\">\n<p>Precisa planejar acessibilidade comunicacional para conteúdos ou eventos?</p>\n<p>Conheça a frente GEB Inclusão.</p>\n<p><a href=\"https://gebinclusao.grupoeduardabispo.com.br/\">Conhecer GEB Inclusão</a></p>\n</aside>",
+  "referenciasPublicas": [
+    "WORLD WIDE WEB CONSORTIUM (W3C). Captions/Subtitles. Web Accessibility Initiative (WAI), [s. d.]. Disponível em: https://www.w3.org/WAI/media/av/captions/. Acesso em: 1 nov. 2026.",
+    "WORLD WIDE WEB CONSORTIUM (W3C). Captions — Easy Checks. Web Accessibility Initiative (WAI), [s. d.]. Disponível em: https://www.w3.org/WAI/test-evaluate/easy-checks/captions/. Acesso em: 1 nov. 2026.",
+    "WORLD WIDE WEB CONSORTIUM (W3C). Planning Audio and Video Media. Web Accessibility Initiative (WAI), [s. d.]. Disponível em: https://www.w3.org/WAI/media/av/planning/. Acesso em: 1 nov. 2026."
+  ]
+}
