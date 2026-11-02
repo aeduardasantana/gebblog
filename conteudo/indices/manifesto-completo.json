@@ -1,5 +1,187 @@
 [
   {
+    "titulo": "Dizer “ainda não”: como negociar prioridades sem romper a colaboração",
+    "subtitulo": "A colaboração melhora quando prazos, capacidade e consequências ficam explícitos antes da promessa.",
+    "slug": "negociar-prioridades-dizer-ainda-nao-trabalho",
+    "resumo": "Entenda como negociar prioridades, comunicar limites e reorganizar demandas sem transformar a colaboração em conflito.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "prioridades",
+      "comunicação no trabalho",
+      "autonomia",
+      "liderança",
+      "organização do trabalho"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "02/11/2026",
+    "dataPublicacaoISO": "2026-11-02",
+    "status": "Publicado",
+    "tituloSEO": "Como negociar prioridades no trabalho sem gerar conflitos",
+    "descricaoSEO": "Aprenda a comunicar limites, renegociar prazos e priorizar tarefas com clareza, autonomia e respeito entre colegas.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1c4a8PdpBYFM4O81nl6aA5c9EhJkhAyvMpIpd-AyHHFc",
+    "arquivo": "desenvolvimento/negociar-prioridades-dizer-ainda-nao-trabalho.json"
+  },
+  {
+    "titulo": "Custo da não qualidade: o preço do retrabalho que não aparece no relatório",
+    "subtitulo": "Erros corrigidos antes e depois da entrega consomem recursos que nem sempre são classificados como perda.",
+    "slug": "custo-nao-qualidade-retrabalho-falhas-processos",
+    "resumo": "Descubra como identificar custos de prevenção, avaliação e falhas para reduzir retrabalho e melhorar processos empresariais.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "gestão da qualidade",
+      "custos",
+      "retrabalho",
+      "melhoria de processos",
+      "prevenção"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "02/11/2026",
+    "dataPublicacaoISO": "2026-11-02",
+    "status": "Publicado",
+    "tituloSEO": "Custo da não qualidade: como medir retrabalho e falhas",
+    "descricaoSEO": "Descubra como identificar custos de prevenção, avaliação e falhas para reduzir retrabalho e melhorar processos empresariais.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1RNMvFg22KATvLYEov1b9kuoiArCNlzfrH6pdlSeJv0U",
+    "arquivo": "empresarial/custo-nao-qualidade-retrabalho-falhas-processos.json"
+  },
+  {
+    "titulo": "EJA e Encceja: dois caminhos diferentes para concluir os estudos",
+    "subtitulo": "Entenda a diferença entre frequentar uma oferta educacional e realizar um exame de certificação.",
+    "slug": "eja-encceja-diferencas-como-concluir-estudos",
+    "resumo": "EJA e Encceja não são a mesma coisa. Veja como funcionam, quem pode participar e quais cuidados tomar antes da matrícula ou prova.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "EJA",
+      "Encceja",
+      "educação de jovens e adultos",
+      "certificação",
+      "ensino médio"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "02/11/2026",
+    "dataPublicacaoISO": "2026-11-02",
+    "status": "Publicado",
+    "tituloSEO": "EJA ou Encceja: diferenças para concluir os estudos",
+    "descricaoSEO": "EJA e Encceja não são a mesma coisa. Veja como funcionam, quem pode participar e quais cuidados tomar antes da matrícula ou prova.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "13omMRUNywb4y9QnKO0FAMPSfERHMvwSuKCO_ZrtZbmU",
+    "arquivo": "educacao/eja-encceja-diferencas-como-concluir-estudos.json"
+  },
+  {
+    "titulo": "Acolher sofrimento emocional no trabalho não é fazer diagnóstico",
+    "subtitulo": "Lideranças podem oferecer escuta e reorganizar condições de trabalho sem assumir o papel de profissionais de saúde.",
+    "slug": "acolher-sofrimento-emocional-trabalho-sem-diagnosticar",
+    "resumo": "Saiba como reconhecer sinais de sofrimento emocional no trabalho, oferecer apoio e encaminhar com respeito, sem fazer diagnósticos.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "saúde mental",
+      "acolhimento",
+      "trabalho",
+      "liderança",
+      "riscos psicossociais"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "02/11/2026",
+    "dataPublicacaoISO": "2026-11-02",
+    "status": "Publicado",
+    "tituloSEO": "Saúde mental no trabalho: acolher sem diagnosticar",
+    "descricaoSEO": "Saiba como reconhecer sinais de sofrimento emocional no trabalho, oferecer apoio e encaminhar com respeito, sem fazer diagnósticos.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "16mTCMml5BLd1PZoDAtBDIsKhBjQOdqjQczlJD98XmI8",
+    "arquivo": "saude/acolher-sofrimento-emocional-trabalho-sem-diagnosticar.json"
+  },
+  {
+    "titulo": "Mensagens automáticas: como evitar envio ao destinatário errado",
+    "subtitulo": "Automatizar a comunicação exige cuidado com cadastros, consentimentos, conteúdo e conferência antes do disparo.",
+    "slug": "mensagens-automaticas-evitar-destinatario-errado",
+    "resumo": "Saiba como reduzir o risco de mensagens automáticas enviadas à pessoa errada com cadastro confiável, validação e regras claras.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "automação",
+      "comunicação com clientes",
+      "privacidade",
+      "segurança de dados",
+      "atendimento"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "02/11/2026",
+    "dataPublicacaoISO": "2026-11-02",
+    "status": "Publicado",
+    "tituloSEO": "Mensagens automáticas: como evitar erros de destinatário",
+    "descricaoSEO": "Saiba como reduzir o risco de mensagens automáticas enviadas à pessoa errada com cadastro confiável, validação e regras claras.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1EbQ2TWWWO2KVcwHl7bxdMLqa69L_5CP8TRXn1Uj57Dk",
+    "arquivo": "tecnologia/mensagens-automaticas-evitar-destinatario-errado.json"
+  },
+  {
+    "titulo": "Consulta de saúde em Libras: acessibilidade começa no agendamento",
+    "subtitulo": "A comunicação acessível deve ser planejada desde a marcação até as orientações após o atendimento.",
+    "slug": "consulta-saude-libras-acessibilidade-agendamento",
+    "resumo": "Entenda por que o atendimento em saúde acessível à pessoa surda começa antes da consulta e exige comunicação adequada a cada necessidade.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "Libras",
+      "acessibilidade em saúde",
+      "pessoa surda",
+      "atendimento",
+      "comunicação"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "02/11/2026",
+    "dataPublicacaoISO": "2026-11-02",
+    "status": "Publicado",
+    "tituloSEO": "Consulta em Libras: acessibilidade desde o agendamento",
+    "descricaoSEO": "Entenda por que o atendimento em saúde acessível à pessoa surda começa antes da consulta e exige comunicação adequada a cada necessidade.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1Bh-Il3mb6JjU8z8LHgOS1tqsyh7W4qPfNbKAc19QMa8",
+    "arquivo": "inclusao/consulta-saude-libras-acessibilidade-agendamento.json"
+  },
+  {
+    "titulo": "Versão certa do documento: uma questão de confiança institucional",
+    "subtitulo": "Identificação, histórico e responsabilidade evitam que decisões antigas circulem como orientações vigentes.",
+    "slug": "controle-versoes-documentos-confianca-institucional",
+    "resumo": "Entenda como versões, responsáveis e datas tornam documentos institucionais mais confiáveis e evitam decisões baseadas em arquivos antigos.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "gestão documental",
+      "governança",
+      "controle de versões",
+      "transparência",
+      "processos"
+    ],
+    "autorPublico": "GEB",
+    "dataPublicacao": "02/11/2026",
+    "dataPublicacaoISO": "2026-11-02",
+    "status": "Publicado",
+    "tituloSEO": "Controle de versões: por que documentos precisam de histórico",
+    "descricaoSEO": "Entenda como versões, responsáveis e datas tornam documentos institucionais mais confiáveis e evitam decisões baseadas em arquivos antigos.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1VVZ_BHnrUEEi7tfm9j_wpggKkd9aJZJN6r5sTZTavhw",
+    "arquivo": "institucional/controle-versoes-documentos-confianca-institucional.json"
+  },
+  {
     "titulo": "Aprender observando colegas: quando o exemplo ensina e quando perpetua erros",
     "subtitulo": "A aprendizagem no trabalho acontece também pelo exemplo, mas observar não significa copiar tudo.",
     "slug": "aprendizagem-observacional-colegas-exemplos-erros-trabalho",

@@ -1,0 +1,30 @@
+{
+  "titulo": "Versão certa do documento: uma questão de confiança institucional",
+  "subtitulo": "Identificação, histórico e responsabilidade evitam que decisões antigas circulem como orientações vigentes.",
+  "slug": "controle-versoes-documentos-confianca-institucional",
+  "resumo": "Entenda como versões, responsáveis e datas tornam documentos institucionais mais confiáveis e evitam decisões baseadas em arquivos antigos.",
+  "categoria": "Institucional",
+  "categorias": [
+    "Institucional"
+  ],
+  "tags": [
+    "gestão documental",
+    "governança",
+    "controle de versões",
+    "transparência",
+    "processos"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "02/11/2026",
+  "dataPublicacaoISO": "2026-11-02",
+  "status": "Publicado",
+  "tituloSEO": "Controle de versões: por que documentos precisam de histórico",
+  "descricaoSEO": "Entenda como versões, responsáveis e datas tornam documentos institucionais mais confiáveis e evitam decisões baseadas em arquivos antigos.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1VVZ_BHnrUEEi7tfm9j_wpggKkd9aJZJN6r5sTZTavhw",
+  "conteudoHTML": "<p>Um procedimento foi atualizado, mas uma equipe continua utilizando a cópia antiga. Outra pessoa recebe um arquivo por mensagem e não sabe se aquela é a versão vigente. Em pouco tempo, decisões diferentes passam a ser tomadas com base em documentos que parecem igualmente oficiais.</p>\n<p>O problema não é apenas de organização de pastas. É de confiança institucional. Um documento precisa permitir que seus usuários reconheçam qual orientação vale, quem responde por ela e o que mudou desde a edição anterior.</p>\n<h2>Data de criação não é data de vigência</h2>\n<p>Um arquivo pode ter sido criado em janeiro, revisado em março e aprovado para uso em abril. Se o cabeçalho mostra apenas a primeira data, o leitor não consegue distinguir o histórico da regra atual. Por isso, convém identificar versão, data da revisão, responsável pela aprovação e, quando pertinente, início de vigência.</p>\n<p>Isso não exige uma página inteira de carimbos. Um quadro simples no início ou no fim do documento pode resolver a necessidade. O objetivo é que qualquer pessoa consiga responder: “Estou usando a orientação correta?”</p>\n<h2>Uma pasta organizada não substitui critérios</h2>\n<p>O Ministério da Gestão e da Inovação, ao apresentar fundamentos de gestão documental no Processo Eletrônico Nacional, destaca a classificação de documentos como instrumento para recuperação, avaliação e destinação. A lição pode orientar organizações de diferentes portes, respeitadas suas exigências específicas: guardar arquivos por assunto não basta se não houver regras para identificá-los e recuperá-los.</p>\n<p>O nome do arquivo pode indicar tema e versão, mas o identificador permanente do documento também é importante. Quando uma cópia muda de pasta, o registro de origem deve continuar permitindo sua localização. Isso reduz o risco de perder a trilha entre uma decisão e o documento que a fundamentou.</p>\n<h2>O histórico deve explicar a mudança</h2>\n<p>Um registro de alteração útil informa o que foi modificado e por quê. “Versão 2” sem explicação ajuda pouco. “Versão 2: alteração do prazo de resposta de cinco para três dias úteis” permite compreender o impacto operacional. Se a mudança depende de autorização, essa evidência precisa ficar vinculada ao registro.</p>\n<p>Documentos substituídos podem ter valor histórico ou probatório. Por isso, a solução não é apagar indiscriminadamente as versões anteriores. É sinalizar claramente que não estão mais vigentes e aplicar as regras de retenção e destinação cabíveis.</p>\n<h2>Quem deve consultar e quem pode alterar?</h2>\n<p>Nem todos precisam editar um procedimento. Uma organização pode oferecer acesso de leitura às equipes que executam a atividade e reservar a alteração a responsáveis definidos. Também deve prever como sugestões e correções chegam aos gestores do documento.</p>\n<p>O Arquivo Nacional trata códigos de classificação e tabelas de temporalidade como instrumentos para organizar, avaliar e definir a destinação de documentos. A aplicação dessas regras no setor público possui requisitos próprios; organizações privadas podem aproveitar o princípio de governança sem presumir obrigações idênticas.</p>\n<h2>Confiança se constrói na rotina</h2>\n<p>Uma política institucional só orienta o trabalho quando é encontrada, compreendida e utilizada. A gestão documental ajuda a transformar decisões em referência estável, mesmo quando equipes mudam, processos evoluem e novas versões são necessárias.</p>\n<p>Ter a versão correta disponível é uma medida discreta, mas decisiva: reduz interpretações conflitantes, preserva memória institucional e permite demonstrar por que determinada orientação estava em vigor em cada momento.</p>",
+  "referenciasPublicas": [
+    "BRASIL. Ministério da Gestão e da Inovação em Serviços Públicos. Gestão documental: Jornada do Processo Eletrônico Nacional. Brasília: MGI, s.d. Disponível em: https://www.gov.br/gestao/pt-br/assuntos/gestaoeinovacao/informacoes-sistemas-e-servicos-de-gestao/processo-eletronico-nacional/Jornada-do-PEN/3-Gestaodocumental/. Acesso em: 2 nov. 2026.",
+    "BRASIL. Arquivo Nacional. Código de Classificação e Tabela de Temporalidade e Destinação de Documentos de Arquivo. Rio de Janeiro: Arquivo Nacional, 2021, atualizado em 2026. Disponível em: https://www.gov.br/arquivonacional/pt-br/servicos/gestao-de-documentos/orientacao-tecnica-1/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-de-arquivo/codigo-de-classificacao-e-tabela-de-temporalidade-e-destinacao-de-documentos-de-arquivo-1. Acesso em: 2 nov. 2026."
+  ]
+}

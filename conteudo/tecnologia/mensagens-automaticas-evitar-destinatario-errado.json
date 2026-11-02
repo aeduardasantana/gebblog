@@ -1,0 +1,30 @@
+{
+  "titulo": "Mensagens automáticas: como evitar envio ao destinatário errado",
+  "subtitulo": "Automatizar a comunicação exige cuidado com cadastros, consentimentos, conteúdo e conferência antes do disparo.",
+  "slug": "mensagens-automaticas-evitar-destinatario-errado",
+  "resumo": "Saiba como reduzir o risco de mensagens automáticas enviadas à pessoa errada com cadastro confiável, validação e regras claras.",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [
+    "automação",
+    "comunicação com clientes",
+    "privacidade",
+    "segurança de dados",
+    "atendimento"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "02/11/2026",
+  "dataPublicacaoISO": "2026-11-02",
+  "status": "Publicado",
+  "tituloSEO": "Mensagens automáticas: como evitar erros de destinatário",
+  "descricaoSEO": "Saiba como reduzir o risco de mensagens automáticas enviadas à pessoa errada com cadastro confiável, validação e regras claras.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1EbQ2TWWWO2KVcwHl7bxdMLqa69L_5CP8TRXn1Uj57Dk",
+  "conteudoHTML": "<p>Uma mensagem de confirmação de horário parece uma das automações mais simples de uma empresa. O sistema identifica a pessoa, lê a data do atendimento e envia um aviso. Mas o que acontece se o telefone foi digitado errado, pertence a outra pessoa ou ficou desatualizado? O ganho de velocidade pode se transformar em constrangimento e exposição de informações.</p>\n<p>A questão não é abandonar mensagens automáticas. É desenhar o fluxo para que a comunicação seja útil, proporcional e confiável. Antes de configurar uma campanha ou um lembrete, a organização precisa saber de onde vêm os dados, quem pode alterá-los e o que deve ser conferido.</p>\n<h2>O cadastro é parte da automação</h2>\n<p>Quando dois sistemas usam informações diferentes sobre o mesmo cliente, a automação pode reproduzir o erro com mais rapidez. Por isso, é importante definir qual cadastro será a referência, como ocorrerá a atualização de contatos e quem terá permissão para corrigir registros.</p>\n<p>A confirmação do número deve acontecer por um procedimento apropriado ao serviço, especialmente quando a mensagem pode revelar informação sensível. Um canal informado em uma compra antiga não deve ser automaticamente tratado como adequado para toda comunicação futura. A finalidade do contato e as regras de tratamento de dados precisam ser observadas.</p>\n<h2>Menos informação pode significar mais segurança</h2>\n<p>Um lembrete de agendamento pode cumprir sua função sem mencionar detalhes de saúde, dados financeiros ou outras informações desnecessárias. Os princípios de finalidade, adequação e necessidade previstos na Lei Geral de Proteção de Dados orientam a utilização de dados compatíveis com o objetivo e limitados ao que é pertinente.</p>\n<p>Isso não significa que todo aviso deva ser genérico a ponto de não ajudar. Significa avaliar o conteúdo: qual é a menor quantidade de informação que permite ao destinatário reconhecer a mensagem e tomar a providência esperada?</p>\n<h2>Antes do disparo, teste o percurso completo</h2>\n<p>Um teste útil não consiste apenas em verificar se a mensagem chegou. É necessário simular situações como contato ausente, número alterado, registro duplicado, cancelamento do atendimento e falha temporária do serviço de envio.</p>\n<p>A empresa deve definir o que ocorre quando uma condição não é atendida. Em vez de insistir automaticamente no disparo, o sistema pode encaminhar o registro para conferência ou interromper aquela comunicação. Essa revisão humana em casos excepcionais não elimina o benefício da automação; ajuda a concentrar atenção onde o risco é maior.</p>\n<p>Também é importante evitar reenvios indevidos. Quando uma plataforma demora a responder, uma segunda tentativa sem controle pode produzir mensagens repetidas. O usuário percebe isso como desorganização, mesmo que o problema esteja em uma integração invisível.</p>\n<h2>Quem responde pelo fluxo depois de ativado?</h2>\n<p>O guia da Autoridade Nacional de Proteção de Dados para agentes de pequeno porte apresenta medidas administrativas e técnicas de segurança. Na prática, uma automação precisa ter responsável, regras de acesso, registro de falhas e procedimento de correção.</p>\n<p>O acompanhamento pode observar mensagens devolvidas, solicitações de atualização cadastral, reclamações e incidentes de envio. Esses dados ajudam a melhorar a experiência sem transformar a operação em uma sequência de conferências manuais.</p>\n<p>Uma boa automação não é aquela que envia o maior número de mensagens. É a que comunica a informação certa, à pessoa certa, no momento adequado — e sabe quando não deve enviar.</p>",
+  "referenciasPublicas": [
+    "BRASIL. Autoridade Nacional de Proteção de Dados. Guia orientativo sobre segurança da informação para agentes de tratamento de pequeno porte. Brasília: ANPD, 2024. Disponível em: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-sobre-seguranca-da-informacao-para-agentes-de-tratamento-de-pequeno-porte. Acesso em: 2 nov. 2026.",
+    "BRASIL. Ministério da Saúde. Princípios da LGPD. Brasília: Ministério da Saúde, s.d. Disponível em: https://www.gov.br/saude/pt-br/acesso-a-informacao/lgpd/principios. Acesso em: 2 nov. 2026."
+  ]
+}

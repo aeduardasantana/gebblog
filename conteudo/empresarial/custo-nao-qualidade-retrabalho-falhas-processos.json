@@ -1,0 +1,30 @@
+{
+  "titulo": "Custo da não qualidade: o preço do retrabalho que não aparece no relatório",
+  "subtitulo": "Erros corrigidos antes e depois da entrega consomem recursos que nem sempre são classificados como perda.",
+  "slug": "custo-nao-qualidade-retrabalho-falhas-processos",
+  "resumo": "Descubra como identificar custos de prevenção, avaliação e falhas para reduzir retrabalho e melhorar processos empresariais.",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [
+    "gestão da qualidade",
+    "custos",
+    "retrabalho",
+    "melhoria de processos",
+    "prevenção"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "02/11/2026",
+  "dataPublicacaoISO": "2026-11-02",
+  "status": "Publicado",
+  "tituloSEO": "Custo da não qualidade: como medir retrabalho e falhas",
+  "descricaoSEO": "Descubra como identificar custos de prevenção, avaliação e falhas para reduzir retrabalho e melhorar processos empresariais.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1RNMvFg22KATvLYEov1b9kuoiArCNlzfrH6pdlSeJv0U",
+  "conteudoHTML": "<p>Uma empresa pode entregar cem pedidos e registrar apenas o custo da equipe, dos materiais e do transporte. Mas o que acontece com o tempo gasto para corrigir uma nota, refazer um cadastro, reenviar uma proposta ou atender uma reclamação causada por informação errada? Essas atividades podem desaparecer dentro da rotina, embora consumam horas e reduzam a capacidade de atender novos clientes.</p>\n<p>Na gestão da qualidade, o problema é tratado pelo conceito de custo da qualidade. A American Society for Quality (ASQ) organiza esse conjunto em quatro grupos: prevenção, avaliação, falhas internas e falhas externas. A classificação ajuda a separar o investimento para fazer corretamente da despesa gerada quando algo dá errado.</p>\n<h2>O erro que não chega ao cliente também custa</h2>\n<p>Uma falha interna é identificada antes da entrega. Pode ser um orçamento com preço incorreto, um contrato com campo incompleto ou um produto que precisa ser retrabalhado antes do envio. A equipe corrige e o cliente talvez nunca perceba. Ainda assim, houve consumo de tempo, energia e capacidade operacional.</p>\n<p>Já a falha externa aparece depois da entrega: um pedido devolvido, uma cobrança contestada, um serviço que precisa ser refeito ou um chamado adicional de suporte. Nesse caso, além da correção, pode haver desgaste da relação comercial. Nem todo efeito reputacional é mensurável com precisão; por isso, é melhor registrá-lo separadamente do custo financeiro comprovado.</p>\n<h2>Prevenir e conferir não são a mesma coisa</h2>\n<p>Prevenção envolve desenhar o processo para reduzir a chance de erro: instruções claras, treinamento, definição de critérios e melhoria do fluxo de trabalho. Avaliação é a atividade de verificar se o resultado atende ao padrão esperado, como conferir dados antes de emitir um documento.</p>\n<p>As duas têm custo, mas desempenham funções diferentes. Uma conferência final pode evitar que o erro alcance o cliente; ela não elimina, necessariamente, a causa que produz erros repetidos. Quando a organização investe apenas em revisões adicionais, corre o risco de criar uma fila de inspeções sem resolver a origem do retrabalho.</p>\n<h2>Como começar a medir sem criar um projeto complexo</h2>\n<p>Escolha um processo recorrente e registre, durante um período definido, a quantidade de correções, o tempo consumido, o tipo de falha e em qual etapa ela foi percebida. Uma planilha simples pode ser suficiente para iniciar. O importante é manter critérios constantes, sem comparar meses com definições diferentes.</p>\n<p>Se uma proposta precisa ser corrigida três vezes, a análise deve perguntar por que as informações chegaram incompletas. Se o problema se repete, vale testar uma mudança na coleta inicial dos dados, acompanhar o resultado e ajustar o procedimento. O ganho não deve ser anunciado antes de existir evidência de redução de tempo, erros ou custos.</p>\n<h2>Uma decisão financeira que também é operacional</h2>\n<p>O conceito de custos da qualidade aparece na literatura brasileira de gestão e contabilidade como ferramenta para avaliar programas de melhoria. Seu valor está em revelar despesas que costumam ser tratadas como inevitáveis.</p>\n<p>Nem toda falha justifica um grande investimento em tecnologia. Às vezes, um campo obrigatório bem escolhido ou uma orientação mais clara resolve parte do problema. O critério é comparar o custo da prevenção com o custo das falhas e acompanhar se a mudança produz resultado. A operação melhora quando o retrabalho deixa de ser considerado normal e passa a ser informação para decidir.</p>",
+  "referenciasPublicas": [
+    "AMERICAN SOCIETY FOR QUALITY (ASQ). Cost of Quality (COQ). Milwaukee: ASQ, s.d. Disponível em: https://asq.org/quality-resources/cost-of-quality. Acesso em: 2 nov. 2026.",
+    "LIMA, Sandro Alves; RIBEIRO, Maisa de Souza. Custos da qualidade: conceituação e abordagens. Anais do Congresso Brasileiro de Custos, [s.d.]. Disponível em: https://anaiscbc.abcustos.org.br/anais/article/view/2832. Acesso em: 2 nov. 2026."
+  ]
+}
