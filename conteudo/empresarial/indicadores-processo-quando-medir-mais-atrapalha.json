@@ -1,0 +1,23 @@
+{
+  "titulo": "Indicadores de processo: quando medir mais atrapalha a gestão",
+  "subtitulo": "",
+  "slug": "indicadores-processo-quando-medir-mais-atrapalha",
+  "resumo": "Entenda como escolher indicadores úteis sem transformar a operação em preenchimento de planilhas.",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "dataPublicacao": "03/11/2026",
+  "dataPublicacaoISO": "2026-11-03",
+  "status": "Publicado",
+  "tituloSEO": "Indicadores de processo: quando medir mais atrapalha a gestão",
+  "descricaoSEO": "Entenda como escolher indicadores úteis sem transformar a operação em preenchimento de planilhas.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1UYrFwRqcB0_SKCWTmb0PvbjfdzVN1JYJBoDw_VtwgdE",
+  "conteudoHTML": "<p>Toda empresa precisa de informação para decidir. Mas existe uma diferença entre acompanhar o processo e multiplicar números sem finalidade. Quando uma equipe alimenta dez planilhas e nenhuma delas muda uma decisão, o sistema de medição passou a consumir energia sem devolver aprendizado.</p>\n<h2>Comece pela decisão, não pelo gráfico</h2>\n<p>Antes de criar um indicador, pergunte qual decisão ele deve apoiar. Uma operação de atendimento pode querer saber se o cliente recebe resposta no prazo, se o problema é resolvido e quantos contatos são necessários. Medir apenas a quantidade de mensagens enviadas pode estimular velocidade sem resolução.</p>\n<p>Indicadores de resultado mostram o que aconteceu; indicadores de processo ajudam a observar como o trabalho acontece. Ambos têm utilidade, mas precisam conversar. Uma taxa de retrabalho elevada, por exemplo, merece investigação das etapas anteriores, não somente cobrança por produtividade.</p>\n<h2>Poucos números, critérios claros</h2>\n<p>Defina para cada medida sua fórmula, fonte, periodicidade, responsável e ação esperada quando houver desvio. Evite comparar setores que executam atividades diferentes sem considerar contexto. A ISO 9001 prevê monitoramento, medição, análise e avaliação apropriados aos processos e à eficácia do sistema de gestão.</p>\n<p>Também é importante distinguir variação normal de sinal relevante. A tradição de melhoria da qualidade, incluindo os trabalhos de W. Edwards Deming, alerta contra reações precipitadas a oscilações isoladas. Uma semana abaixo da meta pode pedir análise, não necessariamente uma mudança de procedimento.</p>\n<p>Um teste simples ajuda a enxugar o painel: se o indicador desaparecesse amanhã, qual decisão ficaria pior? Se ninguém souber responder, talvez seja hora de substituí-lo ou encerrá-lo.</p>\n<p>O objetivo não é produzir um relatório visualmente impressionante. É perceber problemas com antecedência, compreender causas e decidir melhor. Indicadores são instrumentos de gestão, não um fim em si mesmos.</p>",
+  "referenciasPublicas": [
+    "ISO 9001:2015, cláusula 9.1; W. Edwards Deming, Out of the Crisis (1986)"
+  ]
+}
