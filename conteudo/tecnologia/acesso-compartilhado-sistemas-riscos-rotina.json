@@ -1,0 +1,24 @@
+{
+  "titulo": "Acesso compartilhado a sistemas: como reduzir riscos sem complicar a rotina",
+  "subtitulo": "",
+  "slug": "acesso-compartilhado-sistemas-riscos-rotina",
+  "resumo": "Em pequenas empresas, é comum que várias pessoas conheçam a mesma senha do sistema de vendas ou do atendimento. A prática parece facilitar substituições e",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "dataPublicacao": "04/11/2026",
+  "dataPublicacaoISO": "2026-11-04",
+  "status": "Publicado",
+  "tituloSEO": "Acesso compartilhado a sistemas: como reduzir riscos sem complicar a rotina",
+  "descricaoSEO": "Em pequenas empresas, é comum que várias pessoas conheçam a mesma senha do sistema de vendas ou do atendimento. A prática parece facilitar substituições e",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1AlBJ0mwCiD76pdpmbC0qqIfAPZH55kQ99Q_60RAnQK0",
+  "conteudoHTML": "<p>Em pequenas empresas, é comum que várias pessoas conheçam a mesma senha do sistema de vendas ou do atendimento. A prática parece facilitar substituições e férias, mas dificulta responder a uma pergunta essencial: quem realizou determinada operação? Quando todos usam o mesmo acesso, o histórico perde valor.</p>\n<p>O problema não é apenas invasão externa. Uma alteração acidental de preço, exclusão de cadastro ou envio indevido de informação pode se tornar difícil de investigar. A solução começa com contas individuais e permissões compatíveis com a função, sem exigir que cada empregado seja especialista em tecnologia.</p>\n<p>Antes de contratar ou renovar um sistema, pergunte ao fornecedor se há perfis de usuário, autenticação em duas etapas, registro de atividades e revogação rápida de acessos. Vale verificar também o procedimento quando alguém sai da equipe ou muda de função. Um contrato barato pode gerar custos ocultos se não permitir esses controles.</p>\n<p>A Autoridade Nacional de Proteção de Dados disponibiliza orientações e checklist de segurança voltados a agentes de tratamento de pequeno porte. São materiais que ajudam a traduzir proteção de dados em medidas administrativas e técnicas proporcionais ao contexto.</p>\n<p>Uma política viável pode prever quem autoriza novos usuários, quais informações cada perfil consulta e quando os acessos serão revistos. Isso não significa monitorar indiscriminadamente trabalhadores. O objetivo é proteger operações e dados, respeitando necessidade, transparência e proporcionalidade.</p>\n<p>Comece pelos sistemas que concentram dados pessoais, pagamentos e informações críticas. Priorize as mudanças que o fornecedor já oferece e teste o processo de desligamento de um usuário. Segurança bem desenhada não deve depender de uma senha conhecida por todos nem impedir a equipe de trabalhar.</p>",
+  "referenciasPublicas": [
+    "Referência: ANPD — Guia de segurança para agentes de pequeno porte",
+    "Fonte: https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-sobre-seguranca-da-informacao-para-agentes-de-tratamento-de-pequeno-porte"
+  ]
+}
