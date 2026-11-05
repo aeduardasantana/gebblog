@@ -1,0 +1,142 @@
+[
+  {
+    "titulo": "Aprender a dizer o que falta: pedidos de ajuda que preservam autonomia",
+    "subtitulo": "",
+    "slug": "pedir-ajuda-trabalho-autonomia-clareza",
+    "resumo": "Pedir ajuda no trabalho não elimina autonomia. Saiba formular dúvidas, delimitar obstáculos e transformar orientação em aprendizado.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "dataPublicacao": "05/11/2026",
+    "dataPublicacaoISO": "2026-11-05",
+    "status": "Publicado",
+    "tituloSEO": "Aprender a dizer o que falta: pedidos de ajuda que preservam autonomia",
+    "descricaoSEO": "Pedir ajuda no trabalho não elimina autonomia. Saiba formular dúvidas, delimitar obstáculos e transformar orientação em aprendizado.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1GVKurRZThE6MU_CMNAIyvKznx7ZAefUnUgqp2p2mehw",
+    "arquivo": "desenvolvimento/pedir-ajuda-trabalho-autonomia-clareza.json"
+  },
+  {
+    "titulo": "Decisões que ficam sem dono: como definir responsabilidades entre áreas",
+    "subtitulo": "",
+    "slug": "decisoes-sem-responsavel-entre-areas",
+    "resumo": "Quando uma decisão atravessa departamentos, a falta de responsável gera atrasos. Veja como delimitar autoridade e continuidade.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "dataPublicacao": "05/11/2026",
+    "dataPublicacaoISO": "2026-11-05",
+    "status": "Publicado",
+    "tituloSEO": "Decisões que ficam sem dono: como definir responsabilidades entre áreas",
+    "descricaoSEO": "Quando uma decisão atravessa departamentos, a falta de responsável gera atrasos. Veja como delimitar autoridade e continuidade.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1OGCF6Mo7w-sV2Pj83p7l54Z9EbMQ6MKmbA_wSox0yek",
+    "arquivo": "empresarial/decisoes-sem-responsavel-entre-areas.json"
+  },
+  {
+    "titulo": "Graduação EAD: como avaliar atividades presenciais antes da matrícula",
+    "subtitulo": "",
+    "slug": "graduacao-ead-atividades-presenciais-antes-matricula",
+    "resumo": "A graduação EAD pode exigir atividades presenciais. Entenda quais perguntas fazer sobre provas, polos, práticas e deslocamentos.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "dataPublicacao": "05/11/2026",
+    "dataPublicacaoISO": "2026-11-05",
+    "status": "Publicado",
+    "tituloSEO": "Graduação EAD: como avaliar atividades presenciais antes da matrícula",
+    "descricaoSEO": "A graduação EAD pode exigir atividades presenciais. Entenda quais perguntas fazer sobre provas, polos, práticas e deslocamentos.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1A9NZt4jzr9Twdcvg_w3y3TIAMZbZqSpZUIOJ2CAiOJk",
+    "arquivo": "educacao/graduacao-ead-atividades-presenciais-antes-matricula.json"
+  },
+  {
+    "titulo": "Quando o descanso não recupera: sinais para observar na rotina",
+    "subtitulo": "",
+    "slug": "descanso-nao-recupera-sinais-rotina",
+    "resumo": "Sentir-se cansado mesmo após descansar pode ter diferentes causas. Saiba o que observar e quando buscar avaliação profissional.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "dataPublicacao": "05/11/2026",
+    "dataPublicacaoISO": "2026-11-05",
+    "status": "Publicado",
+    "tituloSEO": "Quando o descanso não recupera: sinais para observar na rotina",
+    "descricaoSEO": "Sentir-se cansado mesmo após descansar pode ter diferentes causas. Saiba o que observar e quando buscar avaliação profissional.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1RbTfTpidbp_hJeQLdE9dKxZ9cP7t57OXBkm2SOVCMKE",
+    "arquivo": "saude/descanso-nao-recupera-sinais-rotina.json"
+  },
+  {
+    "titulo": "Antes de automatizar o atendimento, organize as respostas que sua empresa oferece",
+    "subtitulo": "",
+    "slug": "automatizar-atendimento-organizar-respostas",
+    "resumo": "Automação de atendimento funciona melhor quando informações, responsáveis e exceções estão claros. Veja o que preparar antes da ferramenta.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "dataPublicacao": "05/11/2026",
+    "dataPublicacaoISO": "2026-11-05",
+    "status": "Publicado",
+    "tituloSEO": "Antes de automatizar o atendimento, organize as respostas que sua empresa oferece",
+    "descricaoSEO": "Automação de atendimento funciona melhor quando informações, responsáveis e exceções estão claros. Veja o que preparar antes da ferramenta.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1vTA7TqDh-orjnzQfL1BbLh_WLv5Sb21f7Ul70-_ONpI",
+    "arquivo": "tecnologia/automatizar-atendimento-organizar-respostas.json"
+  },
+  {
+    "titulo": "Atendimento em Libras não começa na chegada do intérprete",
+    "subtitulo": "",
+    "slug": "atendimento-libras-planejamento-comunicacao",
+    "resumo": "Acessibilidade em Libras exige planejamento antes do atendimento. Entenda agendamento, informações prévias e limites de recursos digitais.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "dataPublicacao": "05/11/2026",
+    "dataPublicacaoISO": "2026-11-05",
+    "status": "Publicado",
+    "tituloSEO": "Atendimento em Libras não começa na chegada do intérprete",
+    "descricaoSEO": "Acessibilidade em Libras exige planejamento antes do atendimento. Entenda agendamento, informações prévias e limites de recursos digitais.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "17ByGQ4flzoQcZ8VYGpwkWePYRTyDdTTZrMP9OucEw4A",
+    "arquivo": "inclusao/atendimento-libras-planejamento-comunicacao.json"
+  },
+  {
+    "titulo": "Transparência não é publicar tudo: é explicar o que pode ser verificado",
+    "subtitulo": "",
+    "slug": "transparencia-institucional-informacoes-verificaveis",
+    "resumo": "Informação institucional útil precisa de contexto, atualização e limites claros. Entenda como comunicar resultados sem confundir planos e entregas.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "dataPublicacao": "05/11/2026",
+    "dataPublicacaoISO": "2026-11-05",
+    "status": "Publicado",
+    "tituloSEO": "Transparência não é publicar tudo: é explicar o que pode ser verificado",
+    "descricaoSEO": "Informação institucional útil precisa de contexto, atualização e limites claros. Entenda como comunicar resultados sem confundir planos e entregas.",
+    "generoEditorial": "Explicativo/guia",
+    "documentId": "1ekPSIzjurUUfS1POo_Kc1cZIGptFXYb1AUaxRTfVibM",
+    "arquivo": "institucional/transparencia-institucional-informacoes-verificaveis.json"
+  }
+]
