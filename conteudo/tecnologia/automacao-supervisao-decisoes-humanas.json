@@ -1,0 +1,23 @@
+{
+  "titulo": "Automação com supervisão: quais decisões devem continuar nas mãos de pessoas",
+  "subtitulo": "",
+  "slug": "automacao-supervisao-decisoes-humanas",
+  "resumo": "Automatizar tarefas repetitivas pode reduzir atrasos, mas nem toda decisão deve ser delegada a um sistema.",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "dataPublicacao": "06/11/2026",
+  "dataPublicacaoISO": "2026-11-06",
+  "status": "Publicado",
+  "tituloSEO": "Automação com supervisão: quais decisões devem continuar nas mãos de pessoas",
+  "descricaoSEO": "Automatizar tarefas repetitivas pode reduzir atrasos, mas nem toda decisão deve ser delegada a um sistema.",
+  "generoEditorial": "Explicativo/guia",
+  "documentId": "1P2b09mdgR6F7QtkRJT3iVeVQq0VGWvRp1Be0nFQbKcU",
+  "conteudoHTML": "<p>Automatizar tarefas repetitivas pode reduzir atrasos, mas nem toda decisão deve ser delegada a um sistema.</p>\n<h2>Tarefas e decisões</h2>\n<p>Lembretes e confirmações seguem regras previsíveis. Reclamações sensíveis, exceções contratuais e situações de risco podem exigir interpretação humana. Antes de contratar uma ferramenta, identifique decisões e consequências.</p>\n<h2>Transferência para pessoas</h2>\n<p>O usuário precisa encontrar suporte humano quando o roteiro não resolver. Preserve contexto necessário, permita corrigir informações e identifique quem responde pelo sistema.</p>\n<h2>Teste o imprevisto</h2>\n<p>Avalie mensagens fora do horário, dados desatualizados e respostas não previstas. Um piloto reduz riscos. No tratamento de dados pessoais, finalidade, segurança e direitos da LGPD devem orientar o projeto.</p>\n<p>[CTA]</p>\n<p>Saiba mais sobre tecnologia</p>\n<p>Conheça informações relacionadas a este tema no site oficial.</p>\n<p>BOTÃO: Conhecer GEB Tecnologia</p>\n<p>LINK: https://gebtecnologia.grupoeduardabispo.com.br/</p>\n<p>[/CTA]</p>",
+  "referenciasPublicas": [
+    "BRASIL. Lei nº 13.709/2018 (LGPD): https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm ; NIST. AI RMF: https://www.nist.gov/itl/ai-risk-management-framework"
+  ]
+}
