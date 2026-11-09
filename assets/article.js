@@ -34,15 +34,32 @@ function repairEditorialFooter(root){
     var pLink=document.createElement("p");pLink.textContent="LINK: "+url;section.appendChild(pLink);
     root.replaceChild(section,node);
   });
-  // O conteúdo pode conter referências editoriais no fim, enquanto o template
-  // já possui a seção pública exclusiva de referências.
-  var children=[].slice.call(root.children);
-  var start=-1;
-  children.forEach(function(node,i){
-    var t=cleanText(node.textContent).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-    if(start<0&&/^(referencias|referencias bibliograficas|fontes e referencias|fontes consultadas)\s*:?$/.test(t))start=i;
+  // A área de referências estruturadas do template é a única seção pública.
+  // Detecta títulos isolados OU títulos fundidos com a primeira referência.
+  // Executa antes de inserir o bloco automático de fontes.
+  var candidates=[].slice.call(root.querySelectorAll("p,h2,h3,h4,div"));
+  var marker=null;
+  candidates.forEach(function(node){
+    if(marker)return;
+    if(node.closest("[data-geb-component]"))return;
+    var t=cleanText(node.textContent).normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();
+    if(/^(referencias(?: bibliograficas)?|fontes e referencias|fontes consultadas)(?:\\s*[:\\-]\\s*|$)/.test(t)){
+      // Preferir o menor elemento que contém o marcador, evitando remover contêineres amplos.
+      var child=[].slice.call(node.children).some(function(c){
+        return /^(referencias|fontes e referencias)/i.test(cleanText(c.textContent));
+      });
+      if(!child)marker=node;
+    }
   });
-  if(start>=0)children.slice(start).forEach(function(n){n.remove();});
+  if(marker){
+    var direct=marker;
+    while(direct.parentElement&&direct.parentElement!==root)direct=direct.parentElement;
+    if(direct.parentElement===root){
+      var next=direct;
+      while(next){var following=next.nextElementSibling;next.remove();next=following;}
+    }
+  }
+
 }
 
 function normalizeEditorialComponents(root){
@@ -172,7 +189,7 @@ function renderArticle(a){if(!a){article.hidden=true;error.hidden=false;document
   if(/^Nota de enquadramento:/i.test(t)) el.classList.add("editorial-note");
   if(/^(\(?E-?book\)?|workshop Ser Coach IBC)$/i.test(t)) el.classList.add("legacy-context");
 });
-repairEditorialFooter(body);normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){
+if(a.referenciasPublicas&&a.referenciasPublicas.length)repairEditorialFooter(body);normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){
   // Evita duas secoes de fontes quando a conversao preservou referencias no HTML
   // e o artigo tambem possui referenciasPublicas estruturadas.
   [].slice.call(body.querySelectorAll("h2,h3,h4")).forEach(function(h){
