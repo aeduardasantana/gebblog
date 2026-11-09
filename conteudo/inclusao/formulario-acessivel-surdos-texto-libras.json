@@ -1,0 +1,23 @@
+{
+  "titulo": "Formulário acessível para pessoas surdas: quando texto claro e Libras cumprem funções diferentes",
+  "subtitulo": "",
+  "slug": "formulario-acessivel-surdos-texto-libras",
+  "resumo": "Formulário acessível para pessoas surdas: quando texto claro e Libras cumprem funções diferentes. Entenda critérios práticos, cuidados e decisões importantes para o dia a dia.",
+  "categoria": "Inclusão",
+  "categorias": [
+    "Inclusão"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "dataPublicacao": "09/11/2026",
+  "dataPublicacaoISO": "2026-11-09",
+  "status": "Publicado",
+  "tituloSEO": "Formulário acessível para pessoas surdas: quando texto claro e Libras cumprem funções diferentes",
+  "descricaoSEO": "Formulário acessível para pessoas surdas: quando texto claro e Libras cumprem funções diferentes. Entenda critérios práticos, cuidados e decisões importantes para o dia a dia.",
+  "generoEditorial": "Tutorial",
+  "documentId": "1vkwgyf8UZXxDO4HOBMIWFVDRoAVhTaed8h_WkSoEFQk",
+  "conteudoHTML": "<p>Um formulário pode estar disponível na internet e, ainda assim, dificultar o acesso de parte do público. Campos sem identificação clara, instruções extensas, mensagens de erro vagas e vídeos sem recursos adequados criam obstáculos que não são resolvidos apenas com a presença de um botão de tradução.</p>\n<h2>Texto claro e Libras não são recursos equivalentes</h2>\n<p>A Língua Brasileira de Sinais é uma língua reconhecida legalmente, com estrutura própria. Português escrito e Libras não são versões intercambiáveis da mesma linguagem. Algumas pessoas surdas preferem acessar informações em Libras; outras utilizam o português escrito. A solução adequada considera a finalidade do serviço, as necessidades do público e as exigências normativas específicas.</p>\n<p>Um formulário deve funcionar com rótulos compreensíveis, ordem lógica, instruções próximas aos campos e mensagens de erro que expliquem como corrigir o preenchimento. Recursos em Libras podem ampliar o acesso às orientações, mas não substituem automaticamente a acessibilidade técnica do formulário.</p>\n<h2>O que observar na experiência de preenchimento</h2>\n<p>Imagine uma inscrição que exige anexar documento. A mensagem “erro 403” não explica se o arquivo está grande demais, se o formato é inválido ou se houve falha de conexão. Uma orientação como “envie um arquivo PDF de até o limite indicado” é mais útil, desde que o limite seja efetivamente informado.</p>\n<p>Também é importante verificar navegação por teclado, contraste, foco visível e identificação programática dos campos. As Diretrizes de Acessibilidade para Conteúdo Web (WCAG) fornecem critérios técnicos para avaliar esses aspectos.</p>\n<h2>Editais exigem leitura individual</h2>\n<p>Em inscrições para concursos, exames ou seleções, os recursos oferecidos — como videoprova em Libras, intérprete, tempo adicional ou outros atendimentos — dependem das regras e dos procedimentos do edital aplicável. Não é correto afirmar que a existência de um recurso implica concessão automática dos demais. A solicitação deve seguir os prazos e critérios oficiais.</p>\n<p>Testar um formulário com usuários reais, inclusive pessoas surdas com diferentes preferências linguísticas, ajuda a encontrar barreiras que uma conferência exclusivamente técnica pode não perceber.</p>\n<p>A acessibilidade não termina quando a página abre. Ela precisa acompanhar o percurso inteiro: compreender a informação, preencher, corrigir erros, enviar e receber confirmação em formato acessível.</p>\n<p>[CTA]<br>Planeje uma comunicação mais acessível<br>Conheça a atuação do GEB Inclusão em acessibilidade.<br>BOTÃO: Conhecer GEB Inclusão<br>LINK: https://gebinclusao.grupoeduardabispo.com.br/<br>[/CTA]</p>\n<p>REFERÊNCIAS<br>Lei 10.436/2002, https://www.planalto.gov.br/ccivil_03/leis/2002/l10436.htm ; Lei 13.146/2015, https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm ; W3C WCAG, https://www.w3.org/TR/WCAG22/</p>",
+  "referenciasPublicas": [
+    "Lei 10.436/2002, https://www.planalto.gov.br/ccivil_03/leis/2002/l10436.htm ; Lei 13.146/2015, https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm ; W3C WCAG, https://www.w3.org/TR/WCAG22/"
+  ]
+}
