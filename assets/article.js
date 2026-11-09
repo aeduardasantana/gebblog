@@ -11,6 +11,40 @@ function fallbackSummary(x){var w=document.createElement("div");w.innerHTML=x.co
 function summary(x){return isJunkSummary(x.resumo)?fallbackSummary(x):cleanText(x.resumo);}
 function articleUrl(x){return "./artigo/"+encodeURIComponent(x.slug)+"/";}function canonical(x){return "https://blog.grupoeduardabispo.com.br/artigo/"+x.slug+"/";}
 
+
+// Corrige blocos editoriais achatados pelo conversor de Google Docs.
+// O CTA deve permanecer um único componente, com botão real.
+function repairEditorialFooter(root){
+  var nodes=[].slice.call(root.children);
+  nodes.forEach(function(node){
+    if(node.tagName!=="P")return;
+    var t=cleanText(node.textContent);
+    if(!/BOTÃO\s*:/i.test(t)||!/LINK\s*:/i.test(t))return;
+    var m=t.match(/^(?:\[CTA\]\s*)?([\s\S]*?)\s*BOTÃO\s*:\s*([\s\S]*?)\s*LINK\s*:\s*(https:\/\/[^\s\]]+)/i);
+    if(!m)return;
+    var url=m[3].replace(/[.,;]+$/,"");
+    var section=document.createElement("section");section.dataset.gebComponent="cta";
+    var prefix=m[1].replace(/\[\/?CTA\]/gi,"").trim();
+    if(prefix){
+      var title=document.createElement("h3");
+      // O título e a descrição frequentemente chegam concatenados: preserva o texto sem inventar separações.
+      title.textContent=prefix;section.appendChild(title);
+    }
+    var pButton=document.createElement("p");pButton.textContent="BOTÃO: "+m[2].trim();section.appendChild(pButton);
+    var pLink=document.createElement("p");pLink.textContent="LINK: "+url;section.appendChild(pLink);
+    root.replaceChild(section,node);
+  });
+  // O conteúdo pode conter referências editoriais no fim, enquanto o template
+  // já possui a seção pública exclusiva de referências.
+  var children=[].slice.call(root.children);
+  var start=-1;
+  children.forEach(function(node,i){
+    var t=cleanText(node.textContent).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+    if(start<0&&/^(referencias|referencias bibliograficas|fontes e referencias|fontes consultadas)\s*:?$/.test(t))start=i;
+  });
+  if(start>=0)children.slice(start).forEach(function(n){n.remove();});
+}
+
 function normalizeEditorialComponents(root){
   var known={DESTAQUE:"destaque",REFLEXAO:"reflexao",AVISO:"aviso",FONTE:"fonte",CTA:"cta",OFERTA:"oferta",CARDS:"cards",ASSINATURA:"assinatura"};
   var nodes=[].slice.call(root.children),active=null;
@@ -138,16 +172,16 @@ function renderArticle(a){if(!a){article.hidden=true;error.hidden=false;document
   if(/^Nota de enquadramento:/i.test(t)) el.classList.add("editorial-note");
   if(/^(\(?E-?book\)?|workshop Ser Coach IBC)$/i.test(t)) el.classList.add("legacy-context");
 });
-normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){
+repairEditorialFooter(body);normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){
   // Evita duas secoes de fontes quando a conversao preservou referencias no HTML
   // e o artigo tambem possui referenciasPublicas estruturadas.
   [].slice.call(body.querySelectorAll("h2,h3,h4")).forEach(function(h){
     var name=cleanText(h.textContent).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/\s*[:.]\s*$/,"");
     if(!/^(fontes e referencias|referencias bibliograficas|referencias|fontes consultadas)$/.test(name))return;
     var next=h.nextElementSibling;
-    if(!next || !/^(UL|OL)$/.test(next.tagName))return;
+    if(!next)return;
     // O bloco completo do fim do artigo e gerado na area propria abaixo.
-    next.remove();h.remove();
+    var cursor=next;while(cursor){var following=cursor.nextElementSibling;cursor.remove();cursor=following;}h.remove();
   });
   var refSec=document.getElementById("referencias"),refList=document.getElementById("lista-referencias");refSec.hidden=false;refList.innerHTML=refs.map(function(r){var m=String(r).match(/https?:\/\/\S+/);if(m){var raw=m[0].replace(/[).,;]+$/,"");var before=esc(String(r).replace(m[0],"").trim());return '<p class="reference-item">'+before+' <a href="'+esc(raw)+'" target="_blank" rel="noopener noreferrer">Acessar fonte ↗</a></p>';}return '<p class="reference-item">'+esc(r)+'</p>';}).join("");}
 var more=document.getElementById("mais-editoria");
