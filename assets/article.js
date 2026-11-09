@@ -43,7 +43,7 @@ function repairEditorialFooter(root){
     if(marker)return;
     if(node.closest("[data-geb-component]"))return;
     var t=cleanText(node.textContent).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-    if(/^(referencias(?: bibliograficas)?|fontes e referencias|fontes consultadas)(?:\s*[:-]\s*|$)/.test(t)){
+    if(/^(referencias(?: bibliograficas)?|fontes e referencias|fontes consultadas)(?:\s*[:-]\s*|\s+|$)/.test(t)){
       // Preferir o menor elemento que contém o marcador, evitando remover contêineres amplos.
       var child=[].slice.call(node.children).some(function(c){
         return /^(referencias|fontes e referencias)/i.test(cleanText(c.textContent));
@@ -189,7 +189,7 @@ function renderArticle(a){if(!a){article.hidden=true;error.hidden=false;document
   if(/^Nota de enquadramento:/i.test(t)) el.classList.add("editorial-note");
   if(/^(\(?E-?book\)?|workshop Ser Coach IBC)$/i.test(t)) el.classList.add("legacy-context");
 });
-if(a.referenciasPublicas&&a.referenciasPublicas.length)repairEditorialFooter(body);normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){
+repairEditorialFooter(body);normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){
   // Evita duas secoes de fontes quando a conversao preservou referencias no HTML
   // e o artigo tambem possui referenciasPublicas estruturadas.
   [].slice.call(body.querySelectorAll("h2,h3,h4")).forEach(function(h){
