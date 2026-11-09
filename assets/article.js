@@ -42,8 +42,8 @@ function repairEditorialFooter(root){
   candidates.forEach(function(node){
     if(marker)return;
     if(node.closest("[data-geb-component]"))return;
-    var t=cleanText(node.textContent).normalize("NFD").replace(/[\\u0300-\\u036f]/g,"").toLowerCase();
-    if(/^(referencias(?: bibliograficas)?|fontes e referencias|fontes consultadas)(?:\\s*[:\\-]\\s*|$)/.test(t)){
+    var t=cleanText(node.textContent).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+    if(/^(referencias(?: bibliograficas)?|fontes e referencias|fontes consultadas)(?:\s*[:-]\s*|$)/.test(t)){
       // Preferir o menor elemento que contém o marcador, evitando remover contêineres amplos.
       var child=[].slice.call(node.children).some(function(c){
         return /^(referencias|fontes e referencias)/i.test(cleanText(c.textContent));
