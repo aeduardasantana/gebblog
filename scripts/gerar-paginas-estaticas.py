@@ -70,7 +70,7 @@ for item in manifest:
     references=render_static_references(data.get("referenciasPublicas") or [],content)
     output=template
     # Pagina publicada tem artigo estatico valido, sem quadro de erro dinamico.
-    output=re.sub(r'<section id="erro-artigo"\b[^>]*>.*?</section>','',output,count=1,flags=re.S)
+    output=re.sub(r'<section id="erro-artigo"[^>]*>.*?</section>','',output,count=1,flags=re.S)
     if references:
         old='<section id="referencias" class="article-references container narrow" hidden><p class="eyebrow">Referências</p><h2>Fontes e referências</h2><div id="lista-referencias"></div></section>'
         new='<section id="referencias" class="article-references container narrow"><p class="eyebrow">Referências</p><h2>Fontes e referências</h2><div id="lista-referencias">'+references+'</div></section>'
