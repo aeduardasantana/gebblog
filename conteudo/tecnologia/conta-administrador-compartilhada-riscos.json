@@ -1,0 +1,24 @@
+{
+  "titulo": "Conta de administrador compartilhada: por que isso fragiliza pequenos negócios",
+  "subtitulo": "",
+  "slug": "conta-administrador-compartilhada-riscos",
+  "resumo": "É comum que um pequeno negócio comece usando uma única conta para acessar redes sociais, sistemas de vendas ou arquivos. O arranjo parece simples: todos co",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "dataPublicacao": "11/11/2026",
+  "dataPublicacaoISO": "2026-11-11",
+  "status": "Publicado",
+  "tituloSEO": "Conta de administrador compartilhada: por que isso fragiliza pequenos negócios",
+  "descricaoSEO": "É comum que um pequeno negócio comece usando uma única conta para acessar redes sociais, sistemas de vendas ou arquivos. O arranjo parece simples: todos co",
+  "generoEditorial": "Análise explicativa",
+  "documentId": "1KY62AhYh-1Q-nWoYHQlq0A__PjmvpkmHXBZ1t2H0KAc",
+  "conteudoHTML": "<p>É comum que um pequeno negócio comece usando uma única conta para acessar redes sociais, sistemas de vendas ou arquivos. O arranjo parece simples: todos conhecem a senha e conseguem resolver urgências. Com o tempo, porém, fica difícil saber quem alterou uma configuração, quem ainda possui acesso e como recuperar a conta se a senha for comprometida.</p>\n<p>O problema não é apenas a senha</p>\n<p>Uma conta compartilhada impede a atribuição confiável de ações a pessoas específicas. Se um colaborador deixa a empresa, trocar a senha pode não encerrar todas as sessões abertas ou revogar integrações antigas. Além disso, conceder privilégios de administrador a quem só precisa consultar relatórios amplia o impacto de erros e incidentes.</p>\n<p>O princípio do menor privilégio, adotado em referências de segurança da informação, recomenda conceder a cada usuário somente as permissões necessárias para suas atividades. Plataformas diferentes oferecem recursos distintos: algumas permitem perfis individuais e registros de auditoria; outras possuem limitações que devem ser consideradas antes da contratação.</p>\n<p>Como começar a organizar os acessos</p>\n<p>Faça um inventário das contas críticas: e-mail institucional, domínio, hospedagem, sistema financeiro, redes sociais e armazenamento. Identifique o titular, o administrador responsável, as pessoas autorizadas e o método de recuperação. Sempre que a plataforma permitir, substitua credenciais coletivas por usuários individuais.</p>\n<p>Ative autenticação multifator nos serviços compatíveis, proteja os códigos de recuperação e estabeleça procedimento para entrada e saída de pessoas. A autenticação multifator reduz riscos associados ao comprometimento de senhas, mas não elimina a necessidade de atenção a golpes e permissões excessivas.</p>\n<p>Antes de comprar outro software</p>\n<p>Pergunte ao fornecedor se o plano contratado permite usuários separados, perfis de permissão, histórico de atividades e revogação imediata de acesso. Recursos presentes em uma demonstração podem não integrar o plano básico. A resposta deve constar da documentação comercial e técnica.</p>\n<p>Segurança não depende exclusivamente de tecnologia sofisticada. Em muitos casos, começa pela capacidade de responder a três perguntas: quem pode acessar, o que pode fazer e como esse acesso será encerrado quando deixar de ser necessário.</p>\n<p>[CTA]</p>\n<p>Conheça o GEB Tecnologia</p>\n<p>Explore informações e serviços relacionados a este tema.</p>\n<p>BOTÃO: Conhecer GEB Tecnologia</p>\n<p>LINK: https://gebtecnologia.grupoeduardabispo.com.br/</p>\n<p>[/CTA]</p>",
+  "referenciasPublicas": [
+    "NIST SP 800-63; CISA, Secure Our World."
+  ],
+  "arquivo": "tecnologia/conta-administrador-compartilhada-riscos.json"
+}
