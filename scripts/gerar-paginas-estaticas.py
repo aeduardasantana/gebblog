@@ -92,6 +92,16 @@ for item in manifest:
     output=output.replace('<script src="./assets/api-client.js?v=20261025lote10correcao23"></script>','<script src="./assets/api-client.js?v=20261029manifesto214"></script>')
     output=output.replace('<script src="./assets/article.js?v=20261025refs-unicas"></script>','<script src="./assets/article.js?v=20261029static"></script>')
     output=output.replace('</head>','<script type="application/ld+json">'+json.dumps({"@context":"https://schema.org","@type":"Article","headline":data.get("titulo"),"description":data.get("descricaoSEO") or data.get("resumo"),"datePublished":data.get("dataPublicacaoISO"),"mainEntityOfPage":url,"inLanguage":"pt-BR"},ensure_ascii=False).replace("</","<\\/")+'</script></head>',1)
+    if data.get("serieEditorial")=="Gestão em Pauta":
+        # A publicacao falha no build se o HTML nao apresentar o rodape correto.
+        if (not references or '<section id="referencias" class="article-references container narrow">' not in output):
+            raise ValueError("Gestao em Pauta sem referencias estaticas: "+slug)
+        if ('BOTÃO:' in output or 'LINK:' in output or 'class="component-button"' not in output):
+            raise ValueError("Gestao em Pauta com CTA nao renderizado: "+slug)
+        if 'id="erro-artigo"' in output:
+            raise ValueError("Gestao em Pauta com quadro de artigo inexistente: "+slug)
+        if output.count('class="geb-video-player"')!=1 or output.count('data-geb-component="cta"')!=1:
+            raise ValueError("Gestao em Pauta com player ou CTA ausente/duplicado: "+slug)
     dest=ROOT/"artigo"/slug/"index.html"
     dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(output,encoding="utf-8")
