@@ -9,6 +9,7 @@ on:
       - 'index.html'
       - 'artigo.html'
       - 'assets/**'
+      - 'scripts/**'
       - 'conteudo/**'
       - 'shopping/**'
       - 'api.php'
