@@ -10,7 +10,7 @@ function updateURL(){var u=new URLSearchParams();if(categoria)u.set("categoria",
 
 function esc(v){return String(v||"").replace(/[&<>"']/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m];});}
 function norm(v){return String(v||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
-function cats(a){var c=Array.isArray(a.categorias)?a.categorias:(a.categoria?[a.categoria]:[]);return c.filter(Boolean).map(function(x){return norm(x)===norm("Eduarda")?"Desenvolvimento":x;});}
+function cats(a){var c=Array.isArray(a.categorias)?a.categorias.slice():(a.categoria?[a.categoria]:[]);var isPauta=norm(a.serieEditorial)==="gestao em pauta"||(a.tags||[]).some(function(t){return norm(t)==="gestao em pauta";});if(isPauta&&!c.some(function(v){return norm(v)==="institucional";}))c.push("Institucional");return c.filter(Boolean).map(function(x){return norm(x)===norm("Eduarda")?"Desenvolvimento":x;});}
 function catsLabel(a){return cats(a).join(" · ");}
 function theme(a){var c=cats(a);var categories=["Empresarial","Educação","Saúde","Inclusão","Tecnologia","Institucional","Desenvolvimento","Fé","Artigos de terceiros"];return categories.find(function(x){return c.some(function(y){return norm(y)===norm(x);});})||"Institucional";}
 function isoDate(a){var d=String(a.dataPublicacaoISO||"");if(/^\d{4}-\d{2}-\d{2}$/.test(d))return d;var b=String(a.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return b?b[3]+"-"+b[2].padStart(2,"0")+"-"+b[1].padStart(2,"0"):"0000-00-00";}

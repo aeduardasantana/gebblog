@@ -62,7 +62,7 @@
   <main id="articles" aria-label="Artigos do Blog GEB"><p class="state" role="status">Carregando os artigos mais recentes…</p></main>
   <script src="/conteudo/publicados/catalogo.js"></script>
   <script src="/conteudo/indices/catalogo.js"></script>
-  <script src="/assets/api-client.js"></script>
+  <script src="/assets/api-client.js?v=20261112-gestao-pauta"></script>
   <script>
   (function(){
     "use strict";
@@ -112,7 +112,7 @@
       const article=document.createElement("article");article.className="card";
       const art=document.createElement("div");art.className="art";art.setAttribute("aria-hidden","true");
       const inner=document.createElement("div");inner.className="inner";
-      const badge=document.createElement("span");badge.className="label";badge.textContent=requested;
+      const badge=document.createElement("span");badge.className="label";badge.textContent=(a.tags||[]).some(t=>normalize(t)==="gestao em pauta")?"Institucional · Gestão em Pauta":requested;
       const heading=document.createElement("h2");
       const link=document.createElement("a");link.href="https://blog.grupoeduardabispo.com.br/artigo/"+encodeURIComponent(a.slug)+"/";link.target="_top";link.textContent=a.titulo;heading.append(link);
       const summary=document.createElement("p");summary.className="summary";summary.textContent=String(a.resumo||a.subtitulo||"Leia o artigo completo no Blog GEB.").replace(/\s+/g," ").slice(0,220);
@@ -130,7 +130,9 @@
         if(!a||a.status!=="Publicado"||!a.slug||!a.titulo)return false;
         const categories=Array.isArray(a.categorias)&&a.categorias.length?a.categorias:[a.categoria];
         const d=iso(a);
-        return categories.some(c=>normalize(c)===normalize(requested)) && d!=="0000-00-00" && d<=today;
+        const isPauta=normalize(a.serieEditorial)==="gestao em pauta"||(a.tags||[]).some(t=>normalize(t)==="gestao em pauta");
+        const belongs=categories.some(c=>normalize(c)===normalize(requested))||(normalize(requested)==="institucional"&&isPauta);
+        return belongs && d!=="0000-00-00" && d<=today;
       }).sort((a,b)=>iso(b).localeCompare(iso(a))||String(a.titulo).localeCompare(String(b.titulo),"pt-BR")).slice(0,limit);
       if(!items.length){state("Ainda não há artigos publicados nesta categoria.");return;}
       const grid=document.createElement("div");grid.className="grid";items.forEach(a=>grid.append(card(a)));

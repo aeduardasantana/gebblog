@@ -5,6 +5,12 @@ const ROOT=new URL("./conteudo/",document.baseURI);
 const SHARDS=["indices/legado.json","indices/lote-01.json","indices/lote-02.json","indices/lote-03.json","indices/lote-04.json","indices/lote-05.json","indices/lote-06.json","indices/lote-07.json","indices/lote-08.json","indices/lote-09.json","indices/lote-10.json","indices/lote-11.json","indices/lote-12.json","indices/lote-13.json","indices/lote-14.json","indices/lote-15.json","indices/lote-16.json","indices/lote-17.json","indices/lote-18.json","indices/lote-19.json","indices/lote-20.json","indices/lote-21.json","indices/lote-22.json","indices/lote-23.json","indices/lote-24.json","indices/lote-25.json","indices/lote-26.json","indices/lote-27.json","indices/lote-28.json","indices/lote-29.json","indices/lote-30.json"];
 let promise=null;
 function norm(x){return String(x||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();}
+function belongsTo(a,category){
+  const sought=norm(category)==="eduarda"?"desenvolvimento":norm(category);
+  const categories=[a.categoria,...(Array.isArray(a.categorias)?a.categorias:[])].map(x=>norm(x)==="eduarda"?"desenvolvimento":norm(x));
+  const isPauta=norm(a.serieEditorial)==="gestao em pauta"||(a.tags||[]).some(t=>norm(t)==="gestao em pauta");
+  return categories.includes(sought)||(sought==="institucional"&&isPauta);
+}
 function date(x){const v=String(x.dataPublicacaoISO||"");if(/^\d{4}-\d\d-\d\d$/.test(v))return v;const m=String(x.dataPublicacao||"").match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);return m?m[3]+"-"+m[2].padStart(2,"0")+"-"+m[1].padStart(2,"0"):"0000-00-00";}
 function sort(a){return a.sort((x,y)=>date(y).localeCompare(date(x))||String(x.titulo||"").localeCompare(String(y.titulo||""),"pt-BR"));}
 function fallback(){return (Array.isArray(window.GEB_PUBLICADOS)?window.GEB_PUBLICADOS:[]).filter(x=>x&&x.status==="Publicado");}
@@ -50,7 +56,7 @@ window.GEB_BLOG_API={
      if(cur)dados.sort((a,b)=>Number(b.categoria===cur.categoria)-Number(a.categoria===cur.categoria));
      dados=dados.slice(0,Math.max(0,Number(p.limite)||3));
    }else if(acao==="artigos"||acao==="destaques"){
-     dados=all.filter(a=>!p.categoria||[a.categoria,...(Array.isArray(a.categorias)?a.categorias:[])].some(c=>{const label=norm(c)==="eduarda"?"desenvolvimento":norm(c);return label===(norm(p.categoria)==="eduarda"?"desenvolvimento":norm(p.categoria));}));
+     dados=all.filter(a=>!p.categoria||belongsTo(a,p.categoria));
      if(p.tag)dados=dados.filter(a=>(a.tags||[]).some(t=>norm(t)===norm(p.tag)));
      if(p.q)dados=dados.filter(a=>norm([a.titulo,a.resumo,(a.tags||[]).join(" ")].join(" ")).includes(norm(p.q)));
      if(p.limite)dados=dados.slice(0,Math.max(0,Number(p.limite)||50));
