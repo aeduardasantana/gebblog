@@ -138,6 +138,33 @@ jobs:
                       page,ctype=fetch("/artigo/" + slug + "/")
                       if "html" not in ctype.lower() or b"<html" not in page.lower():
                           raise ValueError("Pagina publica nao e HTML valido: " + slug)
+                      # CTA V1.3 no HTML publico: conferir fidelidade tecnica do JSON final.
+                      if str(article.get("dataPublicacaoISO") or "") >= "2026-11-14" and article.get("serieEditorial") != "Gestão em Pauta" and not article.get("excecaoCTAJustificada"):
+                          import re, html
+                          public_html=page.decode("utf-8","replace")
+                          sections=re.findall(r'<section\b[^>]*data-geb-component="cta"[^>]*>(.*?)</section>',public_html,re.S|re.I)
+                          if len(sections)!=1: raise ValueError("CTA publico ausente/duplicado: "+slug)
+                          buttons=re.findall(r'<a class="component-button" href="([^"]+)"[^>]*>(.*?)</a>',sections[0],re.S|re.I)
+                          if len(buttons)!=1: raise ValueError("CTA publico sem botao real: "+slug)
+                          source=article.get("conteudoHTML") or ""
+                          link=re.search(r'LINK:\s*(https://[^\s<]+)',source,re.I)
+                          label=re.search(r'BOTÃO:\s*(.*?)</p>',source,re.I|re.S)
+                          if not (link and label): raise ValueError("CTA fonte incompleto: "+slug)
+                          href=html.unescape(buttons[0][0]).strip()
+                          shown=html.unescape(re.sub(r'<[^>]+>',"",buttons[0][1])).strip()
+                          expected_href=html.unescape(link.group(1)).strip()
+                          expected_label=html.unescape(re.sub(r'<[^>]+>',"",label.group(1))).strip()
+                          if href != expected_href or shown != expected_label:
+                              raise ValueError("CTA publico diferente do JSON aprovado: "+slug)
+                          if public_html.count('<section id="referencias"')!=1:
+                              raise ValueError("Fontes publicas duplicadas/ausentes: "+slug)
+                          if public_html.index('data-geb-component="cta"')>public_html.index('<section id="referencias"'):
+                              raise ValueError("CTA publico depois das fontes: "+slug)
+                  # O CSS publicado deve preservar contraste branco sobre fundo escuro no botao.
+                  if any(str(a.get("dataPublicacaoISO") or "") >= "2026-11-14" and a.get("serieEditorial") != "Gestão em Pauta" for a in expected):
+                      stylesheet,_=fetch("/assets/styles.css")
+                      if b'.article-body [data-geb-component="cta"] a.component-button' not in stylesheet:
+                          raise ValueError("CSS publico sem regra de contraste do CTA")
                   print("Smoke test OK: " + str(len(expected)) + " artigos do " + latest.name + " + URLs publicas.")
                   error=None
                   break
