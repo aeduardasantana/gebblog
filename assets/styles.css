@@ -618,3 +618,30 @@ h1,h2,h3,.search-panel label{font-family:Georgia,"Times New Roman",serif;letter-
 .geb-tts__controls select{min-height:44px;padding:.4rem .5rem;border:1px solid #777;background:#fff;color:#171717;border-radius:6px}
 .geb-tts__status{font-size:.85rem;color:#464646;margin:.65rem 0 0}
 @media(max-width:600px){.geb-tts{padding:1rem}.geb-tts__controls{gap:.45rem}.geb-tts__controls button{flex:1 1 auto}}
+
+/* Blog GEB — contraste acessível dos botões de CTA editorial (13/11/2026).
+   A regra .article-body a de links editoriais não pode prevalecer sobre texto de botão. */
+.article-body .cta-component a.component-button,
+.article-body [data-geb-component="cta"] a.component-button,
+.article-body .cta-component a.component-button:visited,
+.article-body [data-geb-component="cta"] a.component-button:visited {
+  background:#0b396b;
+  color:#fff !important;
+  text-decoration:none;
+  font-weight:700;
+  min-height:44px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:.75rem 1.1rem;
+}
+.article-body .cta-component a.component-button:hover,
+.article-body [data-geb-component="cta"] a.component-button:hover {
+  background:#092c53;
+  color:#fff !important;
+}
+.article-body .cta-component a.component-button:focus-visible,
+.article-body [data-geb-component="cta"] a.component-button:focus-visible {
+  outline:3px solid #b35d00;
+  outline-offset:3px;
+}
