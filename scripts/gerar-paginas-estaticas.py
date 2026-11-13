@@ -102,6 +102,48 @@ for item in manifest:
             raise ValueError("Gestao em Pauta com quadro de artigo inexistente: "+slug)
         if output.count('class="geb-video-player"')!=1 or output.count('data-geb-component="cta"')!=1:
             raise ValueError("Gestao em Pauta com player ou CTA ausente/duplicado: "+slug)
+    # Protecao CTA V1.3 para novas publicacoes: validacao tecnica, sem revisao editorial.
+    # Artigos historicos e a serie Gestao em Pauta conservam seus fluxos originais.
+    if str(data.get("dataPublicacaoISO") or "") >= "2026-11-14" and data.get("serieEditorial") != "Gestão em Pauta":
+        official={
+            "Desenvolvimento":"https://aeduardabispo.com.br/",
+            "Empresarial":"https://gebempresarial.grupoeduardabispo.com.br/",
+            "Educação":"https://gebeducacao.grupoeduardabispo.com.br/",
+            "Saúde":"https://gebsaude.grupoeduardabispo.com.br/",
+            "Tecnologia":"https://gebtecnologia.grupoeduardabispo.com.br/",
+            "Inclusão":"https://gebinclusao.grupoeduardabispo.com.br/",
+            "Institucional":"https://grupoeduardabispo.com.br/",
+        }
+        categories=data.get("categorias") or [data.get("categoria")]
+        if isinstance(categories,str): categories=[categories]
+        allowed={official[c] for c in [data.get("categoria")]+categories if c in official}
+        if not allowed: raise ValueError("CTA: categoria sem destino canonico: "+slug)
+        # Excecao precisa estar expressamente justificada nos metadados editoriais.
+        exc=str(data.get("excecaoCTAJustificada") or "").strip()
+        sections=re.findall(r'<section\\b[^>]*\\bdata-geb-component=["\\x27]cta["\\x27][^>]*>(.*?)</section>',content,re.I|re.S)
+        if exc:
+            if len(sections)>1: raise ValueError("CTA: componentes duplicados: "+slug)
+        else:
+            if len(sections)!=1: raise ValueError("CTA: componente ausente/duplicado: "+slug)
+            section=sections[0]
+            buttons=re.findall(r'<a class="component-button" href="([^"]+)"[^>]*>(.*?)</a>',section,re.I|re.S)
+            if len(buttons)!=1: raise ValueError("CTA: botao ausente/duplicado: "+slug)
+            href=html.unescape(buttons[0][0])
+            label=html.unescape(clean(buttons[0][1]))
+            if href not in allowed: raise ValueError("CTA: destino nao corresponde a editoria: "+slug)
+            if not label or re.fullmatch(r'(?:Conhecer GEB(?: [A-Za-zÀ-ÿ]+)?|Saiba mais|Clique aqui|Acessar site)',label,re.I):
+                raise ValueError("CTA: rotulo generico/ausente: "+slug)
+            paragraphs=re.findall(r'<p\\b[^>]*>(.*?)</p>',section,re.I|re.S)
+            if len(paragraphs)<2 or any(len(clean(v))<12 for v in paragraphs[:2]):
+                raise ValueError("CTA: titulo/texto ausente ou sem informacao: "+slug)
+            if re.search(r'Acesse informa[cç][oõ]es sobre a atua[cç][aã]o correspondente|avalie o que faz sentido para sua necessidade',section,re.I):
+                raise ValueError("CTA: texto antigo e generico: "+slug)
+            if re.search(r'BOTÃO\\s*:|LINK\\s*:|\\[/?CTA\\]',section,re.I):
+                raise ValueError("CTA: marcador editorial nao convertido: "+slug)
+            if not references or '<section id="referencias" class="article-references container narrow">' not in output:
+                raise ValueError("Artigo sem secao unica de fontes publicas: "+slug)
+            if output.index('data-geb-component="cta"')>output.index('<section id="referencias"'):
+                raise ValueError("CTA posicionado depois das fontes: "+slug)
     dest=ROOT/"artigo"/slug/"index.html"
     dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(output,encoding="utf-8")
