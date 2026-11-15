@@ -125,6 +125,19 @@ jobs:
           error = None
           for attempt in range(1, 5):
               try:
+                  # Validar tambem o manifesto que a pagina inicial consome.
+                  local_manifest = json.loads(pathlib.Path("conteudo/indices/manifesto-completo.json").read_text(encoding="utf-8"))
+                  remote_manifest = json.loads(fetch("/conteudo/indices/manifesto-completo.json")[0].decode("utf-8"))
+                  local_slugs=[a["slug"] for a in local_manifest]
+                  remote_slugs=[a["slug"] for a in remote_manifest]
+                  if not remote_slugs or len(remote_slugs)!=len(local_slugs) or len(set(remote_slugs))!=len(remote_slugs) or set(remote_slugs)!=set(local_slugs):
+                      raise ValueError("Manifesto publico incompleto ou divergente do build")
+                  fallback,_ = fetch("/conteudo/indices/catalogo-integral.js")
+                  if b"window.GEB_CATALOGO_INTEGRAL=" not in fallback or len(fallback)<1000:
+                      raise ValueError("Snapshot integral de contingencia indisponivel")
+                  homepage,_ = fetch("/")
+                  if b"catalogo-integral.js?v=" not in homepage:
+                      raise ValueError("Pagina inicial sem script de contingencia integral")
                   remote = json.loads(fetch("/conteudo/indices/" + latest.name)[0].decode("utf-8"))
                   found = {a.get("slug"):a for a in remote}
                   for item in expected:

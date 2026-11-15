@@ -149,3 +149,22 @@ for item in manifest:
     dest.write_text(output,encoding="utf-8")
     count+=1
 print("Generated crawlable article HTML pages:",count)
+
+# Snapshot integral gerado SOMENTE depois da geração válida das páginas.
+# O acervo de segurança jamais usa catálogo parcial ou lista avulsa de lotes.
+import hashlib
+if not manifest or len({a["slug"] for a in manifest})!=len(manifest):
+    raise ValueError("Manifesto integral com entradas duplicadas ou vazio")
+payload=json.dumps({"total":len(manifest),"artigos":manifest},ensure_ascii=False,separators=(",",":")).replace("</","<\\/")
+digest=hashlib.sha256(payload.encode("utf-8")).hexdigest()[:12]
+snapshot=ROOT/"conteudo/indices/catalogo-integral.js"
+snapshot.write_text("window.GEB_CATALOGO_INTEGRAL="+payload+";\\n",encoding="utf-8")
+homepage=ROOT/"index.html"
+page=homepage.read_text(encoding="utf-8")
+page=re.sub(r'<script src="\\./conteudo/indices/catalogo-integral\\.js\\?v=[a-f0-9]+"></script>',"",page)
+anchor='<script src="./conteudo/publicados/catalogo.js"></script>'
+if page.count(anchor)!=1: raise ValueError("Ancora do catalogo nao encontrada na pagina inicial")
+page=page.replace(anchor,'<script src="./conteudo/indices/catalogo-integral.js?v='+digest+'"></script>'+anchor,1)
+homepage.write_text(page,encoding="utf-8")
+print("Backup integral de contingencia:",len(manifest),"artigos, hash",digest)
+

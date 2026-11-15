@@ -38,14 +38,40 @@ busca.addEventListener("keydown",function(e){if(e.key==="Enter")document.getElem
 if(seletor)seletor.addEventListener("change",function(v){categoria=seletor.value;q="";tag="";busca.value="";updateURL();render();});
 limpar.addEventListener("click",function(){categoria=tag=q="";busca.value="";if(seletor)seletor.value="";updateURL();render();});
 busca.value=q;
+// Contingência atômica: snapshot completo gerado do mesmo manifesto no deploy.
+// Nunca recorrer a índices parciais para mascarar ausência do acervo.
+function snapshotIntegral(){
+  var snap=window.GEB_CATALOGO_INTEGRAL;
+  if(!snap||!Array.isArray(snap.artigos)||!snap.total||snap.total!==snap.artigos.length)return [];
+  var all=snap.artigos;
+  if(!all.every(function(a){return a&&a.slug&&a.arquivo&&a.status==="Publicado";}))return [];
+  if(new Set(all.map(function(a){return a.slug;})).size!==all.length)return [];
+  return orderByPublication(all);
+}
+articles=snapshotIntegral();
 render();
-window.GEB_BLOG_API.consultar({acao:"artigos"}).then(function(r){
-  if(!r.sucesso||!Array.isArray(r.dados))throw new Error("API sem lista autorizada");
+if(!articles.length){
+  var indicador=document.getElementById("contador-artigos");
+  if(indicador)indicador.textContent="Carregando acervo editorial…";
+  vazio.hidden=true;
+}
+var consulta=(window.GEB_BLOG_API&&typeof window.GEB_BLOG_API.consultar==="function")
+  ?window.GEB_BLOG_API.consultar({acao:"artigos"})
+  :Promise.reject(new Error("API do catálogo não carregada"));
+Promise.resolve(consulta).then(function(r){
+  if(!r.sucesso||!Array.isArray(r.dados)||!r.dados.length)throw new Error("API sem catálogo integral");
   articles=orderByPublication(r.dados);render();
   setEstado("");
 }).catch(function(e){
-  articles=[];render();vazio.hidden=false;
-  vazio.innerHTML="<h3>Conteúdos temporariamente indisponíveis</h3><p>O catálogo editorial não pôde ser consultado neste momento. Tente novamente em instantes.</p>";
-  console.error("Blog GEB: falha na API",e);
+  if(articles.length){
+    render();
+    setEstado("Acervo integral exibido a partir da cópia de contingência.");
+  }else{
+    articles=[];render();vazio.hidden=false;
+    var indicador=document.getElementById("contador-artigos");
+    if(indicador)indicador.textContent="Acervo indisponível · contagem não verificada";
+    vazio.innerHTML="<h3>Conteúdos temporariamente indisponíveis</h3><p>O catálogo editorial não pôde ser consultado. Nenhum artigo foi removido por esta falha de carregamento.</p>";
+  }
+  console.error("Blog GEB: erro no catálogo",e);
 });
 })();
