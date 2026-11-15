@@ -165,6 +165,7 @@ page=re.sub(r'<script src="\./conteudo/indices/catalogo-integral\.js\?v=[a-f0-9]
 anchor='<script src="./conteudo/publicados/catalogo.js"></script>'
 if page.count(anchor)!=1: raise ValueError("Ancora do catalogo nao encontrada na pagina inicial")
 page=page.replace(anchor,'<script src="./conteudo/indices/catalogo-integral.js?v='+digest+'"></script>'+anchor,1)
+page=re.sub(r'(src="\./assets/app\.js\?v=)[^"]+',lambda m:m.group(1)+digest,page)
 homepage.write_text(page,encoding="utf-8")
 print("Backup integral de contingencia:",len(manifest),"artigos, hash",digest)
 
