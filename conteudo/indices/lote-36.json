@@ -145,5 +145,38 @@
     "descricaoSEO": "Uma organização divulga um projeto em planejamento. O anúncio informa objetivos, público e expectativa de benefícios. Sem uma indicação clara do estágio, o",
     "documentId": "1rxvkluVwfhbasMY46nxJC1a6OnELwB6jnbzk6FDsPTk",
     "arquivo": "institucional/transparencia-institucional-compromissos-entregas-limites.json"
+  },
+  {
+    "titulo": "Cosan negocia participações, EDP enfrenta cortes de energia e JSL reorganiza operações",
+    "subtitulo": "Relatos sobre venda de ativos, limites da rede elétrica, permuta logística e o prejuízo da Sequoia mostram decisões em estágios diferentes.",
+    "slug": "cosan-edp-jsl-sequoia-gestao-em-pauta-edicao-006-2026-11-16",
+    "resumo": "Na edição de 16 de novembro de 2026, o Gestão em Pauta acompanha as negociações da Cosan, restrições relatadas pela EDP, a permuta JSL/Simpar e o balanço da Sequoia, além de notícias sobre IA e transporte elétrico.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "Notícias",
+      "Gestão em Pauta",
+      "Cosan",
+      "Energia elétrica",
+      "Logística",
+      "Reestruturação empresarial",
+      "Resultados financeiros",
+      "Inteligência artificial"
+    ],
+    "autorPublico": "Eduarda Bispo",
+    "generoEditorial": "Análise jornalística",
+    "tituloSEO": "Cosan, EDP, JSL e Sequoia: decisões empresariais de 16/11/2026",
+    "descricaoSEO": "Cosan negocia ativos, EDP enfrenta cortes de energia, JSL reorganiza logística e Sequoia divulga prejuízo. Entenda os fatos de 16/11/2026.",
+    "documentId": "1sWW_k55iZEegahgp6HpUSoPa6dTJl0snJALLANbArIg",
+    "dataEdicao": "2026-11-16",
+    "numeroEdicao": "006",
+    "videoYouTube": "https://www.youtube.com/watch?v=-LUD_92JMXA",
+    "dataPublicacao": "16/11/2026",
+    "dataPublicacaoISO": "2026-11-16",
+    "status": "Publicado",
+    "arquivo": "institucional/cosan-edp-jsl-sequoia-gestao-em-pauta-edicao-006-2026-11-16.json",
+    "serieEditorial": "Gestão em Pauta"
   }
 ]
