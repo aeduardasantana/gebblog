@@ -1,0 +1,26 @@
+{
+  "titulo": "Autenticação em duas etapas: o que exigir de um serviço antes de contratar",
+  "subtitulo": "",
+  "slug": "autenticacao-duas-etapas-avaliar-servico-digital",
+  "resumo": "Um sistema promete acesso de qualquer dispositivo. A empresa avalia preço, telas e relatórios, mas esquece uma pergunta: o que impede alguém de entrar usando uma senha descoberta?",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [
+    "tecnologia"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "15/11/2026",
+  "dataPublicacaoISO": "2026-11-15",
+  "status": "Publicado",
+  "tituloSEO": "Autenticação em duas etapas: o que exigir de um serviço antes de contratar",
+  "descricaoSEO": "Um sistema promete acesso de qualquer dispositivo. A empresa avalia preço, telas e relatórios, mas esquece uma pergunta: o que impede alguém de entrar usan",
+  "documentId": "1BTZljAXQe8zgzp1gkb4TWLE0CZFbNaJWYJsQ1PQxCk8",
+  "conteudoHTML": "<p>Um sistema promete acesso de qualquer dispositivo. A empresa avalia preço, telas e relatórios, mas esquece uma pergunta: o que impede alguém de entrar usando uma senha descoberta?</p>\n<p>A autenticação multifator acrescenta verificação além da senha, como aplicativo autenticador ou chave física. O NIST, no guia de início rápido do Cybersecurity Framework 2.0 para pequenas empresas, orienta tratar a proteção digital como gestão contínua de riscos, não como compra isolada.</p>\n<p>Antes de contratar, descubra se a autenticação em duas etapas está disponível para todos, se pode ser exigida pela administração e se custa mais. Pergunte como recuperar o acesso quando o dispositivo é perdido e quem pode desativar o mecanismo.</p>\n<p>Contas administrativas merecem atenção especial. Uma conta compartilhada que controla faturamento e cadastros impede atribuir ações a usuários individuais. Permissões proporcionais à função e revisão de acessos após desligamentos são medidas complementares.</p>\n<p>Códigos por SMS podem acrescentar proteção, mas apresentam riscos diferentes de aplicativos e chaves. Nenhum método elimina engenharia social. A Federal Trade Commission recomenda autenticação multifator e também destaca criptografia e segurança de dispositivos.</p>\n<p>Peça demonstração de cadastro, ativação obrigatória da segunda etapa, retirada de permissão e recuperação de conta. Solicite por escrito suporte, exportação de dados e administração de acessos. Testar a jornada completa revela dificuldades que uma apresentação comercial pode esconder. A melhor solução combina proteção proporcional ao risco, operação compreensível e controle de quem acessa informações.</p>\n<p>[CTA]</p>\n<p>Escolha tecnologia pensando também na proteção</p>\n<p>O GEB Tecnologia atua com soluções e orientação tecnológica para ajudar na avaliação de ferramentas digitais e na organização de seu uso em operações reais.</p>\n<p>BOTÃO: Ver soluções tecnológicas</p>\n<p>LINK: https://gebtecnologia.grupoeduardabispo.com.br/</p>\n<p>[/CTA]</p>",
+  "referenciasPublicas": [
+    "ELIOT, Daniel. NIST Cybersecurity Framework 2.0: Small Business Quick-Start Guide. NIST SP 1300, 2024. https://doi.org/10.6028/NIST.SP.1300",
+    "FEDERAL TRADE COMMISSION. Cybersecurity for Small Business. https://www.ftc.gov/business-guidance/small-businesses/cybersecurity"
+  ],
+  "arquivo": "tecnologia/autenticacao-duas-etapas-avaliar-servico-digital.json"
+}

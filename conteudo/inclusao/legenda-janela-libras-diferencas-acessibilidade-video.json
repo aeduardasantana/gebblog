@@ -1,0 +1,26 @@
+{
+  "titulo": "Vídeo com legenda e janela de Libras: por que os dois recursos não são intercambiáveis",
+  "subtitulo": "",
+  "slug": "legenda-janela-libras-diferencas-acessibilidade-video",
+  "resumo": "Um vídeo institucional é publicado com legendas. A equipe considera a comunicação acessível e encerra o planejamento. Uma pessoa surda usuária de Libras, porém, pode preferir receber o conteúdo em sua língua. Outra pode ",
+  "categoria": "Inclusão",
+  "categorias": [
+    "Inclusão"
+  ],
+  "tags": [
+    "inclusão"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "16/11/2026",
+  "dataPublicacaoISO": "2026-11-16",
+  "status": "Publicado",
+  "tituloSEO": "Vídeo com legenda e janela de Libras: por que os dois recursos não são intercambiáveis",
+  "descricaoSEO": "Um vídeo institucional é publicado com legendas. A equipe considera a comunicação acessível e encerra o planejamento. Uma pessoa surda usuária de Libras, p",
+  "documentId": "1n321Rg2yS26_9zGmdMY9yBOk69XTXFXf_5PHEsaac30",
+  "conteudoHTML": "<p>Um vídeo institucional é publicado com legendas. A equipe considera a comunicação acessível e encerra o planejamento. Uma pessoa surda usuária de Libras, porém, pode preferir receber o conteúdo em sua língua. Outra pode usar o português escrito com facilidade. A pergunta adequada não é qual recurso 'serve para surdos', mas que barreiras existem para públicos e situações diferentes.</p>\n<p>As Web Content Accessibility Guidelines (WCAG) 2.2, do W3C, distinguem legendas de outras alternativas de acesso. Legendas sincronizadas devem representar informações relevantes do áudio, não apenas transcrever falas isoladas. A interpretação em língua de sinais oferece outra via linguística e não se confunde com legenda, transcrição ou simples presença de texto na tela.</p>\n<h2>A decisão começa pelo conteúdo e pelo público</h2>\n<p>Em um vídeo gravado, a legenda precisa ser sincronizada, legível e identificar informações sonoras importantes. A janela de Libras exige planejamento visual: enquadramento adequado, intérprete visível, contraste e espaço suficiente para compreender os sinais. Inserir uma janela minúscula ou cobri-la com elementos gráficos pode comprometer sua utilidade.</p>\n<p>Para eventos ao vivo, o planejamento muda. É necessário avaliar interpretação simultânea, posicionamento, transmissão, iluminação e acesso do público presencial e remoto. Uma gravação posterior com recursos acessíveis não substitui automaticamente o acesso durante o evento.</p>\n<h2>Editais e contratos não podem ser tratados como iguais</h2>\n<p>Quando o trabalho depende de edital, contrato ou regulamento, deve-se ler exatamente quais recursos são exigidos, em qual modalidade e com quais critérios de execução. Não é correto afirmar que todo edital exige janela de Libras, nem que legenda basta em qualquer situação. A conformidade formal e a efetividade para usuários são perguntas relacionadas, mas distintas.</p>\n<p>O Relatório Global de Monitoramento da Educação 2020, da UNESCO, discute exclusões associadas, entre outros fatores, à língua e à deficiência. Sua contribuição é mostrar a necessidade de considerar diversidade e barreiras; não estabelece uma receita técnica única para vídeos brasileiros.</p>\n<p>Uma boa contratação define previamente quem utilizará o material, em quais plataformas, se o conteúdo é ao vivo ou gravado, como serão testados os recursos e como usuários poderão comunicar problemas. Acessibilidade não é uma etiqueta adicionada ao final. É uma decisão de projeto que precisa respeitar diferentes formas de comunicação.</p>\n<p>[CTA]</p>\n<p>Planeje acessibilidade para o público real</p>\n<p>O GEB Inclusão atua com acessibilidade e Libras. Conheça as soluções para planejar comunicação acessível de acordo com as necessidades de cada público.</p>\n<p>BOTÃO: Conhecer soluções de inclusão</p>\n<p>LINK: https://gebinclusao.grupoeduardabispo.com.br/</p>\n<p>[/CTA]</p>",
+  "referenciasPublicas": [
+    "WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. W3C Recommendation, 5 out. 2023. Disponível em: https://www.w3.org/TR/2023/REC-WCAG22-20231005/. Acesso em: 16 nov. 2026.",
+    "UNESCO. Global Education Monitoring Report 2020: Inclusion and Education — All Means All. Paris: UNESCO, 2020. Disponível em: https://www.unesco.org/gem-report/es/publication/inclusion-and-education. Acesso em: 16 nov. 2026."
+  ],
+  "arquivo": "inclusao/legenda-janela-libras-diferencas-acessibilidade-video.json"
+}

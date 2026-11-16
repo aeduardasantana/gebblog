@@ -1,0 +1,26 @@
+{
+  "titulo": "Backup existe, mas funciona? O teste que compradores de sistemas esquecem",
+  "subtitulo": "",
+  "slug": "backup-restauracao-testar-fornecedor-sistema",
+  "resumo": "Uma empresa contrata um sistema que anuncia cópias de segurança automáticas. Meses depois, precisa recuperar dados apagados e descobre que ninguém havia testado o procedimento. O exemplo é hipotético, mas a pergunta é re",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [
+    "tecnologia"
+  ],
+  "autorPublico": "GEB",
+  "dataPublicacao": "16/11/2026",
+  "dataPublicacaoISO": "2026-11-16",
+  "status": "Publicado",
+  "tituloSEO": "Backup existe, mas funciona? O teste que compradores de sistemas esquecem",
+  "descricaoSEO": "Uma empresa contrata um sistema que anuncia cópias de segurança automáticas. Meses depois, precisa recuperar dados apagados e descobre que ninguém havia te",
+  "documentId": "1Tf8rLOEnonDDPse5WIskX0NMx4IXf_aLeJWJMUH6u_A",
+  "conteudoHTML": "<p>Uma empresa contrata um sistema que anuncia cópias de segurança automáticas. Meses depois, precisa recuperar dados apagados e descobre que ninguém havia testado o procedimento. O exemplo é hipotético, mas a pergunta é real para qualquer comprador: a existência de um backup garante que as informações poderão ser recuperadas quando necessário?</p>\n<p>A resposta é não. Uma cópia pode estar incompleta, corrompida, desatualizada ou inacessível no momento crítico. Por isso, contratar armazenamento não equivale a contratar uma estratégia de recuperação. O fornecedor precisa explicar o que protege, por quanto tempo, com quais responsabilidades e como demonstra a restauração.</p>\n<h2>Perguntas que cabem em uma reunião comercial</h2>\n<p>Solicite uma descrição objetiva dos dados incluídos nas cópias: documentos, cadastros, anexos, configurações e histórico. Pergunte a frequência dos backups, o prazo de retenção e se uma exclusão indevida pode ser revertida. Confira se os arquivos ficam separados do ambiente principal e quais controles limitam acessos indevidos.</p>\n<p>Depois, trate do teste: quando foi feita a última restauração, o que foi recuperado e quanto tempo levou? Uma demonstração com dados de teste, quando viável, é mais informativa do que a palavra 'automático' em uma proposta. Também é necessário saber o que acontece quando o contrato termina: como os dados são exportados e em que formato?</p>\n<h2>O que o NIST ajuda a compreender</h2>\n<p>O Cybersecurity Framework 2.0, do National Institute of Standards and Technology, organiza a gestão de riscos cibernéticos em funções como governar, identificar, proteger, detectar, responder e recuperar. O documento não impõe uma ferramenta ou uma frequência universal de backup. Ele orienta resultados que precisam ser adaptados ao contexto e ao risco da organização.</p>\n<p>Uma loja que depende de vendas diárias e uma entidade que conserva registros históricos podem tolerar interrupções e perdas de dados diferentes. Essas diferenças devem ser discutidas antes da contratação, sem prometer recuperação instantânea nem presumir que todo serviço oferece o mesmo nível de proteção.</p>\n<p>Backup é uma capacidade que precisa ser comprovada por procedimento, responsabilidade e teste. O comprador não precisa ser programador para fazer perguntas objetivas; precisa saber quais informações não pode perder e qual interrupção sua operação consegue suportar.</p>\n<p>[CTA]</p>\n<p>Contrate tecnologia pensando na continuidade</p>\n<p>O GEB Tecnologia trabalha com soluções digitais e organização tecnológica. Conheça a atuação e discuta requisitos de proteção e continuidade antes de contratar.</p>\n<p>BOTÃO: Conhecer soluções tecnológicas</p>\n<p>LINK: https://gebtecnologia.grupoeduardabispo.com.br/</p>\n<p>[/CTA]</p>",
+  "referenciasPublicas": [
+    "PASCOE, Cherilyn; QUINN, Stephen; SCARFONE, Karen. The NIST Cybersecurity Framework (CSF) 2.0. Gaithersburg: NIST, 2024. DOI: https://doi.org/10.6028/NIST.CSWP.29.",
+    "NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY. NIST Releases Version 2.0 of Landmark Cybersecurity Framework. Gaithersburg: NIST, 26 fev. 2024. Disponível em: https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework. Acesso em: 16 nov. 2026."
+  ],
+  "arquivo": "tecnologia/backup-restauracao-testar-fornecedor-sistema.json"
+}
