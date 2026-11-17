@@ -199,7 +199,7 @@ function formatReference(r){
   if(parts.length)return parts.join(". ");
   return Object.keys(r).map(function(k){var v=r[k];return typeof v==="string"||typeof v==="number"?String(v):"";}).filter(Boolean).join(". ");
 }
-if(typeof refs==="string")refs=refs.split(/\\n\\s*\\n|\\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/);
+if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/);
 if(!Array.isArray(refs))refs=[refs];
 refs=refs.map(formatReference).filter(Boolean);
 if(refs.length){
