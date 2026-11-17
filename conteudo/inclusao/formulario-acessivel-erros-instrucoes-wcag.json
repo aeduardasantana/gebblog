@@ -1,0 +1,28 @@
+{
+  "titulo": "Formulário acessível: por que o erro precisa ser explicado, não apenas marcado em vermelho",
+  "subtitulo": "Guia de análise e orientação prática",
+  "slug": "formulario-acessivel-erros-instrucoes-wcag",
+  "resumo": "Uma pessoa preenche um formulário, seleciona “Enviar” e recebe apenas uma borda vermelha em determinado campo. Para quem não distingue a cor, usa leitor de tela ou não compreende a exigência, a mensagem é insuficiente: h",
+  "categoria": "Inclusão",
+  "categorias": [
+    "Inclusão"
+  ],
+  "tags": [
+    "orientação",
+    "gestão",
+    "conhecimento"
+  ],
+  "autorPublico": "Equipe editorial GEB",
+  "dataPublicacao": "17/11/2026",
+  "dataPublicacaoISO": "2026-11-17",
+  "dataEditorialPlanejada": "2026-11-17",
+  "status": "Publicado",
+  "tituloSEO": "Formulário acessível: por que o erro precisa ser explicado, não apenas marcado em vermelho",
+  "descricaoSEO": "Uma pessoa preenche um formulário, seleciona “Enviar” e recebe apenas uma borda vermelha em determinado campo. Para quem não distingue a cor, usa leitor de",
+  "generoEditorial": "Tutorial de acessibilidade",
+  "documentId": "10m7DBUNXESBIp-IBx284pZUXAEwqVB5hp0_5hvbPtGo",
+  "conteudoHTML": "<p>Uma pessoa preenche um formulário, seleciona “Enviar” e recebe apenas uma borda vermelha em determinado campo. Para quem não distingue a cor, usa leitor de tela ou não compreende a exigência, a mensagem é insuficiente: houve um erro, mas o sistema não explicou qual.</p>\n<p>As Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2, do W3C, incluem critérios sobre identificação de erros, rótulos, instruções e sugestões de correção. O ponto prático é simples: uma interface precisa comunicar o problema por meios que não dependam exclusivamente de cor ou percepção visual.</p>\n<p>Como tornar a correção possível</p>\n<p>Se o campo exige uma data, informe o formato esperado antes do preenchimento. Quando a entrada estiver inválida, use mensagem específica, como “Informe a data no formato dia/mês/ano”, em vez de “Dados incorretos”. Associe a mensagem ao campo correspondente de modo que tecnologias assistivas possam apresentá-la adequadamente.</p>\n<p>O formulário também precisa permitir que o usuário localize o erro. Em páginas extensas, apresentar um resumo navegável e manter o foco de forma previsível pode facilitar a recuperação. A implementação técnica deve ser testada com teclado, leitor de tela e pessoas que utilizam diferentes recursos de acesso.</p>\n<p>Acessibilidade não é uma lista de recursos intercambiáveis</p>\n<p>Para uma pessoa surda usuária de Libras, o problema pode envolver compreensão de instruções escritas complexas ou acesso a atendimento linguístico adequado. Para uma pessoa cega, pode envolver rótulos ausentes ou mensagens não anunciadas pelo leitor de tela. Legenda, tradução em Libras e leitor de tela resolvem barreiras diferentes. Nenhum desses recursos, isoladamente, torna todo formulário acessível.</p>\n<p>Quando houver edital, contrato ou norma setorial, a obrigação concreta deve ser examinada no documento aplicável. Não se pode afirmar que toda contratação exige a mesma combinação de recursos de Libras. O diagnóstico começa pela tarefa e pelo público que precisa realizá-la.</p>\n<p>Antes de lançar o formulário, teste situações reais: campo obrigatório vazio, documento com formato inesperado, prazo expirado e correção de informação. Uma interface inclusiva não se limita a informar que algo deu errado. Ela oferece condições compreensíveis para a pessoa continuar.</p>\n<section data-geb-component=\"cta\"><h3>Revise as barreiras de acesso do seu serviço</h3><p>O GEB Inclusão desenvolve iniciativas de acessibilidade e inclusão. Conheça sua atuação para planejar recursos adequados ao público e à atividade.</p><p>BOTÃO: Conhecer soluções de inclusão</p><p>LINK: https://gebinclusao.grupoeduardabispo.com.br/</p></section>",
+  "referenciasPublicas": [
+    "WORLD WIDE WEB CONSORTIUM. Web Content Accessibility Guidelines (WCAG) 2.2. W3C Recommendation, 5 out. 2023. Disponível em: https://www.w3.org/TR/WCAG22/. Acesso em: 17 nov. 2026."
+  ]
+}
