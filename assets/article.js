@@ -189,7 +189,20 @@ function renderArticle(a){if(!a){article.hidden=true;if(error)error.hidden=false
   if(/^Nota de enquadramento:/i.test(t)) el.classList.add("editorial-note");
   if(/^(\(?E-?book\)?|workshop Ser Coach IBC)$/i.test(t)) el.classList.add("legacy-context");
 });
-repairEditorialFooter(body);normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];if(typeof refs==="string")refs=refs.split(/\n\s*\n|\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/).map(function(x){return x.trim();}).filter(Boolean);if(refs.length){
+repairEditorialFooter(body);normalizeEditorialComponents(body);enhance(body);linkEditorialServices(body);linkRegionalNR1(body,a.slug);enhanceLinks(body);var refs=a.referenciasPublicas||[];
+function formatReference(r){
+  if(typeof r==="string")return r.trim();
+  if(!r||typeof r!=="object")return String(r==null?"":r);
+  var fields=["referencia","referência","texto","citacao","citação","formatted","label","descricao","descrição","titulo","título","title","autor","author","publicacao","publicação","ano","year","url","link","doi"];
+  var parts=[],seen={};
+  fields.forEach(function(k){var v=r[k];if(typeof v==="string"&&v.trim()&&!seen[v.trim()]){parts.push(v.trim());seen[v.trim()]=true;}else if(typeof v==="number"&&!seen[String(v)]){parts.push(String(v));seen[String(v)]=true;}});
+  if(parts.length)return parts.join(". ");
+  return Object.keys(r).map(function(k){var v=r[k];return typeof v==="string"||typeof v==="number"?String(v):"";}).filter(Boolean).join(". ");
+}
+if(typeof refs==="string")refs=refs.split(/\\n\\s*\\n|\\n(?=[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-ZÁÉÍÓÚÂÊÔÃÕÇ .;-]{2,}:?)/);
+if(!Array.isArray(refs))refs=[refs];
+refs=refs.map(formatReference).filter(Boolean);
+if(refs.length){
   // Evita duas secoes de fontes quando a conversao preservou referencias no HTML
   // e o artigo tambem possui referenciasPublicas estruturadas.
   [].slice.call(body.querySelectorAll("h2,h3,h4")).forEach(function(h){
