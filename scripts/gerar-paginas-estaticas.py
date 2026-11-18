@@ -17,6 +17,10 @@ def render_static_ctas(markup):
     def convert(m):
         section=m.group(0)
         if 'class="component-button"' in section: return section
+        # Preservar o CTA editorial ja aprovado em artigos diarios:
+        # apenas normalizar a classe visual do link, sem reescrever texto, destino ou corpo.
+        if re.search(r'class=["\\']geb-cta-botao["\\']',section,re.I):
+            return re.sub(r'class=["\\']geb-cta-botao["\\']','class="component-button"',section,count=1,flags=re.I)
         button=re.search(r'<p[^>]*>\s*BOTÃO:\s*(.*?)\s*</p>',section,re.I|re.S)
         link=re.search(r'<p[^>]*>\s*LINK:\s*(https?://[^\s<]+)\s*</p>',section,re.I|re.S)
         if not (button and link): return section
@@ -134,7 +138,11 @@ for item in manifest:
             if not label or re.fullmatch(r'(?:Conhecer GEB(?: [A-Za-zÀ-ÿ]+)?|Saiba mais|Clique aqui|Acessar site)',label,re.I):
                 raise ValueError("CTA: rotulo generico/ausente: "+slug)
             paragraphs=re.findall(r'<p\b[^>]*>(.*?)</p>',section,re.I|re.S)
-            if len(paragraphs)<2 or any(len(clean(v))<12 for v in paragraphs[:2]):
+            heading=re.search(r'<h[2-4][^>]*>(.*?)</h[2-4]>',section,re.I|re.S)
+            with_two_paragraphs=len(paragraphs)>=2 and all(len(clean(v))>=12 for v in paragraphs[:2])
+            with_heading_and_description=(heading is not None and len(clean(heading.group(1)))>=12 and
+                                          len(paragraphs)>=1 and len(clean(paragraphs[0]))>=12)
+            if not (with_two_paragraphs or with_heading_and_description):
                 raise ValueError("CTA: titulo/texto ausente ou sem informacao: "+slug)
             if re.search(r'Acesse informa[cç][oõ]es sobre a atua[cç][aã]o correspondente|avalie o que faz sentido para sua necessidade',section,re.I):
                 raise ValueError("CTA: texto antigo e generico: "+slug)
