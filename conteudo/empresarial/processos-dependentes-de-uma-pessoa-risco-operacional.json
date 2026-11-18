@@ -1,0 +1,29 @@
+{
+  "titulo": "Processos dependentes de uma pessoa: como identificar o risco antes da ausência",
+  "subtitulo": "SLUG:",
+  "slug": "processos-dependentes-de-uma-pessoa-risco-operacional",
+  "resumo": "Quando apenas uma pessoa conhece o processo, a operação fica vulnerável. Entenda como mapear dependências e organizar substituições.",
+  "categoria": "Empresarial",
+  "categorias": [
+    "Empresarial"
+  ],
+  "tags": [
+    "continuidade operacional",
+    "processos",
+    "gestão de equipes"
+  ],
+  "autorPublico": "GEB",
+  "generoEditorial": "Explicativo/guia",
+  "dataPublicacao": "18/11/2026",
+  "dataPublicacaoISO": "2026-11-18",
+  "dataEditorialPlanejada": "2026-11-18",
+  "status": "Publicado",
+  "tituloSEO": "Processos dependentes de uma pessoa: como identificar o risco antes da ausência",
+  "descricaoSEO": "Quando apenas uma pessoa conhece o processo, a operação fica vulnerável. Entenda como mapear dependências e organizar substituições.",
+  "documentId": "1CvYLDuMxOmgOsfi7PfdnfJlZaglFYorLNGd5yMCk5Xc",
+  "conteudoHTML": "<p>Uma colaboradora entra em férias e, de repente, ninguém sabe onde está a última versão do contrato. O problema não começou na ausência: ele já existia enquanto o conhecimento estava concentrado em uma pessoa.</p>\n<p>Dependência de pessoa-chave não significa falta de competência da equipe. Frequentemente é consequência de processos que cresceram sem documentação, distribuição de acesso ou preparação de substitutos. A solução também não é exigir que todos saibam tudo.</p>\n<h2>Descubra onde a operação fica vulnerável</h2>\n<p>Escolha um processo essencial e pergunte: quem inicia a atividade, onde ficam as informações, quem aprova exceções e quem consegue continuar se o responsável faltar? Registre entradas, decisões e entregas. O mapa SIPOC, difundido na gestão da qualidade, pode ajudar a enxergar fornecedores, entradas, processo, saídas e clientes sem transformar o diagnóstico em um manual extenso.</p>\n<p>A norma ISO 22301 trata de sistemas de gestão de continuidade de negócios e oferece uma referência para identificar atividades críticas e preparar respostas a interrupções. Nem toda pequena empresa precisa implantar um sistema certificado, mas o princípio de continuidade é aplicável em diferentes escalas.</p>\n<h2>Documentar não é compartilhar qualquer acesso</h2>\n<p>Uma instrução operacional deve explicar o necessário para executar a tarefa, com critérios de qualidade e pontos de escalonamento. Senhas individuais não devem ser compartilhadas para viabilizar substituições. A organização precisa conceder permissões adequadas a funções e manter rastreabilidade.</p>\n<p>Comece por um teste simples: peça a uma pessoa autorizada que execute uma etapa com base no procedimento existente. Anote dúvidas, corrija lacunas e identifique decisões que ainda dependem de conhecimento informal. Esse exercício revela mais do que um documento guardado e nunca utilizado.</p>\n<p>O objetivo não é tornar profissionais substituíveis como pessoas, mas impedir que a continuidade de um serviço dependa da disponibilidade permanente de alguém.</p>\n<section data-geb-component=\"cta\"><h3>Sua empresa depende de conhecimentos que não estão documentados?</h3><p>O GEB Empresarial atua na organização de processos e na estruturação da gestão. Conheça as soluções empresariais para identificar dependências operacionais e organizar responsabilidades.</p><a class=\"geb-cta-botao\" href=\"https://gebempresarial.grupoeduardabispo.com.br/\">Ver soluções de gestão de processos</a></section>",
+  "referenciasPublicas": [
+    "INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. ISO 22301:2019: Security and resilience — Business continuity management systems — Requirements. Geneva: ISO, 2019. https://www.iso.org/standard/75106.html",
+    "AMERICAN SOCIETY FOR QUALITY. SIPOC+CM Diagram. https://asq.org/quality-resources/sipoc"
+  ]
+}
