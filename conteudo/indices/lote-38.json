@@ -1,0 +1,177 @@
+[
+  {
+    "titulo": "Decidir sob pressão: como separar urgência, responsabilidade e escolha",
+    "subtitulo": "SLUG:",
+    "slug": "decidir-sob-pressao-urgencia-responsabilidade-escolha",
+    "resumo": "Decisões sob pressão exigem critérios, não apenas rapidez. Veja um método para distinguir urgência, responsabilidade e alternativas.",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [
+      "decisão sob pressão",
+      "desenvolvimento humano",
+      "critérios"
+    ],
+    "autorPublico": "Eduarda Bispo",
+    "generoEditorial": "Análise",
+    "dataPublicacao": "18/11/2026",
+    "dataPublicacaoISO": "2026-11-18",
+    "dataEditorialPlanejada": "2026-11-18",
+    "status": "Publicado",
+    "tituloSEO": "Decidir sob pressão: como separar urgência, responsabilidade e escolha",
+    "descricaoSEO": "Decisões sob pressão exigem critérios, não apenas rapidez. Veja um método para distinguir urgência, responsabilidade e alternativas.",
+    "documentId": "1lEWXlkkf3Oha53fJgJysvsl8oUektrmr4ejiVY9aPOY",
+    "arquivo": "desenvolvimento/decidir-sob-pressao-urgencia-responsabilidade-escolha.json"
+  },
+  {
+    "titulo": "Processos dependentes de uma pessoa: como identificar o risco antes da ausência",
+    "subtitulo": "SLUG:",
+    "slug": "processos-dependentes-de-uma-pessoa-risco-operacional",
+    "resumo": "Quando apenas uma pessoa conhece o processo, a operação fica vulnerável. Entenda como mapear dependências e organizar substituições.",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [
+      "continuidade operacional",
+      "processos",
+      "gestão de equipes"
+    ],
+    "autorPublico": "GEB",
+    "generoEditorial": "Explicativo/guia",
+    "dataPublicacao": "18/11/2026",
+    "dataPublicacaoISO": "2026-11-18",
+    "dataEditorialPlanejada": "2026-11-18",
+    "status": "Publicado",
+    "tituloSEO": "Processos dependentes de uma pessoa: como identificar o risco antes da ausência",
+    "descricaoSEO": "Quando apenas uma pessoa conhece o processo, a operação fica vulnerável. Entenda como mapear dependências e organizar substituições.",
+    "documentId": "1CvYLDuMxOmgOsfi7PfdnfJlZaglFYorLNGd5yMCk5Xc",
+    "arquivo": "empresarial/processos-dependentes-de-uma-pessoa-risco-operacional.json"
+  },
+  {
+    "titulo": "Curso técnico e competência profissional: o que verificar antes da matrícula",
+    "subtitulo": "SLUG:",
+    "slug": "curso-tecnico-competencia-profissional-verificar-matricula",
+    "resumo": "Competências, prática e validade do curso técnico precisam ser examinadas antes da matrícula. Saiba quais perguntas fazer à instituição.",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [
+      "curso técnico",
+      "competências profissionais",
+      "matrícula"
+    ],
+    "autorPublico": "GEB",
+    "generoEditorial": "Explicativo/guia",
+    "dataPublicacao": "18/11/2026",
+    "dataPublicacaoISO": "2026-11-18",
+    "dataEditorialPlanejada": "2026-11-18",
+    "status": "Publicado",
+    "tituloSEO": "Curso técnico e competência profissional: o que verificar antes da matrícula",
+    "descricaoSEO": "Competências, prática e validade do curso técnico precisam ser examinadas antes da matrícula. Saiba quais perguntas fazer à instituição.",
+    "documentId": "10RdD7JUAGKatHufnr0KLMBe506cgd1IVpTxjRiP9qFE",
+    "arquivo": "educacao/curso-tecnico-competencia-profissional-verificar-matricula.json"
+  },
+  {
+    "titulo": "Atividade física e saúde: por que começar pequeno pode ser mais sustentável",
+    "subtitulo": "SLUG:",
+    "slug": "atividade-fisica-saude-comecar-pequeno-rotina",
+    "resumo": "A prática de atividade física traz benefícios, mas a rotina precisa ser possível. Entenda recomendações gerais e cuidados individuais.",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [
+      "atividade física",
+      "saúde",
+      "hábitos"
+    ],
+    "autorPublico": "GEB",
+    "generoEditorial": "Jornalismo explicativo",
+    "dataPublicacao": "18/11/2026",
+    "dataPublicacaoISO": "2026-11-18",
+    "dataEditorialPlanejada": "2026-11-18",
+    "status": "Publicado",
+    "tituloSEO": "Atividade física e saúde: por que começar pequeno pode ser mais sustentável",
+    "descricaoSEO": "A prática de atividade física traz benefícios, mas a rotina precisa ser possível. Entenda recomendações gerais e cuidados individuais.",
+    "documentId": "1pJv9qg3jCupWKzoThSL_WkU3jwSJLyf0oXPkfsVR8xk",
+    "arquivo": "saude/atividade-fisica-saude-comecar-pequeno-rotina.json"
+  },
+  {
+    "titulo": "Antes de contratar um software: sete perguntas sobre dados, suporte e saída",
+    "subtitulo": "SLUG:",
+    "slug": "antes-de-contratar-software-dados-suporte-saida",
+    "resumo": "Preço e recursos não bastam para escolher um sistema. Confira perguntas sobre exportação de dados, suporte e continuidade.",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [
+      "contratar software",
+      "dados",
+      "suporte"
+    ],
+    "autorPublico": "GEB",
+    "generoEditorial": "Abordagem consultiva",
+    "dataPublicacao": "18/11/2026",
+    "dataPublicacaoISO": "2026-11-18",
+    "dataEditorialPlanejada": "2026-11-18",
+    "status": "Publicado",
+    "tituloSEO": "Antes de contratar um software: sete perguntas sobre dados, suporte e saída",
+    "descricaoSEO": "Preço e recursos não bastam para escolher um sistema. Confira perguntas sobre exportação de dados, suporte e continuidade.",
+    "documentId": "1zKXP9jA7UTWCKUjdJgt7bs_i4o3lMajDWdnWh2cuajA",
+    "arquivo": "tecnologia/antes-de-contratar-software-dados-suporte-saida.json"
+  },
+  {
+    "titulo": "Atendimento acessível à pessoa surda: por que perguntar a preferência de comunicação",
+    "subtitulo": "SLUG:",
+    "slug": "atendimento-pessoa-surda-preferencia-comunicacao",
+    "resumo": "Pessoas surdas não utilizam necessariamente o mesmo recurso de comunicação. Veja como planejar atendimento sem pressupostos.",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [
+      "pessoa surda",
+      "Libras",
+      "atendimento acessível"
+    ],
+    "autorPublico": "GEB",
+    "generoEditorial": "Jornalismo explicativo",
+    "dataPublicacao": "18/11/2026",
+    "dataPublicacaoISO": "2026-11-18",
+    "dataEditorialPlanejada": "2026-11-18",
+    "status": "Publicado",
+    "tituloSEO": "Atendimento acessível à pessoa surda: por que perguntar a preferência de comunicação",
+    "descricaoSEO": "Pessoas surdas não utilizam necessariamente o mesmo recurso de comunicação. Veja como planejar atendimento sem pressupostos.",
+    "documentId": "1uRX82R4jLXGpTHzm9t_FNw10IqZ8BmYbc6zsD8pT608",
+    "arquivo": "inclusao/atendimento-pessoa-surda-preferencia-comunicacao.json"
+  },
+  {
+    "titulo": "Promessa, entrega e evidência: três coisas diferentes na comunicação institucional",
+    "subtitulo": "SLUG:",
+    "slug": "promessa-entrega-evidencia-comunicacao-institucional",
+    "resumo": "Uma instituição confiável distingue o que pretende fazer, o que executou e o que consegue demonstrar. Entenda como comunicar cada etapa.",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [
+      "comunicação institucional",
+      "transparência",
+      "governança"
+    ],
+    "autorPublico": "GEB",
+    "generoEditorial": "Análise",
+    "dataPublicacao": "18/11/2026",
+    "dataPublicacaoISO": "2026-11-18",
+    "dataEditorialPlanejada": "2026-11-18",
+    "status": "Publicado",
+    "tituloSEO": "Promessa, entrega e evidência: três coisas diferentes na comunicação institucional",
+    "descricaoSEO": "Uma instituição confiável distingue o que pretende fazer, o que executou e o que consegue demonstrar. Entenda como comunicar cada etapa.",
+    "documentId": "16ioymmjXVVwzrSq11dT5YKeKgxZ-E5CcGGmEWhoz3c0",
+    "arquivo": "institucional/promessa-entrega-evidencia-comunicacao-institucional.json"
+  }
+]
