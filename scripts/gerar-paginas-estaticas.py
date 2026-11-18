@@ -19,8 +19,8 @@ def render_static_ctas(markup):
         if 'class="component-button"' in section: return section
         # Preservar o CTA editorial ja aprovado em artigos diarios:
         # apenas normalizar a classe visual do link, sem reescrever texto, destino ou corpo.
-        if re.search(r'class=["\\']geb-cta-botao["\\']',section,re.I):
-            return re.sub(r'class=["\\']geb-cta-botao["\\']','class="component-button"',section,count=1,flags=re.I)
+        if 'class="geb-cta-botao"' in section:
+            return section.replace('class="geb-cta-botao"','class="component-button"',1)
         button=re.search(r'<p[^>]*>\s*BOTÃO:\s*(.*?)\s*</p>',section,re.I|re.S)
         link=re.search(r'<p[^>]*>\s*LINK:\s*(https?://[^\s<]+)\s*</p>',section,re.I|re.S)
         if not (button and link): return section
