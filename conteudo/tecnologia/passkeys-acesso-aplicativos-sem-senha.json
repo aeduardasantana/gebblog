@@ -1,0 +1,23 @@
+{
+  "titulo": "Passkeys: o que muda para quem entra em aplicativos sem senha",
+  "slug": "passkeys-acesso-aplicativos-sem-senha",
+  "resumo": "Ao entrar em um aplicativo, você vê a opção de usar a impressão digital, o reconhecimento facial ou o desbloqueio do aparelho no lugar de digitar uma senha. Em muitos serviços, essa…",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "generoEditorial": "Artigo explicativo",
+  "dataPublicacao": "19/11/2026",
+  "dataPublicacaoISO": "2026-11-19",
+  "dataEditorialPlanejada": "2026-11-19",
+  "status": "Publicado",
+  "tituloSEO": "Passkeys: o que muda para quem entra em aplicativos sem senha",
+  "descricaoSEO": "Ao entrar em um aplicativo, você vê a opção de usar a impressão digital, o reconhecimento facial ou o desbloqueio do aparelho no lugar de digitar uma senha. Em muitos serviços, essa…",
+  "documentId": "1Cn-lWbD8DmzfagMukIKTEB9oRlF0cmzre7l3AP6aJdA",
+  "conteudoHTML": "<p>Ao entrar em um aplicativo, você vê a opção de usar a impressão digital, o reconhecimento facial ou o desbloqueio do aparelho no lugar de digitar uma senha. Em muitos serviços, essa experiência pode envolver uma passkey, credencial criada para facilitar a autenticação e reduzir determinados riscos associados às senhas tradicionais.</p>\n<p>A passkey utiliza criptografia de chave pública: o serviço mantém uma chave pública, enquanto a chave privada fica protegida no dispositivo ou no gerenciador de credenciais. Em condições normais, a chave privada não é enviada ao site. O desbloqueio biométrico, quando utilizado, serve para autorizar localmente o uso da credencial; não significa necessariamente que a plataforma receba sua impressão digital.</p>\n<h2>O que melhora — e o que não desaparece</h2>\n<p>Passkeys vinculadas corretamente ao domínio podem oferecer resistência a golpes de phishing que imitam páginas de login. Isso não torna a conta invulnerável. Roubo de dispositivo desbloqueado, recuperação de conta mal protegida e fraudes de suporte continuam exigindo atenção.</p>\n<p>As diretrizes de identidade digital do NIST, atualizadas em 2025, tratam autenticação como parte de um sistema maior, que inclui gestão de credenciais e recuperação de acesso. A segurança não depende de um único botão.</p>\n<h2>Antes de ativar</h2>\n<p>Verifique se o aplicativo é oficial, se o dispositivo possui bloqueio de tela e quais opções de recuperação estarão disponíveis caso o aparelho seja perdido. Em contas de trabalho, consulte a política da organização antes de sincronizar credenciais em dispositivos pessoais.</p>\n<p>Se compartilhar o aparelho com familiares ou colegas, avalie quem consegue desbloqueá-lo. Uma tecnologia conveniente para uso individual pode exigir cuidados adicionais em dispositivos compartilhados.</p>\n<p>O melhor caminho não é ativar toda novidade sem entender como funciona. É escolher uma forma de acesso compatível com sua rotina, manter atualizações de segurança e saber recuperar a conta sem depender de improvisos.</p>\n<section data-geb-component=\"cta\"><h3>Precisa tornar o uso da tecnologia mais seguro?</h3><p>O GEB Tecnologia trabalha com soluções digitais para pessoas e organizações. Conheça os serviços e avalie necessidades de acesso, sistemas e proteção de informações.</p><p>BOTÃO: Ver soluções de tecnologia</p><p>LINK: https://gebtecnologia.grupoeduardabispo.com.br/</p></section>",
+  "referenciasPublicas": [
+    "NIST. Digital Identity Guidelines: NIST SP 800-63-4. 2025. https://www.nist.gov/publications/nist-sp-800-63-4-digital-identity-guidelines"
+  ]
+}
