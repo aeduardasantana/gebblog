@@ -6400,5 +6400,145 @@
     "descricaoSEO": "Uma instituição confiável distingue o que pretende fazer, o que executou e o que consegue demonstrar. Entenda como comunicar cada etapa.",
     "documentId": "16ioymmjXVVwzrSq11dT5YKeKgxZ-E5CcGGmEWhoz3c0",
     "arquivo": "institucional/promessa-entrega-evidencia-comunicacao-institucional.json"
+  },
+  {
+    "titulo": "Quando dizer não protege a qualidade do seu trabalho",
+    "slug": "dizer-nao-limites-qualidade-trabalho",
+    "resumo": "Aceitar uma nova demanda parece, muitas vezes, a maneira mais simples de preservar uma relação profissional. O problema aparece quando cada compromisso adicional compete com entregas já…",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [],
+    "autorPublico": "Eduarda Bispo",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "19/11/2026",
+    "dataPublicacaoISO": "2026-11-19",
+    "dataEditorialPlanejada": "2026-11-19",
+    "status": "Publicado",
+    "tituloSEO": "Quando dizer não protege a qualidade do seu trabalho",
+    "descricaoSEO": "Aceitar uma nova demanda parece, muitas vezes, a maneira mais simples de preservar uma relação profissional. O problema aparece quando cada compromisso adicional compete com entregas já…",
+    "documentId": "1DMv89KgUAM_FaFqD2PulZTm0De84NK_TScZG0OQK9Kg",
+    "arquivo": "desenvolvimento/dizer-nao-limites-qualidade-trabalho.json"
+  },
+  {
+    "titulo": "Aprovação em excesso: quando o controle atrasa a operação",
+    "slug": "aprovacao-excesso-controle-atraso-operacao",
+    "resumo": "Uma compra simples precisa passar por quatro pessoas. Um ajuste no atendimento depende de uma assinatura que só chega no dia seguinte. A empresa criou controles para evitar erros, mas agora…",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "19/11/2026",
+    "dataPublicacaoISO": "2026-11-19",
+    "dataEditorialPlanejada": "2026-11-19",
+    "status": "Publicado",
+    "tituloSEO": "Aprovação em excesso: quando o controle atrasa a operação",
+    "descricaoSEO": "Uma compra simples precisa passar por quatro pessoas. Um ajuste no atendimento depende de uma assinatura que só chega no dia seguinte. A empresa criou controles para evitar erros, mas agora…",
+    "documentId": "1Rhwp3irvy_6Q-vg5TLGsIY-JofKPlpA9SwLYW_Q0VdM",
+    "arquivo": "empresarial/aprovacao-excesso-controle-atraso-operacao.json"
+  },
+  {
+    "titulo": "Graduação EAD e semipresencial: o que conferir antes de escolher o curso",
+    "slug": "graduacao-ead-semipresencial-conferir-curso",
+    "resumo": "Um curso anunciado como EAD pode exigir comparecimento ao polo, avaliações presenciais e atividades práticas. Por isso, escolher graduação apenas pela expressão “estude de onde quiser” pode…",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "19/11/2026",
+    "dataPublicacaoISO": "2026-11-19",
+    "dataEditorialPlanejada": "2026-11-19",
+    "status": "Publicado",
+    "tituloSEO": "Graduação EAD e semipresencial: o que conferir antes de escolher o curso",
+    "descricaoSEO": "Um curso anunciado como EAD pode exigir comparecimento ao polo, avaliações presenciais e atividades práticas. Por isso, escolher graduação apenas pela expressão “estude de onde quiser” pode…",
+    "documentId": "1jPfss0LulfL4NnKpnGhUnbAhukhzIJpwUmqgCWJL9N4",
+    "arquivo": "educacao/graduacao-ead-semipresencial-conferir-curso.json"
+  },
+  {
+    "titulo": "Solidão e isolamento social: diferenças que importam para o cuidado",
+    "slug": "solidao-isolamento-social-diferencas-cuidado",
+    "resumo": "Uma pessoa pode passar o dia acompanhada e ainda sentir que não tem com quem conversar de verdade. Outra pode morar sozinha, manter vínculos satisfatórios e não experimentar solidão. Essa…",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "19/11/2026",
+    "dataPublicacaoISO": "2026-11-19",
+    "dataEditorialPlanejada": "2026-11-19",
+    "status": "Publicado",
+    "tituloSEO": "Solidão e isolamento social: diferenças que importam para o cuidado",
+    "descricaoSEO": "Uma pessoa pode passar o dia acompanhada e ainda sentir que não tem com quem conversar de verdade. Outra pode morar sozinha, manter vínculos satisfatórios e não experimentar solidão. Essa…",
+    "documentId": "1abjAj2pln5n2KOP5a_sCWwv60ZH2_7XaVrzVzO6p-JQ",
+    "arquivo": "saude/solidao-isolamento-social-diferencas-cuidado.json"
+  },
+  {
+    "titulo": "Passkeys: o que muda para quem entra em aplicativos sem senha",
+    "slug": "passkeys-acesso-aplicativos-sem-senha",
+    "resumo": "Ao entrar em um aplicativo, você vê a opção de usar a impressão digital, o reconhecimento facial ou o desbloqueio do aparelho no lugar de digitar uma senha. Em muitos serviços, essa…",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "19/11/2026",
+    "dataPublicacaoISO": "2026-11-19",
+    "dataEditorialPlanejada": "2026-11-19",
+    "status": "Publicado",
+    "tituloSEO": "Passkeys: o que muda para quem entra em aplicativos sem senha",
+    "descricaoSEO": "Ao entrar em um aplicativo, você vê a opção de usar a impressão digital, o reconhecimento facial ou o desbloqueio do aparelho no lugar de digitar uma senha. Em muitos serviços, essa…",
+    "documentId": "1Cn-lWbD8DmzfagMukIKTEB9oRlF0cmzre7l3AP6aJdA",
+    "arquivo": "tecnologia/passkeys-acesso-aplicativos-sem-senha.json"
+  },
+  {
+    "titulo": "Legenda, transcrição e Libras: por que um recurso não substitui automaticamente o outro",
+    "slug": "legenda-transcricao-libras-recursos-distintos",
+    "resumo": "Uma instituição publica um vídeo com legendas e anuncia que o material está acessível a todas as pessoas surdas. A intenção pode ser positiva, mas a conclusão é ampla demais: diferentes…",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "19/11/2026",
+    "dataPublicacaoISO": "2026-11-19",
+    "dataEditorialPlanejada": "2026-11-19",
+    "status": "Publicado",
+    "tituloSEO": "Legenda, transcrição e Libras: por que um recurso não substitui automaticamente o outro",
+    "descricaoSEO": "Uma instituição publica um vídeo com legendas e anuncia que o material está acessível a todas as pessoas surdas. A intenção pode ser positiva, mas a conclusão é ampla demais: diferentes…",
+    "documentId": "1PcCpszkwo6vXXv7fhw3TS2oUbwx2Y5U1v2gF3KIgjbA",
+    "arquivo": "inclusao/legenda-transcricao-libras-recursos-distintos.json"
+  },
+  {
+    "titulo": "Transparência institucional: como comunicar também o que ainda não foi entregue",
+    "slug": "transparencia-institucional-pendencias-entregas",
+    "resumo": "Uma organização anuncia uma iniciativa, divulga o planejamento e apresenta a data prevista de entrega. Quando surge um atraso, a comunicação desaparece. O silêncio pode parecer uma forma de…",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "19/11/2026",
+    "dataPublicacaoISO": "2026-11-19",
+    "dataEditorialPlanejada": "2026-11-19",
+    "status": "Publicado",
+    "tituloSEO": "Transparência institucional: como comunicar também o que ainda não foi entregue",
+    "descricaoSEO": "Uma organização anuncia uma iniciativa, divulga o planejamento e apresenta a data prevista de entrega. Quando surge um atraso, a comunicação desaparece. O silêncio pode parecer uma forma de…",
+    "documentId": "1ctn2WT9fwsqimtteTMd30sAANErYprnuu54gd1KoujY",
+    "arquivo": "institucional/transparencia-institucional-pendencias-entregas.json"
   }
 ]
