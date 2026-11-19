@@ -1,0 +1,23 @@
+{
+  "titulo": "Legenda, transcrição e Libras: por que um recurso não substitui automaticamente o outro",
+  "slug": "legenda-transcricao-libras-recursos-distintos",
+  "resumo": "Uma instituição publica um vídeo com legendas e anuncia que o material está acessível a todas as pessoas surdas. A intenção pode ser positiva, mas a conclusão é ampla demais: diferentes…",
+  "categoria": "Inclusão",
+  "categorias": [
+    "Inclusão"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "generoEditorial": "Artigo explicativo",
+  "dataPublicacao": "19/11/2026",
+  "dataPublicacaoISO": "2026-11-19",
+  "dataEditorialPlanejada": "2026-11-19",
+  "status": "Publicado",
+  "tituloSEO": "Legenda, transcrição e Libras: por que um recurso não substitui automaticamente o outro",
+  "descricaoSEO": "Uma instituição publica um vídeo com legendas e anuncia que o material está acessível a todas as pessoas surdas. A intenção pode ser positiva, mas a conclusão é ampla demais: diferentes…",
+  "documentId": "1PcCpszkwo6vXXv7fhw3TS2oUbwx2Y5U1v2gF3KIgjbA",
+  "conteudoHTML": "<p>Uma instituição publica um vídeo com legendas e anuncia que o material está acessível a todas as pessoas surdas. A intenção pode ser positiva, mas a conclusão é ampla demais: diferentes pessoas utilizam diferentes línguas, repertórios e recursos de comunicação.</p>\n<p>Legendas apresentam em texto a fala e informações sonoras relevantes. Transcrições permitem acessar o conteúdo em formato textual, frequentemente com identificação de interlocutores e descrição de elementos importantes. A interpretação em Libras oferece acesso em uma língua visual-espacial, com estrutura linguística própria. Nenhum desses recursos é simplesmente uma versão ornamental do outro.</p>\n<h2>O público determina parte da solução</h2>\n<p>Uma pessoa surda usuária de Libras pode preferir interpretação em Libras para compreender uma apresentação extensa. Outra pode preferir legendas em português. Uma pessoa com deficiência auditiva pode utilizar áudio com apoio de legendas. O desenho acessível precisa considerar essas diferenças e, sempre que possível, ouvir o público envolvido.</p>\n<p>As WCAG 2.2, publicadas pelo W3C, apresentam critérios distintos para legendas, alternativas para mídia e interpretação em língua de sinais. Os requisitos variam conforme o tipo de conteúdo e o nível de conformidade pretendido. Portanto, não basta afirmar genericamente que “a WCAG exige Libras em todo vídeo”.</p>\n<h2>Em editais, leia a exigência concreta</h2>\n<p>Um edital de concurso, um contrato de evento e uma plataforma educacional podem estabelecer obrigações diferentes. É necessário verificar o instrumento aplicável, a legislação pertinente e as necessidades efetivas dos participantes. A presença de uma janela de Libras não dispensa automaticamente legendas ou outros recursos exigidos.</p>\n<p>Na produção de vídeo, planeje o espaço de tela para que a interpretação não seja coberta por títulos e controles. Garanta contraste e sincronização das legendas, além de transcrição quando pertinente. A acessibilidade melhora quando é considerada no roteiro e na gravação, não apenas acrescentada na exportação.</p>\n<p>A pergunta correta não é “qual recurso é o melhor para todos?”, mas “quem precisa acessar este conteúdo, em que contexto e com quais condições de compreensão?”.</p>\n<section data-geb-component=\"cta\"><h3>Seu conteúdo precisa chegar a mais pessoas?</h3><p>O GEB Inclusão atua com soluções de acessibilidade e inclusão. Conheça os serviços para planejar recursos de comunicação adequados ao seu público e projeto.</p><p>BOTÃO: Ver soluções de acessibilidade</p><p>LINK: https://gebinclusao.grupoeduardabispo.com.br/</p></section>",
+  "referenciasPublicas": [
+    "W3C. Web Content Accessibility Guidelines (WCAG) 2.2. 2023. https://www.w3.org/TR/WCAG22/"
+  ]
+}
