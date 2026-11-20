@@ -1,0 +1,142 @@
+[
+  {
+    "titulo": "Autocrítica depois de um erro: como aprender sem transformar o episódio em identidade",
+    "slug": "autocritica-erro-aprender-sem-culpa",
+    "resumo": "Uma mensagem enviada com o tom errado, uma reunião em que a resposta não veio ou uma decisão que poderia ter sido melhor: o fato termina, mas a conversa interna continua. Em vez de perguntar o que pode ser corrigido, a pessoa come",
+    "categoria": "Desenvolvimento",
+    "categorias": [
+      "Desenvolvimento"
+    ],
+    "tags": [],
+    "autorPublico": "Eduarda Bispo",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "20/11/2026",
+    "dataPublicacaoISO": "2026-11-20",
+    "dataEditorialPlanejada": "2026-11-20",
+    "status": "Publicado",
+    "tituloSEO": "Autocrítica depois de um erro: como aprender sem transformar o episódio em identidade",
+    "descricaoSEO": "Uma mensagem enviada com o tom errado, uma reunião em que a resposta não veio ou uma decisão que poderia ter sido melhor: o fato termina, mas a c.",
+    "documentId": "14ihfQ-Ec-TreVEbgfXAP34kuBKnBRLhKv1XcX1JLfWs",
+    "arquivo": "desenvolvimento/autocritica-erro-aprender-sem-culpa.json"
+  },
+  {
+    "titulo": "Passagem de turno sem perda de informação: o que registrar para evitar retrabalho",
+    "slug": "passagem-turno-registro-retrabalho",
+    "resumo": "O problema não aparece necessariamente durante o turno. Ele surge na manhã seguinte, quando uma equipe descobre que a outra já havia identificado a falha, mas ninguém registrou a decisão. A consequência pode ser retrabalho, atraso",
+    "categoria": "Empresarial",
+    "categorias": [
+      "Empresarial"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "20/11/2026",
+    "dataPublicacaoISO": "2026-11-20",
+    "dataEditorialPlanejada": "2026-11-20",
+    "status": "Publicado",
+    "tituloSEO": "Passagem de turno sem perda de informação: o que registrar para evitar retrabalho",
+    "descricaoSEO": "O problema não aparece necessariamente durante o turno.",
+    "documentId": "19ojppDINJKtxviVoL-KvoiVXZR8LqkyuLmwYELBjSSw",
+    "arquivo": "empresarial/passagem-turno-registro-retrabalho.json"
+  },
+  {
+    "titulo": "Segunda graduação e segunda licenciatura: como identificar a modalidade certa",
+    "slug": "segunda-graduacao-segunda-licenciatura-diferencas",
+    "resumo": "Quem já concluiu uma graduação e deseja mudar de área costuma encontrar anúncios com expressões parecidas: segunda graduação, segunda licenciatura, complementação pedagógica e aproveitamento de disciplinas. Elas não designam neces",
+    "categoria": "Educação",
+    "categorias": [
+      "Educação"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "20/11/2026",
+    "dataPublicacaoISO": "2026-11-20",
+    "dataEditorialPlanejada": "2026-11-20",
+    "status": "Publicado",
+    "tituloSEO": "Segunda graduação e segunda licenciatura: como identificar a modalidade certa",
+    "descricaoSEO": "Quem já concluiu uma graduação e deseja mudar de área costuma encontrar anúncios com expressões parecidas: segunda graduação, segunda licenciatur.",
+    "documentId": "1kE34NNRGEzsqgHXo5m9rcaXiom27aV5WXCg4ANOr4IM",
+    "arquivo": "educacao/segunda-graduacao-segunda-licenciatura-diferencas.json"
+  },
+  {
+    "titulo": "Sintomas anotados antes da consulta: como organizar informações sem se autodiagnosticar",
+    "slug": "anotar-sintomas-antes-consulta",
+    "resumo": "É comum chegar à consulta lembrando apenas do sintoma mais recente e esquecer quando tudo começou. A dificuldade aumenta quando há vários episódios, medicamentos ou orientações anteriores. Um registro simples pode tornar a convers",
+    "categoria": "Saúde",
+    "categorias": [
+      "Saúde"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "20/11/2026",
+    "dataPublicacaoISO": "2026-11-20",
+    "dataEditorialPlanejada": "2026-11-20",
+    "status": "Publicado",
+    "tituloSEO": "Sintomas anotados antes da consulta: como organizar informações sem se autodiagnosticar",
+    "descricaoSEO": "É comum chegar à consulta lembrando apenas do sintoma mais recente e esquecer quando tudo começou.",
+    "documentId": "1RAy6_h2GV613DorWOG-GMnM1jEqRXVNSFA7S_BUDws4",
+    "arquivo": "saude/anotar-sintomas-antes-consulta.json"
+  },
+  {
+    "titulo": "Trocar de sistema sem perder dados: o que exigir antes de assinar contrato",
+    "slug": "trocar-sistema-exportacao-dados-contrato",
+    "resumo": "Uma plataforma pode parecer ideal durante a demonstração e revelar seu maior custo apenas quando a empresa decide sair. Se cadastros, históricos e documentos não podem ser exportados de forma utilizável, a troca se transforma em r",
+    "categoria": "Tecnologia",
+    "categorias": [
+      "Tecnologia"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "20/11/2026",
+    "dataPublicacaoISO": "2026-11-20",
+    "dataEditorialPlanejada": "2026-11-20",
+    "status": "Publicado",
+    "tituloSEO": "Trocar de sistema sem perder dados: o que exigir antes de assinar contrato",
+    "descricaoSEO": "Uma plataforma pode parecer ideal durante a demonstração e revelar seu maior custo apenas quando a empresa decide sair.",
+    "documentId": "14YM4P20MlSvBlhZiwfbXCZeu40YLCTMJTBSWHfILcp8",
+    "arquivo": "tecnologia/trocar-sistema-exportacao-dados-contrato.json"
+  },
+  {
+    "titulo": "Intérprete de Libras em entrevista de emprego: o que combinar antes do encontro",
+    "slug": "interprete-libras-entrevista-emprego-preparacao",
+    "resumo": "A empresa agenda uma entrevista e só na véspera descobre que precisa organizar a comunicação em Libras. O improviso pode afetar o candidato, a equipe de seleção e a qualidade das informações trocadas. A preparação começa antes da ",
+    "categoria": "Inclusão",
+    "categorias": [
+      "Inclusão"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "20/11/2026",
+    "dataPublicacaoISO": "2026-11-20",
+    "dataEditorialPlanejada": "2026-11-20",
+    "status": "Publicado",
+    "tituloSEO": "Intérprete de Libras em entrevista de emprego: o que combinar antes do encontro",
+    "descricaoSEO": "A empresa agenda uma entrevista e só na véspera descobre que precisa organizar a comunicação em Libras.",
+    "documentId": "11PV3zLwN1ejei5Cy-J-oJ4lw3FusC6AcHDtyMHnZZNM",
+    "arquivo": "inclusao/interprete-libras-entrevista-emprego-preparacao.json"
+  },
+  {
+    "titulo": "Quando um projeto muda de prazo: como comunicar a alteração com responsabilidade",
+    "slug": "projeto-mudou-prazo-comunicacao-responsavel",
+    "resumo": "Um prazo anunciado cria uma expectativa legítima. Quando ele muda, o silêncio pode produzir mais desconfiança do que a própria alteração. Comunicar a revisão com responsabilidade exige separar o que já foi entregue, o que mudou e ",
+    "categoria": "Institucional",
+    "categorias": [
+      "Institucional"
+    ],
+    "tags": [],
+    "autorPublico": "GEB",
+    "generoEditorial": "Artigo explicativo",
+    "dataPublicacao": "20/11/2026",
+    "dataPublicacaoISO": "2026-11-20",
+    "dataEditorialPlanejada": "2026-11-20",
+    "status": "Publicado",
+    "tituloSEO": "Quando um projeto muda de prazo: como comunicar a alteração com responsabilidade",
+    "descricaoSEO": "Um prazo anunciado cria uma expectativa legítima.",
+    "documentId": "1gdi2t3g6gbD2EKBGDAKNNo_Iz4HOMDEdN2VSV8lnYKQ",
+    "arquivo": "institucional/projeto-mudou-prazo-comunicacao-responsavel.json"
+  }
+]
