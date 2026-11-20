@@ -1,0 +1,23 @@
+{
+  "titulo": "Trocar de sistema sem perder dados: o que exigir antes de assinar contrato",
+  "slug": "trocar-sistema-exportacao-dados-contrato",
+  "resumo": "Uma plataforma pode parecer ideal durante a demonstração e revelar seu maior custo apenas quando a empresa decide sair. Se cadastros, históricos e documentos não podem ser exportados de forma utilizável, a troca se transforma em r",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "generoEditorial": "Artigo explicativo",
+  "dataPublicacao": "20/11/2026",
+  "dataPublicacaoISO": "2026-11-20",
+  "dataEditorialPlanejada": "2026-11-20",
+  "status": "Publicado",
+  "tituloSEO": "Trocar de sistema sem perder dados: o que exigir antes de assinar contrato",
+  "descricaoSEO": "Uma plataforma pode parecer ideal durante a demonstração e revelar seu maior custo apenas quando a empresa decide sair.",
+  "documentId": "14YM4P20MlSvBlhZiwfbXCZeu40YLCTMJTBSWHfILcp8",
+  "conteudoHTML": "<p>Uma plataforma pode parecer ideal durante a demonstração e revelar seu maior custo apenas quando a empresa decide sair. Se cadastros, históricos e documentos não podem ser exportados de forma utilizável, a troca se transforma em reconstrução manual.</p>\n<p>Antes de contratar um software, pergunte como os dados poderão ser retirados. Não basta ouvir que “há exportação”. É preciso saber quais informações são incluídas, em quais formatos, com que periodicidade, se há cobrança adicional e como serão preservados vínculos entre registros.</p>\n<p>Uma planilha com nomes e telefones, por exemplo, pode não trazer o histórico de atendimento, os anexos, as permissões ou as relações entre clientes e contratos. O fornecedor precisa explicar o alcance real do procedimento, inclusive eventuais limitações técnicas.</p>\n<p>Outra pergunta é quem administra as credenciais e autoriza a exportação. Uma operação dependente exclusivamente de um usuário ou de uma conta pessoal cria risco. A empresa deve conhecer seus níveis de acesso, mecanismos de autenticação, políticas de backup e processo de recuperação.</p>\n<p>Quando há dados pessoais, a Lei Geral de Proteção de Dados exige considerar responsabilidades e segurança no tratamento. A LGPD não significa que todo fornecedor precise oferecer o mesmo formato de arquivo; a análise contratual deve distinguir obrigações legais, compromissos comerciais e necessidades operacionais.</p>\n<p>Peça um teste com amostra não sensível ou ambiente de demonstração. Verifique se os arquivos podem ser abertos, se campos mantêm significado e se há documentação para importar os registros em outra ferramenta. O teste revela problemas que uma apresentação comercial não mostra.</p>\n<p>O contrato também deve tratar de encerramento, prazos de disponibilização, eventual exclusão ou retenção, suporte na migração e condições de continuidade. Evite presumir que a existência de um backup equivale a um procedimento de migração.</p>\n<p>A melhor decisão não depende apenas do preço mensal. Um sistema adequado deve apoiar o trabalho de hoje sem aprisionar as informações necessárias para o trabalho de amanhã.</p>\n<section data-geb-component=\"cta\"><h3>Contrate tecnologia pensando também na saída</h3><p>O GEB Tecnologia apoia a escolha e a organização de soluções digitais. Estruture requisitos de dados, integração e continuidade antes de contratar seu próximo sistema.</p><a class=\"geb-cta-button\" href=\"https://gebtecnologia.grupoeduardabispo.com.br/\">Ver soluções de tecnologia</a></section>",
+  "referenciasPublicas": [
+    "BRASIL. Lei nº 13.709, de 14 de agosto de 2018. https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+  ]
+}
