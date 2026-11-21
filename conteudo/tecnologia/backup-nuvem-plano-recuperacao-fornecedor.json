@@ -1,0 +1,23 @@
+{
+  "titulo": "Backup na nuvem não é plano de recuperação: o que perguntar ao fornecedor",
+  "slug": "backup-nuvem-plano-recuperacao-fornecedor",
+  "resumo": "“Seus dados ficam na nuvem” parece uma garantia suficiente até o dia em que alguém apaga uma pasta importante e descobre que a restauração não está incluída no contrato. Armazenamento, cópia de segurança e recuperação sã",
+  "categoria": "Tecnologia",
+  "categorias": [
+    "Tecnologia"
+  ],
+  "tags": [],
+  "autorPublico": "GEB",
+  "generoEditorial": "Artigo explicativo",
+  "dataPublicacao": "21/11/2026",
+  "dataPublicacaoISO": "2026-11-21",
+  "dataEditorialPlanejada": "2026-11-21",
+  "status": "Publicado",
+  "tituloSEO": "Backup na nuvem não é plano de recuperação: o que perguntar ao fornecedor",
+  "descricaoSEO": "“Seus dados ficam na nuvem” parece uma garantia suficiente até o dia em que alguém apaga uma pasta importante e descobre que a restauração não está incluíd",
+  "documentId": "1ouxZEcBkWxNgjt4vKIR_utSq1l-fRLc9WEBG-jHfWBs",
+  "conteudoHTML": "<p>“Seus dados ficam na nuvem” parece uma garantia suficiente até o dia em que alguém apaga uma pasta importante e descobre que a restauração não está incluída no contrato. Armazenamento, cópia de segurança e recuperação são capacidades relacionadas, mas diferentes.</p>\n<p>O guia de planejamento de contingência NIST SP 800-34 trata da necessidade de preparar procedimentos para restaurar operações após interrupções. Embora voltado a sistemas federais norte-americanos, o princípio é útil para compradores de software: não basta afirmar que existem cópias; é preciso saber como elas seriam utilizadas.</p>\n<h2>Perguntas que devem entrar na negociação</h2>\n<p>A primeira é sobre escopo. O fornecedor protege quais dados: arquivos, cadastros, configurações, históricos de transações e anexos? Existem itens excluídos? Uma resposta genérica sobre “backup diário” não revela o conteúdo efetivamente preservado.</p>\n<p>A segunda envolve retenção. Por quanto tempo uma versão anterior pode ser recuperada? Uma exclusão percebida após semanas talvez não seja resolvida por uma política que mantém apenas cópias recentes. Solicite a política por escrito e verifique o que está contratado, não apenas o que aparece na apresentação comercial.</p>\n<p>A terceira é operacional: quem solicita a restauração, em qual canal, com quais autorizações e custos? O fornecedor consegue recuperar um único registro ou apenas todo o ambiente? Existe estimativa contratual de tempo para retomada e de perda máxima de dados aceitável? Esses objetivos precisam ser compatíveis com a atividade da organização.</p>\n<h2>Testar é diferente de presumir</h2>\n<p>Uma cópia nunca testada pode falhar justamente quando necessária. Peça evidências sobre testes de restauração e sobre o tratamento de falhas encontradas. Em ambientes críticos, a empresa contratante também deve planejar continuidade do atendimento enquanto o sistema estiver indisponível.</p>\n<p>Há ainda questões de proteção de dados pessoais. A Lei Geral de Proteção de Dados exige medidas de segurança adequadas, mas não transforma qualquer serviço de nuvem em garantia absoluta contra perda. Contratos, responsabilidades e procedimentos técnicos precisam conversar entre si.</p>\n<p>Antes de assinar, peça um exemplo concreto de recuperação: “Se um colaborador apagar hoje um cadastro importante, como o recuperamos?”. A clareza dessa resposta vale mais do que uma promessa ampla de segurança.</p>\n<section data-geb-component=\"cta\"><h3>Contrate tecnologia com segurança operacional</h3><p>O GEB Tecnologia atua com soluções e organização tecnológica. Avalie implantação, continuidade e proteção de dados antes de contratar.</p><a class=\"geb-cta-button\" href=\"https://gebtecnologia.grupoeduardabispo.com.br/\">Ver soluções de tecnologia</a></section>",
+  "referenciasPublicas": [
+    "NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY. Contingency Planning Guide for Federal Information Systems. SP 800-34 Rev. 1. 2010. https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final"
+  ]
+}
